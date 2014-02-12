@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="index, follow, all" />
+        <title>bolt\application | </title>
+                    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+                            </head>
+        <body id="class">
+            <div class="header">
+        <ul>
+            <li><a href="../classes.html">Classes</a></li>
+                            <li><a href="../namespaces.html">Namespaces</a></li>
+                        <li><a href="../interfaces.html">Interfaces</a></li>
+            <li><a href="../traits.html">Traits</a></li>
+            <li><a href="../doc-index.html">Index</a></li>
+            
+        </ul>
+
+        <div id="title"></div>
+
+            <div class="type">Class</div>
+    <h1><a href="../bolt.html">bolt</a>\application</h1>
+    </div>
+        <div class="content">
+                <p>    class
+    <strong>application</strong>        extends <a href="../bolt/plugin.html"><abbr title="bolt\plugin">plugin</abbr></a></p>
+
+            <div class="description">
+            <p>Base bolt applicatin class</p>
+            <p>
+</p>
+        </div>
+    
+    
+    
+            <h2>Methods</h2>
+
+            <table>
+                    <tr>
+                <td class="type">
+                    <a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method___construct">__construct</a>(<abbr title="bolt\$config">$config</abbr> $config = array())
+                    <p>construct a new application instance</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    bool
+                </td>
+                <td class="last">
+                    <a href="#method_hasRun">hasRun</a>()
+                    <p>has the application run yet</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    string
+                </td>
+                <td class="last">
+                    <a href="#method_getRoot">getRoot</a>()
+                    <p>get the root path</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_setRoot">setRoot</a>(string $root)
+                    <p>set the root path for the app</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    string
+                </td>
+                <td class="last">
+                    <a href="#method_path">path</a>()
+                    <p>get a path relative to the $root</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_load">load</a>(string $ns, string $path)
+                    <p>add a ns to the class loader</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    void
+                </td>
+                <td class="last">
+                    <a href="#method_run">run</a>()
+                    <p>run the application</p>
+                </td>
+                <td></td>
+            </tr>
+            </table>
+
+
+        <h2>Details</h2>
+
+                        <h3 id="method___construct">
+        <div class="location">at line 32</div>
+        <code>            public            <a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a>
+    <strong>__construct</strong>(<abbr title="bolt\$config">$config</abbr> $config = array())</code>
+    </h3>
+    <div class="details">
+        <p>construct a new application instance</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td><abbr title="bolt\$config">$config</abbr></td>
+                <td>$config</td>
+                <td>array config</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_hasRun">
+        <div class="location">at line 44</div>
+        <code>            public            bool
+    <strong>hasRun</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>has the application run yet</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>bool</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getRoot">
+        <div class="location">at line 53</div>
+        <code>            public            string
+    <strong>getRoot</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>get the root path</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_setRoot">
+        <div class="location">at line 65</div>
+        <code>            public            <a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a>
+    <strong>setRoot</strong>(string $root)</code>
+    </h3>
+    <div class="details">
+        <p>set the root path for the app</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$root</td>
+                <td>new root path</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_path">
+        <div class="location">at line 78</div>
+        <code>            public            string
+    <strong>path</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>get a path relative to the $root</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_load">
+        <div class="location">at line 91</div>
+        <code>            public            <a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a>
+    <strong>load</strong>(string $ns, string $path)</code>
+    </h3>
+    <div class="details">
+        <p>add a ns to the class loader</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$ns</td>
+                <td>namespace of class</td>
+            </tr>
+                    <tr>
+                <td>string</td>
+                <td>$path</td>
+                <td>path of classes relative to $root</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_run">
+        <div class="location">at line 104</div>
+        <code>            public            void
+    <strong>run</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>run the application</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>void</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+    
+            </div>
+            <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/" target="_top">Sami, the API Documentation Generator</a>.
+    </div>
+    </body>
+</html>

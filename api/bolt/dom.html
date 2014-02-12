@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="index, follow, all" />
+        <title>bolt\dom | </title>
+                    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+                            </head>
+        <body id="class">
+            <div class="header">
+        <ul>
+            <li><a href="../classes.html">Classes</a></li>
+                            <li><a href="../namespaces.html">Namespaces</a></li>
+                        <li><a href="../interfaces.html">Interfaces</a></li>
+            <li><a href="../traits.html">Traits</a></li>
+            <li><a href="../doc-index.html">Index</a></li>
+            
+        </ul>
+
+        <div id="title"></div>
+
+            <div class="type">Class</div>
+    <h1><a href="../bolt.html">bolt</a>\dom</h1>
+    </div>
+        <div class="content">
+                <p>    class
+    <strong>dom</strong>        implements
+        <a href="http://php.net/ArrayAccess"><abbr title="ArrayAccess">ArrayAccess</abbr></a></p>
+
+            <div class="description">
+            <p>DOM HTML parser</p>
+            <p>
+</p>
+        </div>
+    
+    
+    
+            <h2>Methods</h2>
+
+            <table>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method___construct">__construct</a>(string $html = false, string $charset = &#039;UTF-8&#039;)
+                    <p>Constructor</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    string
+                </td>
+                <td class="last">
+                    <a href="#method_guid">guid</a>()
+                    <p>return the global unique id of this dom object</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="http://php.net/DOMDocument"><abbr title="DOMDocument">DOMDocument</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_doc">doc</a>()
+                    <p>return the root document</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../bolt/dom.html"><abbr title="bolt\dom">dom</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_addRef">addRef</a>(<a href="../bolt/dom/element.html"><abbr title="bolt\dom\element">element</abbr></a> $el)
+                    <p>add an element refrance to this DOM</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_importNode">importNode</a>($node, $deep = false)
+                    <p>import a node into this document</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <abbr title="bolt\bolt\dom\nodeList">nodeList</abbr>
+                </td>
+                <td class="last">
+                    <a href="#method_find">find</a>(string $query, bool $returnRef = true)
+                    <p>query the DOM (using CSS selector) to find a node</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    string
+                </td>
+                <td class="last">
+                    <a href="#method_html">html</a>()
+                    <p>return the HTML of this document</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    bool
+                </td>
+                <td class="last">
+                    <a href="#method_offsetExists">offsetExists</a>(string $name)
+                    <p>check if a node exists using a CSS selector</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    mixed
+                </td>
+                <td class="last">
+                    <a href="#method_offsetGet">offsetGet</a>(string $name)
+                    <p>get a node using a CSS selector</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../bolt/dom.html"><abbr title="bolt\dom">dom</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_offsetSet">offsetSet</a>(string $name, mixed $value)
+                    <p>create a node or replace an exists node</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    void
+                </td>
+                <td class="last">
+                    <a href="#method_offsetUnset">offsetUnset</a>(string $name)
+                    <p>remove a node using a CSS selector</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    string
+                </td>
+                <td class="last">
+                    <a href="#method___toString">__toString</a>()
+                    <p>return a string rep of DOM</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <abbr title="bolt\bolt\dom\element">element</abbr>
+                </td>
+                <td class="last">
+                    <a href="#method_create">create</a>($tag, $value = &#039;&#039;, $attr = array())
+                    <p>create a new element</p>
+                </td>
+                <td></td>
+            </tr>
+            </table>
+
+
+        <h2>Details</h2>
+
+                        <h3 id="method___construct">
+        <div class="location">at line 39</div>
+        <code>            public            
+    <strong>__construct</strong>(string $html = false, string $charset = &#039;UTF-8&#039;)</code>
+    </h3>
+    <div class="details">
+        <p>Constructor</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$html</td>
+                <td>starting HTML</td>
+            </tr>
+                    <tr>
+                <td>string</td>
+                <td>$charset</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_guid">
+        <div class="location">at line 61</div>
+        <code>            public            string
+    <strong>guid</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>return the global unique id of this dom object</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_doc">
+        <div class="location">at line 71</div>
+        <code>            public            <a href="http://php.net/DOMDocument"><abbr title="DOMDocument">DOMDocument</abbr></a>
+    <strong>doc</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>return the root document</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="http://php.net/DOMDocument"><abbr title="DOMDocument">DOMDocument</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_addRef">
+        <div class="location">at line 83</div>
+        <code>            public            <a href="../bolt/dom.html"><abbr title="bolt\dom">dom</abbr></a>
+    <strong>addRef</strong>(<a href="../bolt/dom/element.html"><abbr title="bolt\dom\element">element</abbr></a> $el)</code>
+    </h3>
+    <div class="details">
+        <p>add an element refrance to this DOM</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td><a href="../bolt/dom/element.html"><abbr title="bolt\dom\element">element</abbr></a></td>
+                <td>$el</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../bolt/dom.html"><abbr title="bolt\dom">dom</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_importNode">
+        <div class="location">at line 97</div>
+        <code>            public            
+    <strong>importNode</strong>($node, $deep = false)</code>
+    </h3>
+    <div class="details">
+        <p>import a node into this document</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$node</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$deep</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_find">
+        <div class="location">at line 110</div>
+        <code>            public            <abbr title="bolt\bolt\dom\nodeList">nodeList</abbr>
+    <strong>find</strong>(string $query, bool $returnRef = true)</code>
+    </h3>
+    <div class="details">
+        <p>query the DOM (using CSS selector) to find a node</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$query</td>
+                <td>CSS selector</td>
+            </tr>
+                    <tr>
+                <td>bool</td>
+                <td>$returnRef</td>
+                <td>return a refrance to the elemet</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\bolt\dom\nodeList">nodeList</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_html">
+        <div class="location">at line 153</div>
+        <code>            public            string
+    <strong>html</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>return the HTML of this document</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_offsetExists">
+        <div class="location">at line 174</div>
+        <code>            public            bool
+    <strong>offsetExists</strong>(string $name)</code>
+    </h3>
+    <div class="details">
+        <p>check if a node exists using a CSS selector</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>CSS selector</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>bool</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_offsetGet">
+        <div class="location">at line 186</div>
+        <code>            public            mixed
+    <strong>offsetGet</strong>(string $name)</code>
+    </h3>
+    <div class="details">
+        <p>get a node using a CSS selector</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>css selector</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_offsetSet">
+        <div class="location">at line 199</div>
+        <code>            public            <a href="../bolt/dom.html"><abbr title="bolt\dom">dom</abbr></a>
+    <strong>offsetSet</strong>(string $name, mixed $value)</code>
+    </h3>
+    <div class="details">
+        <p>create a node or replace an exists node</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>CSS selector</td>
+            </tr>
+                    <tr>
+                <td>mixed</td>
+                <td>$value</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../bolt/dom.html"><abbr title="bolt\dom">dom</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_offsetUnset">
+        <div class="location">at line 236</div>
+        <code>            public            void
+    <strong>offsetUnset</strong>(string $name)</code>
+    </h3>
+    <div class="details">
+        <p>remove a node using a CSS selector</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>CSS selector</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>void</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method___toString">
+        <div class="location">at line 247</div>
+        <code>            public            string
+    <strong>__toString</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>return a string rep of DOM</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_create">
+        <div class="location">at line 261</div>
+        <code>            public            <abbr title="bolt\bolt\dom\element">element</abbr>
+    <strong>create</strong>($tag, $value = &#039;&#039;, $attr = array())</code>
+    </h3>
+    <div class="details">
+        <p>create a new element</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$tag</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$value</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$attr</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\bolt\dom\element">element</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+    
+            </div>
+            <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/" target="_top">Sami, the API Documentation Generator</a>.
+    </div>
+    </body>
+</html>

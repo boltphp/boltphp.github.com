@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="index, follow, all" />
+        <title>bolt\browser\assets | </title>
+                    <link rel="stylesheet" type="text/css" href="../../stylesheet.css">
+                            </head>
+        <body id="class">
+            <div class="header">
+        <ul>
+            <li><a href="../../classes.html">Classes</a></li>
+                            <li><a href="../../namespaces.html">Namespaces</a></li>
+                        <li><a href="../../interfaces.html">Interfaces</a></li>
+            <li><a href="../../traits.html">Traits</a></li>
+            <li><a href="../../doc-index.html">Index</a></li>
+            
+        </ul>
+
+        <div id="title"></div>
+
+            <div class="type">Class</div>
+    <h1><a href="../../bolt/browser.html">bolt\browser</a>\assets</h1>
+    </div>
+        <div class="content">
+                <p>    class
+    <strong>assets</strong>        implements
+        <a href="../../bolt/plugin/singleton.html"><abbr title="bolt\plugin\singleton">singleton</abbr></a></p>
+
+            <div class="description">
+            <p>asset manager</p>
+            <p>
+</p>
+        </div>
+    
+    
+    
+            <h2>Methods</h2>
+
+            <table>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method___construct">__construct</a>(<abbr title="bolt\browser\bolt\browser">browser</abbr> $browser, array $config = array())
+                    <p>Constructor</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../../bolt/browser/assets.html"><abbr title="bolt\browser\assets">assets</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_globals">globals</a>(string|array $ext, string $path = false)
+                    <p>register files to append to specific file type (by file extension)</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../../bolt/browser/assets.html"><abbr title="bolt\browser\assets">assets</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_filter">filter</a>(string|array $ext, string $class = false, array $args = array())
+                    <p>register a filter for a file type (by file extension)</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../../bolt/browser/assets.html"><abbr title="bolt\browser\assets">assets</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_add">add</a>(string $type, string $name = false, array $files = false)
+                    <p>add a new file to the manager</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    mixed
+                </td>
+                <td class="last">
+                    <a href="#method_find">find</a>(string $file)
+                    <p>find a file in one of $dirs</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    string
+                </td>
+                <td class="last">
+                    <a href="#method_out">out</a>($name, $type = false)
+                    <p>output a tag for give group</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    string
+                </td>
+                <td class="last">
+                    <a href="#method_url">url</a>(string $path)
+                    <p>url path</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    array
+                </td>
+                <td class="last">
+                    <a href="#method_getGroup">getGroup</a>($name, $type)
+                    <p>get all file objects in a group</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    string
+                </td>
+                <td class="last">
+                    <a href="#method_stylesheet">stylesheet</a>(array $leafs)
+                    <p>return a stylesheet tag</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    array
+                </td>
+                <td class="last">
+                    <a href="#method_getGlobals">getGlobals</a>(string $ext)
+                    <p>get all registered globals for an extension</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    array
+                </td>
+                <td class="last">
+                    <a href="#method_getFilters">getFilters</a>(string $ext)
+                    <p>get all registered filters for an extension</p>
+                </td>
+                <td></td>
+            </tr>
+            </table>
+
+
+        <h2>Details</h2>
+
+                        <h3 id="method___construct">
+        <div class="location">at line 59</div>
+        <code>            public            
+    <strong>__construct</strong>(<abbr title="bolt\browser\bolt\browser">browser</abbr> $browser, array $config = array())</code>
+    </h3>
+    <div class="details">
+        <p>Constructor</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td><abbr title="bolt\browser\bolt\browser">browser</abbr></td>
+                <td>$browser</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$config</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_globals">
+        <div class="location">at line 84</div>
+        <code>            public            <a href="../../bolt/browser/assets.html"><abbr title="bolt\browser\assets">assets</abbr></a>
+    <strong>globals</strong>(string|array $ext, string $path = false)</code>
+    </h3>
+    <div class="details">
+        <p>register files to append to specific file type (by file extension)</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string|array</td>
+                <td>$ext</td>
+                <td>string of file exenstion or array of globals</td>
+            </tr>
+                    <tr>
+                <td>string</td>
+                <td>$path</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/browser/assets.html"><abbr title="bolt\browser\assets">assets</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_filter">
+        <div class="location">at line 106</div>
+        <code>            public            <a href="../../bolt/browser/assets.html"><abbr title="bolt\browser\assets">assets</abbr></a>
+    <strong>filter</strong>(string|array $ext, string $class = false, array $args = array())</code>
+    </h3>
+    <div class="details">
+        <p>register a filter for a file type (by file extension)</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string|array</td>
+                <td>$ext</td>
+                <td>string of file extension or array of filters</td>
+            </tr>
+                    <tr>
+                <td>string</td>
+                <td>$class</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$args</td>
+                <td>array of args passed to filter constuctor (via call<em>user</em>func_array)</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/browser/assets.html"><abbr title="bolt\browser\assets">assets</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_add">
+        <div class="location">at line 134</div>
+        <code>            public            <a href="../../bolt/browser/assets.html"><abbr title="bolt\browser\assets">assets</abbr></a>
+    <strong>add</strong>(string $type, string $name = false, array $files = false)</code>
+    </h3>
+    <div class="details">
+        <p>add a new file to the manager</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$type</td>
+                <td>script or style</td>
+            </tr>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>name of group</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$files</td>
+                <td>array of files</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/browser/assets.html"><abbr title="bolt\browser\assets">assets</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_find">
+        <div class="location">at line 165</div>
+        <code>            public            mixed
+    <strong>find</strong>(string $file)</code>
+    </h3>
+    <div class="details">
+        <p>find a file in one of $dirs</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$file</td>
+                <td>relative file path</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_out">
+        <div class="location">at line 189</div>
+        <code>            public            string
+    <strong>out</strong>($name, $type = false)</code>
+    </h3>
+    <div class="details">
+        <p>output a tag for give group</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$name</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$type</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_url">
+        <div class="location">at line 210</div>
+        <code>            public            string
+    <strong>url</strong>(string $path)</code>
+    </h3>
+    <div class="details">
+        <p>url path</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$path</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getGroup">
+        <div class="location">at line 223</div>
+        <code>            public            array
+    <strong>getGroup</strong>($name, $type)</code>
+    </h3>
+    <div class="details">
+        <p>get all file objects in a group</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$name</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$type</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_stylesheet">
+        <div class="location">at line 236</div>
+        <code>            public            string
+    <strong>stylesheet</strong>(array $leafs)</code>
+    </h3>
+    <div class="details">
+        <p>return a stylesheet tag</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>array</td>
+                <td>$leafs</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getGlobals">
+        <div class="location">at line 259</div>
+        <code>            public            array
+    <strong>getGlobals</strong>(string $ext)</code>
+    </h3>
+    <div class="details">
+        <p>get all registered globals for an extension</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$ext</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getFilters">
+        <div class="location">at line 271</div>
+        <code>            public            array
+    <strong>getFilters</strong>(string $ext)</code>
+    </h3>
+    <div class="details">
+        <p>get all registered filters for an extension</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$ext</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+    
+            </div>
+            <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/" target="_top">Sami, the API Documentation Generator</a>.
+    </div>
+    </body>
+</html>

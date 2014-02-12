@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="index, follow, all" />
+        <title>bolt\plugin | </title>
+                    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+                            </head>
+        <body id="class">
+            <div class="header">
+        <ul>
+            <li><a href="../classes.html">Classes</a></li>
+                            <li><a href="../namespaces.html">Namespaces</a></li>
+                        <li><a href="../interfaces.html">Interfaces</a></li>
+            <li><a href="../traits.html">Traits</a></li>
+            <li><a href="../doc-index.html">Index</a></li>
+            
+        </ul>
+
+        <div id="title"></div>
+
+            <div class="type">Class</div>
+    <h1><a href="../bolt.html">bolt</a>\plugin</h1>
+    </div>
+        <div class="content">
+                <p>abstract     class
+    <strong>plugin</strong>        implements
+        <a href="http://php.net/ArrayAccess"><abbr title="ArrayAccess">ArrayAccess</abbr></a></p>
+
+            <div class="description">
+            <p>Base plugin abstract</p>
+            <p>
+</p>
+        </div>
+    
+    
+    
+            <h2>Methods</h2>
+
+            <table>
+                    <tr>
+                <td class="type">
+                    <a href="../bolt/plugin.html"><abbr title="bolt\plugin">plugin</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_plug">plug</a>(string $name, string|<abbr title="bolt\callback">callback</abbr> $class = null, array $config = array())
+                    <p>plug a new class into this parent class</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    array
+                </td>
+                <td class="last">
+                    <a href="#method_getPlugins">getPlugins</a>()
+                    <p>return all plugins</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    bool
+                </td>
+                <td class="last">
+                    <a href="#method_pluginExists">pluginExists</a>(string $name)
+                    <p>does plugin exist</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    mixed
+                </td>
+                <td class="last">
+                    <a href="#method_plugin">plugin</a>(string $name)
+                    <p>get a plugin instance</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../bolt/plugin.html"><abbr title="bolt\plugin">plugin</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_unplug">unplug</a>(string $name)
+                    <p>unplug a plugin</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../bolt/plugin.html"><abbr title="bolt\plugin">plugin</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_offsetSet">offsetSet</a>(string $name, string $class)
+                    <p>set offset</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    bool
+                </td>
+                <td class="last">
+                    <a href="#method_offsetExists">offsetExists</a>(string $name)
+                    <p>offset get</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    void
+                </td>
+                <td class="last">
+                    <a href="#method_offsetUnset">offsetUnset</a>(string $name)
+                    <p>unplug</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    mixed
+                </td>
+                <td class="last">
+                    <a href="#method_offsetGet">offsetGet</a>(string $name)
+                    <p>get a plugin</p>
+                </td>
+                <td></td>
+            </tr>
+            </table>
+
+
+        <h2>Details</h2>
+
+                        <h3 id="method_plug">
+        <div class="location">at line 29</div>
+        <code>            public            <a href="../bolt/plugin.html"><abbr title="bolt\plugin">plugin</abbr></a>
+    <strong>plug</strong>(string $name, string|<abbr title="bolt\callback">callback</abbr> $class = null, array $config = array())</code>
+    </h3>
+    <div class="details">
+        <p>plug a new class into this parent class</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>name of plugin</td>
+            </tr>
+                    <tr>
+                <td>string|<abbr title="bolt\callback">callback</abbr></td>
+                <td>$class</td>
+                <td>what to call when access</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$config</td>
+                <td>arguments to pass to callback</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../bolt/plugin.html"><abbr title="bolt\plugin">plugin</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getPlugins">
+        <div class="location">at line 73</div>
+        <code>            public            array
+    <strong>getPlugins</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>return all plugins</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>list of plugins</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_pluginExists">
+        <div class="location">at line 85</div>
+        <code>            public            bool
+    <strong>pluginExists</strong>(string $name)</code>
+    </h3>
+    <div class="details">
+        <p>does plugin exist</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>name of plugin</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>bool</td>
+            <td>value of plugin exists</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_plugin">
+        <div class="location">at line 97</div>
+        <code>            public            mixed
+    <strong>plugin</strong>(string $name)</code>
+    </h3>
+    <div class="details">
+        <p>get a plugin instance</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>name of plugin</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>instance of plugin</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_unplug">
+        <div class="location">at line 167</div>
+        <code>            public            <a href="../bolt/plugin.html"><abbr title="bolt\plugin">plugin</abbr></a>
+    <strong>unplug</strong>(string $name)</code>
+    </h3>
+    <div class="details">
+        <p>unplug a plugin</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>name of plugin to remove</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../bolt/plugin.html"><abbr title="bolt\plugin">plugin</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_offsetSet">
+        <div class="location">at line 191</div>
+        <code>            public            <a href="../bolt/plugin.html"><abbr title="bolt\plugin">plugin</abbr></a>
+    <strong>offsetSet</strong>(string $name, string $class)</code>
+    </h3>
+    <div class="details">
+        <p>set offset</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>set the name</td>
+            </tr>
+                    <tr>
+                <td>string</td>
+                <td>$class</td>
+                <td>class name</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../bolt/plugin.html"><abbr title="bolt\plugin">plugin</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_offsetExists">
+        <div class="location">at line 203</div>
+        <code>            public            bool
+    <strong>offsetExists</strong>(string $name)</code>
+    </h3>
+    <div class="details">
+        <p>offset get</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>name of plugin</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>bool</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_offsetUnset">
+        <div class="location">at line 215</div>
+        <code>            public            void
+    <strong>offsetUnset</strong>(string $name)</code>
+    </h3>
+    <div class="details">
+        <p>unplug</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>name of plugin to unplug</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>void</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_offsetGet">
+        <div class="location">at line 227</div>
+        <code>            public            mixed
+    <strong>offsetGet</strong>(string $name)</code>
+    </h3>
+    <div class="details">
+        <p>get a plugin</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>name of plugin</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+    
+            </div>
+            <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/" target="_top">Sami, the API Documentation Generator</a>.
+    </div>
+    </body>
+</html>

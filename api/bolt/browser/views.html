@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="index, follow, all" />
+        <title>bolt\browser\views | </title>
+                    <link rel="stylesheet" type="text/css" href="../../stylesheet.css">
+                            </head>
+        <body id="class">
+            <div class="header">
+        <ul>
+            <li><a href="../../classes.html">Classes</a></li>
+                            <li><a href="../../namespaces.html">Namespaces</a></li>
+                        <li><a href="../../interfaces.html">Interfaces</a></li>
+            <li><a href="../../traits.html">Traits</a></li>
+            <li><a href="../../doc-index.html">Index</a></li>
+            
+        </ul>
+
+        <div id="title"></div>
+
+            <div class="type">Class</div>
+    <h1><a href="../../bolt/browser.html">bolt\browser</a>\views</h1>
+    </div>
+        <div class="content">
+                <p>    class
+    <strong>views</strong></p>
+
+            <div class="description">
+            <p>views manager</p>
+            <p>
+</p>
+        </div>
+    
+    
+    
+            <h2>Methods</h2>
+
+            <table>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method___construct">__construct</a>(<abbr title="bolt\browser\bolt\browser">browser</abbr> $browser, array $config = array())
+                    <p>Constructor</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../../bolt/browser/views.html"><abbr title="bolt\browser\views">views</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_dir">dir</a>(string $path)
+                    <p>add a dir</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    array
+                </td>
+                <td class="last">
+                    <a href="#method_getDirs">getDirs</a>()
+                    <p>get dirs</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../../bolt/browser/views.html"><abbr title="bolt\browser\views">views</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_engine">engine</a>(string $ext, string $class)
+                    <p>register a new engine</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    array
+                </td>
+                <td class="last">
+                    <a href="#method_getEngines">getEngines</a>()
+                    <p>get all register engiens</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    string
+                </td>
+                <td class="last">
+                    <a href="#method_find">find</a>(string $file, array $dirs)
+                    <p>find a view file in given dirs</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    bool
+                </td>
+                <td class="last">
+                    <a href="#method_exists">exists</a>(string $file)
+                    <p>check if a view exists</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <abbr title="bolt\browser\self::$_class">self::$_class</abbr>
+                </td>
+                <td class="last">
+                    <a href="#method_view">view</a>($file, $vars = array(), $context = false)
+                    <p>return a view of self::$class for given file</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <abbr title="bolt\browser\self::$_class">self::$_class</abbr>
+                </td>
+                <td class="last">
+                    <a href="#method_layout">layout</a>(string $file, array $vars = array(), mixed $context = false)
+                    <p>return a view of self::$class for layout file given</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <abbr title="bolt\browser\self::$_class">self::$_class</abbr>
+                </td>
+                <td class="last">
+                    <a href="#method_create">create</a>(string $file, array $vars = array(), object $context = false)
+                    <p>create a view of self::$_class</p>
+                </td>
+                <td></td>
+            </tr>
+            </table>
+
+
+        <h2>Details</h2>
+
+                        <h3 id="method___construct">
+        <div class="location">at line 41</div>
+        <code>            public            
+    <strong>__construct</strong>(<abbr title="bolt\browser\bolt\browser">browser</abbr> $browser, array $config = array())</code>
+    </h3>
+    <div class="details">
+        <p>Constructor</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td><abbr title="bolt\browser\bolt\browser">browser</abbr></td>
+                <td>$browser</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$config</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_dir">
+        <div class="location">at line 64</div>
+        <code>            public            <a href="../../bolt/browser/views.html"><abbr title="bolt\browser\views">views</abbr></a>
+    <strong>dir</strong>(string $path)</code>
+    </h3>
+    <div class="details">
+        <p>add a dir</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$path</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/browser/views.html"><abbr title="bolt\browser\views">views</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getDirs">
+        <div class="location">at line 82</div>
+        <code>            public            array
+    <strong>getDirs</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>get dirs</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_engine">
+        <div class="location">at line 95</div>
+        <code>            public            <a href="../../bolt/browser/views.html"><abbr title="bolt\browser\views">views</abbr></a>
+    <strong>engine</strong>(string $ext, string $class)</code>
+    </h3>
+    <div class="details">
+        <p>register a new engine</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$ext</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>string</td>
+                <td>$class</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/browser/views.html"><abbr title="bolt\browser\views">views</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getEngines">
+        <div class="location">at line 109</div>
+        <code>            public            array
+    <strong>getEngines</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>get all register engiens</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_find">
+        <div class="location">at line 122</div>
+        <code>            public            string
+    <strong>find</strong>(string $file, array $dirs)</code>
+    </h3>
+    <div class="details">
+        <p>find a view file in given dirs</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$file</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$dirs</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_exists">
+        <div class="location">at line 140</div>
+        <code>            public            bool
+    <strong>exists</strong>(string $file)</code>
+    </h3>
+    <div class="details">
+        <p>check if a view exists</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$file</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>bool</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_view">
+        <div class="location">at line 153</div>
+        <code>            public            <abbr title="bolt\browser\self::$_class">self::$_class</abbr>
+    <strong>view</strong>($file, $vars = array(), $context = false)</code>
+    </h3>
+    <div class="details">
+        <p>return a view of self::$class for given file</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$file</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$vars</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$context</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\browser\self::$_class">self::$_class</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_layout">
+        <div class="location">at line 171</div>
+        <code>            public            <abbr title="bolt\browser\self::$_class">self::$_class</abbr>
+    <strong>layout</strong>(string $file, array $vars = array(), mixed $context = false)</code>
+    </h3>
+    <div class="details">
+        <p>return a view of self::$class for layout file given</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$file</td>
+                <td>relative file path to $_layouts</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$vars</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>mixed</td>
+                <td>$context</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\browser\self::$_class">self::$_class</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_create">
+        <div class="location">at line 189</div>
+        <code>            public            <abbr title="bolt\browser\self::$_class">self::$_class</abbr>
+    <strong>create</strong>(string $file, array $vars = array(), object $context = false)</code>
+    </h3>
+    <div class="details">
+        <p>create a view of self::$_class</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$file</td>
+                <td>absolute file path</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$vars</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>object</td>
+                <td>$context</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\browser\self::$_class">self::$_class</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+    
+            </div>
+            <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/" target="_top">Sami, the API Documentation Generator</a>.
+    </div>
+    </body>
+</html>
