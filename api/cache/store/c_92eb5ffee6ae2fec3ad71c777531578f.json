@@ -1,0 +1,35 @@
+{
+    "name": "b",
+    "line": 91,
+    "short_desc": "shortcut to bolt",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt.php",
+    "hash": "1a28b34a0a30ca6fa79a79ba22f627f63e859fea",
+    "parent": "bolt",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [
+
+    ],
+    "errors": [
+
+    ],
+    "interfaces": [
+
+    ],
+    "properties": [
+
+    ],
+    "methods": [
+
+    ],
+    "constants": [
+
+    ]
+}

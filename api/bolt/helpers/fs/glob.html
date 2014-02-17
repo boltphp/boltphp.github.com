@@ -24,7 +24,8 @@
     </div>
         <div class="content">
                 <p>    class
-    <strong>glob</strong>        extends <a href="http://php.net/GlobIterator"><abbr title="GlobIterator">GlobIterator</abbr></a></p>
+    <strong>glob</strong>        implements
+        <a href="http://php.net/IteratorAggregate"><abbr title="IteratorAggregate">IteratorAggregate</abbr></a>, <a href="http://php.net/Countable"><abbr title="Countable">Countable</abbr></a></p>
 
     
     
@@ -48,7 +49,62 @@
                     
                 </td>
                 <td class="last">
+                    <a href="#method_setPath">setPath</a>($path)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_getPath">getPath</a>($path)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_setFlags">setFlags</a>($flags)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_getIterator">getIterator</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
                     <a href="#method_asArray">asArray</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_count">count</a>()
                     <p>
 </p>
                 </td>
@@ -60,7 +116,7 @@
         <h2>Details</h2>
 
                         <h3 id="method___construct">
-        <div class="location">at line 11</div>
+        <div class="location">at line 19</div>
         <code>            public            
     <strong>__construct</strong>($path, $flags = FilesystemIterator::KEY_AS_PATHNAME)</code>
     </h3>
@@ -93,10 +149,128 @@
                     </div>
     </div>
 
+                <h3 id="method_setPath">
+        <div class="location">at line 24</div>
+        <code>            public            
+    <strong>setPath</strong>($path)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$path</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getPath">
+        <div class="location">at line 30</div>
+        <code>            public            
+    <strong>getPath</strong>($path)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$path</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_setFlags">
+        <div class="location">at line 34</div>
+        <code>            public            
+    <strong>setFlags</strong>($flags)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$flags</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getIterator">
+        <div class="location">at line 40</div>
+        <code>            public            
+    <strong>getIterator</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
                 <h3 id="method_asArray">
-        <div class="location">at line 16</div>
+        <div class="location">at line 47</div>
         <code>            public            
     <strong>asArray</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_count">
+        <div class="location">at line 51</div>
+        <code>            public            
+    <strong>count</strong>()</code>
     </h3>
     <div class="details">
         <p>

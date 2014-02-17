@@ -80,6 +80,17 @@
             </tr>
                     <tr>
                 <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_createGroup">createGroup</a>($type, $name, $files = array())
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
                     mixed
                 </td>
                 <td class="last">
@@ -90,10 +101,20 @@
             </tr>
                     <tr>
                 <td class="type">
+                    mixed
+                </td>
+                <td class="last">
+                    <a href="#method_findDir">findDir</a>(string $path)
+                    <p>find a files dir</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
                     string
                 </td>
                 <td class="last">
-                    <a href="#method_out">out</a>($name, $type = false)
+                    <a href="#method_out">out</a>($type, $name, $combo = false)
                     <p>output a tag for give group</p>
                 </td>
                 <td></td>
@@ -103,7 +124,7 @@
                     string
                 </td>
                 <td class="last">
-                    <a href="#method_url">url</a>(string $path)
+                    <a href="#method_url">url</a>(mixed $path)
                     <p>url path</p>
                 </td>
                 <td></td>
@@ -113,7 +134,7 @@
                     array
                 </td>
                 <td class="last">
-                    <a href="#method_getGroup">getGroup</a>($name, $type)
+                    <a href="#method_getGroup">getGroup</a>($type, $name)
                     <p>get all file objects in a group</p>
                 </td>
                 <td></td>
@@ -321,8 +342,48 @@
                     </div>
     </div>
 
+                <h3 id="method_createGroup">
+        <div class="location">at line 154</div>
+        <code>            public            
+    <strong>createGroup</strong>($type, $name, $files = array())</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$type</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$name</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$files</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
                 <h3 id="method_find">
-        <div class="location">at line 165</div>
+        <div class="location">at line 172</div>
         <code>            public            mixed
     <strong>find</strong>(string $file)</code>
     </h3>
@@ -357,10 +418,46 @@
                     </div>
     </div>
 
+                <h3 id="method_findDir">
+        <div class="location">at line 195</div>
+        <code>            public            mixed
+    <strong>findDir</strong>(string $path)</code>
+    </h3>
+    <div class="details">
+        <p>find a files dir</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$path</td>
+                <td>file</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
                 <h3 id="method_out">
-        <div class="location">at line 189</div>
+        <div class="location">at line 215</div>
         <code>            public            string
-    <strong>out</strong>($name, $type = false)</code>
+    <strong>out</strong>($type, $name, $combo = false)</code>
     </h3>
     <div class="details">
         <p>output a tag for give group</p>
@@ -372,13 +469,19 @@
                     <table>
                     <tr>
                 <td></td>
+                <td>$type</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
                 <td>$name</td>
                 <td>
 </td>
             </tr>
                     <tr>
                 <td></td>
-                <td>$type</td>
+                <td>$combo</td>
                 <td>
 </td>
             </tr>
@@ -401,9 +504,9 @@
     </div>
 
                 <h3 id="method_url">
-        <div class="location">at line 210</div>
+        <div class="location">at line 244</div>
         <code>            public            string
-    <strong>url</strong>(string $path)</code>
+    <strong>url</strong>(mixed $path)</code>
     </h3>
     <div class="details">
         <p>url path</p>
@@ -414,7 +517,7 @@
 
                     <table>
                     <tr>
-                <td>string</td>
+                <td>mixed</td>
                 <td>$path</td>
                 <td>
 </td>
@@ -438,9 +541,9 @@
     </div>
 
                 <h3 id="method_getGroup">
-        <div class="location">at line 223</div>
+        <div class="location">at line 267</div>
         <code>            public            array
-    <strong>getGroup</strong>($name, $type)</code>
+    <strong>getGroup</strong>($type, $name)</code>
     </h3>
     <div class="details">
         <p>get all file objects in a group</p>
@@ -452,13 +555,13 @@
                     <table>
                     <tr>
                 <td></td>
-                <td>$name</td>
+                <td>$type</td>
                 <td>
 </td>
             </tr>
                     <tr>
                 <td></td>
-                <td>$type</td>
+                <td>$name</td>
                 <td>
 </td>
             </tr>
@@ -481,7 +584,7 @@
     </div>
 
                 <h3 id="method_stylesheet">
-        <div class="location">at line 236</div>
+        <div class="location">at line 280</div>
         <code>            public            string
     <strong>stylesheet</strong>(array $leafs)</code>
     </h3>
@@ -518,7 +621,7 @@
     </div>
 
                 <h3 id="method_getGlobals">
-        <div class="location">at line 259</div>
+        <div class="location">at line 303</div>
         <code>            public            array
     <strong>getGlobals</strong>(string $ext)</code>
     </h3>
@@ -555,7 +658,7 @@
     </div>
 
                 <h3 id="method_getFilters">
-        <div class="location">at line 271</div>
+        <div class="location">at line 315</div>
         <code>            public            array
     <strong>getFilters</strong>(string $ext)</code>
     </h3>

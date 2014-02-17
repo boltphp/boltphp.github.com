@@ -42,7 +42,7 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method___construct">__construct</a>(<abbr title="bolt\source\curl\bolt\source\curl">curl</abbr> $curl, string $entity, <abbr title="bolt\source\curl\bolt\models\driver">driver</abbr> $driver)
+                    <a href="#method___construct">__construct</a>(<abbr title="bolt\source\curl\bolt\source\curl">curl</abbr> $curl, $entity, <abbr title="bolt\source\curl\bolt\models">models</abbr> $manager, <abbr title="bolt\source\curl\bolt\models\driver">driver</abbr> $driver)
                     <p>Constructor</p>
                 </td>
                 <td></td>
@@ -93,9 +93,9 @@
         <h2>Details</h2>
 
                         <h3 id="method___construct">
-        <div class="location">at line 26</div>
+        <div class="location">at line 27</div>
         <code>            public            
-    <strong>__construct</strong>(<abbr title="bolt\source\curl\bolt\source\curl">curl</abbr> $curl, string $entity, <abbr title="bolt\source\curl\bolt\models\driver">driver</abbr> $driver)</code>
+    <strong>__construct</strong>(<abbr title="bolt\source\curl\bolt\source\curl">curl</abbr> $curl, $entity, <abbr title="bolt\source\curl\bolt\models">models</abbr> $manager, <abbr title="bolt\source\curl\bolt\models\driver">driver</abbr> $driver)</code>
     </h3>
     <div class="details">
         <p>Constructor</p>
@@ -112,9 +112,16 @@
 </td>
             </tr>
                     <tr>
-                <td>string</td>
+                <td></td>
                 <td>$entity</td>
-                <td>entity class</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td><abbr title="bolt\source\curl\bolt\models">models</abbr></td>
+                <td>$manager</td>
+                <td>
+</td>
             </tr>
                     <tr>
                 <td><abbr title="bolt\source\curl\bolt\models\driver">driver</abbr></td>
@@ -131,7 +138,7 @@
     </div>
 
                 <h3 id="method_generateEntity">
-        <div class="location">at line 103</div>
+        <div class="location">at line 102</div>
         <code>            public            object
     <strong>generateEntity</strong>(array $item)</code>
     </h3>
@@ -167,7 +174,7 @@
     </div>
 
                 <h3 id="method_find">
-        <div class="location">at line 137</div>
+        <div class="location">at line 157</div>
         <code>            public            object
     <strong>find</strong>(mixed $id)</code>
     </h3>
@@ -204,7 +211,7 @@
     </div>
 
                 <h3 id="method_findBy">
-        <div class="location">at line 169</div>
+        <div class="location">at line 192</div>
         <code>            public            array
     <strong>findBy</strong>(array $query, array $order = array(), int $limit = false, int $offset)</code>
     </h3>
@@ -259,7 +266,7 @@
     </div>
 
                 <h3 id="method_findOneBy">
-        <div class="location">at line 206</div>
+        <div class="location">at line 229</div>
         <code>            public            object
     <strong>findOneBy</strong>(array $query, array $order = array())</code>
     </h3>

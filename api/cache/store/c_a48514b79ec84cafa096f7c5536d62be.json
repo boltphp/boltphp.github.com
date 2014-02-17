@@ -1,0 +1,123 @@
+{
+    "name": "bolt\\render\\dom",
+    "line": 10,
+    "short_desc": "render a dom string",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "bolt\\render",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/render\/dom.php",
+    "hash": "f5a9d0c02a0ec9d033ec10024bd9b62a3ffb979b",
+    "parent": "bolt\\render\\base",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b"
+    },
+    "errors": [
+
+    ],
+    "interfaces": [
+
+    ],
+    "properties": [
+
+    ],
+    "methods": {
+        "compile": {
+            "name": "compile",
+            "line": 16,
+            "short_desc": "compile the dom doc to serializeable object",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "render": {
+            "name": "render",
+            "line": 30,
+            "short_desc": "render an html string into a dom doc",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\render\\bolt\\dom",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+                "The \"var\" @param tag variable name is wrong (should be \"str\")"
+            ],
+            "parameters": {
+                "str": {
+                    "name": "str",
+                    "line": 30,
+                    "short_desc": "string to render",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "vars": {
+                    "name": "vars",
+                    "line": 30,
+                    "short_desc": "variables to use in rendering",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": [
+
+    ]
+}
