@@ -1,6 +1,6 @@
 {
     "name": "bolt\\browser\\router\\route",
-    "line": 13,
+    "line": 12,
     "short_desc": "base route class",
     "long_desc": "",
     "hint": null,
@@ -9,14 +9,13 @@
     ],
     "namespace": "bolt\\browser\\router",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/router\/route.php",
-    "hash": "705b9db6ca9ac76d25808836bf5f130d5e390c59",
+    "hash": "03d5f88b26593a40a11030e20adde0d3697c597c",
     "parent": "Symfony\\Component\\Routing\\Route",
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
     "aliases": {
         "b": "b",
-        "RequestContext": "Symfony\\Component\\Routing\\RequestContext",
         "sRoute": "Symfony\\Component\\Routing\\Route"
     },
     "errors": [
@@ -31,7 +30,7 @@
     "methods": {
         "create": {
             "name": "create",
-            "line": 33,
+            "line": 32,
             "short_desc": "static create a route class",
             "long_desc": "",
             "hint": [
@@ -55,7 +54,7 @@
             "parameters": {
                 "route": {
                     "name": "route",
-                    "line": 33,
+                    "line": 32,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -75,7 +74,7 @@
         },
         "setName": {
             "name": "setName",
-            "line": 52,
+            "line": 51,
             "short_desc": "set the route name",
             "long_desc": "",
             "hint": [
@@ -99,7 +98,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 52,
+                    "line": 51,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -119,7 +118,7 @@
         },
         "getName": {
             "name": "getName",
-            "line": 63,
+            "line": 62,
             "short_desc": "get the route name",
             "long_desc": "",
             "hint": [
@@ -146,7 +145,7 @@
         },
         "setController": {
             "name": "setController",
-            "line": 76,
+            "line": 75,
             "short_desc": "set the route controller",
             "long_desc": "",
             "hint": [
@@ -170,7 +169,7 @@
             "parameters": {
                 "controller": {
                     "name": "controller",
-                    "line": 76,
+                    "line": 75,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -190,7 +189,7 @@
         },
         "getController": {
             "name": "getController",
-            "line": 91,
+            "line": 90,
             "short_desc": "get route controller",
             "long_desc": "",
             "hint": [
@@ -217,7 +216,7 @@
         },
         "setRequire": {
             "name": "setRequire",
-            "line": 103,
+            "line": 102,
             "short_desc": "set a required param",
             "long_desc": "",
             "hint": [
@@ -241,7 +240,7 @@
             "parameters": {
                 "require": {
                     "name": "require",
-                    "line": 103,
+                    "line": 102,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -261,7 +260,7 @@
         },
         "setAction": {
             "name": "setAction",
-            "line": 116,
+            "line": 115,
             "short_desc": "set the controller action",
             "long_desc": "",
             "hint": [
@@ -285,7 +284,7 @@
             "parameters": {
                 "action": {
                     "name": "action",
-                    "line": 116,
+                    "line": 115,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -305,7 +304,7 @@
         },
         "setFormats": {
             "name": "setFormats",
-            "line": 129,
+            "line": 128,
             "short_desc": "set response formats",
             "long_desc": "",
             "hint": [
@@ -329,7 +328,7 @@
             "parameters": {
                 "format": {
                     "name": "format",
-                    "line": 129,
+                    "line": 128,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -349,7 +348,7 @@
         },
         "compile": {
             "name": "compile",
-            "line": 152,
+            "line": 151,
             "short_desc": "compile the route",
             "long_desc": "",
             "hint": [

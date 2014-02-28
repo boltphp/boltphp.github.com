@@ -9,8 +9,8 @@
     ],
     "namespace": "bolt",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/client.php",
-    "hash": "c32a7eb1b8e099afe78a3c097f16b40a0fa4fc45",
-    "parent": "bolt\\cli",
+    "hash": "c8ae521f583932a3b7a988710713d12509978091",
+    "parent": null,
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
@@ -27,9 +27,9 @@
 
     ],
     "methods": {
-        "__construct": {
-            "name": "__construct",
-            "line": 12,
+        "bind": {
+            "name": "bind",
+            "line": 8,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -37,7 +37,7 @@
             "tags": [
 
             ],
-            "modifiers": "1",
+            "modifiers": "9",
             "is_by_ref": "",
             "exceptions": [
 
@@ -48,7 +48,7 @@
             "parameters": {
                 "app": {
                     "name": "app",
-                    "line": 12,
+                    "line": 8,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -65,28 +65,6 @@
                     "is_by_ref": false
                 }
             }
-        },
-        "run": {
-            "name": "run",
-            "line": 32,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
         }
     },
     "constants": [

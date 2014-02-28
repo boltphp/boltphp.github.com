@@ -24,8 +24,13 @@
     </div>
         <div class="content">
                 <p>    class
-    <strong>result</strong>        extends <a href="http://php.net/SplDoublyLinkedList"><abbr title="SplDoublyLinkedList">SplDoublyLinkedList</abbr></a></p>
+    <strong>result</strong>        extends <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a></p>
 
+            <div class="description">
+            <p>model results</p>
+            <p>
+</p>
+        </div>
     
     
     
@@ -37,53 +42,28 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method___construct">__construct</a>(<abbr title="bolt\models\bolt\models">models</abbr> $manager, $entity, $items = array())
-                    <p>
-</p>
+                    <a href="#method___construct">__construct</a>(<abbr title="bolt\models\bolt\models">models</abbr> $manager, string $entity, array $items = array())
+                    <p>Constructor</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../bolt/models/result.html"><abbr title="bolt\models\result">result</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_push">push</a>($object)
-                    <p>
-</p>
+                    <a href="#method_push">push</a>(object $object)
+                    <p>push an object to the stack</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../bolt/models/result.html"><abbr title="bolt\models\result">result</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_unshift">unshift</a>($object)
-                    <p>
-</p>
-                </td>
-                <td></td>
-            </tr>
-                    <tr>
-                <td class="type">
-                    
-                </td>
-                <td class="last">
-                    <a href="#method_first">first</a>()
-                    <p>
-</p>
-                </td>
-                <td></td>
-            </tr>
-                    <tr>
-                <td class="type">
-                    
-                </td>
-                <td class="last">
-                    <a href="#method_last">last</a>()
-                    <p>
-</p>
+                    <a href="#method_unshift">unshift</a>(object $object)
+                    <p>unshift an object</p>
                 </td>
                 <td></td>
             </tr>
@@ -93,13 +73,12 @@
         <h2>Details</h2>
 
                         <h3 id="method___construct">
-        <div class="location">at line 13</div>
+        <div class="location">at line 33</div>
         <code>            public            
-    <strong>__construct</strong>(<abbr title="bolt\models\bolt\models">models</abbr> $manager, $entity, $items = array())</code>
+    <strong>__construct</strong>(<abbr title="bolt\models\bolt\models">models</abbr> $manager, string $entity, array $items = array())</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Constructor</p>
         <p>
 </p>
         <div class="tags">
@@ -113,16 +92,14 @@
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$entity</td>
-                <td>
-</td>
+                <td>entity manager</td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$items</td>
-                <td>
-</td>
+                <td>inital items</td>
             </tr>
             </table>
 
@@ -133,13 +110,12 @@
     </div>
 
                 <h3 id="method_push">
-        <div class="location">at line 28</div>
-        <code>            public            
-    <strong>push</strong>($object)</code>
+        <div class="location">at line 54</div>
+        <code>            public            <a href="../../bolt/models/result.html"><abbr title="bolt\models\result">result</abbr></a>
+    <strong>push</strong>(object $object)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>push an object to the stack</p>
         <p>
 </p>
         <div class="tags">
@@ -147,7 +123,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>object</td>
                 <td>$object</td>
                 <td>
 </td>
@@ -155,19 +131,28 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/models/result.html"><abbr title="bolt\models\result">result</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_unshift">
-        <div class="location">at line 41</div>
-        <code>            public            
-    <strong>unshift</strong>($object)</code>
+        <div class="location">at line 71</div>
+        <code>            public            <a href="../../bolt/models/result.html"><abbr title="bolt\models\result">result</abbr></a>
+    <strong>unshift</strong>(object $object)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>unshift an object</p>
         <p>
 </p>
         <div class="tags">
@@ -175,7 +160,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>object</td>
                 <td>$object</td>
                 <td>
 </td>
@@ -183,40 +168,16 @@
             </table>
 
             
-            
-            
-                    </div>
-    </div>
+                            <h4>Return Value</h4>
 
-                <h3 id="method_first">
-        <div class="location">at line 54</div>
-        <code>            public            
-    <strong>first</strong>()</code>
-    </h3>
-    <div class="details">
-        <p>
-</p>
-        <p>
-</p>
-        <div class="tags">
-            
-            
-            
-                    </div>
-    </div>
+                    <table>
+        <tr>
+            <td><a href="../../bolt/models/result.html"><abbr title="bolt\models\result">result</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
 
-                <h3 id="method_last">
-        <div class="location">at line 58</div>
-        <code>            public            
-    <strong>last</strong>()</code>
-    </h3>
-    <div class="details">
-        <p>
-</p>
-        <p>
-</p>
-        <div class="tags">
-            
             
             
                     </div>

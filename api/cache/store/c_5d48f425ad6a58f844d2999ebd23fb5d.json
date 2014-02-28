@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/config.php",
-    "hash": "2443f1b2d3901db67e7b1a1724e6f1639bb770bd",
+    "hash": "3deb8c9e9cfb7c72412680631b6db1999c772c04",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -185,7 +185,7 @@
         },
         "__get": {
             "name": "__get",
-            "line": 122,
+            "line": 121,
             "short_desc": "magic get a namespace",
             "long_desc": "",
             "hint": [
@@ -209,7 +209,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 122,
+                    "line": 121,
                     "short_desc": "namespace",
                     "long_desc": null,
                     "hint": [
@@ -229,7 +229,7 @@
         },
         "get": {
             "name": "get",
-            "line": 135,
+            "line": 134,
             "short_desc": "get a value from a stored namespace",
             "long_desc": "",
             "hint": [
@@ -253,7 +253,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 135,
+                    "line": 134,
                     "short_desc": "namespace or key",
                     "long_desc": null,
                     "hint": [
@@ -271,7 +271,7 @@
                 },
                 "default": {
                     "name": "default",
-                    "line": 135,
+                    "line": 134,
                     "short_desc": "value to return if $name ne",
                     "long_desc": null,
                     "hint": [
@@ -291,7 +291,7 @@
         },
         "set": {
             "name": "set",
-            "line": 148,
+            "line": 147,
             "short_desc": "set a value on a namespace",
             "long_desc": "",
             "hint": [
@@ -315,7 +315,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 148,
+                    "line": 147,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -333,7 +333,7 @@
                 },
                 "value": {
                     "name": "value",
-                    "line": 148,
+                    "line": 147,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -353,7 +353,7 @@
         },
         "remove": {
             "name": "remove",
-            "line": 161,
+            "line": 160,
             "short_desc": "remove a namespace",
             "long_desc": "",
             "hint": [
@@ -377,7 +377,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 161,
+                    "line": 160,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -397,7 +397,7 @@
         },
         "exists": {
             "name": "exists",
-            "line": 174,
+            "line": 173,
             "short_desc": "does a key exist",
             "long_desc": "",
             "hint": [
@@ -421,7 +421,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 174,
+                    "line": 173,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -441,7 +441,7 @@
         },
         "getIterator": {
             "name": "getIterator",
-            "line": 197,
+            "line": 196,
             "short_desc": "return an array iterator for storage items",
             "long_desc": "",
             "hint": [
@@ -468,7 +468,7 @@
         },
         "offsetSet": {
             "name": "offsetSet",
-            "line": 210,
+            "line": 209,
             "short_desc": "set offset",
             "long_desc": "",
             "hint": [
@@ -492,7 +492,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 210,
+                    "line": 209,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -505,7 +505,7 @@
                 },
                 "value": {
                     "name": "value",
-                    "line": 210,
+                    "line": 209,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -520,7 +520,7 @@
         },
         "offsetExists": {
             "name": "offsetExists",
-            "line": 222,
+            "line": 221,
             "short_desc": "offset get",
             "long_desc": "",
             "hint": [
@@ -544,7 +544,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 222,
+                    "line": 221,
                     "short_desc": "name of plugin",
                     "long_desc": null,
                     "hint": [
@@ -564,7 +564,7 @@
         },
         "offsetUnset": {
             "name": "offsetUnset",
-            "line": 234,
+            "line": 233,
             "short_desc": "unplug",
             "long_desc": "",
             "hint": [
@@ -588,7 +588,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 234,
+                    "line": 233,
                     "short_desc": "name of plugin to unplug",
                     "long_desc": null,
                     "hint": [
@@ -608,7 +608,7 @@
         },
         "offsetGet": {
             "name": "offsetGet",
-            "line": 246,
+            "line": 245,
             "short_desc": "get a plugin",
             "long_desc": "",
             "hint": [
@@ -632,7 +632,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 246,
+                    "line": 245,
                     "short_desc": "name of plugin",
                     "long_desc": null,
                     "hint": [

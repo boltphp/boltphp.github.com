@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\source\\curl",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/source\/curl\/repository.php",
-    "hash": "21ad3b718550de07c3a612add7f88e906d8f6e90",
+    "hash": "992a5110bad542c19ff9398027d7555d4baa82a9",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -163,7 +163,7 @@
         },
         "find": {
             "name": "find",
-            "line": 157,
+            "line": 158,
             "short_desc": "find an entity",
             "long_desc": "",
             "hint": [
@@ -187,7 +187,7 @@
             "parameters": {
                 "id": {
                     "name": "id",
-                    "line": 157,
+                    "line": 158,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -207,7 +207,7 @@
         },
         "findBy": {
             "name": "findBy",
-            "line": 192,
+            "line": 191,
             "short_desc": "find an entity by query",
             "long_desc": "",
             "hint": [
@@ -231,7 +231,7 @@
             "parameters": {
                 "query": {
                     "name": "query",
-                    "line": 192,
+                    "line": 191,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -249,7 +249,7 @@
                 },
                 "order": {
                     "name": "order",
-                    "line": 192,
+                    "line": 191,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -267,7 +267,7 @@
                 },
                 "limit": {
                     "name": "limit",
-                    "line": 192,
+                    "line": 191,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -285,7 +285,7 @@
                 },
                 "offset": {
                     "name": "offset",
-                    "line": 192,
+                    "line": 191,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -305,7 +305,7 @@
         },
         "findOneBy": {
             "name": "findOneBy",
-            "line": 229,
+            "line": 228,
             "short_desc": "find one entity by query",
             "long_desc": "",
             "hint": [
@@ -329,7 +329,7 @@
             "parameters": {
                 "query": {
                     "name": "query",
-                    "line": 229,
+                    "line": 228,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -347,7 +347,7 @@
                 },
                 "order": {
                     "name": "order",
-                    "line": 229,
+                    "line": 228,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [

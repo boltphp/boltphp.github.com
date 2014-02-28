@@ -1,6 +1,6 @@
 {
     "name": "bolt\\browser\\router",
-    "line": 14,
+    "line": 13,
     "short_desc": "router manager",
     "long_desc": "",
     "hint": null,
@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\browser",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/router.php",
-    "hash": "b82cebc946f63ae8e5e0678fb2fbaac36ec399a3",
+    "hash": "02778f798303045c711e128fe0baf34602c5b8b7",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -17,8 +17,7 @@
     "aliases": {
         "b": "b",
         "UrlMatcher": "Symfony\\Component\\Routing\\Matcher\\UrlMatcher",
-        "ResourceNotFoundException": "Symfony\\Component\\Routing\\Exception\\ResourceNotFoundException",
-        "RouteNotFoundException": "Symfony\\Component\\Routing\\Exception\\RouteNotFoundException"
+        "ResourceNotFoundException": "Symfony\\Component\\Routing\\Exception\\ResourceNotFoundException"
     },
     "errors": [
 
@@ -32,7 +31,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 38,
+            "line": 37,
             "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
@@ -51,7 +50,7 @@
             "parameters": {
                 "browser": {
                     "name": "browser",
-                    "line": 38,
+                    "line": 37,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -69,7 +68,7 @@
                 },
                 "config": {
                     "name": "config",
-                    "line": 38,
+                    "line": 37,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -84,7 +83,7 @@
         },
         "getCollection": {
             "name": "getCollection",
-            "line": 50,
+            "line": 49,
             "short_desc": "get collection",
             "long_desc": "",
             "hint": [
@@ -111,7 +110,7 @@
         },
         "__call": {
             "name": "__call",
-            "line": 62,
+            "line": 61,
             "short_desc": "magic call",
             "long_desc": "",
             "hint": [
@@ -135,7 +134,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 62,
+                    "line": 61,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -153,7 +152,7 @@
                 },
                 "args": {
                     "name": "args",
-                    "line": 62,
+                    "line": 61,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -173,7 +172,7 @@
         },
         "add": {
             "name": "add",
-            "line": 83,
+            "line": 82,
             "short_desc": "add a route to the toplevel collection",
             "long_desc": "",
             "hint": [
@@ -197,7 +196,7 @@
             "parameters": {
                 "route": {
                     "name": "route",
-                    "line": 83,
+                    "line": 82,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -217,7 +216,7 @@
         },
         "getByName": {
             "name": "getByName",
-            "line": 88,
+            "line": 87,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -236,7 +235,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 88,
+                    "line": 87,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -251,7 +250,7 @@
         },
         "match": {
             "name": "match",
-            "line": 100,
+            "line": 99,
             "short_desc": "match a request to defined routes",
             "long_desc": "",
             "hint": [
@@ -275,7 +274,7 @@
             "parameters": {
                 "req": {
                     "name": "req",
-                    "line": 100,
+                    "line": 99,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -293,7 +292,7 @@
                 },
                 "path": {
                     "name": "path",
-                    "line": 100,
+                    "line": 99,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -313,7 +312,7 @@
         },
         "loadFromControllers": {
             "name": "loadFromControllers",
-            "line": 170,
+            "line": 167,
             "short_desc": "load all routes that are defined in controllers that exend bolt\\browser\\router\\face",
             "long_desc": "",
             "hint": [
@@ -337,7 +336,7 @@
             "parameters": {
                 "paths": {
                     "name": "paths",
-                    "line": 170,
+                    "line": 167,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [

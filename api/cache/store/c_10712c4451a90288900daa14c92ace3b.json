@@ -1,0 +1,52 @@
+{
+    "name": "bolt\\client\\command",
+    "line": 6,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "bolt\\client",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/client\/command.php",
+    "hash": "01456fd1895c15d57da56b53cbcbf3cce7fc121c",
+    "parent": "bolt\\cli\\command",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b"
+    },
+    "errors": [
+
+    ],
+    "interfaces": [
+
+    ],
+    "properties": {
+        "ns": {
+            "name": "ns",
+            "line": 8,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": 9,
+            "default": {
+
+            },
+            "errors": [
+
+            ]
+        }
+    },
+    "methods": [
+
+    ],
+    "constants": [
+
+    ]
+}

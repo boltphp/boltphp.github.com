@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\dom",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/dom\/nodeList.php",
-    "hash": "8034ab27d9ab76142e166136d716447ec26b3a6d",
+    "hash": "821db88620ed4074b2fed46a9b92f8f8ffea44af",
     "parent": "SplObjectStorage",
     "modifiers": 0,
     "is_trait": false,
@@ -189,6 +189,50 @@
         "size": {
             "name": "size",
             "line": 38,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "html": {
+            "name": "html",
+            "line": 42,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "__toString": {
+            "name": "__toString",
+            "line": 53,
             "short_desc": "",
             "long_desc": "",
             "hint": null,

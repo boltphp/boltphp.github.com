@@ -1,6 +1,6 @@
 {
     "name": "bolt\\dom\\element",
-    "line": 6,
+    "line": 8,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
@@ -9,13 +9,14 @@
     ],
     "namespace": "bolt\\dom",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/dom\/element.php",
-    "hash": "ae1f77785afadb92537d38e623d5e3294083cbfa",
+    "hash": "2ed7477d89bc213aa8cf6f1f8a20fd7d3944cb0b",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
     "aliases": {
-        "b": "b"
+        "b": "b",
+        "CssSelector": "Symfony\\Component\\CssSelector\\CssSelector"
     },
     "errors": [
 
@@ -29,7 +30,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 12,
+            "line": 14,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -48,7 +49,7 @@
             "parameters": {
                 "dom": {
                     "name": "dom",
-                    "line": 12,
+                    "line": 14,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -61,7 +62,7 @@
                 },
                 "node": {
                     "name": "node",
-                    "line": 12,
+                    "line": 14,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -76,7 +77,7 @@
         },
         "reset": {
             "name": "reset",
-            "line": 19,
+            "line": 21,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -95,7 +96,7 @@
             "parameters": {
                 "dom": {
                     "name": "dom",
-                    "line": 19,
+                    "line": 21,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -108,7 +109,7 @@
                 },
                 "node": {
                     "name": "node",
-                    "line": 19,
+                    "line": 21,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -123,7 +124,7 @@
         },
         "create": {
             "name": "create",
-            "line": 24,
+            "line": 26,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -142,7 +143,7 @@
             "parameters": {
                 "tag": {
                     "name": "tag",
-                    "line": 24,
+                    "line": 26,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -155,7 +156,7 @@
                 },
                 "value": {
                     "name": "value",
-                    "line": 24,
+                    "line": 26,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -168,7 +169,7 @@
                 },
                 "attr": {
                     "name": "attr",
-                    "line": 24,
+                    "line": 26,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -183,7 +184,7 @@
         },
         "guid": {
             "name": "guid",
-            "line": 31,
+            "line": 33,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -205,7 +206,7 @@
         },
         "createAndAppend": {
             "name": "createAndAppend",
-            "line": 35,
+            "line": 37,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -227,7 +228,7 @@
         },
         "node": {
             "name": "node",
-            "line": 41,
+            "line": 43,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -249,7 +250,7 @@
         },
         "__get": {
             "name": "__get",
-            "line": 45,
+            "line": 47,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -268,7 +269,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 45,
+                    "line": 47,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -283,7 +284,7 @@
         },
         "__call": {
             "name": "__call",
-            "line": 49,
+            "line": 51,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -302,7 +303,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 49,
+                    "line": 51,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -315,7 +316,7 @@
                 },
                 "args": {
                     "name": "args",
-                    "line": 49,
+                    "line": 51,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -330,7 +331,7 @@
         },
         "html": {
             "name": "html",
-            "line": 55,
+            "line": 57,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -352,7 +353,7 @@
         },
         "append": {
             "name": "append",
-            "line": 59,
+            "line": 74,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -371,7 +372,7 @@
             "parameters": {
                 "what": {
                     "name": "what",
-                    "line": 59,
+                    "line": 74,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -386,7 +387,7 @@
         },
         "attr": {
             "name": "attr",
-            "line": 90,
+            "line": 104,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -405,7 +406,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 90,
+                    "line": 104,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -418,7 +419,7 @@
                 },
                 "value": {
                     "name": "value",
-                    "line": 90,
+                    "line": 104,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -433,7 +434,7 @@
         },
         "addClass": {
             "name": "addClass",
-            "line": 115,
+            "line": 129,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -452,7 +453,7 @@
             "parameters": {
                 "class": {
                     "name": "class",
-                    "line": 115,
+                    "line": 129,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -467,7 +468,7 @@
         },
         "setStyle": {
             "name": "setStyle",
-            "line": 122,
+            "line": 136,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -486,7 +487,7 @@
             "parameters": {
                 "prop": {
                     "name": "prop",
-                    "line": 122,
+                    "line": 136,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -499,7 +500,7 @@
                 },
                 "value": {
                     "name": "value",
-                    "line": 122,
+                    "line": 136,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -514,7 +515,29 @@
         },
         "children": {
             "name": "children",
-            "line": 160,
+            "line": 174,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "remove": {
+            "name": "remove",
+            "line": 184,
             "short_desc": "",
             "long_desc": "",
             "hint": null,

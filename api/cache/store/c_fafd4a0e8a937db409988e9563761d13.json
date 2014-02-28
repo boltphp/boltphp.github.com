@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/models.php",
-    "hash": "486e57a64a8d7d136d895b5e78d52642c513fb54",
+    "hash": "74da95691d7d14a21a71750e192e482da126c259",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -28,11 +28,16 @@
     "properties": {
         "types": {
             "name": "types",
-            "line": 23,
-            "short_desc": "",
+            "line": 48,
+            "short_desc": "custom type map",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [
 
             ],
@@ -48,8 +53,8 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 28,
-            "short_desc": "",
+            "line": 61,
+            "short_desc": "Construct",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
@@ -67,8 +72,8 @@
             "parameters": {
                 "app": {
                     "name": "app",
-                    "line": 28,
-                    "short_desc": null,
+                    "line": 61,
+                    "short_desc": "application",
                     "long_desc": null,
                     "hint": [
                         [
@@ -85,10 +90,15 @@
                 },
                 "config": {
                     "name": "config",
-                    "line": 28,
-                    "short_desc": null,
+                    "line": 61,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
                     "tags": [
 
                     ],
@@ -98,13 +108,124 @@
                 }
             }
         },
+        "getResult": {
+            "name": "getResult",
+            "line": 115,
+            "short_desc": "get result object",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\bolt\\models\\result",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "entity": {
+                    "name": "entity",
+                    "line": 115,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "generateEntity": {
+            "name": "generateEntity",
+            "line": 128,
+            "short_desc": "generate an entity from",
+            "long_desc": "",
+            "hint": [
+                [
+                    "object",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "entity": {
+                    "name": "entity",
+                    "line": 128,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "data": {
+                    "name": "data",
+                    "line": 128,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
         "getEntityManager": {
             "name": "getEntityManager",
-            "line": 76,
-            "short_desc": "",
+            "line": 137,
+            "short_desc": "return the entity manager refrance",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "object",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [
 
             ],
@@ -120,9 +241,53 @@
 
             ]
         },
+        "get": {
+            "name": "get",
+            "line": 149,
+            "short_desc": "get a model",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\bolt\\model\\proxy",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 149,
+                    "short_desc": "entity class name or alias",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
         "find": {
             "name": "find",
-            "line": 88,
+            "line": 167,
             "short_desc": "find an entity by primary key",
             "long_desc": "",
             "hint": [
@@ -146,7 +311,7 @@
             "parameters": {
                 "entity": {
                     "name": "entity",
-                    "line": 88,
+                    "line": 167,
                     "short_desc": "entity class name or alias",
                     "long_desc": null,
                     "hint": [
@@ -164,7 +329,7 @@
                 },
                 "id": {
                     "name": "id",
-                    "line": 88,
+                    "line": 167,
                     "short_desc": "primary key value",
                     "long_desc": null,
                     "hint": [
@@ -184,7 +349,7 @@
         },
         "findAll": {
             "name": "findAll",
-            "line": 108,
+            "line": 191,
             "short_desc": "find all entities",
             "long_desc": "",
             "hint": [
@@ -208,7 +373,7 @@
             "parameters": {
                 "entity": {
                     "name": "entity",
-                    "line": 108,
+                    "line": 191,
                     "short_desc": "entity class name or alias",
                     "long_desc": null,
                     "hint": [
@@ -228,7 +393,7 @@
         },
         "findBy": {
             "name": "findBy",
-            "line": 123,
+            "line": 207,
             "short_desc": "find entities by search $criteria",
             "long_desc": "",
             "hint": [
@@ -252,7 +417,7 @@
             "parameters": {
                 "entity": {
                     "name": "entity",
-                    "line": 123,
+                    "line": 207,
                     "short_desc": "entity class name or alias",
                     "long_desc": null,
                     "hint": [
@@ -270,7 +435,7 @@
                 },
                 "criteria": {
                     "name": "criteria",
-                    "line": 123,
+                    "line": 207,
                     "short_desc": "query",
                     "long_desc": null,
                     "hint": [
@@ -288,7 +453,7 @@
                 },
                 "order": {
                     "name": "order",
-                    "line": 123,
+                    "line": 207,
                     "short_desc": "order by",
                     "long_desc": null,
                     "hint": [
@@ -306,7 +471,7 @@
                 },
                 "limit": {
                     "name": "limit",
-                    "line": 123,
+                    "line": 207,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -324,7 +489,7 @@
                 },
                 "offset": {
                     "name": "offset",
-                    "line": 123,
+                    "line": 207,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -344,7 +509,7 @@
         },
         "findOneBy": {
             "name": "findOneBy",
-            "line": 136,
+            "line": 221,
             "short_desc": "find one enitity by query $criteria",
             "long_desc": "",
             "hint": [
@@ -368,7 +533,7 @@
             "parameters": {
                 "entity": {
                     "name": "entity",
-                    "line": 136,
+                    "line": 221,
                     "short_desc": "entity class name or alias",
                     "long_desc": null,
                     "hint": [
@@ -386,7 +551,7 @@
                 },
                 "criteria": {
                     "name": "criteria",
-                    "line": 136,
+                    "line": 221,
                     "short_desc": "query",
                     "long_desc": null,
                     "hint": [
@@ -404,8 +569,356 @@
                 },
                 "order": {
                     "name": "order",
-                    "line": 136,
+                    "line": 221,
                     "short_desc": "order",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "array",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "alias": {
+            "name": "alias",
+            "line": 266,
+            "short_desc": "register an entity alias",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\models",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 266,
+                    "short_desc": "alias name",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "entity": {
+                    "name": "entity",
+                    "line": 266,
+                    "short_desc": "entity class name",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getAliases": {
+            "name": "getAliases",
+            "line": 280,
+            "short_desc": "get all registered aliases",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "offsetSet": {
+            "name": "offsetSet",
+            "line": 294,
+            "short_desc": "register an entity alias",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "see": [
+                    [
+                        "alias"
+                    ]
+                ]
+            },
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 294,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "class": {
+                    "name": "class",
+                    "line": 294,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "offsetExists": {
+            "name": "offsetExists",
+            "line": 305,
+            "short_desc": "check to see if a registered alias exists",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 305,
+                    "short_desc": "name of alias",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "offsetUnset": {
+            "name": "offsetUnset",
+            "line": 316,
+            "short_desc": "remove an alias",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 316,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "offsetGet": {
+            "name": "offsetGet",
+            "line": 328,
+            "short_desc": "create a new model from given alias or entity class",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\bolt\\models\\proxy",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "see": [
+                    [
+                        "get"
+                    ]
+                ]
+            },
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 328,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "generate": {
+            "name": "generate",
+            "line": 340,
+            "short_desc": "generate an model",
+            "long_desc": "",
+            "hint": [
+                [
+                    "object",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+                "\"2\" @param tags are defined by \"3\" are expected"
+            ],
+            "parameters": {
+                "class": {
+                    "name": "class",
+                    "line": 340,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "data": {
+                    "name": "data",
+                    "line": 340,
+                    "short_desc": null,
                     "long_desc": null,
                     "hint": [
                         [
@@ -419,201 +932,23 @@
                     "modifiers": "array",
                     "default": null,
                     "is_by_ref": false
-                }
-            }
-        },
-        "alias": {
-            "name": "alias",
-            "line": 160,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": {
-                "name": {
-                    "name": "name",
-                    "line": 160,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
-                    "default": null,
-                    "is_by_ref": false
                 },
-                "entity": {
-                    "name": "entity",
-                    "line": 160,
+                "manager": {
+                    "name": "manager",
+                    "line": 340,
                     "short_desc": null,
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "bolt\\bolt\\models",
+                            false
+                        ]
+                    ],
                     "tags": [
 
                     ],
-                    "modifiers": "",
-                    "default": null,
-                    "is_by_ref": false
-                }
-            }
-        },
-        "offsetSet": {
-            "name": "offsetSet",
-            "line": 168,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": {
-                "name": {
-                    "name": "name",
-                    "line": 168,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
-                    "default": null,
-                    "is_by_ref": false
-                },
-                "class": {
-                    "name": "class",
-                    "line": 168,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
-                    "default": null,
-                    "is_by_ref": false
-                }
-            }
-        },
-        "offsetExists": {
-            "name": "offsetExists",
-            "line": 172,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": {
-                "name": {
-                    "name": "name",
-                    "line": 172,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
-                    "default": null,
-                    "is_by_ref": false
-                }
-            }
-        },
-        "offsetUnset": {
-            "name": "offsetUnset",
-            "line": 176,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": {
-                "name": {
-                    "name": "name",
-                    "line": 176,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
-                    "default": null,
-                    "is_by_ref": false
-                }
-            }
-        },
-        "offsetGet": {
-            "name": "offsetGet",
-            "line": 180,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": {
-                "name": {
-                    "name": "name",
-                    "line": 180,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
-                    "default": null,
+                    "modifiers": "bolt\\models",
+                    "default": "null",
                     "is_by_ref": false
                 }
             }

@@ -26,6 +26,11 @@
                 <p>    class
     <strong>classes</strong></p>
 
+            <div class="description">
+            <p>classes helper</p>
+            <p>
+</p>
+        </div>
     
     
     
@@ -34,56 +39,51 @@
             <table>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="bolt\helpers\ReflectionClass">ReflectionClass</abbr>
                 </td>
                 <td class="last">
-                    <a href="#method_getReflectionClass">getReflectionClass</a>($class)
-                    <p>
-</p>
+                    <a href="#method_getReflectionClass">getReflectionClass</a>(string $class)
+                    <p>get the reflection class</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    string
                 </td>
                 <td class="last">
-                    <a href="#method_normalizeClassName">normalizeClassName</a>($class)
-                    <p>
-</p>
+                    <a href="#method_normalizeClassName">normalizeClassName</a>(string $class)
+                    <p>normalize a class name</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    array
                 </td>
                 <td class="last">
                     <a href="#method_getDeclaredClasses">getDeclaredClasses</a>()
-                    <p>
-</p>
+                    <p>get a list of declared classes</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    array
                 </td>
                 <td class="last">
-                    <a href="#method_getClassImplements">getClassImplements</a>($name)
-                    <p>
-</p>
+                    <a href="#method_getClassImplements">getClassImplements</a>(string $name)
+                    <p>get classes that implement an interface</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    array
                 </td>
                 <td class="last">
-                    <a href="#method_getSubClassOf">getSubClassOf</a>($name)
-                    <p>
-</p>
+                    <a href="#method_getSubClassOf">getSubClassOf</a>(string $name)
+                    <p>get classes that have class as a parent</p>
                 </td>
                 <td></td>
             </tr>
@@ -93,13 +93,12 @@
         <h2>Details</h2>
 
                         <h3 id="method_getReflectionClass">
-        <div class="location">at line 11</div>
-        <code>            public            
-    <strong>getReflectionClass</strong>($class)</code>
+        <div class="location">at line 27</div>
+        <code>            public            <abbr title="bolt\helpers\ReflectionClass">ReflectionClass</abbr>
+    <strong>getReflectionClass</strong>(string $class)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>get the reflection class</p>
         <p>
 </p>
         <div class="tags">
@@ -107,7 +106,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$class</td>
                 <td>
 </td>
@@ -115,19 +114,28 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\helpers\ReflectionClass">ReflectionClass</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_normalizeClassName">
-        <div class="location">at line 21</div>
-        <code>            public            
-    <strong>normalizeClassName</strong>($class)</code>
+        <div class="location">at line 45</div>
+        <code>            public            string
+    <strong>normalizeClassName</strong>(string $class)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>normalize a class name</p>
         <p>
 </p>
         <div class="tags">
@@ -135,7 +143,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$class</td>
                 <td>
 </td>
@@ -143,36 +151,54 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getDeclaredClasses">
-        <div class="location">at line 25</div>
-        <code>            public            
+        <div class="location">at line 55</div>
+        <code>            public            array
     <strong>getDeclaredClasses</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>get a list of declared classes</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getClassImplements">
-        <div class="location">at line 34</div>
-        <code>            public            
-    <strong>getClassImplements</strong>($name)</code>
+        <div class="location">at line 67</div>
+        <code>            public            array
+    <strong>getClassImplements</strong>(string $name)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>get classes that implement an interface</p>
         <p>
 </p>
         <div class="tags">
@@ -180,27 +206,35 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$name</td>
-                <td>
-</td>
+                <td>class name</td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getSubClassOf">
-        <div class="location">at line 49</div>
-        <code>            public            
-    <strong>getSubClassOf</strong>($name)</code>
+        <div class="location">at line 90</div>
+        <code>            public            array
+    <strong>getSubClassOf</strong>(string $name)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>get classes that have class as a parent</p>
         <p>
 </p>
         <div class="tags">
@@ -208,7 +242,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$name</td>
                 <td>
 </td>
@@ -216,6 +250,16 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>

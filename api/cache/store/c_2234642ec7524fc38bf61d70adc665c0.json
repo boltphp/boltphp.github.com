@@ -1,7 +1,7 @@
 {
     "name": "bolt\\models\\proxy",
-    "line": 6,
-    "short_desc": "",
+    "line": 9,
+    "short_desc": "model proxy",
     "long_desc": "",
     "hint": null,
     "tags": [
@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\models",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/models\/proxy.php",
-    "hash": "bd8f648cbc711b8a2dee5426a1c76f3394175e7c",
+    "hash": "d9ad36c5ac5b823079b826dfbba24eba6a876079",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -29,8 +29,8 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 13,
-            "short_desc": "",
+            "line": 32,
+            "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
@@ -48,8 +48,8 @@
             "parameters": {
                 "manager": {
                     "name": "manager",
-                    "line": 13,
-                    "short_desc": null,
+                    "line": 32,
+                    "short_desc": "",
                     "long_desc": null,
                     "hint": [
                         [
@@ -66,10 +66,15 @@
                 },
                 "class": {
                     "name": "class",
-                    "line": 13,
-                    "short_desc": null,
+                    "line": 32,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
                     "tags": [
 
                     ],
@@ -79,13 +84,45 @@
                 }
             }
         },
+        "getClassName": {
+            "name": "getClassName",
+            "line": 42,
+            "short_desc": "return the class name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
         "__call": {
             "name": "__call",
-            "line": 18,
-            "short_desc": "",
+            "line": 55,
+            "short_desc": "proxy function class to manager",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [
 
             ],
@@ -100,10 +137,15 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 18,
-                    "short_desc": null,
+                    "line": 55,
+                    "short_desc": "function name",
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
                     "tags": [
 
                     ],
@@ -113,10 +155,15 @@
                 },
                 "args": {
                     "name": "args",
-                    "line": 18,
-                    "short_desc": null,
+                    "line": 55,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
                     "tags": [
 
                     ],

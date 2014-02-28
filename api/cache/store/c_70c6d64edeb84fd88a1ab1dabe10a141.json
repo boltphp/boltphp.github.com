@@ -1,7 +1,7 @@
 {
     "name": "bolt\\models\\driver",
-    "line": 8,
-    "short_desc": "",
+    "line": 13,
+    "short_desc": "mdoels driver",
     "long_desc": "",
     "hint": null,
     "tags": [
@@ -9,14 +9,15 @@
     ],
     "namespace": "bolt\\models",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/models\/driver.php",
-    "hash": "d6895d1c1a0952bc0a7265a9ff494e55a28c7846",
+    "hash": "affab68de2dcb8300dd5b912b0e11f640d53ca7b",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
     "aliases": {
         "b": "b",
-        "ClassMetadata": "Doctrine\\Common\\Persistence\\Mapping\\ClassMetadata"
+        "ClassMetadata": "Doctrine\\Common\\Persistence\\Mapping\\ClassMetadata",
+        "MappingDriver": "Doctrine\\Common\\Persistence\\Mapping\\Driver\\MappingDriver"
     },
     "errors": [
 
@@ -30,8 +31,8 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 12,
-            "short_desc": "",
+            "line": 27,
+            "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
@@ -49,8 +50,8 @@
             "parameters": {
                 "man": {
                     "name": "man",
-                    "line": 12,
-                    "short_desc": null,
+                    "line": 27,
+                    "short_desc": "",
                     "long_desc": null,
                     "hint": [
                         [
@@ -69,11 +70,16 @@
         },
         "loadMetadataForClass": {
             "name": "loadMetadataForClass",
-            "line": 16,
-            "short_desc": "",
+            "line": 40,
+            "short_desc": "load metdata for a model",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [
 
             ],
@@ -88,10 +94,15 @@
             "parameters": {
                 "className": {
                     "name": "className",
-                    "line": 16,
-                    "short_desc": null,
+                    "line": 40,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
                     "tags": [
 
                     ],
@@ -101,8 +112,8 @@
                 },
                 "metadata": {
                     "name": "metadata",
-                    "line": 16,
-                    "short_desc": null,
+                    "line": 40,
+                    "short_desc": "",
                     "long_desc": null,
                     "hint": [
                         [
@@ -121,11 +132,16 @@
         },
         "getAllClassNames": {
             "name": "getAllClassNames",
-            "line": 23,
-            "short_desc": "",
+            "line": 53,
+            "short_desc": "get all classnames for entities",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [
 
             ],
@@ -143,11 +159,16 @@
         },
         "isTransient": {
             "name": "isTransient",
-            "line": 27,
-            "short_desc": "",
+            "line": 65,
+            "short_desc": "is transient",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [
 
             ],
@@ -162,10 +183,15 @@
             "parameters": {
                 "className": {
                     "name": "className",
-                    "line": 27,
-                    "short_desc": null,
+                    "line": 65,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
                     "tags": [
 
                     ],

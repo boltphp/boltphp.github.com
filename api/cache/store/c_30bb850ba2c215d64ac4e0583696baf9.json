@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\browser\\controller",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/controller\/closure.php",
-    "hash": "b36dab7e02aff2ab2b554b9432a9b1e230b6e98e",
+    "hash": "9a108bc299bf1e649db8a5e9e94ca4a8b81220b4",
     "parent": "bolt\\browser\\controller\\route",
     "modifiers": 0,
     "is_trait": false,

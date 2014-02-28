@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\browser",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/controller.php",
-    "hash": "b442ded0f6f65c22ca618347d309eb93fe8d9d68",
+    "hash": "43ca8ba24992db47693091d553acd5e803ff2f07",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -29,7 +29,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 43,
+            "line": 44,
             "short_desc": "Construct",
             "long_desc": "",
             "hint": null,
@@ -37,7 +37,7 @@
             "tags": [
 
             ],
-            "modifiers": "33",
+            "modifiers": "1",
             "is_by_ref": "",
             "exceptions": [
 
@@ -48,7 +48,7 @@
             "parameters": {
                 "browser": {
                     "name": "browser",
-                    "line": 43,
+                    "line": 44,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -68,7 +68,7 @@
         },
         "init": {
             "name": "init",
-            "line": 56,
+            "line": 57,
             "short_desc": "initalize class holder class",
             "long_desc": "",
             "hint": null,
@@ -90,7 +90,7 @@
         },
         "before": {
             "name": "before",
-            "line": 58,
+            "line": 59,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -112,7 +112,7 @@
         },
         "after": {
             "name": "after",
-            "line": 60,
+            "line": 61,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -134,7 +134,7 @@
         },
         "useLayout": {
             "name": "useLayout",
-            "line": 70,
+            "line": 71,
             "short_desc": "toggle use the layout",
             "long_desc": "",
             "hint": [
@@ -158,7 +158,7 @@
             "parameters": {
                 "layout": {
                     "name": "layout",
-                    "line": 70,
+                    "line": 71,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -178,7 +178,7 @@
         },
         "getUseLayout": {
             "name": "getUseLayout",
-            "line": 78,
+            "line": 79,
             "short_desc": "check useLayout varaible",
             "long_desc": "",
             "hint": null,
@@ -200,7 +200,7 @@
         },
         "__get": {
             "name": "__get",
-            "line": 92,
+            "line": 93,
             "short_desc": "get a magic variables",
             "long_desc": "",
             "hint": [
@@ -224,7 +224,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 92,
+                    "line": 93,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -244,7 +244,7 @@
         },
         "__set": {
             "name": "__set",
-            "line": 126,
+            "line": 127,
             "short_desc": "set a paramater",
             "long_desc": "",
             "hint": [
@@ -268,7 +268,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 126,
+                    "line": 127,
                     "short_desc": "name of paramater",
                     "long_desc": null,
                     "hint": [
@@ -286,7 +286,7 @@
                 },
                 "value": {
                     "name": "value",
-                    "line": 126,
+                    "line": 127,
                     "short_desc": "value of paramater",
                     "long_desc": null,
                     "hint": [
@@ -306,7 +306,7 @@
         },
         "getParameters": {
             "name": "getParameters",
-            "line": 137,
+            "line": 138,
             "short_desc": "get paramaters",
             "long_desc": "",
             "hint": [
@@ -333,7 +333,7 @@
         },
         "view": {
             "name": "view",
-            "line": 150,
+            "line": 151,
             "short_desc": "create a view",
             "long_desc": "",
             "hint": [
@@ -357,7 +357,7 @@
             "parameters": {
                 "file": {
                     "name": "file",
-                    "line": 150,
+                    "line": 151,
                     "short_desc": "file name",
                     "long_desc": null,
                     "hint": [
@@ -375,7 +375,7 @@
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 150,
+                    "line": 151,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [

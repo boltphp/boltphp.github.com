@@ -1,6 +1,6 @@
 {
     "name": "bolt\\browser\\controller\\route",
-    "line": 13,
+    "line": 12,
     "short_desc": "route controller",
     "long_desc": "",
     "hint": null,
@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\browser\\controller",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/controller\/route.php",
-    "hash": "ce7301467984d18f24991ca385bb97513ff010e0",
+    "hash": "b2b1415356d5f9c4266fdb2db0e2c079b321f992",
     "parent": "bolt\\browser\\controller",
     "modifiers": 0,
     "is_trait": false,
@@ -17,8 +17,7 @@
     "aliases": {
         "browser": "bolt\\browser",
         "b": "b",
-        "MethodNotAllowedException": "Symfony\\Component\\Routing\\Exception\\MethodNotAllowedException",
-        "RouteNotFoundException": "Symfony\\Component\\Routing\\Exception\\RouteNotFoundException"
+        "MethodNotAllowedException": "Symfony\\Component\\Routing\\Exception\\MethodNotAllowedException"
     },
     "errors": [
 
@@ -30,9 +29,84 @@
 
     ],
     "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 35,
+            "short_desc": "Construct",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "33",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+                "\"1\" @param tags are defined by \"3\" are expected"
+            ],
+            "parameters": {
+                "browser": {
+                    "name": "browser",
+                    "line": 35,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\browser\\controller\\bolt\\browser",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "bolt\\browser",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "req": {
+                    "name": "req",
+                    "line": 35,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\browser\\controller\\bolt\\browser\\request",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "bolt\\browser\\request",
+                    "default": "null",
+                    "is_by_ref": false
+                },
+                "resp": {
+                    "name": "resp",
+                    "line": 35,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\browser\\controller\\bolt\\browser\\response",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "bolt\\browser\\response",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
         "__get": {
             "name": "__get",
-            "line": 38,
+            "line": 51,
             "short_desc": "magic get method",
             "long_desc": "",
             "hint": [
@@ -56,7 +130,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 38,
+                    "line": 51,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -76,7 +150,7 @@
         },
         "exception": {
             "name": "exception",
-            "line": 59,
+            "line": 72,
             "short_desc": "throw an exception",
             "long_desc": "",
             "hint": [
@@ -100,7 +174,7 @@
             "parameters": {
                 "class": {
                     "name": "class",
-                    "line": 59,
+                    "line": 72,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -118,7 +192,7 @@
                 },
                 "message": {
                     "name": "message",
-                    "line": 59,
+                    "line": 72,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -136,7 +210,7 @@
                 },
                 "code": {
                     "name": "code",
-                    "line": 59,
+                    "line": 72,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -156,7 +230,7 @@
         },
         "format": {
             "name": "format",
-            "line": 80,
+            "line": 92,
             "short_desc": "add a response format",
             "long_desc": "",
             "hint": [
@@ -180,7 +254,7 @@
             "parameters": {
                 "format": {
                     "name": "format",
-                    "line": 80,
+                    "line": 92,
                     "short_desc": "format name or array of formats",
                     "long_desc": null,
                     "hint": [
@@ -202,7 +276,7 @@
                 },
                 "content": {
                     "name": "content",
-                    "line": 80,
+                    "line": 92,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -222,7 +296,7 @@
         },
         "build": {
             "name": "build",
-            "line": 120,
+            "line": 130,
             "short_desc": "build the controller",
             "long_desc": "",
             "hint": [
@@ -246,7 +320,7 @@
             "parameters": {
                 "params": {
                     "name": "params",
-                    "line": 120,
+                    "line": 130,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -266,7 +340,7 @@
         },
         "run": {
             "name": "run",
-            "line": 169,
+            "line": 181,
             "short_desc": "run the controller",
             "long_desc": "",
             "hint": [
@@ -290,7 +364,7 @@
             "parameters": {
                 "params": {
                     "name": "params",
-                    "line": 169,
+                    "line": 181,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [

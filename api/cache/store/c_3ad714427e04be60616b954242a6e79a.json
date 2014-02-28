@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser.php",
-    "hash": "3cdcea938cad4682202227aa1c8cd1a3f0a401de",
+    "hash": "fe15b53ef4ebb975ebfccb71732f7c6eac57d319",
     "parent": "bolt\\plugin",
     "modifiers": 0,
     "is_trait": false,
@@ -562,9 +562,36 @@
                 }
             }
         },
+        "getMiddleware": {
+            "name": "getMiddleware",
+            "line": 244,
+            "short_desc": "return a list of all middleware",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
         "run": {
             "name": "run",
-            "line": 244,
+            "line": 254,
             "short_desc": "pass off a run call to the app",
             "long_desc": "",
             "hint": [
@@ -591,7 +618,7 @@
         },
         "execute": {
             "name": "execute",
-            "line": 255,
+            "line": 265,
             "short_desc": "run the browser request and send a response to the browser",
             "long_desc": "",
             "hint": [
@@ -618,7 +645,7 @@
         },
         "runMiddleware": {
             "name": "runMiddleware",
-            "line": 351,
+            "line": 360,
             "short_desc": "run all middleware for a method",
             "long_desc": "",
             "hint": [
@@ -642,7 +669,7 @@
             "parameters": {
                 "method": {
                     "name": "method",
-                    "line": 351,
+                    "line": 360,
                     "short_desc": "name of method to run",
                     "long_desc": null,
                     "hint": [
@@ -660,7 +687,7 @@
                 },
                 "params": {
                     "name": "params",
-                    "line": 351,
+                    "line": 360,
                     "short_desc": "array of params to pass to method",
                     "long_desc": null,
                     "hint": [
@@ -680,7 +707,7 @@
         },
         "runMiddlewareByName": {
             "name": "runMiddlewareByName",
-            "line": 369,
+            "line": 378,
             "short_desc": "run a middleware function by name",
             "long_desc": "",
             "hint": [
@@ -704,7 +731,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 369,
+                    "line": 378,
                     "short_desc": "name of middleware to run",
                     "long_desc": null,
                     "hint": [
@@ -722,7 +749,7 @@
                 },
                 "method": {
                     "name": "method",
-                    "line": 369,
+                    "line": 378,
                     "short_desc": "name of middleware method to run",
                     "long_desc": null,
                     "hint": [
@@ -740,7 +767,7 @@
                 },
                 "params": {
                     "name": "params",
-                    "line": 369,
+                    "line": 378,
                     "short_desc": "aray of params to pass to middleware",
                     "long_desc": null,
                     "hint": [

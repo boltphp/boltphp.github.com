@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/application.php",
-    "hash": "245d121e1c42c5896239f5433b41f2a55e49672a",
+    "hash": "92e1bf7ecd99fdbd8cdaa5f699f11595df2ba1c2",
     "parent": "bolt\\plugin",
     "modifiers": 0,
     "is_trait": false,
@@ -115,9 +115,36 @@
                 }
             }
         },
+        "getAutoload": {
+            "name": "getAutoload",
+            "line": 80,
+            "short_desc": "return all autoload settings",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
         "env": {
             "name": "env",
-            "line": 83,
+            "line": 93,
             "short_desc": "check env and run callback if in that env",
             "long_desc": "",
             "hint": [
@@ -141,7 +168,7 @@
             "parameters": {
                 "env": {
                     "name": "env",
-                    "line": 83,
+                    "line": 93,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -159,7 +186,7 @@
                 },
                 "callback": {
                     "name": "callback",
-                    "line": 83,
+                    "line": 93,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -179,7 +206,7 @@
         },
         "hasRun": {
             "name": "hasRun",
-            "line": 96,
+            "line": 106,
             "short_desc": "has the application run yet",
             "long_desc": "",
             "hint": [
@@ -206,7 +233,7 @@
         },
         "getRoot": {
             "name": "getRoot",
-            "line": 105,
+            "line": 115,
             "short_desc": "get the root path",
             "long_desc": "",
             "hint": [
@@ -233,7 +260,7 @@
         },
         "setRoot": {
             "name": "setRoot",
-            "line": 117,
+            "line": 127,
             "short_desc": "set the root path for the app",
             "long_desc": "",
             "hint": [
@@ -257,7 +284,7 @@
             "parameters": {
                 "root": {
                     "name": "root",
-                    "line": 117,
+                    "line": 127,
                     "short_desc": "new root path",
                     "long_desc": null,
                     "hint": [
@@ -277,7 +304,7 @@
         },
         "path": {
             "name": "path",
-            "line": 130,
+            "line": 140,
             "short_desc": "get a path relative to the $root",
             "long_desc": "",
             "hint": [
@@ -287,22 +314,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": {
-                "params": [
-                    [
-                        "...",
-                        "path",
-                        "parts"
-                    ]
-                ]
-            },
+            "tags": [
+
+            ],
             "modifiers": "1",
             "is_by_ref": "",
             "exceptions": [
 
             ],
             "errors": [
-
+                "\"1\" @param tags are defined by \"0\" are expected"
             ],
             "parameters": [
 
@@ -310,7 +331,7 @@
         },
         "load": {
             "name": "load",
-            "line": 143,
+            "line": 153,
             "short_desc": "add a ns to the class loader",
             "long_desc": "",
             "hint": [
@@ -334,7 +355,7 @@
             "parameters": {
                 "ns": {
                     "name": "ns",
-                    "line": 143,
+                    "line": 153,
                     "short_desc": "namespace of class",
                     "long_desc": null,
                     "hint": [
@@ -352,7 +373,7 @@
                 },
                 "path": {
                     "name": "path",
-                    "line": 143,
+                    "line": 153,
                     "short_desc": "path of classes relative to $root",
                     "long_desc": null,
                     "hint": [
@@ -372,7 +393,7 @@
         },
         "run": {
             "name": "run",
-            "line": 156,
+            "line": 166,
             "short_desc": "run the application",
             "long_desc": "",
             "hint": [

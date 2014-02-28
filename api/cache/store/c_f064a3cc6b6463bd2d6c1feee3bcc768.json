@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\browser\\response\\format",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/response\/format\/json.php",
-    "hash": "e18f829b573fba967c8b01655510f44bf4c09699",
+    "hash": "500009b93c67ba25ee215128d9a9e4f29bd2da25",
     "parent": "bolt\\browser\\response\\format",
     "modifiers": 0,
     "is_trait": false,

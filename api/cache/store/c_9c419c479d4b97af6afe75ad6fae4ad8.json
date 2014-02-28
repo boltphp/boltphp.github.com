@@ -1,6 +1,6 @@
 {
     "name": "bolt\\cli\\command",
-    "line": 8,
+    "line": 12,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
@@ -9,14 +9,18 @@
     ],
     "namespace": "bolt\\cli",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/cli\/command.php",
-    "hash": "7dd6921e77e358aad5de571283da03c148041ddc",
+    "hash": "6d46075c846f63223e4fd02a20586dc3c2e5a6f0",
     "parent": "Symfony\\Component\\Console\\Command\\Command",
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
     "aliases": {
         "b": "b",
-        "SymfonyCommand": "Symfony\\Component\\Console\\Command\\Command"
+        "SymfonyCommand": "Symfony\\Component\\Console\\Command\\Command",
+        "InputArgument": "Symfony\\Component\\Console\\Input\\InputArgument",
+        "InputOption": "Symfony\\Component\\Console\\Input\\InputOption",
+        "InputInterface": "Symfony\\Component\\Console\\Input\\InputInterface",
+        "OutputInterface": "Symfony\\Component\\Console\\Output\\OutputInterface"
     },
     "errors": [
 
@@ -27,10 +31,394 @@
     "properties": [
 
     ],
-    "methods": [
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 28,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
 
-    ],
-    "constants": [
+            ],
+            "modifiers": "33",
+            "is_by_ref": "",
+            "exceptions": [
 
-    ]
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "cli": {
+                    "name": "cli",
+                    "line": 28,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\cli\\bolt\\cli",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "bolt\\cli",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "__get": {
+            "name": "__get",
+            "line": 69,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 69,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "get": {
+            "name": "get",
+            "line": 83,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 83,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setName": {
+            "name": "setName",
+            "line": 95,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 95,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setAliases": {
+            "name": "setAliases",
+            "line": 100,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "aliases": {
+                    "name": "aliases",
+                    "line": 100,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "writeln": {
+            "name": "writeln",
+            "line": 126,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "arg": {
+            "name": "arg",
+            "line": 131,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 131,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "opt": {
+            "name": "opt",
+            "line": 135,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 135,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "init": {
+            "name": "init",
+            "line": 140,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "execute": {
+            "name": "execute",
+            "line": 144,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "input": {
+                    "name": "input",
+                    "line": 144,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Symfony\\Component\\Console\\Input\\InputInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "InputInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "output": {
+                    "name": "output",
+                    "line": 144,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Symfony\\Component\\Console\\Output\\OutputInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "OutputInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "REQUIRED": {
+            "name": "REQUIRED",
+            "line": 17,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "OPTIONAL": {
+            "name": "OPTIONAL",
+            "line": 18,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "IS_ARRAY": {
+            "name": "IS_ARRAY",
+            "line": 19,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "VALUE_NONE": {
+            "name": "VALUE_NONE",
+            "line": 21,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "VALUE_REQUIRED": {
+            "name": "VALUE_REQUIRED",
+            "line": 22,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "VALUE_OPTIONAL": {
+            "name": "VALUE_OPTIONAL",
+            "line": 23,
+            "short_desc": "",
+            "long_desc": ""
+        },
+        "VALUE_IS_ARRAY": {
+            "name": "VALUE_IS_ARRAY",
+            "line": 24,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
 }

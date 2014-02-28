@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\browser\\views",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/views\/view.php",
-    "hash": "ac5ae140bf17d18245445cd20a23a7036b0ca8bc",
+    "hash": "fac09832950c37708a672b9746e91febf2710776",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -105,9 +105,31 @@
                 }
             }
         },
+        "getEngine": {
+            "name": "getEngine",
+            "line": 32,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
         "render": {
             "name": "render",
-            "line": 33,
+            "line": 37,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -129,7 +151,7 @@
         },
         "__invoke": {
             "name": "__invoke",
-            "line": 39,
+            "line": 43,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -151,7 +173,7 @@
         },
         "__toString": {
             "name": "__toString",
-            "line": 43,
+            "line": 47,
             "short_desc": "",
             "long_desc": "",
             "hint": null,

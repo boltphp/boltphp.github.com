@@ -53,7 +53,7 @@
         "compile": {
             "name": "compile",
             "line": 41,
-            "short_desc": "compile to freezable class",
+            "short_desc": "compile abstract",
             "long_desc": "",
             "hint": [
                 [
@@ -80,7 +80,7 @@
         "render": {
             "name": "render",
             "line": 52,
-            "short_desc": "render a handlebar template",
+            "short_desc": "render abstract",
             "long_desc": "",
             "hint": [
                 [

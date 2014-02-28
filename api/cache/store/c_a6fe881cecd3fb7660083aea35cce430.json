@@ -9,7 +9,7 @@
     ],
     "namespace": "",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt.php",
-    "hash": "1a28b34a0a30ca6fa79a79ba22f627f63e859fea",
+    "hash": "a95c94e24799ae4f0a19a9f41311c30f211fc6cd",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -26,7 +26,7 @@
     "properties": {
         "helpers": {
             "name": "helpers",
-            "line": 43,
+            "line": 48,
             "short_desc": "",
             "long_desc": "",
             "hint": [
@@ -51,7 +51,7 @@
     "methods": {
         "instance": {
             "name": "instance",
-            "line": 54,
+            "line": 59,
             "short_desc": "instance",
             "long_desc": "",
             "hint": [
@@ -78,7 +78,7 @@
         },
         "__callStatic": {
             "name": "__callStatic",
-            "line": 70,
+            "line": 75,
             "short_desc": "forward call onto the bolt instance",
             "long_desc": "",
             "hint": [
@@ -102,7 +102,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 70,
+                    "line": 75,
                     "short_desc": "name of submodule",
                     "long_desc": null,
                     "hint": [
@@ -120,7 +120,7 @@
                 },
                 "args": {
                     "name": "args",
-                    "line": 70,
+                    "line": 75,
                     "short_desc": "list of args where args[0] is the function name",
                     "long_desc": null,
                     "hint": [
@@ -140,7 +140,7 @@
         },
         "init": {
             "name": "init",
-            "line": 82,
+            "line": 87,
             "short_desc": "inialize a new application interface",
             "long_desc": "",
             "hint": [
@@ -164,7 +164,7 @@
             "parameters": {
                 "config": {
                     "name": "config",
-                    "line": 82,
+                    "line": 87,
                     "short_desc": "configuration array",
                     "long_desc": null,
                     "hint": [
@@ -183,7 +183,12 @@
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": {
+        "VERSION": {
+            "name": "VERSION",
+            "line": 38,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
 }

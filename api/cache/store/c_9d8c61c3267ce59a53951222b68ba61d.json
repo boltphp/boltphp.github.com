@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\models\\types",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/models\/types\/timestamp.php",
-    "hash": "be091ad05f86a7717035a5a25f17400772732e5a",
+    "hash": "4ebaaa1fbfb984be01b6f2b73be1bc27e7c5a7ac",
     "parent": "Doctrine\\DBAL\\Types\\Type",
     "modifiers": 0,
     "is_trait": false,

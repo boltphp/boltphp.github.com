@@ -1,6 +1,6 @@
 {
     "name": "bolt\\browser\\middleware",
-    "line": 12,
+    "line": 9,
     "short_desc": "Abstract middleware class",
     "long_desc": "",
     "hint": null,
@@ -9,15 +9,13 @@
     ],
     "namespace": "bolt\\browser",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/middleware.php",
-    "hash": "12327f877be0119ec3e2d80a4ce061ec84bf0922",
+    "hash": "d0bae4e06080726cce162393b9de842a8bea0170",
     "parent": null,
     "modifiers": 16,
     "is_trait": false,
     "is_interface": false,
     "aliases": {
-        "b": "b",
-        "UrlMatcher": "Symfony\\Component\\Routing\\Matcher\\UrlMatcher",
-        "ResourceNotFoundException": "Symfony\\Component\\Routing\\Exception\\ResourceNotFoundException"
+        "b": "b"
     },
     "errors": [
 
@@ -31,7 +29,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 31,
+            "line": 28,
             "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
@@ -50,7 +48,7 @@
             "parameters": {
                 "browser": {
                     "name": "browser",
-                    "line": 31,
+                    "line": 28,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -68,7 +66,7 @@
                 },
                 "config": {
                     "name": "config",
-                    "line": 31,
+                    "line": 28,
                     "short_desc": "array of configs to pass to middleware constructor",
                     "long_desc": null,
                     "hint": [
@@ -88,7 +86,7 @@
         },
         "init": {
             "name": "init",
-            "line": 42,
+            "line": 39,
             "short_desc": "default init class",
             "long_desc": "",
             "hint": [
@@ -115,7 +113,7 @@
         },
         "__get": {
             "name": "__get",
-            "line": 52,
+            "line": 49,
             "short_desc": "magic get",
             "long_desc": "",
             "hint": [
@@ -139,7 +137,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 52,
+                    "line": 49,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -159,7 +157,7 @@
         },
         "execute": {
             "name": "execute",
-            "line": 71,
+            "line": 68,
             "short_desc": "execute a middleware method",
             "long_desc": "",
             "hint": [
@@ -183,7 +181,7 @@
             "parameters": {
                 "method": {
                     "name": "method",
-                    "line": 71,
+                    "line": 68,
                     "short_desc": "name of middleware method",
                     "long_desc": null,
                     "hint": [
@@ -201,7 +199,7 @@
                 },
                 "args": {
                     "name": "args",
-                    "line": 71,
+                    "line": 68,
                     "short_desc": "list of arguments to pass to method",
                     "long_desc": null,
                     "hint": [

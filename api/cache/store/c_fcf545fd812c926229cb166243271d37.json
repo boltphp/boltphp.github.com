@@ -1,7 +1,7 @@
 {
     "name": "bolt\\helpers\\classes",
-    "line": 6,
-    "short_desc": "",
+    "line": 10,
+    "short_desc": "classes helper",
     "long_desc": "",
     "hint": null,
     "tags": [
@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\helpers",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/helpers\/classes.php",
-    "hash": "86213dc7f4d7e42ebe486db3fe03b802c85720ba",
+    "hash": "b39f053de25b06367cb25ae8d03898ab9da6453c",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -29,11 +29,16 @@
     "methods": {
         "getReflectionClass": {
             "name": "getReflectionClass",
-            "line": 11,
-            "short_desc": "",
+            "line": 27,
+            "short_desc": "get the reflection class",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "bolt\\helpers\\ReflectionClass",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [
 
             ],
@@ -48,10 +53,15 @@
             "parameters": {
                 "class": {
                     "name": "class",
-                    "line": 11,
-                    "short_desc": null,
+                    "line": 27,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
                     "tags": [
 
                     ],
@@ -63,11 +73,16 @@
         },
         "normalizeClassName": {
             "name": "normalizeClassName",
-            "line": 21,
-            "short_desc": "",
+            "line": 45,
+            "short_desc": "normalize a class name",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [
 
             ],
@@ -82,10 +97,15 @@
             "parameters": {
                 "class": {
                     "name": "class",
-                    "line": 21,
-                    "short_desc": null,
+                    "line": 45,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
                     "tags": [
 
                     ],
@@ -97,11 +117,16 @@
         },
         "getDeclaredClasses": {
             "name": "getDeclaredClasses",
-            "line": 25,
-            "short_desc": "",
+            "line": 55,
+            "short_desc": "get a list of declared classes",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [
 
             ],
@@ -119,11 +144,16 @@
         },
         "getClassImplements": {
             "name": "getClassImplements",
-            "line": 34,
-            "short_desc": "",
+            "line": 67,
+            "short_desc": "get classes that implement an interface",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [
 
             ],
@@ -138,10 +168,15 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 34,
-                    "short_desc": null,
+                    "line": 67,
+                    "short_desc": "class name",
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
                     "tags": [
 
                     ],
@@ -153,11 +188,16 @@
         },
         "getSubClassOf": {
             "name": "getSubClassOf",
-            "line": 49,
-            "short_desc": "",
+            "line": 90,
+            "short_desc": "get classes that have class as a parent",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [
 
             ],
@@ -172,10 +212,15 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 49,
-                    "short_desc": null,
+                    "line": 90,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
                     "tags": [
 
                     ],

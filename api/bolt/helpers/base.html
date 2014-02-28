@@ -26,6 +26,11 @@
                 <p>    class
     <strong>base</strong></p>
 
+            <div class="description">
+            <p>base helpers class</p>
+            <p>
+</p>
+        </div>
     
     
     
@@ -34,23 +39,21 @@
             <table>
                     <tr>
                 <td class="type">
-                    
+                    mixed
                 </td>
                 <td class="last">
-                    <a href="#method_param">param</a>($key, $default = false, $array)
-                    <p>
-</p>
+                    <a href="#method_param">param</a>(string $key, mixed $default = null, array $array, int $filter = null)
+                    <p>check for a variable in an array</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    array
                 </td>
                 <td class="last">
-                    <a href="#method_mergeArray">mergeArray</a>($a1, $a2)
-                    <p>
-</p>
+                    <a href="#method_mergeArray">mergeArray</a>(array $a1, array $a2)
+                    <p>merge two arrays recursivly</p>
                 </td>
                 <td></td>
             </tr>
@@ -60,13 +63,12 @@
         <h2>Details</h2>
 
                         <h3 id="method_param">
-        <div class="location">at line 9</div>
-        <code>            public            
-    <strong>param</strong>($key, $default = false, $array)</code>
+        <div class="location">at line 21</div>
+        <code>            public            mixed
+    <strong>param</strong>(string $key, mixed $default = null, array $array, int $filter = null)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>check for a variable in an array</p>
         <p>
 </p>
         <div class="tags">
@@ -74,39 +76,54 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$key</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>mixed</td>
                 <td>$default</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$array</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>int</td>
+                <td>$filter</td>
                 <td>
 </td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_mergeArray">
-        <div class="location">at line 14</div>
-        <code>            public            
-    <strong>mergeArray</strong>($a1, $a2)</code>
+        <div class="location">at line 39</div>
+        <code>            public            array
+    <strong>mergeArray</strong>(array $a1, array $a2)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>merge two arrays recursivly</p>
         <p>
 </p>
         <div class="tags">
@@ -114,13 +131,13 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$a1</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$a2</td>
                 <td>
 </td>
@@ -128,6 +145,16 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>

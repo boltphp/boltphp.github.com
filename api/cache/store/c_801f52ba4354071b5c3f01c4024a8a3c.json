@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\browser\\assets",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/assets\/group.php",
-    "hash": "821f332110c9fb33d2f12b83c819a7116da6aa5e",
+    "hash": "7d8eff732b866671112c682e804598ce2b2d67f3",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -176,7 +176,7 @@
         },
         "getComboUrl": {
             "name": "getComboUrl",
-            "line": 65,
+            "line": 64,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -198,7 +198,7 @@
         },
         "appendToDom": {
             "name": "appendToDom",
-            "line": 76,
+            "line": 75,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -217,7 +217,7 @@
             "parameters": {
                 "dom": {
                     "name": "dom",
-                    "line": 76,
+                    "line": 75,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -230,7 +230,7 @@
                 },
                 "to": {
                     "name": "to",
-                    "line": 76,
+                    "line": 75,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -243,7 +243,7 @@
                 },
                 "combo": {
                     "name": "combo",
-                    "line": 76,
+                    "line": 75,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -252,6 +252,19 @@
                     ],
                     "modifiers": "",
                     "default": "null",
+                    "is_by_ref": false
+                },
+                "attr": {
+                    "name": "attr",
+                    "line": 75,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "array()",
                     "is_by_ref": false
                 }
             }

@@ -1,6 +1,6 @@
 {
     "name": "bolt\\models\\entity",
-    "line": 12,
+    "line": 15,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
@@ -23,14 +23,14 @@
     },
     "namespace": "bolt\\models",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/models\/entity.php",
-    "hash": "bf8582d1c0aae77f15f09e2341521c46ab791558",
+    "hash": "f57e67c227f2fa2717191ac75e1627df057c531c",
     "parent": null,
     "modifiers": 16,
     "is_trait": false,
     "is_interface": false,
-    "aliases": [
-
-    ],
+    "aliases": {
+        "PropertyAccess": "Symfony\\Component\\PropertyAccess\\PropertyAccess"
+    },
     "errors": [
 
     ],
@@ -43,15 +43,20 @@
     "methods": {
         "setManager": {
             "name": "setManager",
-            "line": 18,
-            "short_desc": "",
+            "line": 40,
+            "short_desc": "set the models manager",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "bolt\\models\\entity",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [
 
             ],
-            "modifiers": "1",
+            "modifiers": "33",
             "is_by_ref": "",
             "exceptions": [
 
@@ -62,8 +67,8 @@
             "parameters": {
                 "manager": {
                     "name": "manager",
-                    "line": 18,
-                    "short_desc": null,
+                    "line": 40,
+                    "short_desc": "",
                     "long_desc": null,
                     "hint": [
                         [
@@ -82,15 +87,20 @@
         },
         "getManager": {
             "name": "getManager",
-            "line": 23,
-            "short_desc": "",
+            "line": 51,
+            "short_desc": "get the models manager",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "bolt\\models\\bolt\\models",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [
 
             ],
-            "modifiers": "1",
+            "modifiers": "33",
             "is_by_ref": "",
             "exceptions": [
 
@@ -104,7 +114,105 @@
         },
         "setLoaded": {
             "name": "setLoaded",
-            "line": 27,
+            "line": 63,
+            "short_desc": "set if the model is loaded",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\models\\entity",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "33",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "loaded": {
+                    "name": "loaded",
+                    "line": 63,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "isLoaded": {
+            "name": "isLoaded",
+            "line": 77,
+            "short_desc": "check if the model is loaded",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "33",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "loaded": {
+            "name": "loaded",
+            "line": 87,
+            "short_desc": "check if the model is loaded",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "33",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "getValue": {
+            "name": "getValue",
+            "line": 118,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -121,9 +229,9 @@
 
             ],
             "parameters": {
-                "loaded": {
-                    "name": "loaded",
-                    "line": 27,
+                "var": {
+                    "name": "var",
+                    "line": 118,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -133,60 +241,34 @@
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
+                },
+                "default": {
+                    "name": "default",
+                    "line": 118,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
                 }
             }
         },
-        "isLoaded": {
-            "name": "isLoaded",
-            "line": 32,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
-        },
-        "loaded": {
-            "name": "loaded",
-            "line": 36,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
-        },
         "__get": {
             "name": "__get",
-            "line": 40,
-            "short_desc": "",
+            "line": 135,
+            "short_desc": "get an attribute value",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [
 
             ],
@@ -201,10 +283,72 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 40,
+                    "line": 135,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "__set": {
+            "name": "__set",
+            "line": 151,
+            "short_desc": "set an attribute value",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 151,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "value": {
+                    "name": "value",
+                    "line": 151,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
                     "tags": [
 
                     ],

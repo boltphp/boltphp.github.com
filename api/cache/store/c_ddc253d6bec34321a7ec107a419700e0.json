@@ -1,6 +1,6 @@
 {
     "name": "bolt\\client\\build",
-    "line": 8,
+    "line": 7,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
@@ -9,8 +9,8 @@
     ],
     "namespace": "bolt\\client",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/client\/build.php",
-    "hash": "75493f516cafa9a7995287321ef927e1c2310a7e",
-    "parent": "bolt\\client\\bolt\\cli\\command",
+    "hash": "bfaec55e9656b936eba9c3fcb9c94d722b568280",
+    "parent": "bolt\\client\\command",
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
@@ -23,13 +23,10 @@
     "interfaces": [
 
     ],
-    "properties": [
-
-    ],
-    "methods": {
-        "__construct": {
-            "name": "__construct",
-            "line": 12,
+    "properties": {
+        "name": {
+            "name": "name",
+            "line": 9,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -37,38 +34,37 @@
             "tags": [
 
             ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
+            "modifiers": 9,
+            "default": {
 
-            ],
+            },
             "errors": [
 
-            ],
-            "parameters": {
-                "client": {
-                    "name": "client",
-                    "line": 12,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": [
-                        [
-                            "bolt\\client\\bolt\\client",
-                            false
-                        ]
-                    ],
-                    "tags": [
-
-                    ],
-                    "modifiers": "bolt\\client",
-                    "default": null,
-                    "is_by_ref": false
-                }
-            }
+            ]
         },
-        "configure": {
-            "name": "configure",
-            "line": 17,
+        "configuration": {
+            "name": "configuration",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": 9,
+            "default": {
+
+            },
+            "errors": [
+
+            ]
+        }
+    },
+    "methods": {
+        "call": {
+            "name": "call",
+            "line": 18,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
