@@ -1,6 +1,6 @@
 {
     "name": "bolt\\dom\\nodeList",
-    "line": 6,
+    "line": 7,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\dom",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/dom\/nodeList.php",
-    "hash": "821db88620ed4074b2fed46a9b92f8f8ffea44af",
+    "hash": "794a1f449cd1c8558ebb9431ea91284c2c2c8b33",
     "parent": "SplObjectStorage",
     "modifiers": 0,
     "is_trait": false,
@@ -29,7 +29,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 10,
+            "line": 11,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -48,7 +48,7 @@
             "parameters": {
                 "dom": {
                     "name": "dom",
-                    "line": 10,
+                    "line": 11,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -63,7 +63,7 @@
         },
         "__call": {
             "name": "__call",
-            "line": 14,
+            "line": 15,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -82,7 +82,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 14,
+                    "line": 15,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -95,7 +95,7 @@
                 },
                 "args": {
                     "name": "args",
-                    "line": 14,
+                    "line": 15,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -110,7 +110,7 @@
         },
         "item": {
             "name": "item",
-            "line": 23,
+            "line": 24,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -129,7 +129,7 @@
             "parameters": {
                 "pos": {
                     "name": "pos",
-                    "line": 23,
+                    "line": 24,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -144,7 +144,7 @@
         },
         "first": {
             "name": "first",
-            "line": 30,
+            "line": 31,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -166,7 +166,7 @@
         },
         "last": {
             "name": "last",
-            "line": 34,
+            "line": 35,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -188,7 +188,7 @@
         },
         "size": {
             "name": "size",
-            "line": 38,
+            "line": 39,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -210,7 +210,7 @@
         },
         "html": {
             "name": "html",
-            "line": 42,
+            "line": 43,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -232,7 +232,7 @@
         },
         "__toString": {
             "name": "__toString",
-            "line": 53,
+            "line": 54,
             "short_desc": "",
             "long_desc": "",
             "hint": null,

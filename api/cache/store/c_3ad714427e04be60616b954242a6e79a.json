@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser.php",
-    "hash": "fe15b53ef4ebb975ebfccb71732f7c6eac57d319",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/browser.php",
+    "hash": "842490c66b363bbadb643bcbf6507a4e12933b80",
     "parent": "bolt\\plugin",
     "modifiers": 0,
     "is_trait": false,
@@ -24,13 +24,35 @@
     "interfaces": [
 
     ],
-    "properties": [
+    "properties": {
+        "exception": {
+            "name": "exception",
+            "line": 37,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "Exception",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
 
-    ],
+            ],
+            "modifiers": 1,
+            "default": {
+
+            },
+            "errors": [
+
+            ]
+        }
+    },
     "methods": {
         "start": {
             "name": "start",
-            "line": 38,
+            "line": 43,
             "short_desc": "start a new browser instance",
             "long_desc": "",
             "hint": null,
@@ -49,7 +71,7 @@
             "parameters": {
                 "config": {
                     "name": "config",
-                    "line": 38,
+                    "line": 43,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -64,7 +86,7 @@
         },
         "__construct": {
             "name": "__construct",
-            "line": 52,
+            "line": 57,
             "short_desc": "Constructor.",
             "long_desc": "",
             "hint": null,
@@ -83,7 +105,7 @@
             "parameters": {
                 "app": {
                     "name": "app",
-                    "line": 52,
+                    "line": 57,
                     "short_desc": "Application instance",
                     "long_desc": null,
                     "hint": [
@@ -101,7 +123,7 @@
                 },
                 "req": {
                     "name": "req",
-                    "line": 52,
+                    "line": 57,
                     "short_desc": "request object",
                     "long_desc": null,
                     "hint": [
@@ -119,7 +141,7 @@
                 },
                 "resp": {
                     "name": "resp",
-                    "line": 52,
+                    "line": 57,
                     "short_desc": "response object",
                     "long_desc": null,
                     "hint": [
@@ -139,7 +161,7 @@
         },
         "__get": {
             "name": "__get",
-            "line": 72,
+            "line": 77,
             "short_desc": "returns a private variable",
             "long_desc": "",
             "hint": [
@@ -163,7 +185,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 72,
+                    "line": 77,
                     "short_desc": "name of variable",
                     "long_desc": null,
                     "hint": [
@@ -183,7 +205,7 @@
         },
         "__call": {
             "name": "__call",
-            "line": 93,
+            "line": 98,
             "short_desc": "call a method or passthrough to other plugin",
             "long_desc": "",
             "hint": [
@@ -207,7 +229,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 93,
+                    "line": 98,
                     "short_desc": "name of method",
                     "long_desc": null,
                     "hint": [
@@ -225,7 +247,7 @@
                 },
                 "args": {
                     "name": "args",
-                    "line": 93,
+                    "line": 98,
                     "short_desc": "array of call arguments",
                     "long_desc": null,
                     "hint": [
@@ -245,7 +267,7 @@
         },
         "getApp": {
             "name": "getApp",
-            "line": 110,
+            "line": 115,
             "short_desc": "return the app instance",
             "long_desc": "",
             "hint": [
@@ -272,7 +294,7 @@
         },
         "getRequest": {
             "name": "getRequest",
-            "line": 120,
+            "line": 125,
             "short_desc": "return the request",
             "long_desc": "",
             "hint": [
@@ -299,7 +321,7 @@
         },
         "setRequest": {
             "name": "setRequest",
-            "line": 132,
+            "line": 137,
             "short_desc": "set the response",
             "long_desc": "",
             "hint": [
@@ -323,7 +345,7 @@
             "parameters": {
                 "req": {
                     "name": "req",
-                    "line": 132,
+                    "line": 137,
                     "short_desc": "new request object",
                     "long_desc": null,
                     "hint": [
@@ -343,7 +365,7 @@
         },
         "getResponse": {
             "name": "getResponse",
-            "line": 143,
+            "line": 148,
             "short_desc": "get the response object",
             "long_desc": "",
             "hint": [
@@ -370,7 +392,7 @@
         },
         "setResponse": {
             "name": "setResponse",
-            "line": 154,
+            "line": 159,
             "short_desc": "set the response object",
             "long_desc": "",
             "hint": [
@@ -394,7 +416,7 @@
             "parameters": {
                 "resp": {
                     "name": "resp",
-                    "line": 154,
+                    "line": 159,
                     "short_desc": "new response object",
                     "long_desc": null,
                     "hint": [
@@ -414,7 +436,7 @@
         },
         "path": {
             "name": "path",
-            "line": 167,
+            "line": 172,
             "short_desc": "get a path relative to root",
             "long_desc": "",
             "hint": [
@@ -445,7 +467,7 @@
         },
         "load": {
             "name": "load",
-            "line": 178,
+            "line": 183,
             "short_desc": "load passthrough to app",
             "long_desc": "",
             "hint": [
@@ -476,7 +498,7 @@
         },
         "bind": {
             "name": "bind",
-            "line": 192,
+            "line": 197,
             "short_desc": "bind middleware to this request and response",
             "long_desc": "",
             "hint": [
@@ -500,7 +522,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 192,
+                    "line": 197,
                     "short_desc": "name of middleware or callback function",
                     "long_desc": null,
                     "hint": [
@@ -522,7 +544,7 @@
                 },
                 "class": {
                     "name": "class",
-                    "line": 192,
+                    "line": 197,
                     "short_desc": "name or instance of middle object",
                     "long_desc": null,
                     "hint": [
@@ -544,7 +566,7 @@
                 },
                 "config": {
                     "name": "config",
-                    "line": 192,
+                    "line": 197,
                     "short_desc": "configuration passed to instance constructor",
                     "long_desc": null,
                     "hint": [
@@ -564,7 +586,7 @@
         },
         "getMiddleware": {
             "name": "getMiddleware",
-            "line": 244,
+            "line": 249,
             "short_desc": "return a list of all middleware",
             "long_desc": "",
             "hint": [
@@ -591,7 +613,7 @@
         },
         "run": {
             "name": "run",
-            "line": 254,
+            "line": 259,
             "short_desc": "pass off a run call to the app",
             "long_desc": "",
             "hint": [
@@ -618,7 +640,7 @@
         },
         "execute": {
             "name": "execute",
-            "line": 265,
+            "line": 270,
             "short_desc": "run the browser request and send a response to the browser",
             "long_desc": "",
             "hint": [
@@ -645,7 +667,7 @@
         },
         "runMiddleware": {
             "name": "runMiddleware",
-            "line": 360,
+            "line": 373,
             "short_desc": "run all middleware for a method",
             "long_desc": "",
             "hint": [
@@ -669,7 +691,7 @@
             "parameters": {
                 "method": {
                     "name": "method",
-                    "line": 360,
+                    "line": 373,
                     "short_desc": "name of method to run",
                     "long_desc": null,
                     "hint": [
@@ -687,7 +709,7 @@
                 },
                 "params": {
                     "name": "params",
-                    "line": 360,
+                    "line": 373,
                     "short_desc": "array of params to pass to method",
                     "long_desc": null,
                     "hint": [
@@ -707,7 +729,7 @@
         },
         "runMiddlewareByName": {
             "name": "runMiddlewareByName",
-            "line": 378,
+            "line": 391,
             "short_desc": "run a middleware function by name",
             "long_desc": "",
             "hint": [
@@ -731,7 +753,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 378,
+                    "line": 391,
                     "short_desc": "name of middleware to run",
                     "long_desc": null,
                     "hint": [
@@ -749,7 +771,7 @@
                 },
                 "method": {
                     "name": "method",
-                    "line": 378,
+                    "line": 391,
                     "short_desc": "name of middleware method to run",
                     "long_desc": null,
                     "hint": [
@@ -767,7 +789,7 @@
                 },
                 "params": {
                     "name": "params",
-                    "line": 378,
+                    "line": 391,
                     "short_desc": "aray of params to pass to middleware",
                     "long_desc": null,
                     "hint": [

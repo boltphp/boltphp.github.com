@@ -1,6 +1,6 @@
 {
     "name": "bolt",
-    "line": 33,
+    "line": 35,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
@@ -8,8 +8,8 @@
 
     ],
     "namespace": "",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt.php",
-    "hash": "a95c94e24799ae4f0a19a9f41311c30f211fc6cd",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt.php",
+    "hash": "d9ba139e0ae470528d6ab80861f39539818add9a",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -26,7 +26,7 @@
     "properties": {
         "helpers": {
             "name": "helpers",
-            "line": 48,
+            "line": 51,
             "short_desc": "",
             "long_desc": "",
             "hint": [
@@ -51,7 +51,7 @@
     "methods": {
         "instance": {
             "name": "instance",
-            "line": 59,
+            "line": 62,
             "short_desc": "instance",
             "long_desc": "",
             "hint": [
@@ -78,7 +78,7 @@
         },
         "__callStatic": {
             "name": "__callStatic",
-            "line": 75,
+            "line": 78,
             "short_desc": "forward call onto the bolt instance",
             "long_desc": "",
             "hint": [
@@ -102,7 +102,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 75,
+                    "line": 78,
                     "short_desc": "name of submodule",
                     "long_desc": null,
                     "hint": [
@@ -120,7 +120,7 @@
                 },
                 "args": {
                     "name": "args",
-                    "line": 75,
+                    "line": 78,
                     "short_desc": "list of args where args[0] is the function name",
                     "long_desc": null,
                     "hint": [
@@ -140,7 +140,7 @@
         },
         "init": {
             "name": "init",
-            "line": 87,
+            "line": 90,
             "short_desc": "inialize a new application interface",
             "long_desc": "",
             "hint": [
@@ -164,7 +164,7 @@
             "parameters": {
                 "config": {
                     "name": "config",
-                    "line": 87,
+                    "line": 90,
                     "short_desc": "configuration array",
                     "long_desc": null,
                     "hint": [
@@ -186,7 +186,7 @@
     "constants": {
         "VERSION": {
             "name": "VERSION",
-            "line": 38,
+            "line": 41,
             "short_desc": "",
             "long_desc": ""
         }

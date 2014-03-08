@@ -30,7 +30,7 @@
         "build": {
             "name": "build",
             "line": 19,
-            "short_desc": "build the closure controller",
+            "short_desc": "build the controller",
             "long_desc": "",
             "hint": [
                 [

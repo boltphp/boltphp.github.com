@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\helpers",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/helpers\/classes.php",
-    "hash": "b39f053de25b06367cb25ae8d03898ab9da6453c",
+    "hash": "8ddabfa01f826caf460d090d24f512b8f1ae7391",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -226,6 +226,53 @@
                     ],
                     "modifiers": "",
                     "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "classUses": {
+            "name": "classUses",
+            "line": 104,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "class": {
+                    "name": "class",
+                    "line": 104,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "autoload": {
+                    "name": "autoload",
+                    "line": 104,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "true",
                     "is_by_ref": false
                 }
             }

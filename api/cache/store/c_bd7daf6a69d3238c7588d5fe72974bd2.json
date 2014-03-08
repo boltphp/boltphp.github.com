@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/cli.php",
-    "hash": "4b74e095552296f1c8b72be745536995f2f5117a",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/cli.php",
+    "hash": "d2404e2f31c4d9d717199fecaf5fff019ecf8e35",
     "parent": "bolt\\plugin",
     "modifiers": 0,
     "is_trait": false,

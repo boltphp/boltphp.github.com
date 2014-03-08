@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\client",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/client\/build.php",
-    "hash": "bfaec55e9656b936eba9c3fcb9c94d722b568280",
+    "hash": "92b0c8de78531c21dda040877deb5f56a50bb84c",
     "parent": "bolt\\client\\command",
     "modifiers": 0,
     "is_trait": false,
@@ -42,8 +42,8 @@
 
             ]
         },
-        "configuration": {
-            "name": "configuration",
+        "configure": {
+            "name": "configure",
             "line": 11,
             "short_desc": "",
             "long_desc": "",
@@ -64,7 +64,7 @@
     "methods": {
         "call": {
             "name": "call",
-            "line": 18,
+            "line": 22,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -80,9 +80,21 @@
             "errors": [
 
             ],
-            "parameters": [
+            "parameters": {
+                "pacakge": {
+                    "name": "pacakge",
+                    "line": 22,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
 
-            ]
+                    ],
+                    "modifiers": "",
+                    "default": "'.'",
+                    "is_by_ref": false
+                }
+            }
         }
     },
     "constants": [

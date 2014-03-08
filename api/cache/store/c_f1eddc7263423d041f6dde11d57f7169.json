@@ -8,13 +8,14 @@
 
     ],
     "namespace": "bolt\\browser",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/views.php",
-    "hash": "da5e4d8bb4a9ccf236a30006a40109a9bf682df3",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/browser\/views.php",
+    "hash": "b9c273826ac064d4bdd46ba2c290de1d16836f4c",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
     "aliases": {
+        "b": "b",
         "Exception": "Exception"
     },
     "errors": [
@@ -29,7 +30,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 41,
+            "line": 30,
             "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
@@ -48,7 +49,7 @@
             "parameters": {
                 "browser": {
                     "name": "browser",
-                    "line": 41,
+                    "line": 30,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -66,7 +67,7 @@
                 },
                 "config": {
                     "name": "config",
-                    "line": 41,
+                    "line": 30,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -86,7 +87,7 @@
         },
         "dir": {
             "name": "dir",
-            "line": 65,
+            "line": 60,
             "short_desc": "add a dir",
             "long_desc": "",
             "hint": [
@@ -105,113 +106,31 @@
 
             ],
             "errors": [
-
+                "\"2\" @param tags are defined by \"1\" are expected"
             ],
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 65,
-                    "short_desc": "",
+                    "line": 60,
+                    "short_desc": null,
                     "long_desc": null,
-                    "hint": [
-                        [
-                            "string",
-                            false
-                        ]
-                    ],
+                    "hint": null,
                     "tags": [
 
                     ],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
-                },
-                "type": {
-                    "name": "type",
-                    "line": 65,
-                    "short_desc": "type of dir to add",
-                    "long_desc": null,
-                    "hint": [
-                        [
-                            "string",
-                            false
-                        ]
-                    ],
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
-                    "default": "'views'",
-                    "is_by_ref": false
                 }
             }
         },
-        "getViewDirs": {
-            "name": "getViewDirs",
-            "line": 82,
-            "short_desc": "get view directories",
-            "long_desc": "",
-            "hint": [
-                [
-                    "array",
-                    false
-                ]
-            ],
-            "hint_desc": "",
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
-        },
-        "getLayoutDirs": {
-            "name": "getLayoutDirs",
-            "line": 91,
-            "short_desc": "get layout directories",
-            "long_desc": "",
-            "hint": [
-                [
-                    "array",
-                    false
-                ]
-            ],
-            "hint_desc": "",
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
-        },
         "engine": {
             "name": "engine",
-            "line": 104,
-            "short_desc": "register a new engine",
+            "line": 72,
+            "short_desc": "",
             "long_desc": "",
-            "hint": [
-                [
-                    "bolt\\browser\\views",
-                    false
-                ]
-            ],
-            "hint_desc": "",
+            "hint": null,
+            "hint_desc": null,
             "tags": [
 
             ],
@@ -226,15 +145,10 @@
             "parameters": {
                 "ext": {
                     "name": "ext",
-                    "line": 104,
-                    "short_desc": "",
+                    "line": 72,
+                    "short_desc": null,
                     "long_desc": null,
-                    "hint": [
-                        [
-                            "string",
-                            false
-                        ]
-                    ],
+                    "hint": null,
                     "tags": [
 
                     ],
@@ -244,15 +158,10 @@
                 },
                 "class": {
                     "name": "class",
-                    "line": 104,
-                    "short_desc": "",
+                    "line": 72,
+                    "short_desc": null,
                     "long_desc": null,
-                    "hint": [
-                        [
-                            "string",
-                            false
-                        ]
-                    ],
+                    "hint": null,
                     "tags": [
 
                     ],
@@ -264,8 +173,30 @@
         },
         "getEngines": {
             "name": "getEngines",
-            "line": 118,
-            "short_desc": "get all register engiens",
+            "line": 77,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "getDirs": {
+            "name": "getDirs",
+            "line": 86,
+            "short_desc": "get view directories",
             "long_desc": "",
             "hint": [
                 [
@@ -291,7 +222,7 @@
         },
         "find": {
             "name": "find",
-            "line": 131,
+            "line": 100,
             "short_desc": "find a view file in given dirs",
             "long_desc": "",
             "hint": [
@@ -310,50 +241,27 @@
 
             ],
             "errors": [
-
+                "\"2\" @param tags are defined by \"1\" are expected"
             ],
             "parameters": {
                 "file": {
                     "name": "file",
-                    "line": 131,
-                    "short_desc": "",
+                    "line": 100,
+                    "short_desc": null,
                     "long_desc": null,
-                    "hint": [
-                        [
-                            "string",
-                            false
-                        ]
-                    ],
+                    "hint": null,
                     "tags": [
 
                     ],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
-                },
-                "dirs": {
-                    "name": "dirs",
-                    "line": 131,
-                    "short_desc": "",
-                    "long_desc": null,
-                    "hint": [
-                        [
-                            "array",
-                            false
-                        ]
-                    ],
-                    "tags": [
-
-                    ],
-                    "modifiers": "array",
-                    "default": "null",
-                    "is_by_ref": false
                 }
             }
         },
         "exists": {
             "name": "exists",
-            "line": 152,
+            "line": 120,
             "short_desc": "check if a view exists",
             "long_desc": "",
             "hint": [
@@ -377,7 +285,7 @@
             "parameters": {
                 "file": {
                     "name": "file",
-                    "line": 152,
+                    "line": 120,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -395,7 +303,7 @@
                 },
                 "dirs": {
                     "name": "dirs",
-                    "line": 152,
+                    "line": 120,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -413,154 +321,9 @@
                 }
             }
         },
-        "view": {
-            "name": "view",
-            "line": 165,
-            "short_desc": "return a view of self::$class for given file",
-            "long_desc": "",
-            "hint": [
-                [
-                    "bolt\\browser\\self::$_class",
-                    false
-                ]
-            ],
-            "hint_desc": "",
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-                "The \"var\" @param tag variable name is wrong (should be \"vars\")"
-            ],
-            "parameters": {
-                "file": {
-                    "name": "file",
-                    "line": 165,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
-                    "default": null,
-                    "is_by_ref": false
-                },
-                "vars": {
-                    "name": "vars",
-                    "line": 165,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
-                    "default": "array()",
-                    "is_by_ref": false
-                },
-                "context": {
-                    "name": "context",
-                    "line": 165,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
-                    "default": "false",
-                    "is_by_ref": false
-                }
-            }
-        },
-        "layout": {
-            "name": "layout",
-            "line": 183,
-            "short_desc": "return a view of self::$class for layout file given",
-            "long_desc": "",
-            "hint": [
-                [
-                    "bolt\\browser\\self::$_class",
-                    false
-                ]
-            ],
-            "hint_desc": "",
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": {
-                "file": {
-                    "name": "file",
-                    "line": 183,
-                    "short_desc": "relative file path to $_layouts",
-                    "long_desc": null,
-                    "hint": [
-                        [
-                            "string",
-                            false
-                        ]
-                    ],
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
-                    "default": null,
-                    "is_by_ref": false
-                },
-                "vars": {
-                    "name": "vars",
-                    "line": 183,
-                    "short_desc": "",
-                    "long_desc": null,
-                    "hint": [
-                        [
-                            "array",
-                            false
-                        ]
-                    ],
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
-                    "default": "array()",
-                    "is_by_ref": false
-                },
-                "context": {
-                    "name": "context",
-                    "line": 183,
-                    "short_desc": "",
-                    "long_desc": null,
-                    "hint": [
-                        [
-                            "mixed",
-                            false
-                        ]
-                    ],
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
-                    "default": "false",
-                    "is_by_ref": false
-                }
-            }
-        },
         "create": {
             "name": "create",
-            "line": 201,
+            "line": 134,
             "short_desc": "create a view of self::$_class",
             "long_desc": "",
             "hint": [
@@ -584,7 +347,7 @@
             "parameters": {
                 "file": {
                     "name": "file",
-                    "line": 201,
+                    "line": 134,
                     "short_desc": "absolute file path",
                     "long_desc": null,
                     "hint": [
@@ -602,7 +365,7 @@
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 201,
+                    "line": 134,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -620,7 +383,7 @@
                 },
                 "context": {
                     "name": "context",
-                    "line": 201,
+                    "line": 134,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -634,6 +397,40 @@
                     ],
                     "modifiers": "",
                     "default": "false",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "compile": {
+            "name": "compile",
+            "line": 172,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "e": {
+                    "name": "e",
+                    "line": 172,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
                     "is_by_ref": false
                 }
             }

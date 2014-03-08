@@ -1,6 +1,6 @@
 {
     "name": "bolt\\browser\\assets",
-    "line": 14,
+    "line": 15,
     "short_desc": "asset manager",
     "long_desc": "",
     "hint": null,
@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\browser",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/assets.php",
-    "hash": "3a30cce81ded2f5f9fdacc672f1e9ae7bfc84b92",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/browser\/assets.php",
+    "hash": "3d472e7e85fe2055e80b1475ae0eb72951297dcf",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -17,7 +17,9 @@
     "aliases": {
         "b": "b",
         "FileAsset": "Assetic\\Asset\\FileAsset",
-        "HttpAsset": "Assetic\\Asset\\HttpAsset"
+        "HttpAsset": "Assetic\\Asset\\HttpAsset",
+        "AssetCollection": "Assetic\\Asset\\AssetCollection",
+        "GlobAsset": "Assetic\\Asset\\GlobAsset"
     },
     "errors": [
 
@@ -31,7 +33,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 53,
+            "line": 54,
             "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
@@ -50,7 +52,7 @@
             "parameters": {
                 "browser": {
                     "name": "browser",
-                    "line": 53,
+                    "line": 54,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -68,7 +70,7 @@
                 },
                 "config": {
                     "name": "config",
-                    "line": 53,
+                    "line": 54,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -88,7 +90,7 @@
         },
         "globals": {
             "name": "globals",
-            "line": 78,
+            "line": 84,
             "short_desc": "register files to append to specific file type (by file extension)",
             "long_desc": "",
             "hint": [
@@ -112,7 +114,7 @@
             "parameters": {
                 "ext": {
                     "name": "ext",
-                    "line": 78,
+                    "line": 84,
                     "short_desc": "string of file exenstion or array of globals",
                     "long_desc": null,
                     "hint": [
@@ -134,7 +136,7 @@
                 },
                 "path": {
                     "name": "path",
-                    "line": 78,
+                    "line": 84,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -154,7 +156,7 @@
         },
         "filter": {
             "name": "filter",
-            "line": 100,
+            "line": 106,
             "short_desc": "register a filter for a file type (by file extension)",
             "long_desc": "",
             "hint": [
@@ -178,7 +180,7 @@
             "parameters": {
                 "ext": {
                     "name": "ext",
-                    "line": 100,
+                    "line": 106,
                     "short_desc": "string of file extension or array of filters",
                     "long_desc": null,
                     "hint": [
@@ -200,7 +202,7 @@
                 },
                 "class": {
                     "name": "class",
-                    "line": 100,
+                    "line": 106,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -218,7 +220,7 @@
                 },
                 "args": {
                     "name": "args",
-                    "line": 100,
+                    "line": 106,
                     "short_desc": "array of args passed to filter constuctor (via call_user_func_array)",
                     "long_desc": null,
                     "hint": [
@@ -238,7 +240,7 @@
         },
         "add": {
             "name": "add",
-            "line": 128,
+            "line": 140,
             "short_desc": "add a new file to the manager",
             "long_desc": "",
             "hint": [
@@ -262,7 +264,7 @@
             "parameters": {
                 "type": {
                     "name": "type",
-                    "line": 128,
+                    "line": 140,
                     "short_desc": "script or style",
                     "long_desc": null,
                     "hint": [
@@ -280,7 +282,7 @@
                 },
                 "name": {
                     "name": "name",
-                    "line": 128,
+                    "line": 140,
                     "short_desc": "name of group",
                     "long_desc": null,
                     "hint": [
@@ -298,7 +300,7 @@
                 },
                 "files": {
                     "name": "files",
-                    "line": 128,
+                    "line": 140,
                     "short_desc": "array of files",
                     "long_desc": null,
                     "hint": [
@@ -318,7 +320,7 @@
         },
         "createGroup": {
             "name": "createGroup",
-            "line": 148,
+            "line": 160,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -337,7 +339,7 @@
             "parameters": {
                 "type": {
                     "name": "type",
-                    "line": 148,
+                    "line": 160,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -350,7 +352,7 @@
                 },
                 "name": {
                     "name": "name",
-                    "line": 148,
+                    "line": 160,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -363,7 +365,7 @@
                 },
                 "files": {
                     "name": "files",
-                    "line": 148,
+                    "line": 160,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -378,7 +380,7 @@
         },
         "find": {
             "name": "find",
-            "line": 166,
+            "line": 178,
             "short_desc": "find a file in one of $dirs",
             "long_desc": "",
             "hint": [
@@ -402,7 +404,7 @@
             "parameters": {
                 "file": {
                     "name": "file",
-                    "line": 166,
+                    "line": 178,
                     "short_desc": "relative file path",
                     "long_desc": null,
                     "hint": [
@@ -422,7 +424,7 @@
         },
         "findDir": {
             "name": "findDir",
-            "line": 189,
+            "line": 202,
             "short_desc": "find a files dir",
             "long_desc": "",
             "hint": [
@@ -446,7 +448,7 @@
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 189,
+                    "line": 202,
                     "short_desc": "file",
                     "long_desc": null,
                     "hint": [
@@ -466,7 +468,7 @@
         },
         "out": {
             "name": "out",
-            "line": 209,
+            "line": 222,
             "short_desc": "output a tag for give group",
             "long_desc": "",
             "hint": [
@@ -490,7 +492,7 @@
             "parameters": {
                 "type": {
                     "name": "type",
-                    "line": 209,
+                    "line": 222,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -503,7 +505,7 @@
                 },
                 "name": {
                     "name": "name",
-                    "line": 209,
+                    "line": 222,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -516,7 +518,7 @@
                 },
                 "combo": {
                     "name": "combo",
-                    "line": 209,
+                    "line": 222,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -531,7 +533,7 @@
         },
         "url": {
             "name": "url",
-            "line": 238,
+            "line": 251,
             "short_desc": "url path",
             "long_desc": "",
             "hint": [
@@ -555,7 +557,7 @@
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 238,
+                    "line": 251,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -575,7 +577,7 @@
         },
         "getGroup": {
             "name": "getGroup",
-            "line": 261,
+            "line": 274,
             "short_desc": "get all file objects in a group",
             "long_desc": "",
             "hint": [
@@ -599,7 +601,7 @@
             "parameters": {
                 "type": {
                     "name": "type",
-                    "line": 261,
+                    "line": 274,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -612,7 +614,7 @@
                 },
                 "name": {
                     "name": "name",
-                    "line": 261,
+                    "line": 274,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -627,7 +629,7 @@
         },
         "stylesheet": {
             "name": "stylesheet",
-            "line": 274,
+            "line": 287,
             "short_desc": "return a stylesheet tag",
             "long_desc": "",
             "hint": [
@@ -651,7 +653,7 @@
             "parameters": {
                 "leafs": {
                     "name": "leafs",
-                    "line": 274,
+                    "line": 287,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -671,7 +673,7 @@
         },
         "getGlobals": {
             "name": "getGlobals",
-            "line": 297,
+            "line": 310,
             "short_desc": "get all registered globals for an extension",
             "long_desc": "",
             "hint": [
@@ -695,7 +697,7 @@
             "parameters": {
                 "ext": {
                     "name": "ext",
-                    "line": 297,
+                    "line": 310,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -715,7 +717,7 @@
         },
         "getFilters": {
             "name": "getFilters",
-            "line": 309,
+            "line": 322,
             "short_desc": "get all registered filters for an extension",
             "long_desc": "",
             "hint": [
@@ -734,20 +736,106 @@
 
             ],
             "errors": [
-
+                "\"1\" @param tags are defined by \"2\" are expected"
             ],
             "parameters": {
                 "ext": {
                     "name": "ext",
-                    "line": 309,
+                    "line": 322,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "when": {
+                    "name": "when",
+                    "line": 322,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "compile": {
+            "name": "compile",
+            "line": 352,
+            "short_desc": "compile assets into the compile directory",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "e": {
+                    "name": "e",
+                    "line": 352,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
                         [
-                            "string",
+                            "bolt\\browser\\bolt\\events\\event",
                             false
                         ]
                     ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "compileFile": {
+            "name": "compileFile",
+            "line": 393,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "file": {
+                    "name": "file",
+                    "line": 393,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
                     "tags": [
 
                     ],

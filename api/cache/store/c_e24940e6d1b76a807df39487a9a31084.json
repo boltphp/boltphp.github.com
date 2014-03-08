@@ -1,5 +1,5 @@
 {
-    "name": "bolt\\events\\event",
+    "name": "bolt\\helpers\\events\\event",
     "line": 10,
     "short_desc": "Event Object",
     "long_desc": "",
@@ -7,9 +7,9 @@
     "tags": [
 
     ],
-    "namespace": "bolt\\events",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/events\/event.php",
-    "hash": "abd664bd196f15ba46aca459e96c229b42d77a88",
+    "namespace": "bolt\\helpers\\events",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/helpers\/events\/event.php",
+    "hash": "b2dcf2dec0578cafb7be6243003642fcda39dacd",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -53,14 +53,14 @@
                     "long_desc": null,
                     "hint": [
                         [
-                            "bolt\\events\\bolt\\events\\listener",
+                            "bolt\\helpers\\events\\bolt\\helpers\\events\\listener",
                             false
                         ]
                     ],
                     "tags": [
 
                     ],
-                    "modifiers": "bolt\\events\\listener",
+                    "modifiers": "bolt\\helpers\\events\\listener",
                     "default": null,
                     "is_by_ref": false
                 },

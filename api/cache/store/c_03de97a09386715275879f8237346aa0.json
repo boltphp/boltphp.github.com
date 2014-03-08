@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\browser\\middleware",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/middleware\/assets.php",
-    "hash": "b7c0bdded03da6168ee6c0367112cc1eb88818fc",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/browser\/middleware\/assets.php",
+    "hash": "97adec47bbce2d43002171c6562e470a4e3b5a32",
     "parent": "bolt\\browser\\middleware",
     "modifiers": 0,
     "is_trait": false,

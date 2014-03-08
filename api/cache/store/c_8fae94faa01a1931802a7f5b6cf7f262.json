@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/plugin.php",
-    "hash": "b87450083858cf04c0448d2a1299a8a10387cf44",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/plugin.php",
+    "hash": "320fab0ea7e956f36f1ad1bceca6322c72d785e4",
     "parent": null,
     "modifiers": 16,
     "is_trait": false,
@@ -141,7 +141,7 @@
         },
         "pluginExists": {
             "name": "pluginExists",
-            "line": 84,
+            "line": 85,
             "short_desc": "does plugin exist",
             "long_desc": "",
             "hint": [
@@ -165,7 +165,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 84,
+                    "line": 85,
                     "short_desc": "name of plugin",
                     "long_desc": null,
                     "hint": [
@@ -180,12 +180,30 @@
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
+                },
+                "cb": {
+                    "name": "cb",
+                    "line": 85,
+                    "short_desc": "callback to execute if plugin exists",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\Closure",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "Closure",
+                    "default": "null",
+                    "is_by_ref": false
                 }
             }
         },
         "plugin": {
             "name": "plugin",
-            "line": 96,
+            "line": 97,
             "short_desc": "get a plugin instance",
             "long_desc": "",
             "hint": [
@@ -209,7 +227,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 96,
+                    "line": 97,
                     "short_desc": "name of plugin",
                     "long_desc": null,
                     "hint": [
@@ -229,7 +247,7 @@
         },
         "unplug": {
             "name": "unplug",
-            "line": 165,
+            "line": 166,
             "short_desc": "unplug a plugin",
             "long_desc": "",
             "hint": [
@@ -253,7 +271,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 165,
+                    "line": 166,
                     "short_desc": "name of plugin to remove",
                     "long_desc": null,
                     "hint": [
@@ -273,7 +291,7 @@
         },
         "offsetSet": {
             "name": "offsetSet",
-            "line": 188,
+            "line": 189,
             "short_desc": "set offset",
             "long_desc": "",
             "hint": [
@@ -297,7 +315,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 188,
+                    "line": 189,
                     "short_desc": "set the name",
                     "long_desc": null,
                     "hint": [
@@ -315,7 +333,7 @@
                 },
                 "class": {
                     "name": "class",
-                    "line": 188,
+                    "line": 189,
                     "short_desc": "class name",
                     "long_desc": null,
                     "hint": [
@@ -335,7 +353,7 @@
         },
         "offsetExists": {
             "name": "offsetExists",
-            "line": 200,
+            "line": 201,
             "short_desc": "offset get",
             "long_desc": "",
             "hint": [
@@ -359,7 +377,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 200,
+                    "line": 201,
                     "short_desc": "name of plugin",
                     "long_desc": null,
                     "hint": [
@@ -379,7 +397,7 @@
         },
         "offsetUnset": {
             "name": "offsetUnset",
-            "line": 212,
+            "line": 213,
             "short_desc": "unplug",
             "long_desc": "",
             "hint": [
@@ -403,7 +421,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 212,
+                    "line": 213,
                     "short_desc": "name of plugin to unplug",
                     "long_desc": null,
                     "hint": [
@@ -423,7 +441,7 @@
         },
         "offsetGet": {
             "name": "offsetGet",
-            "line": 224,
+            "line": 225,
             "short_desc": "get a plugin",
             "long_desc": "",
             "hint": [
@@ -447,7 +465,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 224,
+                    "line": 225,
                     "short_desc": "name of plugin",
                     "long_desc": null,
                     "hint": [

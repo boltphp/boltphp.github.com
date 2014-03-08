@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\browser",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/controller.php",
-    "hash": "43ca8ba24992db47693091d553acd5e803ff2f07",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/browser\/controller.php",
+    "hash": "29ad5a3d70fe71b9ee8aaab6cee9f7467330d30a",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,

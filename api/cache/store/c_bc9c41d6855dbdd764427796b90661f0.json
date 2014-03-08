@@ -1,6 +1,6 @@
 {
     "name": "bolt\\render\\handlebars",
-    "line": 11,
+    "line": 12,
     "short_desc": "handlare renderer",
     "long_desc": "",
     "hint": null,
@@ -8,15 +8,16 @@
 
     ],
     "namespace": "bolt\\render",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/render\/handlebars.php",
-    "hash": "26f62468feeb6e8bc35e4184087052520a2e83cd",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/render\/handlebars.php",
+    "hash": "752e5b10517e4068d3e61b2d2c862aa76aad4321",
     "parent": "bolt\\render\\base",
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
     "aliases": {
         "b": "b",
-        "HBR": "Handlebars\\Handlebars"
+        "HBR": "Handlebars\\Handlebars",
+        "Template": "Handlebars\\Template"
     },
     "errors": [
 
@@ -28,10 +29,32 @@
 
     ],
     "methods": {
-        "__construct": {
-            "name": "__construct",
-            "line": 22,
-            "short_desc": "Constructor",
+        "canCompile": {
+            "name": "canCompile",
+            "line": 19,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "compile": {
+            "name": "compile",
+            "line": 46,
+            "short_desc": "compile to freezable class",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
@@ -46,41 +69,26 @@
             "errors": [
 
             ],
-            "parameters": [
+            "parameters": {
+                "str": {
+                    "name": "str",
+                    "line": 46,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
 
-            ]
-        },
-        "compile": {
-            "name": "compile",
-            "line": 41,
-            "short_desc": "compile abstract",
-            "long_desc": "",
-            "hint": [
-                [
-                    "string",
-                    false
-                ]
-            ],
-            "hint_desc": "",
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
         },
         "render": {
             "name": "render",
-            "line": 52,
-            "short_desc": "render abstract",
+            "line": 66,
+            "short_desc": "render a handlebar template",
             "long_desc": "",
             "hint": [
                 [
@@ -103,7 +111,7 @@
             "parameters": {
                 "str": {
                     "name": "str",
-                    "line": 52,
+                    "line": 66,
                     "short_desc": "handlebar template",
                     "long_desc": null,
                     "hint": [
@@ -121,7 +129,7 @@
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 52,
+                    "line": 66,
                     "short_desc": "variables to use in rendering",
                     "long_desc": null,
                     "hint": [
@@ -130,6 +138,53 @@
                             false
                         ]
                     ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "renderCompiled": {
+            "name": "renderCompiled",
+            "line": 70,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "compiled": {
+                    "name": "compiled",
+                    "line": 70,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "vars": {
+                    "name": "vars",
+                    "line": 70,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
                     "tags": [
 
                     ],

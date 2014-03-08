@@ -1,38 +1,35 @@
 {
-    "name": "bolt\\render\\xmlGenerator",
-    "line": 40,
+    "name": "bolt\\browser\\views\\compiled",
+    "line": 6,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
     "tags": [
 
     ],
-    "namespace": "bolt\\render",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/render\/xml.php",
-    "hash": "92c6ff5232672d9b7c353cf1d6fcc1f38680753a",
+    "namespace": "bolt\\browser\\views",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/browser\/views\/compiled.php",
+    "hash": "892b9152aeb3319e0ee4e105e46dcd34061dfc5e",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
     "aliases": {
-        "b": "b",
-        "DOMDocument": "DOMDocument",
-        "DOMAttr": "DOMAttr",
-        "DOMCDATASection": "DOMCDATASection"
+        "b": "b"
     },
     "errors": [
 
     ],
-    "interfaces": [
-
-    ],
+    "interfaces": {
+        "bolt\\browser\\views\\face": "bolt\\browser\\views\\face"
+    },
     "properties": [
 
     ],
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 44,
+            "line": 18,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -49,9 +46,27 @@
 
             ],
             "parameters": {
-                "data": {
-                    "name": "data",
-                    "line": 44,
+                "manager": {
+                    "name": "manager",
+                    "line": 18,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\browser\\views\\bolt\\browser\\views",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "bolt\\browser\\views",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "config": {
+                    "name": "config",
+                    "line": 18,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -59,14 +74,14 @@
 
                     ],
                     "modifiers": "",
-                    "default": null,
+                    "default": "array()",
                     "is_by_ref": false
                 }
             }
         },
-        "getData": {
-            "name": "getData",
-            "line": 55,
+        "render": {
+            "name": "render",
+            "line": 32,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -86,9 +101,9 @@
 
             ]
         },
-        "render": {
-            "name": "render",
-            "line": 59,
+        "__invoke": {
+            "name": "__invoke",
+            "line": 37,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -110,7 +125,7 @@
         },
         "__toString": {
             "name": "__toString",
-            "line": 64,
+            "line": 41,
             "short_desc": "",
             "long_desc": "",
             "hint": null,

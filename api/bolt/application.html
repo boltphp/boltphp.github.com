@@ -59,6 +59,26 @@
             </tr>
                     <tr>
                 <td class="type">
+                    string
+                </td>
+                <td class="last">
+                    <a href="#method_getBootstrapDir">getBootstrapDir</a>()
+                    <p>getBootsrapDir</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_bootstrap">bootstrap</a>(string $what)
+                    <p>load boostrap files</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
                     array
                 </td>
                 <td class="last">
@@ -129,6 +149,16 @@
             </tr>
                     <tr>
                 <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_getComposerFile">getComposerFile</a>()
+                    <p>get composer file</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
                     void
                 </td>
                 <td class="last">
@@ -143,7 +173,7 @@
         <h2>Details</h2>
 
                         <h3 id="method___construct">
-        <div class="location">at line 38</div>
+        <div class="location">at line 43</div>
         <code>            public            <a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a>
     <strong>__construct</strong>(<abbr title="bolt\$config">$config</abbr> $config = array())</code>
     </h3>
@@ -179,7 +209,7 @@
     </div>
 
                 <h3 id="method_autoload">
-        <div class="location">at line 58</div>
+        <div class="location">at line 72</div>
         <code>            public            void
     <strong>autoload</strong>(string $class)</code>
     </h3>
@@ -215,8 +245,70 @@
                     </div>
     </div>
 
+                <h3 id="method_getBootstrapDir">
+        <div class="location">at line 94</div>
+        <code>            public            string
+    <strong>getBootstrapDir</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>getBootsrapDir</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_bootstrap">
+        <div class="location">at line 105</div>
+        <code>            public            <a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a>
+    <strong>bootstrap</strong>(string $what)</code>
+    </h3>
+    <div class="details">
+        <p>load boostrap files</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$what</td>
+                <td>file or dir path, absolute or relative to $root</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
                 <h3 id="method_getAutoload">
-        <div class="location">at line 80</div>
+        <div class="location">at line 142</div>
         <code>            public            array
     <strong>getAutoload</strong>()</code>
     </h3>
@@ -242,7 +334,7 @@
     </div>
 
                 <h3 id="method_env">
-        <div class="location">at line 93</div>
+        <div class="location">at line 155</div>
         <code>            public            <a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a>
     <strong>env</strong>(string $env, <abbr title="bolt\Closure">Closure</abbr> $callback)</code>
     </h3>
@@ -285,7 +377,7 @@
     </div>
 
                 <h3 id="method_hasRun">
-        <div class="location">at line 106</div>
+        <div class="location">at line 168</div>
         <code>            public            bool
     <strong>hasRun</strong>()</code>
     </h3>
@@ -311,7 +403,7 @@
     </div>
 
                 <h3 id="method_getRoot">
-        <div class="location">at line 115</div>
+        <div class="location">at line 177</div>
         <code>            public            string
     <strong>getRoot</strong>()</code>
     </h3>
@@ -337,7 +429,7 @@
     </div>
 
                 <h3 id="method_setRoot">
-        <div class="location">at line 127</div>
+        <div class="location">at line 189</div>
         <code>            public            <a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a>
     <strong>setRoot</strong>(string $root)</code>
     </h3>
@@ -373,7 +465,7 @@
     </div>
 
                 <h3 id="method_path">
-        <div class="location">at line 140</div>
+        <div class="location">at line 202</div>
         <code>            public            string
     <strong>path</strong>()</code>
     </h3>
@@ -399,7 +491,7 @@
     </div>
 
                 <h3 id="method_load">
-        <div class="location">at line 153</div>
+        <div class="location">at line 215</div>
         <code>            public            <a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a>
     <strong>load</strong>(string $ns, string $path)</code>
     </h3>
@@ -439,8 +531,24 @@
                     </div>
     </div>
 
+                <h3 id="method_getComposerFile">
+        <div class="location">at line 226</div>
+        <code>            public            
+    <strong>getComposerFile</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>get composer file</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
                 <h3 id="method_run">
-        <div class="location">at line 166</div>
+        <div class="location">at line 248</div>
         <code>            public            void
     <strong>run</strong>()</code>
     </h3>

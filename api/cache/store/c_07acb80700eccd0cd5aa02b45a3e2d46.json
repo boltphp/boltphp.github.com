@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\plugin",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/plugin\/factory.php",
-    "hash": "88dccb7bd90e912353216f5279dedc7dc36a877b",
+    "hash": "6c217b45407ebfce0cc54a287bdcae27207a2621",
     "parent": null,
     "modifiers": null,
     "is_trait": false,
@@ -43,20 +43,28 @@
 
             ],
             "errors": [
-
+                "\"1\" @param tags are defined by \"2\" are expected"
             ],
             "parameters": {
+                "parent": {
+                    "name": "parent",
+                    "line": 17,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
                 "config": {
                     "name": "config",
                     "line": 17,
-                    "short_desc": "",
+                    "short_desc": null,
                     "long_desc": null,
-                    "hint": [
-                        [
-                            "array",
-                            false
-                        ]
-                    ],
+                    "hint": null,
                     "tags": [
 
                     ],

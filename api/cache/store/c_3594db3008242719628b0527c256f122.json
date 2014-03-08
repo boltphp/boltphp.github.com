@@ -1,6 +1,6 @@
 {
     "name": "bolt\\models\\entity",
-    "line": 15,
+    "line": 13,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
@@ -22,8 +22,8 @@
         ]
     },
     "namespace": "bolt\\models",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/models\/entity.php",
-    "hash": "f57e67c227f2fa2717191ac75e1627df057c531c",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/models\/entity.php",
+    "hash": "7de329a352c230aac51f6e4ecae1c2a1bcaaebad",
     "parent": null,
     "modifiers": 16,
     "is_trait": false,
@@ -41,9 +41,36 @@
 
     ],
     "methods": {
+        "getApp": {
+            "name": "getApp",
+            "line": 38,
+            "short_desc": "get the base app",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\models\\bolt\\application",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "33",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
         "setManager": {
             "name": "setManager",
-            "line": 40,
+            "line": 49,
             "short_desc": "set the models manager",
             "long_desc": "",
             "hint": [
@@ -67,7 +94,7 @@
             "parameters": {
                 "manager": {
                     "name": "manager",
-                    "line": 40,
+                    "line": 49,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -87,7 +114,7 @@
         },
         "getManager": {
             "name": "getManager",
-            "line": 51,
+            "line": 60,
             "short_desc": "get the models manager",
             "long_desc": "",
             "hint": [
@@ -114,7 +141,7 @@
         },
         "setLoaded": {
             "name": "setLoaded",
-            "line": 63,
+            "line": 72,
             "short_desc": "set if the model is loaded",
             "long_desc": "",
             "hint": [
@@ -138,7 +165,7 @@
             "parameters": {
                 "loaded": {
                     "name": "loaded",
-                    "line": 63,
+                    "line": 72,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -158,7 +185,7 @@
         },
         "isLoaded": {
             "name": "isLoaded",
-            "line": 77,
+            "line": 86,
             "short_desc": "check if the model is loaded",
             "long_desc": "",
             "hint": [
@@ -185,7 +212,7 @@
         },
         "loaded": {
             "name": "loaded",
-            "line": 87,
+            "line": 96,
             "short_desc": "check if the model is loaded",
             "long_desc": "",
             "hint": [
@@ -212,7 +239,7 @@
         },
         "getValue": {
             "name": "getValue",
-            "line": 118,
+            "line": 127,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -231,7 +258,7 @@
             "parameters": {
                 "var": {
                     "name": "var",
-                    "line": 118,
+                    "line": 127,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -244,7 +271,7 @@
                 },
                 "default": {
                     "name": "default",
-                    "line": 118,
+                    "line": 127,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -259,7 +286,7 @@
         },
         "__get": {
             "name": "__get",
-            "line": 135,
+            "line": 144,
             "short_desc": "get an attribute value",
             "long_desc": "",
             "hint": [
@@ -283,7 +310,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 135,
+                    "line": 144,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -298,7 +325,7 @@
         },
         "__set": {
             "name": "__set",
-            "line": 151,
+            "line": 160,
             "short_desc": "set an attribute value",
             "long_desc": "",
             "hint": [
@@ -322,7 +349,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 151,
+                    "line": 160,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -340,7 +367,7 @@
                 },
                 "value": {
                     "name": "value",
-                    "line": 151,
+                    "line": 160,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [

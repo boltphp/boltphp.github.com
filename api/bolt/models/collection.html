@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="robots" content="index, follow, all" />
-        <title>bolt\render\handlebars | </title>
+        <title>bolt\models\collection | </title>
                     <link rel="stylesheet" type="text/css" href="../../stylesheet.css">
                             </head>
         <body id="class">
@@ -20,14 +20,14 @@
         <div id="title"></div>
 
             <div class="type">Class</div>
-    <h1><a href="../../bolt/render.html">bolt\render</a>\handlebars</h1>
+    <h1><a href="../../bolt/models.html">bolt\models</a>\collection</h1>
     </div>
         <div class="content">
                 <p>    class
-    <strong>handlebars</strong>        extends <a href="../../bolt/render/base.html"><abbr title="bolt\render\base">base</abbr></a></p>
+    <strong>collection</strong>        extends <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a></p>
 
             <div class="description">
-            <p>handlare renderer</p>
+            <p>model collection</p>
             <p>
 </p>
         </div>
@@ -39,43 +39,31 @@
             <table>
                     <tr>
                 <td class="type">
-                    static&nbsp;
-                </td>
-                <td class="last">
-                    <a href="#method_canCompile">canCompile</a>()
-                    <p>
-</p>
-                </td>
-                <td></td>
-            </tr>
-                    <tr>
-                <td class="type">
                     
                 </td>
                 <td class="last">
-                    <a href="#method_compile">compile</a>($str)
-                    <p>compile to freezable class</p>
+                    <a href="#method___construct">__construct</a>(<abbr title="bolt\models\bolt\models">models</abbr> $manager, string $entity, array $items = array())
+                    <p>Constructor</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    string
+                    <a href="../../bolt/models/collection.html"><abbr title="bolt\models\collection">collection</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_render">render</a>(string $str, array $vars = array())
-                    <p>render a handlebar template</p>
+                    <a href="#method_push">push</a>(object $object)
+                    <p>push an object to the stack</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../bolt/models/collection.html"><abbr title="bolt\models\collection">collection</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_renderCompiled">renderCompiled</a>($compiled, $vars = array())
-                    <p>
-</p>
+                    <a href="#method_unshift">unshift</a>(object $object)
+                    <p>unshift an object</p>
                 </td>
                 <td></td>
             </tr>
@@ -84,30 +72,13 @@
 
         <h2>Details</h2>
 
-                        <h3 id="method_canCompile">
-        <div class="location">at line 19</div>
-        <code>        static    public            
-    <strong>canCompile</strong>()</code>
-    </h3>
-    <div class="details">
-        <p>
-</p>
-        <p>
-</p>
-        <div class="tags">
-            
-            
-            
-                    </div>
-    </div>
-
-                <h3 id="method_compile">
-        <div class="location">at line 46</div>
+                        <h3 id="method___construct">
+        <div class="location">at line 33</div>
         <code>            public            
-    <strong>compile</strong>($str)</code>
+    <strong>__construct</strong>(<abbr title="bolt\models\bolt\models">models</abbr> $manager, string $entity, array $items = array())</code>
     </h3>
     <div class="details">
-        <p>compile to freezable class</p>
+        <p>Constructor</p>
         <p>
 </p>
         <div class="tags">
@@ -115,10 +86,20 @@
 
                     <table>
                     <tr>
-                <td></td>
-                <td>$str</td>
+                <td><abbr title="bolt\models\bolt\models">models</abbr></td>
+                <td>$manager</td>
                 <td>
 </td>
+            </tr>
+                    <tr>
+                <td>string</td>
+                <td>$entity</td>
+                <td>entity manager</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$items</td>
+                <td>inital items</td>
             </tr>
             </table>
 
@@ -128,13 +109,13 @@
                     </div>
     </div>
 
-                <h3 id="method_render">
-        <div class="location">at line 66</div>
-        <code>            public            string
-    <strong>render</strong>(string $str, array $vars = array())</code>
+                <h3 id="method_push">
+        <div class="location">at line 57</div>
+        <code>            public            <a href="../../bolt/models/collection.html"><abbr title="bolt\models\collection">collection</abbr></a>
+    <strong>push</strong>(object $object)</code>
     </h3>
     <div class="details">
-        <p>render a handlebar template</p>
+        <p>push an object to the stack</p>
         <p>
 </p>
         <div class="tags">
@@ -142,14 +123,10 @@
 
                     <table>
                     <tr>
-                <td>string</td>
-                <td>$str</td>
-                <td>handlebar template</td>
-            </tr>
-                    <tr>
-                <td>array</td>
-                <td>$vars</td>
-                <td>variables to use in rendering</td>
+                <td>object</td>
+                <td>$object</td>
+                <td>
+</td>
             </tr>
             </table>
 
@@ -158,7 +135,7 @@
 
                     <table>
         <tr>
-            <td>string</td>
+            <td><a href="../../bolt/models/collection.html"><abbr title="bolt\models\collection">collection</abbr></a></td>
             <td>
 </td>
         </tr>
@@ -169,14 +146,13 @@
                     </div>
     </div>
 
-                <h3 id="method_renderCompiled">
-        <div class="location">at line 70</div>
-        <code>            public            
-    <strong>renderCompiled</strong>($compiled, $vars = array())</code>
+                <h3 id="method_unshift">
+        <div class="location">at line 74</div>
+        <code>            public            <a href="../../bolt/models/collection.html"><abbr title="bolt\models\collection">collection</abbr></a>
+    <strong>unshift</strong>(object $object)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>unshift an object</p>
         <p>
 </p>
         <div class="tags">
@@ -184,20 +160,24 @@
 
                     <table>
                     <tr>
-                <td></td>
-                <td>$compiled</td>
-                <td>
-</td>
-            </tr>
-                    <tr>
-                <td></td>
-                <td>$vars</td>
+                <td>object</td>
+                <td>$object</td>
                 <td>
 </td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/models/collection.html"><abbr title="bolt\models\collection">collection</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>

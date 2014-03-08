@@ -63,7 +63,7 @@
                     bool
                 </td>
                 <td class="last">
-                    <a href="#method_pluginExists">pluginExists</a>(string $name)
+                    <a href="#method_pluginExists">pluginExists</a>(string $name, <abbr title="bolt\Closure">Closure</abbr> $cb = null)
                     <p>does plugin exist</p>
                 </td>
                 <td></td>
@@ -205,9 +205,9 @@
     </div>
 
                 <h3 id="method_pluginExists">
-        <div class="location">at line 84</div>
+        <div class="location">at line 85</div>
         <code>            public            bool
-    <strong>pluginExists</strong>(string $name)</code>
+    <strong>pluginExists</strong>(string $name, <abbr title="bolt\Closure">Closure</abbr> $cb = null)</code>
     </h3>
     <div class="details">
         <p>does plugin exist</p>
@@ -221,6 +221,11 @@
                 <td>string</td>
                 <td>$name</td>
                 <td>name of plugin</td>
+            </tr>
+                    <tr>
+                <td><abbr title="bolt\Closure">Closure</abbr></td>
+                <td>$cb</td>
+                <td>callback to execute if plugin exists</td>
             </tr>
             </table>
 
@@ -240,7 +245,7 @@
     </div>
 
                 <h3 id="method_plugin">
-        <div class="location">at line 96</div>
+        <div class="location">at line 97</div>
         <code>            public            mixed
     <strong>plugin</strong>(string $name)</code>
     </h3>
@@ -275,7 +280,7 @@
     </div>
 
                 <h3 id="method_unplug">
-        <div class="location">at line 165</div>
+        <div class="location">at line 166</div>
         <code>            public            <a href="../bolt/plugin.html"><abbr title="bolt\plugin">plugin</abbr></a>
     <strong>unplug</strong>(string $name)</code>
     </h3>
@@ -311,7 +316,7 @@
     </div>
 
                 <h3 id="method_offsetSet">
-        <div class="location">at line 188</div>
+        <div class="location">at line 189</div>
         <code>            public            <a href="../bolt/plugin.html"><abbr title="bolt\plugin">plugin</abbr></a>
     <strong>offsetSet</strong>(string $name, string $class)</code>
     </h3>
@@ -352,7 +357,7 @@
     </div>
 
                 <h3 id="method_offsetExists">
-        <div class="location">at line 200</div>
+        <div class="location">at line 201</div>
         <code>            public            bool
     <strong>offsetExists</strong>(string $name)</code>
     </h3>
@@ -388,7 +393,7 @@
     </div>
 
                 <h3 id="method_offsetUnset">
-        <div class="location">at line 212</div>
+        <div class="location">at line 213</div>
         <code>            public            void
     <strong>offsetUnset</strong>(string $name)</code>
     </h3>
@@ -424,7 +429,7 @@
     </div>
 
                 <h3 id="method_offsetGet">
-        <div class="location">at line 224</div>
+        <div class="location">at line 225</div>
         <code>            public            mixed
     <strong>offsetGet</strong>(string $name)</code>
     </h3>

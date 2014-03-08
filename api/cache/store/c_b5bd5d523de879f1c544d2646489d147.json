@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\browser",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/router.php",
-    "hash": "02778f798303045c711e128fe0baf34602c5b8b7",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/browser\/router.php",
+    "hash": "82e9fe4b6665cc36ab29c14fce8d5c42ba5f0da1",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,

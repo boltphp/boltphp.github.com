@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\helpers",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/helpers\/collection.php",
-    "hash": "911ba3741ea998931f659fdeb7135f67a5bf1e1c",
+    "hash": "565c8571475484b7f75138ee8ff3f77152c5e79a",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -30,9 +30,61 @@
 
     ],
     "methods": {
+        "each": {
+            "name": "each",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "cb": {
+                    "name": "cb",
+                    "line": 11,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Closure",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "Closure",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "data": {
+                    "name": "data",
+                    "line": 11,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
         "first": {
             "name": "first",
-            "line": 11,
+            "line": 18,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -54,7 +106,7 @@
         },
         "last": {
             "name": "last",
-            "line": 15,
+            "line": 22,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -76,7 +128,7 @@
         },
         "filter": {
             "name": "filter",
-            "line": 19,
+            "line": 26,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -95,7 +147,7 @@
             "parameters": {
                 "cb": {
                     "name": "cb",
-                    "line": 19,
+                    "line": 26,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -115,7 +167,7 @@
         },
         "push": {
             "name": "push",
-            "line": 25,
+            "line": 32,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -134,7 +186,7 @@
             "parameters": {
                 "item": {
                     "name": "item",
-                    "line": 25,
+                    "line": 32,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -149,7 +201,7 @@
         },
         "shift": {
             "name": "shift",
-            "line": 30,
+            "line": 37,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -171,7 +223,7 @@
         },
         "unshift": {
             "name": "unshift",
-            "line": 35,
+            "line": 42,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -190,7 +242,7 @@
             "parameters": {
                 "item": {
                     "name": "item",
-                    "line": 35,
+                    "line": 42,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -205,7 +257,7 @@
         },
         "getIterator": {
             "name": "getIterator",
-            "line": 40,
+            "line": 47,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -227,7 +279,7 @@
         },
         "count": {
             "name": "count",
-            "line": 44,
+            "line": 51,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -249,7 +301,7 @@
         },
         "jsonSerialize": {
             "name": "jsonSerialize",
-            "line": 48,
+            "line": 55,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -271,7 +323,7 @@
         },
         "offsetSet": {
             "name": "offsetSet",
-            "line": 52,
+            "line": 59,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -290,7 +342,7 @@
             "parameters": {
                 "offset": {
                     "name": "offset",
-                    "line": 52,
+                    "line": 59,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -303,7 +355,7 @@
                 },
                 "value": {
                     "name": "value",
-                    "line": 52,
+                    "line": 59,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -318,7 +370,7 @@
         },
         "offsetExists": {
             "name": "offsetExists",
-            "line": 61,
+            "line": 68,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -337,7 +389,7 @@
             "parameters": {
                 "offset": {
                     "name": "offset",
-                    "line": 61,
+                    "line": 68,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -352,7 +404,7 @@
         },
         "offsetUnset": {
             "name": "offsetUnset",
-            "line": 65,
+            "line": 72,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -371,7 +423,7 @@
             "parameters": {
                 "offset": {
                     "name": "offset",
-                    "line": 65,
+                    "line": 72,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -386,7 +438,7 @@
         },
         "offsetGet": {
             "name": "offsetGet",
-            "line": 69,
+            "line": 76,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -405,7 +457,7 @@
             "parameters": {
                 "offset": {
                     "name": "offset",
-                    "line": 69,
+                    "line": 76,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,

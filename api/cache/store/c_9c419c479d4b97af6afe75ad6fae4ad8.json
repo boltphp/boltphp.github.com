@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\cli",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/cli\/command.php",
-    "hash": "6d46075c846f63223e4fd02a20586dc3c2e5a6f0",
+    "hash": "85e5dc7895667b56fac7d6287d57b2e47d99da32",
     "parent": "Symfony\\Component\\Console\\Command\\Command",
     "modifiers": 0,
     "is_trait": false,
@@ -229,8 +229,8 @@
 
             ]
         },
-        "arg": {
-            "name": "arg",
+        "writeError": {
+            "name": "writeError",
             "line": 131,
             "short_desc": "",
             "long_desc": "",
@@ -248,8 +248,8 @@
 
             ],
             "parameters": {
-                "name": {
-                    "name": "name",
+                "msg": {
+                    "name": "msg",
                     "line": 131,
                     "short_desc": null,
                     "long_desc": null,
@@ -263,8 +263,8 @@
                 }
             }
         },
-        "opt": {
-            "name": "opt",
+        "arg": {
+            "name": "arg",
             "line": 135,
             "short_desc": "",
             "long_desc": "",
@@ -297,9 +297,43 @@
                 }
             }
         },
+        "opt": {
+            "name": "opt",
+            "line": 139,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 139,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
         "init": {
             "name": "init",
-            "line": 140,
+            "line": 144,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -321,7 +355,7 @@
         },
         "execute": {
             "name": "execute",
-            "line": 144,
+            "line": 148,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -340,7 +374,7 @@
             "parameters": {
                 "input": {
                     "name": "input",
-                    "line": 144,
+                    "line": 148,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -358,7 +392,7 @@
                 },
                 "output": {
                     "name": "output",
-                    "line": 144,
+                    "line": 148,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [

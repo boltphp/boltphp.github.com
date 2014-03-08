@@ -1,6 +1,6 @@
 {
     "name": "bolt\\client\\compile",
-    "line": 6,
+    "line": 7,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
@@ -8,9 +8,9 @@
 
     ],
     "namespace": "bolt\\client",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/client\/compile.php",
-    "hash": "1cf4991e58ea6ba69c8ca85aca52f1bf221f1844",
-    "parent": null,
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/client\/compile.php",
+    "hash": "3cab59c4949ec94c272f5bdb25d15e6201e809ff",
+    "parent": "bolt\\client\\command",
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
@@ -23,12 +23,193 @@
     "interfaces": [
 
     ],
-    "properties": [
+    "properties": {
+        "name": {
+            "name": "name",
+            "line": 9,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
 
-    ],
-    "methods": [
+            ],
+            "modifiers": 9,
+            "default": {
 
-    ],
+            },
+            "errors": [
+
+            ]
+        },
+        "configure": {
+            "name": "configure",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": 9,
+            "default": {
+
+            },
+            "errors": [
+
+            ]
+        }
+    },
+    "methods": {
+        "init": {
+            "name": "init",
+            "line": 22,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "generate": {
+            "name": "generate",
+            "line": 52,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "clean": {
+            "name": "clean",
+            "line": 131,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "saveCompileLoader": {
+            "name": "saveCompileLoader",
+            "line": 141,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 141,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "data": {
+                    "name": "data",
+                    "line": 141,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "makeDir": {
+            "name": "makeDir",
+            "line": 155,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 155,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
     "constants": [
 
     ]

@@ -3,73 +3,46 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>BoltPHP - it's not a framework, it's just code.</title>
+        <title>bolt(php) - it's not a framework, it's just code.</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-        <style type="text/css">
-            @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
-            html, body {
-                width: 100%;
-                height: 100%;
-            }
-            header {
-                box-shadow: 1px 0 20px #999;
-                background: #333;
-                height: 80%;
-                width: 100%;
-                display: table;
-                text-align: center;
-            }
-            h1 {
-                color: #fff;
-                margin: 0;
-                padding: 0;
-                display: table-cell;
-                vertical-align: middle;
-                font-family: Raleway;
-            }
-            h1 i {
-                border-radius: 100px;
-                display: block;
-                font-size: 90px;
-                background: #222;
-                padding: 15px 40px;
-            }
-            h1 strong {
-                display: block;
-
-                padding-top: 10px;
-                font-size: 40px;
-            }
-            h1 sup {
-                display: inline-block;
-                font-size: 18px;
-                color: #999;
-                padding-left: 5px;
-                position: relative;
-                top: -15px;
-            }
-            section {
-                text-align: center;
-                padding-top: 5%;
-                color: #333;
-            }
-            section a {
-                color: #333;
-                text-decoration: none;
-            }
-        </style>
+        <link href="/assets/style.css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1><i class="fa fa-bolt"></i><strong>Bolt<sup>PHP</sup></strong></h1>
-        </header>
-        <section>
-            <a href="docs/">Documentation</a> -
-            <a href="api/index.html">API</a> -
-            <a href="https://github.com/boltphp/core/issues">Issues</a> -
-            <a href="http://github.com/boltphp/bolt">Github</a>
-        </section>
+        <div class="container">
+
+            <h1><strong>bolt<sup>(php)</sup></strong></h1>
+
+            <h2>Usage</h2>
+            <pre>&lt;?php
+$app = bolt\browser::start([
+        &#039;root&#039; =&gt; __DIR__,
+        &#039;plugins&#039; =&gt; [
+            [&#039;router&#039;, &#039;bolt\browser\router&#039;]
+        ]
+    ]);
+
+$app[&#039;router&#039;]-&gt;get(&#039;/&#039;, function(){
+    $this-&gt;response
+        -&gt;setContent(&#039;Hello World&#039;);
+});
+
+$app->run();</pre>
+
+            <h2>Get Started</h2>
+            <pre>composer create-project boltphp/bolt project-name
+cd project-name
+php server.php
+http://localhost:8000</pre>
+
+            <h2>More</h2>
+            <nav>
+                <a href="api/index.html">API</a>
+                <a href="https://github.com/boltphp/core/issues">Issues</a>
+                <a href="http://github.com/boltphp/bolt">Github</a>
+            </nav>
+
+        </div>
     </body>
 </html>

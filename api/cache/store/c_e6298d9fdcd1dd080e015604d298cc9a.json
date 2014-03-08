@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/render.php",
-    "hash": "b3193bc94749b688b03e3b06fa70ff652387ebea",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/render.php",
+    "hash": "aef81ebf344142e55cf862febf661c5be4744962",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -29,7 +29,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 7,
+            "line": 13,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -48,7 +48,7 @@
             "parameters": {
                 "app": {
                     "name": "app",
-                    "line": 7,
+                    "line": 13,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -68,7 +68,116 @@
         },
         "engine": {
             "name": "engine",
-            "line": 11,
+            "line": 25,
+            "short_desc": "register a new engine",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\render",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "ext": {
+                    "name": "ext",
+                    "line": 25,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "class": {
+                    "name": "class",
+                    "line": 25,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "hasEngine": {
+            "name": "hasEngine",
+            "line": 34,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "ext": {
+                    "name": "ext",
+                    "line": 34,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "mustCompile": {
+                    "name": "mustCompile",
+                    "line": 34,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getEngines": {
+            "name": "getEngines",
+            "line": 41,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -88,9 +197,9 @@
 
             ]
         },
-        "render": {
-            "name": "render",
-            "line": 15,
+        "getEngine": {
+            "name": "getEngine",
+            "line": 45,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -107,9 +216,43 @@
 
             ],
             "parameters": {
-                "engine": {
-                    "name": "engine",
-                    "line": 15,
+                "ext": {
+                    "name": "ext",
+                    "line": 45,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "string": {
+            "name": "string",
+            "line": 52,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "ext": {
+                    "name": "ext",
+                    "line": 52,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -122,7 +265,7 @@
                 },
                 "str": {
                     "name": "str",
-                    "line": 15,
+                    "line": 52,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -135,7 +278,54 @@
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 15,
+                    "line": 52,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "file": {
+            "name": "file",
+            "line": 59,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "file": {
+                    "name": "file",
+                    "line": 59,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "vars": {
+                    "name": "vars",
+                    "line": 59,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,

@@ -1,6 +1,6 @@
 {
     "name": "bolt\\helpers\\fs",
-    "line": 6,
+    "line": 8,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
@@ -9,13 +9,14 @@
     ],
     "namespace": "bolt\\helpers",
     "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/helpers\/fs.php",
-    "hash": "ac4e46b90657f7fa5e27c0a23a38c6f935360611",
+    "hash": "d1e27b13114a84ee8b5813918d21667706a6de73",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
     "aliases": {
-        "b": "b"
+        "b": "b",
+        "Filesystem": "Symfony\\Component\\Filesystem\\Filesystem"
     },
     "errors": [
 
@@ -29,7 +30,7 @@
     "methods": {
         "path": {
             "name": "path",
-            "line": 10,
+            "line": 14,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -51,7 +52,7 @@
         },
         "getRegexFiles": {
             "name": "getRegexFiles",
-            "line": 15,
+            "line": 19,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -70,7 +71,7 @@
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 15,
+                    "line": 19,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -83,7 +84,7 @@
                 },
                 "regex": {
                     "name": "regex",
-                    "line": 15,
+                    "line": 19,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -98,7 +99,7 @@
         },
         "requireFromPath": {
             "name": "requireFromPath",
-            "line": 44,
+            "line": 48,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -117,7 +118,7 @@
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 44,
+                    "line": 48,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -130,7 +131,7 @@
                 },
                 "regex": {
                     "name": "regex",
-                    "line": 44,
+                    "line": 48,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -145,7 +146,7 @@
         },
         "fs": {
             "name": "fs",
-            "line": 57,
+            "line": 61,
             "short_desc": "",
             "long_desc": "",
             "hint": null,

@@ -1,5 +1,5 @@
 {
-    "name": "bolt\\events",
+    "name": "bolt\\helpers\\events",
     "line": 9,
     "short_desc": "Add events handling to an object",
     "long_desc": "",
@@ -7,9 +7,9 @@
     "tags": [
 
     ],
-    "namespace": "bolt",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/events.php",
-    "hash": "106996d6a4f0803db78e06fdb8336b2bda0d49d4",
+    "namespace": "bolt\\helpers",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/helpers\/events.php",
+    "hash": "b8270172000413cdd03f2efe8bbf4611e32542c3",
     "parent": null,
     "modifiers": null,
     "is_trait": true,
@@ -34,7 +34,7 @@
             "long_desc": "",
             "hint": [
                 [
-                    "bolt\\bolt\\events\\listener",
+                    "bolt\\helpers\\bolt\\helpers\\events\\listener",
                     false
                 ]
             ],
@@ -76,7 +76,7 @@
                     "long_desc": null,
                     "hint": [
                         [
-                            "bolt\\Closure",
+                            "bolt\\helpers\\Closure",
                             false
                         ]
                     ],
@@ -114,7 +114,7 @@
             "long_desc": "",
             "hint": [
                 [
-                    "bolt\\events",
+                    "bolt\\helpers\\events",
                     false
                 ]
             ],
@@ -138,7 +138,7 @@
                     "long_desc": null,
                     "hint": [
                         [
-                            "bolt\\events\\listener",
+                            "bolt\\helpers\\events\\listener",
                             false
                         ]
                     ],
@@ -229,7 +229,7 @@
             "long_desc": "",
             "hint": [
                 [
-                    "bolt\\bolt\\events\\listener",
+                    "bolt\\helpers\\bolt\\helpers\\events\\listener",
                     false
                 ]
             ],
@@ -353,6 +353,58 @@
                             false
                         ]
                     ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "executeListener": {
+            "name": "executeListener",
+            "line": 131,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "listener": {
+                    "name": "listener",
+                    "line": 131,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\helpers\\events\\listener",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "events\\listener",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "data": {
+                    "name": "data",
+                    "line": 131,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
                     "tags": [
 
                     ],

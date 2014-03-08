@@ -164,8 +164,29 @@
                     array
                 </td>
                 <td class="last">
-                    <a href="#method_getFilters">getFilters</a>(string $ext)
+                    <a href="#method_getFilters">getFilters</a>($ext, $when = null)
                     <p>get all registered filters for an extension</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    void
+                </td>
+                <td class="last">
+                    <a href="#method_compile">compile</a>(<abbr title="bolt\browser\bolt\events\event">event</abbr> $e)
+                    <p>compile assets into the compile directory</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_compileFile">compileFile</a>($file)
+                    <p>
+</p>
                 </td>
                 <td></td>
             </tr>
@@ -175,7 +196,7 @@
         <h2>Details</h2>
 
                         <h3 id="method___construct">
-        <div class="location">at line 53</div>
+        <div class="location">at line 54</div>
         <code>            public            
     <strong>__construct</strong>(<abbr title="bolt\browser\bolt\browser">browser</abbr> $browser, array $config = array())</code>
     </h3>
@@ -208,7 +229,7 @@
     </div>
 
                 <h3 id="method_globals">
-        <div class="location">at line 78</div>
+        <div class="location">at line 84</div>
         <code>            public            <a href="../../bolt/browser/assets.html"><abbr title="bolt\browser\assets">assets</abbr></a>
     <strong>globals</strong>(string|array $ext, string $path = false)</code>
     </h3>
@@ -250,7 +271,7 @@
     </div>
 
                 <h3 id="method_filter">
-        <div class="location">at line 100</div>
+        <div class="location">at line 106</div>
         <code>            public            <a href="../../bolt/browser/assets.html"><abbr title="bolt\browser\assets">assets</abbr></a>
     <strong>filter</strong>(string|array $ext, string $class = false, array $args = array())</code>
     </h3>
@@ -297,7 +318,7 @@
     </div>
 
                 <h3 id="method_add">
-        <div class="location">at line 128</div>
+        <div class="location">at line 140</div>
         <code>            public            <a href="../../bolt/browser/assets.html"><abbr title="bolt\browser\assets">assets</abbr></a>
     <strong>add</strong>(string $type, string $name = false, array $files = false)</code>
     </h3>
@@ -343,7 +364,7 @@
     </div>
 
                 <h3 id="method_createGroup">
-        <div class="location">at line 148</div>
+        <div class="location">at line 160</div>
         <code>            public            
     <strong>createGroup</strong>($type, $name, $files = array())</code>
     </h3>
@@ -383,7 +404,7 @@
     </div>
 
                 <h3 id="method_find">
-        <div class="location">at line 166</div>
+        <div class="location">at line 178</div>
         <code>            public            mixed
     <strong>find</strong>(string $file)</code>
     </h3>
@@ -419,7 +440,7 @@
     </div>
 
                 <h3 id="method_findDir">
-        <div class="location">at line 189</div>
+        <div class="location">at line 202</div>
         <code>            public            mixed
     <strong>findDir</strong>(string $path)</code>
     </h3>
@@ -455,7 +476,7 @@
     </div>
 
                 <h3 id="method_out">
-        <div class="location">at line 209</div>
+        <div class="location">at line 222</div>
         <code>            public            string
     <strong>out</strong>($type, $name, $combo = false)</code>
     </h3>
@@ -504,7 +525,7 @@
     </div>
 
                 <h3 id="method_url">
-        <div class="location">at line 238</div>
+        <div class="location">at line 251</div>
         <code>            public            string
     <strong>url</strong>(mixed $path)</code>
     </h3>
@@ -541,7 +562,7 @@
     </div>
 
                 <h3 id="method_getGroup">
-        <div class="location">at line 261</div>
+        <div class="location">at line 274</div>
         <code>            public            array
     <strong>getGroup</strong>($type, $name)</code>
     </h3>
@@ -584,7 +605,7 @@
     </div>
 
                 <h3 id="method_stylesheet">
-        <div class="location">at line 274</div>
+        <div class="location">at line 287</div>
         <code>            public            string
     <strong>stylesheet</strong>(array $leafs)</code>
     </h3>
@@ -621,7 +642,7 @@
     </div>
 
                 <h3 id="method_getGlobals">
-        <div class="location">at line 297</div>
+        <div class="location">at line 310</div>
         <code>            public            array
     <strong>getGlobals</strong>(string $ext)</code>
     </h3>
@@ -658,9 +679,9 @@
     </div>
 
                 <h3 id="method_getFilters">
-        <div class="location">at line 309</div>
+        <div class="location">at line 322</div>
         <code>            public            array
-    <strong>getFilters</strong>(string $ext)</code>
+    <strong>getFilters</strong>($ext, $when = null)</code>
     </h3>
     <div class="details">
         <p>get all registered filters for an extension</p>
@@ -671,8 +692,14 @@
 
                     <table>
                     <tr>
-                <td>string</td>
+                <td></td>
                 <td>$ext</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$when</td>
                 <td>
 </td>
             </tr>
@@ -689,6 +716,71 @@
         </tr>
     </table>
 
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_compile">
+        <div class="location">at line 352</div>
+        <code>            public            void
+    <strong>compile</strong>(<abbr title="bolt\browser\bolt\events\event">event</abbr> $e)</code>
+    </h3>
+    <div class="details">
+        <p>compile assets into the compile directory</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td><abbr title="bolt\browser\bolt\events\event">event</abbr></td>
+                <td>$e</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>void</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_compileFile">
+        <div class="location">at line 393</div>
+        <code>            public            
+    <strong>compileFile</strong>($file)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$file</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
             
             
                     </div>

@@ -1,15 +1,15 @@
 {
-    "name": "bolt\\models\\result",
+    "name": "bolt\\models\\collection",
     "line": 9,
-    "short_desc": "model results",
+    "short_desc": "model collection",
     "long_desc": "",
     "hint": null,
     "tags": [
 
     ],
     "namespace": "bolt\\models",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/models\/result.php",
-    "hash": "15c1672f2aca932a57d7a5339e1c4962cc379cb3",
+    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/models\/collection.php",
+    "hash": "b777ac158cbc26669115876c8a5d7e71261fe052",
     "parent": "bolt\\helpers\\collection",
     "modifiers": 0,
     "is_trait": false,
@@ -104,12 +104,12 @@
         },
         "push": {
             "name": "push",
-            "line": 54,
-            "short_desc": "push an object to the stack",
+            "line": 57,
+            "short_desc": "",
             "long_desc": "",
             "hint": [
                 [
-                    "bolt\\models\\result",
+                    "bolt\\models\\collection",
                     false
                 ]
             ],
@@ -128,7 +128,7 @@
             "parameters": {
                 "object": {
                     "name": "object",
-                    "line": 54,
+                    "line": 57,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -148,12 +148,12 @@
         },
         "unshift": {
             "name": "unshift",
-            "line": 71,
-            "short_desc": "unshift an object",
+            "line": 74,
+            "short_desc": "",
             "long_desc": "",
             "hint": [
                 [
-                    "bolt\\models\\result",
+                    "bolt\\models\\collection",
                     false
                 ]
             ],
@@ -172,7 +172,7 @@
             "parameters": {
                 "object": {
                     "name": "object",
-                    "line": 71,
+                    "line": 74,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
