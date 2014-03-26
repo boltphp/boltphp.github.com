@@ -88,7 +88,7 @@
         "render": {
             "name": "render",
             "line": 66,
-            "short_desc": "render a handlebar template",
+            "short_desc": "render abstract",
             "long_desc": "",
             "hint": [
                 [

@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\models",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/models\/driver.php",
-    "hash": "affab68de2dcb8300dd5b912b0e11f640d53ca7b",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/models\/driver.php",
+    "hash": "fa7391ff00c4a9c4f05de8f11811f3be03400b48",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -159,7 +159,7 @@
         },
         "isTransient": {
             "name": "isTransient",
-            "line": 65,
+            "line": 71,
             "short_desc": "is transient",
             "long_desc": "",
             "hint": [
@@ -183,7 +183,7 @@
             "parameters": {
                 "className": {
                     "name": "className",
-                    "line": 65,
+                    "line": 71,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [

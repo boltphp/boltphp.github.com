@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\browser",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/request.php",
-    "hash": "7c3cc890e7174c58ed02641cae106f5834ec2bd0",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/browser\/request.php",
+    "hash": "1e7477ba484ff3e1a038fa8ccb07937c1d8ad48e",
     "parent": "Symfony\\Component\\HttpFoundation\\Request",
     "modifiers": 0,
     "is_trait": false,
@@ -31,7 +31,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 23,
+            "line": 19,
             "short_desc": "Constructor.",
             "long_desc": "",
             "hint": null,
@@ -53,7 +53,7 @@
         },
         "getContext": {
             "name": "getContext",
-            "line": 32,
+            "line": 28,
             "short_desc": "get the request context",
             "long_desc": "return Symfony\\Component\\Routing\\RequestContext",
             "hint": null,
@@ -72,50 +72,6 @@
             "parameters": [
 
             ]
-        },
-        "is404": {
-            "name": "is404",
-            "line": 45,
-            "short_desc": "is the request currently in a 404 state",
-            "long_desc": "",
-            "hint": [
-                [
-                    "mixed",
-                    false
-                ]
-            ],
-            "hint_desc": "",
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": {
-                "flag": {
-                    "name": "flag",
-                    "line": 45,
-                    "short_desc": "",
-                    "long_desc": null,
-                    "hint": [
-                        [
-                            "bool",
-                            false
-                        ]
-                    ],
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
-                    "default": "null",
-                    "is_by_ref": false
-                }
-            }
         }
     },
     "constants": [

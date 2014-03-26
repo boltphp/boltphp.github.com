@@ -8,9 +8,9 @@
 
     ],
     "namespace": "bolt\\dom",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/dom\/nodeList.php",
-    "hash": "794a1f449cd1c8558ebb9431ea91284c2c2c8b33",
-    "parent": "SplObjectStorage",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/dom\/nodeList.php",
+    "hash": "66e0663c9d8066d4f9d1f0329f90546ec7bed9d6",
+    "parent": "bolt\\helpers\\collection",
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
@@ -51,19 +51,46 @@
                     "line": 11,
                     "short_desc": null,
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "bolt\\dom\\bolt\\dom",
+                            false
+                        ]
+                    ],
                     "tags": [
 
                     ],
-                    "modifiers": "",
+                    "modifiers": "bolt\\dom",
                     "default": null,
                     "is_by_ref": false
                 }
             }
         },
+        "html": {
+            "name": "html",
+            "line": 15,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
         "__call": {
             "name": "__call",
-            "line": 15,
+            "line": 23,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -82,7 +109,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 15,
+                    "line": 23,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -95,7 +122,7 @@
                 },
                 "args": {
                     "name": "args",
-                    "line": 15,
+                    "line": 23,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -107,150 +134,6 @@
                     "is_by_ref": false
                 }
             }
-        },
-        "item": {
-            "name": "item",
-            "line": 24,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": {
-                "pos": {
-                    "name": "pos",
-                    "line": 24,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
-                    "default": null,
-                    "is_by_ref": false
-                }
-            }
-        },
-        "first": {
-            "name": "first",
-            "line": 31,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
-        },
-        "last": {
-            "name": "last",
-            "line": 35,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
-        },
-        "size": {
-            "name": "size",
-            "line": 39,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
-        },
-        "html": {
-            "name": "html",
-            "line": 43,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
-        },
-        "__toString": {
-            "name": "__toString",
-            "line": 54,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
         }
     },
     "constants": [

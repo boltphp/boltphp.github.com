@@ -24,24 +24,10 @@
     </div>
         <div class="content">
                 <p>    class
-    <strong>fragment</strong>        implements
-        <a href="http://php.net/ArrayAccess"><abbr title="ArrayAccess">ArrayAccess</abbr></a></p>
+    <strong>fragment</strong>        extends <a href="../../bolt/dom.html"><abbr title="bolt\dom">dom</abbr></a></p>
 
     
     
-            <h2>Properties</h2>
-
-            <table>
-                    <tr>
-                <td class="type" id="property_root">
-                                                            
-                </td>
-                <td>$root</td>
-                <td class="last">
-</td>
-            </tr>
-            </table>
-
     
             <h2>Methods</h2>
 
@@ -51,7 +37,7 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method___construct">__construct</a>($tag, $attr = array())
+                    <a href="#method_rootNode">rootNode</a>()
                     <p>
 </p>
                 </td>
@@ -62,7 +48,7 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method_guid">guid</a>()
+                    <a href="#method_html">html</a>($html = null)
                     <p>
 </p>
                 </td>
@@ -73,7 +59,7 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method_reset">reset</a>(<abbr title="bolt\dom\bolt\dom">dom</abbr> $dom, $node)
+                    <a href="#method_root">root</a>($tag = null)
                     <p>
 </p>
                 </td>
@@ -84,7 +70,7 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method_html">html</a>()
+                    <a href="#method_append">append</a>($what)
                     <p>
 </p>
                 </td>
@@ -95,62 +81,7 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method___call">__call</a>($name, $args)
-                    <p>
-</p>
-                </td>
-                <td></td>
-            </tr>
-                    <tr>
-                <td class="type">
-                    
-                </td>
-                <td class="last">
-                    <a href="#method_offsetExists">offsetExists</a>($name)
-                    <p>
-</p>
-                </td>
-                <td></td>
-            </tr>
-                    <tr>
-                <td class="type">
-                    
-                </td>
-                <td class="last">
-                    <a href="#method_offsetGet">offsetGet</a>($name)
-                    <p>
-</p>
-                </td>
-                <td></td>
-            </tr>
-                    <tr>
-                <td class="type">
-                    
-                </td>
-                <td class="last">
-                    <a href="#method_offsetSet">offsetSet</a>($name, $value)
-                    <p>
-</p>
-                </td>
-                <td></td>
-            </tr>
-                    <tr>
-                <td class="type">
-                    
-                </td>
-                <td class="last">
-                    <a href="#method_offsetUnset">offsetUnset</a>($name)
-                    <p>
-</p>
-                </td>
-                <td></td>
-            </tr>
-                    <tr>
-                <td class="type">
-                    
-                </td>
-                <td class="last">
-                    <a href="#method___toString">__toString</a>()
+                    <a href="#method_children">children</a>()
                     <p>
 </p>
                 </td>
@@ -161,10 +92,55 @@
 
         <h2>Details</h2>
 
-                        <h3 id="method___construct">
-        <div class="location">at line 13</div>
+                        <h3 id="method_rootNode">
+        <div class="location">at line 14</div>
         <code>            public            
-    <strong>__construct</strong>($tag, $attr = array())</code>
+    <strong>rootNode</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_html">
+        <div class="location">at line 18</div>
+        <code>            public            
+    <strong>html</strong>($html = null)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$html</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_root">
+        <div class="location">at line 36</div>
+        <code>            public            
+    <strong>root</strong>($tag = null)</code>
     </h3>
     <div class="details">
         <p>
@@ -181,12 +157,6 @@
                 <td>
 </td>
             </tr>
-                    <tr>
-                <td></td>
-                <td>$attr</td>
-                <td>
-</td>
-            </tr>
             </table>
 
             
@@ -195,78 +165,10 @@
                     </div>
     </div>
 
-                <h3 id="method_guid">
-        <div class="location">at line 25</div>
+                <h3 id="method_append">
+        <div class="location">at line 46</div>
         <code>            public            
-    <strong>guid</strong>()</code>
-    </h3>
-    <div class="details">
-        <p>
-</p>
-        <p>
-</p>
-        <div class="tags">
-            
-            
-            
-                    </div>
-    </div>
-
-                <h3 id="method_reset">
-        <div class="location">at line 29</div>
-        <code>            public            
-    <strong>reset</strong>(<abbr title="bolt\dom\bolt\dom">dom</abbr> $dom, $node)</code>
-    </h3>
-    <div class="details">
-        <p>
-</p>
-        <p>
-</p>
-        <div class="tags">
-                            <h4>Parameters</h4>
-
-                    <table>
-                    <tr>
-                <td><abbr title="bolt\dom\bolt\dom">dom</abbr></td>
-                <td>$dom</td>
-                <td>
-</td>
-            </tr>
-                    <tr>
-                <td></td>
-                <td>$node</td>
-                <td>
-</td>
-            </tr>
-            </table>
-
-            
-            
-            
-                    </div>
-    </div>
-
-                <h3 id="method_html">
-        <div class="location">at line 34</div>
-        <code>            public            
-    <strong>html</strong>()</code>
-    </h3>
-    <div class="details">
-        <p>
-</p>
-        <p>
-</p>
-        <div class="tags">
-            
-            
-            
-                    </div>
-    </div>
-
-                <h3 id="method___call">
-        <div class="location">at line 38</div>
-        <code>            public            
-    <strong>__call</strong>($name, $args)</code>
+    <strong>append</strong>($what)</code>
     </h3>
     <div class="details">
         <p>
@@ -279,13 +181,7 @@
                     <table>
                     <tr>
                 <td></td>
-                <td>$name</td>
-                <td>
-</td>
-            </tr>
-                    <tr>
-                <td></td>
-                <td>$args</td>
+                <td>$what</td>
                 <td>
 </td>
             </tr>
@@ -297,128 +193,10 @@
                     </div>
     </div>
 
-                <h3 id="method_offsetExists">
-        <div class="location">at line 43</div>
-        <code>            public            
-    <strong>offsetExists</strong>($name)</code>
-    </h3>
-    <div class="details">
-        <p>
-</p>
-        <p>
-</p>
-        <div class="tags">
-                            <h4>Parameters</h4>
-
-                    <table>
-                    <tr>
-                <td></td>
-                <td>$name</td>
-                <td>
-</td>
-            </tr>
-            </table>
-
-            
-            
-            
-                    </div>
-    </div>
-
-                <h3 id="method_offsetGet">
-        <div class="location">at line 47</div>
-        <code>            public            
-    <strong>offsetGet</strong>($name)</code>
-    </h3>
-    <div class="details">
-        <p>
-</p>
-        <p>
-</p>
-        <div class="tags">
-                            <h4>Parameters</h4>
-
-                    <table>
-                    <tr>
-                <td></td>
-                <td>$name</td>
-                <td>
-</td>
-            </tr>
-            </table>
-
-            
-            
-            
-                    </div>
-    </div>
-
-                <h3 id="method_offsetSet">
+                <h3 id="method_children">
         <div class="location">at line 51</div>
         <code>            public            
-    <strong>offsetSet</strong>($name, $value)</code>
-    </h3>
-    <div class="details">
-        <p>
-</p>
-        <p>
-</p>
-        <div class="tags">
-                            <h4>Parameters</h4>
-
-                    <table>
-                    <tr>
-                <td></td>
-                <td>$name</td>
-                <td>
-</td>
-            </tr>
-                    <tr>
-                <td></td>
-                <td>$value</td>
-                <td>
-</td>
-            </tr>
-            </table>
-
-            
-            
-            
-                    </div>
-    </div>
-
-                <h3 id="method_offsetUnset">
-        <div class="location">at line 55</div>
-        <code>            public            
-    <strong>offsetUnset</strong>($name)</code>
-    </h3>
-    <div class="details">
-        <p>
-</p>
-        <p>
-</p>
-        <div class="tags">
-                            <h4>Parameters</h4>
-
-                    <table>
-                    <tr>
-                <td></td>
-                <td>$name</td>
-                <td>
-</td>
-            </tr>
-            </table>
-
-            
-            
-            
-                    </div>
-    </div>
-
-                <h3 id="method___toString">
-        <div class="location">at line 59</div>
-        <code>            public            
-    <strong>__toString</strong>()</code>
+    <strong>children</strong>()</code>
     </h3>
     <div class="details">
         <p>

@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\models",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/models\/collection.php",
-    "hash": "b777ac158cbc26669115876c8a5d7e71261fe052",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/models\/collection.php",
+    "hash": "16fc7f938bf916bea65df0934902da4d21454db4",
     "parent": "bolt\\helpers\\collection",
     "modifiers": 0,
     "is_trait": false,
@@ -29,7 +29,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 33,
+            "line": 41,
             "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
@@ -48,7 +48,7 @@
             "parameters": {
                 "manager": {
                     "name": "manager",
-                    "line": 33,
+                    "line": 41,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -66,7 +66,7 @@
                 },
                 "entity": {
                     "name": "entity",
-                    "line": 33,
+                    "line": 41,
                     "short_desc": "entity manager",
                     "long_desc": null,
                     "hint": [
@@ -84,7 +84,7 @@
                 },
                 "items": {
                     "name": "items",
-                    "line": 33,
+                    "line": 41,
                     "short_desc": "inital items",
                     "long_desc": null,
                     "hint": [
@@ -102,10 +102,116 @@
                 }
             }
         },
+        "__get": {
+            "name": "__get",
+            "line": 64,
+            "short_desc": "get a paramter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 64,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "__set": {
+            "name": "__set",
+            "line": 79,
+            "short_desc": "set a paramater",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\models\\collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 79,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "value": {
+                    "name": "value",
+                    "line": 79,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
         "push": {
             "name": "push",
-            "line": 57,
-            "short_desc": "",
+            "line": 92,
+            "short_desc": "push an object to the stack",
             "long_desc": "",
             "hint": [
                 [
@@ -128,7 +234,7 @@
             "parameters": {
                 "object": {
                     "name": "object",
-                    "line": 57,
+                    "line": 92,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -148,8 +254,8 @@
         },
         "unshift": {
             "name": "unshift",
-            "line": 74,
-            "short_desc": "",
+            "line": 109,
+            "short_desc": "unshift an object",
             "long_desc": "",
             "hint": [
                 [
@@ -172,7 +278,7 @@
             "parameters": {
                 "object": {
                     "name": "object",
-                    "line": 74,
+                    "line": 109,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [

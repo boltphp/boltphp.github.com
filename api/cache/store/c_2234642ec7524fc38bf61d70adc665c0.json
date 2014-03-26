@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\models",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/models\/proxy.php",
-    "hash": "d9ad36c5ac5b823079b826dfbba24eba6a876079",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/models\/proxy.php",
+    "hash": "45e3811dd54685d63222256fc00b320a6e8cd1cf",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -29,7 +29,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 32,
+            "line": 33,
             "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
@@ -48,7 +48,7 @@
             "parameters": {
                 "manager": {
                     "name": "manager",
-                    "line": 32,
+                    "line": 33,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -66,7 +66,7 @@
                 },
                 "class": {
                     "name": "class",
-                    "line": 32,
+                    "line": 33,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -86,7 +86,7 @@
         },
         "getClassName": {
             "name": "getClassName",
-            "line": 42,
+            "line": 43,
             "short_desc": "return the class name",
             "long_desc": "",
             "hint": [
@@ -113,7 +113,7 @@
         },
         "__call": {
             "name": "__call",
-            "line": 55,
+            "line": 57,
             "short_desc": "proxy function class to manager",
             "long_desc": "",
             "hint": [
@@ -137,7 +137,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 55,
+                    "line": 57,
                     "short_desc": "function name",
                     "long_desc": null,
                     "hint": [
@@ -155,7 +155,7 @@
                 },
                 "args": {
                     "name": "args",
-                    "line": 55,
+                    "line": 57,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [

@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\render",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/render\/dom.php",
-    "hash": "f5a9d0c02a0ec9d033ec10024bd9b62a3ffb979b",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/render\/dom.php",
+    "hash": "bdfc66f2135ff8e4b726ed51cf0fd054c1b2d0e4",
     "parent": "bolt\\render\\base",
     "modifiers": 0,
     "is_trait": false,
@@ -30,15 +30,10 @@
         "compile": {
             "name": "compile",
             "line": 16,
-            "short_desc": "compile abstract",
+            "short_desc": "compile the dom doc to serializeable object",
             "long_desc": "",
-            "hint": [
-                [
-                    "string",
-                    false
-                ]
-            ],
-            "hint_desc": "",
+            "hint": null,
+            "hint_desc": null,
             "tags": [
 
             ],
@@ -57,7 +52,7 @@
         "render": {
             "name": "render",
             "line": 30,
-            "short_desc": "render abstract",
+            "short_desc": "render an html string into a dom doc",
             "long_desc": "",
             "hint": [
                 [

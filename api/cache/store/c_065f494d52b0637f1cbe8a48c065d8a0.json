@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/client.php",
-    "hash": "59953966d44b89117a757bd0a7ac99609fc53985",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/client.php",
+    "hash": "44fc43e9a25e31b493d3a62ffcab08b699df6968",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,

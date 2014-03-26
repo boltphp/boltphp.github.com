@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/models.php",
-    "hash": "c0df66570369753b4b2db96600589828db377600",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/models.php",
+    "hash": "ed0a1fb70c23686b9847e65228a703569d8b27f8",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -28,7 +28,7 @@
     "properties": {
         "types": {
             "name": "types",
-            "line": 48,
+            "line": 55,
             "short_desc": "custom type map",
             "long_desc": "",
             "hint": [
@@ -53,7 +53,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 61,
+            "line": 68,
             "short_desc": "Construct",
             "long_desc": "",
             "hint": null,
@@ -72,7 +72,7 @@
             "parameters": {
                 "app": {
                     "name": "app",
-                    "line": 61,
+                    "line": 68,
                     "short_desc": "application",
                     "long_desc": null,
                     "hint": [
@@ -90,7 +90,7 @@
                 },
                 "config": {
                     "name": "config",
-                    "line": 61,
+                    "line": 68,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -110,7 +110,7 @@
         },
         "getApp": {
             "name": "getApp",
-            "line": 113,
+            "line": 124,
             "short_desc": "return the base app",
             "long_desc": "",
             "hint": [
@@ -137,7 +137,7 @@
         },
         "getCollection": {
             "name": "getCollection",
-            "line": 125,
+            "line": 136,
             "short_desc": "get a model collection object",
             "long_desc": "",
             "hint": [
@@ -161,7 +161,7 @@
             "parameters": {
                 "entity": {
                     "name": "entity",
-                    "line": 125,
+                    "line": 136,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -181,7 +181,7 @@
         },
         "generateEntity": {
             "name": "generateEntity",
-            "line": 138,
+            "line": 149,
             "short_desc": "generate an entity from",
             "long_desc": "",
             "hint": [
@@ -205,7 +205,7 @@
             "parameters": {
                 "entity": {
                     "name": "entity",
-                    "line": 138,
+                    "line": 149,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -223,7 +223,7 @@
                 },
                 "data": {
                     "name": "data",
-                    "line": 138,
+                    "line": 149,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -243,7 +243,7 @@
         },
         "getEntityManager": {
             "name": "getEntityManager",
-            "line": 147,
+            "line": 158,
             "short_desc": "return the entity manager refrance",
             "long_desc": "",
             "hint": [
@@ -268,9 +268,31 @@
 
             ]
         },
+        "loadFromDirectories": {
+            "name": "loadFromDirectories",
+            "line": 162,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
         "get": {
             "name": "get",
-            "line": 159,
+            "line": 178,
             "short_desc": "get a model",
             "long_desc": "",
             "hint": [
@@ -294,7 +316,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 159,
+                    "line": 178,
                     "short_desc": "entity class name or alias",
                     "long_desc": null,
                     "hint": [
@@ -314,7 +336,7 @@
         },
         "find": {
             "name": "find",
-            "line": 177,
+            "line": 196,
             "short_desc": "find an entity by primary key",
             "long_desc": "",
             "hint": [
@@ -338,7 +360,7 @@
             "parameters": {
                 "entity": {
                     "name": "entity",
-                    "line": 177,
+                    "line": 196,
                     "short_desc": "entity class name or alias",
                     "long_desc": null,
                     "hint": [
@@ -356,7 +378,7 @@
                 },
                 "id": {
                     "name": "id",
-                    "line": 177,
+                    "line": 196,
                     "short_desc": "primary key value",
                     "long_desc": null,
                     "hint": [
@@ -376,7 +398,7 @@
         },
         "findAll": {
             "name": "findAll",
-            "line": 201,
+            "line": 224,
             "short_desc": "find all entities",
             "long_desc": "",
             "hint": [
@@ -400,7 +422,7 @@
             "parameters": {
                 "entity": {
                     "name": "entity",
-                    "line": 201,
+                    "line": 224,
                     "short_desc": "entity class name or alias",
                     "long_desc": null,
                     "hint": [
@@ -420,7 +442,7 @@
         },
         "findBy": {
             "name": "findBy",
-            "line": 217,
+            "line": 240,
             "short_desc": "find entities by search $criteria",
             "long_desc": "",
             "hint": [
@@ -444,7 +466,7 @@
             "parameters": {
                 "entity": {
                     "name": "entity",
-                    "line": 217,
+                    "line": 240,
                     "short_desc": "entity class name or alias",
                     "long_desc": null,
                     "hint": [
@@ -462,7 +484,7 @@
                 },
                 "criteria": {
                     "name": "criteria",
-                    "line": 217,
+                    "line": 240,
                     "short_desc": "query",
                     "long_desc": null,
                     "hint": [
@@ -480,7 +502,7 @@
                 },
                 "order": {
                     "name": "order",
-                    "line": 217,
+                    "line": 240,
                     "short_desc": "order by",
                     "long_desc": null,
                     "hint": [
@@ -498,7 +520,7 @@
                 },
                 "limit": {
                     "name": "limit",
-                    "line": 217,
+                    "line": 240,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -516,7 +538,7 @@
                 },
                 "offset": {
                     "name": "offset",
-                    "line": 217,
+                    "line": 240,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -536,7 +558,7 @@
         },
         "findOneBy": {
             "name": "findOneBy",
-            "line": 231,
+            "line": 261,
             "short_desc": "find one enitity by query $criteria",
             "long_desc": "",
             "hint": [
@@ -560,7 +582,7 @@
             "parameters": {
                 "entity": {
                     "name": "entity",
-                    "line": 231,
+                    "line": 261,
                     "short_desc": "entity class name or alias",
                     "long_desc": null,
                     "hint": [
@@ -578,7 +600,7 @@
                 },
                 "criteria": {
                     "name": "criteria",
-                    "line": 231,
+                    "line": 261,
                     "short_desc": "query",
                     "long_desc": null,
                     "hint": [
@@ -596,7 +618,7 @@
                 },
                 "order": {
                     "name": "order",
-                    "line": 231,
+                    "line": 261,
                     "short_desc": "order",
                     "long_desc": null,
                     "hint": [
@@ -614,9 +636,43 @@
                 }
             }
         },
+        "save": {
+            "name": "save",
+            "line": 284,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "entity": {
+                    "name": "entity",
+                    "line": 284,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
         "alias": {
             "name": "alias",
-            "line": 276,
+            "line": 323,
             "short_desc": "register an entity alias",
             "long_desc": "",
             "hint": [
@@ -640,7 +696,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 276,
+                    "line": 323,
                     "short_desc": "alias name",
                     "long_desc": null,
                     "hint": [
@@ -658,7 +714,7 @@
                 },
                 "entity": {
                     "name": "entity",
-                    "line": 276,
+                    "line": 323,
                     "short_desc": "entity class name",
                     "long_desc": null,
                     "hint": [
@@ -678,7 +734,7 @@
         },
         "getAliases": {
             "name": "getAliases",
-            "line": 290,
+            "line": 337,
             "short_desc": "get all registered aliases",
             "long_desc": "",
             "hint": [
@@ -705,7 +761,7 @@
         },
         "offsetSet": {
             "name": "offsetSet",
-            "line": 304,
+            "line": 351,
             "short_desc": "register an entity alias",
             "long_desc": "",
             "hint": [
@@ -733,7 +789,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 304,
+                    "line": 351,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -751,7 +807,7 @@
                 },
                 "class": {
                     "name": "class",
-                    "line": 304,
+                    "line": 351,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -771,7 +827,7 @@
         },
         "offsetExists": {
             "name": "offsetExists",
-            "line": 315,
+            "line": 362,
             "short_desc": "check to see if a registered alias exists",
             "long_desc": "",
             "hint": [
@@ -795,7 +851,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 315,
+                    "line": 362,
                     "short_desc": "name of alias",
                     "long_desc": null,
                     "hint": [
@@ -815,7 +871,7 @@
         },
         "offsetUnset": {
             "name": "offsetUnset",
-            "line": 326,
+            "line": 373,
             "short_desc": "remove an alias",
             "long_desc": "",
             "hint": [
@@ -839,7 +895,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 326,
+                    "line": 373,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -859,7 +915,7 @@
         },
         "offsetGet": {
             "name": "offsetGet",
-            "line": 338,
+            "line": 385,
             "short_desc": "create a new model from given alias or entity class",
             "long_desc": "",
             "hint": [
@@ -887,7 +943,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 338,
+                    "line": 385,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -907,7 +963,7 @@
         },
         "generate": {
             "name": "generate",
-            "line": 350,
+            "line": 397,
             "short_desc": "generate an model",
             "long_desc": "",
             "hint": [
@@ -931,7 +987,7 @@
             "parameters": {
                 "class": {
                     "name": "class",
-                    "line": 350,
+                    "line": 397,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -944,7 +1000,7 @@
                 },
                 "data": {
                     "name": "data",
-                    "line": 350,
+                    "line": 397,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -962,7 +1018,7 @@
                 },
                 "manager": {
                     "name": "manager",
-                    "line": 350,
+                    "line": 397,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [

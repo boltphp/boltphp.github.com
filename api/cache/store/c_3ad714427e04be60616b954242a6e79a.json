@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/browser.php",
-    "hash": "842490c66b363bbadb643bcbf6507a4e12933b80",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/browser.php",
+    "hash": "f279fb1a6594e8622863769ee1b81615bfcf5286",
     "parent": "bolt\\plugin",
     "modifiers": 0,
     "is_trait": false,
@@ -667,7 +667,7 @@
         },
         "runMiddleware": {
             "name": "runMiddleware",
-            "line": 373,
+            "line": 368,
             "short_desc": "run all middleware for a method",
             "long_desc": "",
             "hint": [
@@ -691,7 +691,7 @@
             "parameters": {
                 "method": {
                     "name": "method",
-                    "line": 373,
+                    "line": 368,
                     "short_desc": "name of method to run",
                     "long_desc": null,
                     "hint": [
@@ -709,7 +709,7 @@
                 },
                 "params": {
                     "name": "params",
-                    "line": 373,
+                    "line": 368,
                     "short_desc": "array of params to pass to method",
                     "long_desc": null,
                     "hint": [
@@ -729,7 +729,7 @@
         },
         "runMiddlewareByName": {
             "name": "runMiddlewareByName",
-            "line": 391,
+            "line": 386,
             "short_desc": "run a middleware function by name",
             "long_desc": "",
             "hint": [
@@ -753,7 +753,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 391,
+                    "line": 386,
                     "short_desc": "name of middleware to run",
                     "long_desc": null,
                     "hint": [
@@ -771,7 +771,7 @@
                 },
                 "method": {
                     "name": "method",
-                    "line": 391,
+                    "line": 386,
                     "short_desc": "name of middleware method to run",
                     "long_desc": null,
                     "hint": [
@@ -789,7 +789,7 @@
                 },
                 "params": {
                     "name": "params",
-                    "line": 391,
+                    "line": 386,
                     "short_desc": "aray of params to pass to middleware",
                     "long_desc": null,
                     "hint": [

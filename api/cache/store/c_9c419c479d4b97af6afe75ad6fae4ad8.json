@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\cli",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/cli\/command.php",
-    "hash": "85e5dc7895667b56fac7d6287d57b2e47d99da32",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/cli\/command.php",
+    "hash": "ee49c190601dd3ecf0e3147e4b7f106fadd88497",
     "parent": "Symfony\\Component\\Console\\Command\\Command",
     "modifiers": 0,
     "is_trait": false,

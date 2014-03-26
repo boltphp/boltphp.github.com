@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\browser\\assets",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/assets\/group.php",
-    "hash": "7d8eff732b866671112c682e804598ce2b2d67f3",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/browser\/assets\/group.php",
+    "hash": "01bf5698e37b99f6d2aadc4e3cd04256b8643e3e",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -140,9 +140,31 @@
 
             ]
         },
+        "count": {
+            "name": "count",
+            "line": 35,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
         "add": {
             "name": "add",
-            "line": 35,
+            "line": 39,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -161,7 +183,7 @@
             "parameters": {
                 "files": {
                     "name": "files",
-                    "line": 35,
+                    "line": 39,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -176,7 +198,7 @@
         },
         "getComboUrl": {
             "name": "getComboUrl",
-            "line": 64,
+            "line": 71,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -198,7 +220,7 @@
         },
         "appendToDom": {
             "name": "appendToDom",
-            "line": 75,
+            "line": 82,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -217,7 +239,7 @@
             "parameters": {
                 "dom": {
                     "name": "dom",
-                    "line": 75,
+                    "line": 82,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -230,7 +252,7 @@
                 },
                 "to": {
                     "name": "to",
-                    "line": 75,
+                    "line": 82,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -243,7 +265,7 @@
                 },
                 "combo": {
                     "name": "combo",
-                    "line": 75,
+                    "line": 82,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -256,7 +278,7 @@
                 },
                 "attr": {
                     "name": "attr",
-                    "line": 75,
+                    "line": 82,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -271,7 +293,7 @@
         },
         "getIterator": {
             "name": "getIterator",
-            "line": 113,
+            "line": 118,
             "short_desc": "",
             "long_desc": "",
             "hint": null,

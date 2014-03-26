@@ -1,6 +1,6 @@
 {
     "name": "bolt\\browser\\assets",
-    "line": 15,
+    "line": 16,
     "short_desc": "asset manager",
     "long_desc": "",
     "hint": null,
@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\browser",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/browser\/assets.php",
-    "hash": "3d472e7e85fe2055e80b1475ae0eb72951297dcf",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/browser\/assets.php",
+    "hash": "a5b776568dfa332761c92c399b874909257c5b02",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -19,7 +19,8 @@
         "FileAsset": "Assetic\\Asset\\FileAsset",
         "HttpAsset": "Assetic\\Asset\\HttpAsset",
         "AssetCollection": "Assetic\\Asset\\AssetCollection",
-        "GlobAsset": "Assetic\\Asset\\GlobAsset"
+        "GlobAsset": "Assetic\\Asset\\GlobAsset",
+        "StringAsset": "Assetic\\Asset\\StringAsset"
     },
     "errors": [
 
@@ -33,7 +34,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 54,
+            "line": 55,
             "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
@@ -52,7 +53,7 @@
             "parameters": {
                 "browser": {
                     "name": "browser",
-                    "line": 54,
+                    "line": 55,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -70,7 +71,7 @@
                 },
                 "config": {
                     "name": "config",
-                    "line": 54,
+                    "line": 55,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -90,7 +91,7 @@
         },
         "globals": {
             "name": "globals",
-            "line": 84,
+            "line": 85,
             "short_desc": "register files to append to specific file type (by file extension)",
             "long_desc": "",
             "hint": [
@@ -114,7 +115,7 @@
             "parameters": {
                 "ext": {
                     "name": "ext",
-                    "line": 84,
+                    "line": 85,
                     "short_desc": "string of file exenstion or array of globals",
                     "long_desc": null,
                     "hint": [
@@ -136,7 +137,7 @@
                 },
                 "path": {
                     "name": "path",
-                    "line": 84,
+                    "line": 85,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -156,7 +157,7 @@
         },
         "filter": {
             "name": "filter",
-            "line": 106,
+            "line": 107,
             "short_desc": "register a filter for a file type (by file extension)",
             "long_desc": "",
             "hint": [
@@ -180,7 +181,7 @@
             "parameters": {
                 "ext": {
                     "name": "ext",
-                    "line": 106,
+                    "line": 107,
                     "short_desc": "string of file extension or array of filters",
                     "long_desc": null,
                     "hint": [
@@ -202,7 +203,7 @@
                 },
                 "class": {
                     "name": "class",
-                    "line": 106,
+                    "line": 107,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -220,7 +221,7 @@
                 },
                 "args": {
                     "name": "args",
-                    "line": 106,
+                    "line": 107,
                     "short_desc": "array of args passed to filter constuctor (via call_user_func_array)",
                     "long_desc": null,
                     "hint": [
@@ -240,7 +241,7 @@
         },
         "add": {
             "name": "add",
-            "line": 140,
+            "line": 141,
             "short_desc": "add a new file to the manager",
             "long_desc": "",
             "hint": [
@@ -264,7 +265,7 @@
             "parameters": {
                 "type": {
                     "name": "type",
-                    "line": 140,
+                    "line": 141,
                     "short_desc": "script or style",
                     "long_desc": null,
                     "hint": [
@@ -282,7 +283,7 @@
                 },
                 "name": {
                     "name": "name",
-                    "line": 140,
+                    "line": 141,
                     "short_desc": "name of group",
                     "long_desc": null,
                     "hint": [
@@ -300,7 +301,7 @@
                 },
                 "files": {
                     "name": "files",
-                    "line": 140,
+                    "line": 141,
                     "short_desc": "array of files",
                     "long_desc": null,
                     "hint": [
@@ -320,7 +321,7 @@
         },
         "createGroup": {
             "name": "createGroup",
-            "line": 160,
+            "line": 161,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -339,7 +340,7 @@
             "parameters": {
                 "type": {
                     "name": "type",
-                    "line": 160,
+                    "line": 161,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -352,7 +353,7 @@
                 },
                 "name": {
                     "name": "name",
-                    "line": 160,
+                    "line": 161,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -365,7 +366,7 @@
                 },
                 "files": {
                     "name": "files",
-                    "line": 160,
+                    "line": 161,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -380,7 +381,7 @@
         },
         "find": {
             "name": "find",
-            "line": 178,
+            "line": 179,
             "short_desc": "find a file in one of $dirs",
             "long_desc": "",
             "hint": [
@@ -404,7 +405,7 @@
             "parameters": {
                 "file": {
                     "name": "file",
-                    "line": 178,
+                    "line": 179,
                     "short_desc": "relative file path",
                     "long_desc": null,
                     "hint": [
@@ -424,7 +425,7 @@
         },
         "findDir": {
             "name": "findDir",
-            "line": 202,
+            "line": 203,
             "short_desc": "find a files dir",
             "long_desc": "",
             "hint": [
@@ -448,7 +449,7 @@
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 202,
+                    "line": 203,
                     "short_desc": "file",
                     "long_desc": null,
                     "hint": [
@@ -468,7 +469,7 @@
         },
         "out": {
             "name": "out",
-            "line": 222,
+            "line": 223,
             "short_desc": "output a tag for give group",
             "long_desc": "",
             "hint": [
@@ -492,7 +493,7 @@
             "parameters": {
                 "type": {
                     "name": "type",
-                    "line": 222,
+                    "line": 223,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -505,7 +506,7 @@
                 },
                 "name": {
                     "name": "name",
-                    "line": 222,
+                    "line": 223,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -518,7 +519,7 @@
                 },
                 "combo": {
                     "name": "combo",
-                    "line": 222,
+                    "line": 223,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -533,7 +534,7 @@
         },
         "url": {
             "name": "url",
-            "line": 251,
+            "line": 252,
             "short_desc": "url path",
             "long_desc": "",
             "hint": [
@@ -557,7 +558,7 @@
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 251,
+                    "line": 252,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -769,7 +770,7 @@
         },
         "compile": {
             "name": "compile",
-            "line": 352,
+            "line": 360,
             "short_desc": "compile assets into the compile directory",
             "long_desc": "",
             "hint": [
@@ -793,7 +794,7 @@
             "parameters": {
                 "e": {
                     "name": "e",
-                    "line": 352,
+                    "line": 360,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -813,7 +814,7 @@
         },
         "compileFile": {
             "name": "compileFile",
-            "line": 393,
+            "line": 401,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -832,7 +833,7 @@
             "parameters": {
                 "file": {
                     "name": "file",
-                    "line": 393,
+                    "line": 401,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,

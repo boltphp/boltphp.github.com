@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\browser\\controller",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/browser\/controller\/route.php",
-    "hash": "481ae7606d620d7434504ee6af2e483d045c42b5",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/browser\/controller\/route.php",
+    "hash": "6c49458da12411cff1c710d1f410837ad30466fb",
     "parent": "bolt\\browser\\controller",
     "modifiers": 0,
     "is_trait": false,
@@ -148,9 +148,48 @@
                 }
             }
         },
+        "setResponse": {
+            "name": "setResponse",
+            "line": 62,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "resp": {
+                    "name": "resp",
+                    "line": 62,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\browser\\controller\\bolt\\browser\\response",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "bolt\\browser\\response",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
         "exception": {
             "name": "exception",
-            "line": 72,
+            "line": 76,
             "short_desc": "throw an exception",
             "long_desc": "",
             "hint": [
@@ -174,7 +213,7 @@
             "parameters": {
                 "class": {
                     "name": "class",
-                    "line": 72,
+                    "line": 76,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -192,7 +231,7 @@
                 },
                 "message": {
                     "name": "message",
-                    "line": 72,
+                    "line": 76,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -210,7 +249,7 @@
                 },
                 "code": {
                     "name": "code",
-                    "line": 72,
+                    "line": 76,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -230,7 +269,7 @@
         },
         "format": {
             "name": "format",
-            "line": 92,
+            "line": 96,
             "short_desc": "add a response format",
             "long_desc": "",
             "hint": [
@@ -254,7 +293,7 @@
             "parameters": {
                 "format": {
                     "name": "format",
-                    "line": 92,
+                    "line": 96,
                     "short_desc": "format name or array of formats",
                     "long_desc": null,
                     "hint": [
@@ -276,7 +315,7 @@
                 },
                 "content": {
                     "name": "content",
-                    "line": 92,
+                    "line": 96,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -296,7 +335,7 @@
         },
         "build": {
             "name": "build",
-            "line": 130,
+            "line": 134,
             "short_desc": "build the controller",
             "long_desc": "",
             "hint": [
@@ -320,7 +359,7 @@
             "parameters": {
                 "params": {
                     "name": "params",
-                    "line": 130,
+                    "line": 134,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -340,7 +379,7 @@
         },
         "run": {
             "name": "run",
-            "line": 181,
+            "line": 185,
             "short_desc": "run the controller",
             "long_desc": "",
             "hint": [
@@ -364,7 +403,7 @@
             "parameters": {
                 "params": {
                     "name": "params",
-                    "line": 181,
+                    "line": 185,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [

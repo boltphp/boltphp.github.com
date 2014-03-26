@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\helpers",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/helpers\/base.php",
-    "hash": "6aa368214b36c78a2ccff72878da7f8dad6a070e",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/helpers\/base.php",
+    "hash": "e0e85a21ff047bb5b0746297a6d36f36424e7b9b",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -101,7 +101,7 @@
                     "tags": [
 
                     ],
-                    "modifiers": "array",
+                    "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },

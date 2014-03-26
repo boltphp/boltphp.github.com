@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\source\\curl",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/source\/curl\/repository.php",
-    "hash": "992a5110bad542c19ff9398027d7555d4baa82a9",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/source\/curl\/repository.php",
+    "hash": "4528d35523c336a7c8101d0b93fcca8343c72dc6",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,

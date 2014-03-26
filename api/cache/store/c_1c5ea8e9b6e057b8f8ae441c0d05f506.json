@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\browser\\middleware",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/browser\/middleware\/direct.php",
-    "hash": "9a07f0f5a7b8603fbaa5e930b9f7c10197170ae9",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/browser\/middleware\/direct.php",
+    "hash": "e1d8fba6358809027fdb1d635c1ab9ab6cf9a3a8",
     "parent": "bolt\\browser\\middleware",
     "modifiers": 0,
     "is_trait": false,
@@ -26,7 +26,7 @@
     "properties": {
         "mime": {
             "name": "mime",
-            "line": 40,
+            "line": 41,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
