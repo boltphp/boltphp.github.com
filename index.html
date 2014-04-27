@@ -16,19 +16,19 @@
 
             <h2>Usage</h2>
             <pre>&lt;?php
-$app = bolt\http::start([
+$http = bolt\http::start([
         &#039;root&#039; =&gt; __DIR__,
-        &#039;plugins&#039; =&gt; [
+        &#039;http.plugins&#039; =&gt; [
             [&#039;router&#039;, &#039;bolt\http\router&#039;]
         ]
     ]);
 
-$app[&#039;router&#039;]-&gt;get(&#039;/&#039;, function(){
+$http[&#039;router&#039;]-&gt;get(&#039;/&#039;, function(){
     $this-&gt;response
         -&gt;setContent(&#039;Hello World&#039;);
 });
 
-$app->run();</pre>
+$http->run();</pre>
 
             <h2>Get Started</h2>
             <pre>composer create-project boltphp/bolt project-name
