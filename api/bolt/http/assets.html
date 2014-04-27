@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="index, follow, all" />
+        <title>bolt\http\assets | </title>
+                    <link rel="stylesheet" type="text/css" href="../../stylesheet.css">
+                            </head>
+        <body id="class">
+            <div class="header">
+        <ul>
+            <li><a href="../../classes.html">Classes</a></li>
+                            <li><a href="../../namespaces.html">Namespaces</a></li>
+                        <li><a href="../../interfaces.html">Interfaces</a></li>
+            <li><a href="../../traits.html">Traits</a></li>
+            <li><a href="../../doc-index.html">Index</a></li>
+            
+        </ul>
+
+        <div id="title"></div>
+
+            <div class="type">Class</div>
+    <h1><a href="../../bolt/http.html">bolt\http</a>\assets</h1>
+    </div>
+        <div class="content">
+                <p>    class
+    <strong>assets</strong>        implements
+        <a href="../../bolt/plugin/singleton.html"><abbr title="bolt\plugin\singleton">singleton</abbr></a></p>
+
+            <div class="description">
+            <p>asset manager</p>
+            <p>
+</p>
+        </div>
+    
+    
+    
+            <h2>Methods</h2>
+
+            <table>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method___construct">__construct</a>(<abbr title="bolt\http\bolt\http">http</abbr> $http, array $config = array())
+                    <p>Constructor</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_getCompiledFile">getCompiledFile</a>($path)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_glob">glob</a>($path, $filters = array(), $root = null)
+                    <p>glob</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_file">file</a>($path, $filters = array(), $root = null)
+                    <p>file</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_set">set</a>($name, $files)
+                    <p>set</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_collection">collection</a>($collection, $filters = array(), $root = null, $vars = array())
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_factory">factory</a>($root = null, $manager = null, $filter = null, $debug = null)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_url">url</a>($path)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_getRoot">getRoot</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method___get">__get</a>($name)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_path">path</a>($path)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_getFilters">getFilters</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_compile">compile</a>($assets)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    void
+                </td>
+                <td class="last">
+                    <a href="#method_onCompile">onCompile</a>(<abbr title="bolt\http\bolt\events\event">event</abbr> $e)
+                    <p>compile assets into the compile directory</p>
+                </td>
+                <td></td>
+            </tr>
+            </table>
+
+
+        <h2>Details</h2>
+
+                        <h3 id="method___construct">
+        <div class="location">at line 58</div>
+        <code>            public            
+    <strong>__construct</strong>(<abbr title="bolt\http\bolt\http">http</abbr> $http, array $config = array())</code>
+    </h3>
+    <div class="details">
+        <p>Constructor</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td><abbr title="bolt\http\bolt\http">http</abbr></td>
+                <td>$http</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$config</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getCompiledFile">
+        <div class="location">at line 90</div>
+        <code>            public            
+    <strong>getCompiledFile</strong>($path)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$path</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_glob">
+        <div class="location">at line 100</div>
+        <code>            public            
+    <strong>glob</strong>($path, $filters = array(), $root = null)</code>
+    </h3>
+    <div class="details">
+        <p>glob</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$path</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$filters</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$root</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_file">
+        <div class="location">at line 108</div>
+        <code>            public            
+    <strong>file</strong>($path, $filters = array(), $root = null)</code>
+    </h3>
+    <div class="details">
+        <p>file</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$path</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$filters</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$root</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_set">
+        <div class="location">at line 121</div>
+        <code>            public            
+    <strong>set</strong>($name, $files)</code>
+    </h3>
+    <div class="details">
+        <p>set</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$name</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$files</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_collection">
+        <div class="location">at line 125</div>
+        <code>            public            
+    <strong>collection</strong>($collection, $filters = array(), $root = null, $vars = array())</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$collection</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$filters</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$root</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$vars</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_factory">
+        <div class="location">at line 130</div>
+        <code>            public            
+    <strong>factory</strong>($root = null, $manager = null, $filter = null, $debug = null)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$root</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$manager</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$filter</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$debug</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_url">
+        <div class="location">at line 140</div>
+        <code>            public            
+    <strong>url</strong>($path)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$path</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getRoot">
+        <div class="location">at line 148</div>
+        <code>            public            
+    <strong>getRoot</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method___get">
+        <div class="location">at line 152</div>
+        <code>            public            
+    <strong>__get</strong>($name)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$name</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_path">
+        <div class="location">at line 160</div>
+        <code>            public            
+    <strong>path</strong>($path)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$path</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getFilters">
+        <div class="location">at line 164</div>
+        <code>            public            
+    <strong>getFilters</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_compile">
+        <div class="location">at line 168</div>
+        <code>            public            
+    <strong>compile</strong>($assets)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$assets</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_onCompile">
+        <div class="location">at line 180</div>
+        <code>            public            void
+    <strong>onCompile</strong>(<abbr title="bolt\http\bolt\events\event">event</abbr> $e)</code>
+    </h3>
+    <div class="details">
+        <p>compile assets into the compile directory</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td><abbr title="bolt\http\bolt\events\event">event</abbr></td>
+                <td>$e</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>void</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+    
+            </div>
+            <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/" target="_top">Sami, the API Documentation Generator</a>.
+    </div>
+    </body>
+</html>

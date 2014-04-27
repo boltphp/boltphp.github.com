@@ -1,6 +1,6 @@
 {
     "name": "bolt\\render\\xml",
-    "line": 11,
+    "line": 9,
     "short_desc": "render a dom string",
     "long_desc": "",
     "hint": null,
@@ -8,17 +8,14 @@
 
     ],
     "namespace": "bolt\\render",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/render\/xml.php",
-    "hash": "0d438d8cf6cf8ff0761f7c621d191781b1e15c0f",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/render\/xml.php",
+    "hash": "ad8c4dc36d3ba28913b3b324a6b06d94e49c7b9a",
     "parent": "bolt\\render\\base",
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
     "aliases": {
-        "b": "b",
-        "DOMDocument": "DOMDocument",
-        "DOMAttr": "DOMAttr",
-        "DOMCDATASection": "DOMCDATASection"
+        "b": "b"
     },
     "errors": [
 
@@ -32,7 +29,7 @@
     "methods": {
         "compile": {
             "name": "compile",
-            "line": 17,
+            "line": 15,
             "short_desc": "compile the dom doc to serializeable object",
             "long_desc": "",
             "hint": null,
@@ -54,8 +51,8 @@
         },
         "render": {
             "name": "render",
-            "line": 31,
-            "short_desc": "render abstract",
+            "line": 29,
+            "short_desc": "render an html string into a dom doc",
             "long_desc": "",
             "hint": [
                 [
@@ -78,7 +75,7 @@
             "parameters": {
                 "data": {
                     "name": "data",
-                    "line": 31,
+                    "line": 29,
                     "short_desc": "array $data",
                     "long_desc": null,
                     "hint": [
@@ -96,7 +93,7 @@
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 31,
+                    "line": 29,
                     "short_desc": "variables to use in rendering",
                     "long_desc": null,
                     "hint": [

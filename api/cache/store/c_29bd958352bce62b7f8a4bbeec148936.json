@@ -1,6 +1,6 @@
 {
     "name": "bolt\\render\\xml\\generate",
-    "line": 6,
+    "line": 7,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
@@ -8,15 +8,17 @@
 
     ],
     "namespace": "bolt\\render\\xml",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/render\/xml\/generate.php",
-    "hash": "d39eafeabe2704793a0b86930b669f595cb233d4",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/render\/xml\/generate.php",
+    "hash": "01d0284619b123fce95ea3d3cf7f47ef290ed44c",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
-    "aliases": [
-
-    ],
+    "aliases": {
+        "DOMDocument": "DOMDocument",
+        "DOMAttr": "DOMAttr",
+        "DOMCDATASection": "DOMCDATASection"
+    },
     "errors": [
 
     ],
@@ -29,7 +31,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 11,
+            "line": 12,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -48,7 +50,7 @@
             "parameters": {
                 "data": {
                     "name": "data",
-                    "line": 11,
+                    "line": 12,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -63,7 +65,7 @@
         },
         "getData": {
             "name": "getData",
-            "line": 22,
+            "line": 23,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -85,7 +87,7 @@
         },
         "render": {
             "name": "render",
-            "line": 26,
+            "line": 27,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -107,7 +109,7 @@
         },
         "__toString": {
             "name": "__toString",
-            "line": 31,
+            "line": 32,
             "short_desc": "",
             "long_desc": "",
             "hint": null,

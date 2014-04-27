@@ -1,0 +1,152 @@
+{
+    "name": "bolt\\http\\assets\\filters\\cssRewrite",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "bolt\\http\\assets\\filters",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/assets\/filters\/cssRewrite.php",
+    "hash": "d5d16d05fb2bf4de5b109ffc8100f422137a13ab",
+    "parent": "Assetic\\Filter\\BaseCssFilter",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b",
+        "AssetInterface": "Assetic\\Asset\\AssetInterface"
+    },
+    "errors": [
+
+    ],
+    "interfaces": [
+
+    ],
+    "properties": [
+
+    ],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 13,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "http": {
+                    "name": "http",
+                    "line": 13,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\http\\assets\\filters\\bolt\\http",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "bolt\\http",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "filterLoad": {
+            "name": "filterLoad",
+            "line": 17,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "asset": {
+                    "name": "asset",
+                    "line": 17,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Assetic\\Asset\\AssetInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "AssetInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "filterDump": {
+            "name": "filterDump",
+            "line": 21,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "asset": {
+                    "name": "asset",
+                    "line": 21,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Assetic\\Asset\\AssetInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "AssetInterface",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": [
+
+    ]
+}

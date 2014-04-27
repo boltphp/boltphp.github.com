@@ -1,0 +1,56 @@
+{
+    "name": "bolt\\http\\middleware\\session",
+    "line": 6,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "bolt\\http\\middleware",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/middleware\/session.php",
+    "hash": "02267dd55f8fbb1a287f1928d35291e54f83b3a6",
+    "parent": "bolt\\http\\middleware",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b"
+    },
+    "errors": [
+
+    ],
+    "interfaces": [
+
+    ],
+    "properties": [
+
+    ],
+    "methods": {
+        "before": {
+            "name": "before",
+            "line": 8,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        }
+    },
+    "constants": [
+
+    ]
+}

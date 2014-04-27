@@ -1,0 +1,450 @@
+{
+    "name": "bolt\\http\\session",
+    "line": 11,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "bolt\\http",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/session.php",
+    "hash": "c6453855264572f061877d25ad8f2f7a9dff8136",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b",
+        "SymfonySession": "Symfony\\Component\\HttpFoundation\\Session\\Session",
+        "NativeSessionStorage": "Symfony\\Component\\HttpFoundation\\Session\\Storage\\NativeSessionStorage",
+        "MemcachedSessionHandler": "Symfony\\Component\\HttpFoundation\\Session\\Storage\\Handler\\MemcachedSessionHandler"
+    },
+    "errors": [
+
+    ],
+    "interfaces": {
+        "bolt\\plugin\\singleton": "bolt\\plugin\\singleton",
+        "ArrayAccess": "ArrayAccess"
+    },
+    "properties": [
+
+    ],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 23,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "http": {
+                    "name": "http",
+                    "line": 23,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\http\\bolt\\http",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "bolt\\http",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "config": {
+                    "name": "config",
+                    "line": 23,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "array",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getName": {
+            "name": "getName",
+            "line": 39,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "start": {
+            "name": "start",
+            "line": 43,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "__get": {
+            "name": "__get",
+            "line": 48,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 48,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "__set": {
+            "name": "__set",
+            "line": 52,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 52,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "value": {
+                    "name": "value",
+                    "line": 52,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "__isset": {
+            "name": "__isset",
+            "line": 56,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 56,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "__call": {
+            "name": "__call",
+            "line": 60,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 60,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "args": {
+                    "name": "args",
+                    "line": 60,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "offsetGet": {
+            "name": "offsetGet",
+            "line": 67,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 67,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "offsetSet": {
+            "name": "offsetSet",
+            "line": 71,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 71,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "value": {
+                    "name": "value",
+                    "line": 71,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "offsetUnset": {
+            "name": "offsetUnset",
+            "line": 75,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 75,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "offsetExists": {
+            "name": "offsetExists",
+            "line": 79,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 79,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": [
+
+    ]
+}

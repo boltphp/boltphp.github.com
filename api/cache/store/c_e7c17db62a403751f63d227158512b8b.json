@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt",
     "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/dom.php",
-    "hash": "aa8205071d566b8206ac45985b44144c966b2a29",
+    "hash": "4e2ac6b5bae6d67efbe143d4ede6f8d124be5ffe",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -79,7 +79,7 @@
         },
         "init": {
             "name": "init",
-            "line": 37,
+            "line": 38,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -101,7 +101,7 @@
         },
         "guid": {
             "name": "guid",
-            "line": 40,
+            "line": 41,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -123,7 +123,7 @@
         },
         "doc": {
             "name": "doc",
-            "line": 44,
+            "line": 45,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -145,7 +145,7 @@
         },
         "html": {
             "name": "html",
-            "line": 48,
+            "line": 49,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -164,7 +164,7 @@
             "parameters": {
                 "html": {
                     "name": "html",
-                    "line": 48,
+                    "line": 49,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -179,7 +179,7 @@
         },
         "addRef": {
             "name": "addRef",
-            "line": 58,
+            "line": 59,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -198,7 +198,7 @@
             "parameters": {
                 "el": {
                     "name": "el",
-                    "line": 58,
+                    "line": 59,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -213,7 +213,7 @@
         },
         "import": {
             "name": "import",
-            "line": 63,
+            "line": 64,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -232,7 +232,7 @@
             "parameters": {
                 "what": {
                     "name": "what",
-                    "line": 63,
+                    "line": 64,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -245,7 +245,7 @@
                 },
                 "deep": {
                     "name": "deep",
-                    "line": 63,
+                    "line": 64,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -260,7 +260,7 @@
         },
         "append": {
             "name": "append",
-            "line": 71,
+            "line": 72,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -279,7 +279,7 @@
             "parameters": {
                 "what": {
                     "name": "what",
-                    "line": 71,
+                    "line": 72,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -294,7 +294,7 @@
         },
         "create": {
             "name": "create",
-            "line": 88,
+            "line": 89,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -313,7 +313,7 @@
             "parameters": {
                 "tag": {
                     "name": "tag",
-                    "line": 88,
+                    "line": 89,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -326,7 +326,7 @@
                 },
                 "value": {
                     "name": "value",
-                    "line": 88,
+                    "line": 89,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -339,7 +339,7 @@
                 },
                 "attr": {
                     "name": "attr",
-                    "line": 88,
+                    "line": 89,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -354,7 +354,7 @@
         },
         "find": {
             "name": "find",
-            "line": 95,
+            "line": 97,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -373,7 +373,7 @@
             "parameters": {
                 "query": {
                     "name": "query",
-                    "line": 95,
+                    "line": 97,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -386,7 +386,7 @@
                 },
                 "returnRef": {
                     "name": "returnRef",
-                    "line": 95,
+                    "line": 97,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -399,7 +399,7 @@
                 },
                 "useRoot": {
                     "name": "useRoot",
-                    "line": 95,
+                    "line": 97,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -414,7 +414,7 @@
         },
         "offsetExists": {
             "name": "offsetExists",
-            "line": 129,
+            "line": 131,
             "short_desc": "check if a node exists using a CSS selector",
             "long_desc": "",
             "hint": [
@@ -438,7 +438,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 129,
+                    "line": 131,
                     "short_desc": "CSS selector",
                     "long_desc": null,
                     "hint": [
@@ -458,7 +458,7 @@
         },
         "offsetGet": {
             "name": "offsetGet",
-            "line": 141,
+            "line": 143,
             "short_desc": "get a node using a CSS selector",
             "long_desc": "",
             "hint": [
@@ -482,7 +482,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 141,
+                    "line": 143,
                     "short_desc": "css selector",
                     "long_desc": null,
                     "hint": [
@@ -502,7 +502,7 @@
         },
         "offsetSet": {
             "name": "offsetSet",
-            "line": 154,
+            "line": 156,
             "short_desc": "create a node or replace an exists node",
             "long_desc": "",
             "hint": [
@@ -526,7 +526,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 154,
+                    "line": 156,
                     "short_desc": "CSS selector",
                     "long_desc": null,
                     "hint": [
@@ -544,7 +544,7 @@
                 },
                 "value": {
                     "name": "value",
-                    "line": 154,
+                    "line": 156,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -564,7 +564,7 @@
         },
         "offsetUnset": {
             "name": "offsetUnset",
-            "line": 174,
+            "line": 176,
             "short_desc": "remove a node using a CSS selector",
             "long_desc": "",
             "hint": [
@@ -588,7 +588,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 174,
+                    "line": 176,
                     "short_desc": "CSS selector",
                     "long_desc": null,
                     "hint": [
@@ -608,7 +608,7 @@
         },
         "__toString": {
             "name": "__toString",
-            "line": 181,
+            "line": 183,
             "short_desc": "",
             "long_desc": "",
             "hint": null,

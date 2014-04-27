@@ -1,6 +1,6 @@
 {
     "name": "bolt\\models\\types\\timestamp",
-    "line": 12,
+    "line": 13,
     "short_desc": "Timestamp type",
     "long_desc": "",
     "hint": null,
@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\models\\types",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/models\/types\/timestamp.php",
-    "hash": "4ebaaa1fbfb984be01b6f2b73be1bc27e7c5a7ac",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/models\/types\/timestamp.php",
+    "hash": "aff6dc24893027031dc0d81e1cd901dd7874c8f4",
     "parent": "Doctrine\\DBAL\\Types\\Type",
     "modifiers": 0,
     "is_trait": false,
@@ -17,7 +17,8 @@
     "aliases": {
         "Type": "Doctrine\\DBAL\\Types\\Type",
         "AbstractPlatform": "Doctrine\\DBAL\\Platforms\\AbstractPlatform",
-        "DateTime": "DateTime"
+        "DateTime": "DateTime",
+        "DateTimeZone": "DateTimeZone"
     },
     "errors": [
 
@@ -31,7 +32,7 @@
     "methods": {
         "getSqlDeclaration": {
             "name": "getSqlDeclaration",
-            "line": 17,
+            "line": 18,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -50,7 +51,7 @@
             "parameters": {
                 "fieldDeclaration": {
                     "name": "fieldDeclaration",
-                    "line": 17,
+                    "line": 18,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -68,7 +69,7 @@
                 },
                 "platform": {
                     "name": "platform",
-                    "line": 17,
+                    "line": 18,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -88,7 +89,7 @@
         },
         "convertToPHPValue": {
             "name": "convertToPHPValue",
-            "line": 21,
+            "line": 22,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -107,7 +108,7 @@
             "parameters": {
                 "value": {
                     "name": "value",
-                    "line": 21,
+                    "line": 22,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -120,7 +121,7 @@
                 },
                 "platform": {
                     "name": "platform",
-                    "line": 21,
+                    "line": 22,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -140,7 +141,7 @@
         },
         "convertToDatabaseValue": {
             "name": "convertToDatabaseValue",
-            "line": 30,
+            "line": 31,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -159,7 +160,7 @@
             "parameters": {
                 "value": {
                     "name": "value",
-                    "line": 30,
+                    "line": 31,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -172,7 +173,7 @@
                 },
                 "platform": {
                     "name": "platform",
-                    "line": 30,
+                    "line": 31,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -192,7 +193,7 @@
         },
         "getName": {
             "name": "getName",
-            "line": 34,
+            "line": 35,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -216,7 +217,7 @@
     "constants": {
         "TIMESTAMP": {
             "name": "TIMESTAMP",
-            "line": 14,
+            "line": 15,
             "short_desc": "",
             "long_desc": ""
         }

@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\source\\curl",
     "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/source\/curl\/repository.php",
-    "hash": "4528d35523c336a7c8101d0b93fcca8343c72dc6",
+    "hash": "3385a00ab74a112aae200be3ba7f9845b9177507",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -117,9 +117,71 @@
                 }
             }
         },
+        "getRequestUri": {
+            "name": "getRequestUri",
+            "line": 59,
+            "short_desc": "generate a request url form $entity::curl or using the default schema",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\source\\curl\\array[string",
+                    false
+                ]
+            ],
+            "hint_desc": "$url, array $query, array $headers]",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "type": {
+                    "name": "type",
+                    "line": 59,
+                    "short_desc": "request type",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "args": {
+                    "name": "args",
+                    "line": 59,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
         "generateEntity": {
             "name": "generateEntity",
-            "line": 102,
+            "line": 107,
             "short_desc": "generate a class of $entity from the provided data",
             "long_desc": "",
             "hint": [
@@ -143,7 +205,7 @@
             "parameters": {
                 "item": {
                     "name": "item",
-                    "line": 102,
+                    "line": 107,
                     "short_desc": "item data",
                     "long_desc": null,
                     "hint": [
@@ -163,7 +225,7 @@
         },
         "find": {
             "name": "find",
-            "line": 158,
+            "line": 166,
             "short_desc": "find an entity",
             "long_desc": "",
             "hint": [
@@ -187,7 +249,7 @@
             "parameters": {
                 "id": {
                     "name": "id",
-                    "line": 158,
+                    "line": 166,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -207,7 +269,7 @@
         },
         "findBy": {
             "name": "findBy",
-            "line": 191,
+            "line": 198,
             "short_desc": "find an entity by query",
             "long_desc": "",
             "hint": [
@@ -226,20 +288,15 @@
 
             ],
             "errors": [
-
+                "\"4\" @param tags are defined by \"5\" are expected"
             ],
             "parameters": {
                 "query": {
                     "name": "query",
-                    "line": 191,
-                    "short_desc": "",
+                    "line": 198,
+                    "short_desc": null,
                     "long_desc": null,
-                    "hint": [
-                        [
-                            "array",
-                            false
-                        ]
-                    ],
+                    "hint": null,
                     "tags": [
 
                     ],
@@ -249,15 +306,10 @@
                 },
                 "order": {
                     "name": "order",
-                    "line": 191,
-                    "short_desc": "",
+                    "line": 198,
+                    "short_desc": null,
                     "long_desc": null,
-                    "hint": [
-                        [
-                            "array",
-                            false
-                        ]
-                    ],
+                    "hint": null,
                     "tags": [
 
                     ],
@@ -267,15 +319,10 @@
                 },
                 "limit": {
                     "name": "limit",
-                    "line": 191,
-                    "short_desc": "",
+                    "line": 198,
+                    "short_desc": null,
                     "long_desc": null,
-                    "hint": [
-                        [
-                            "int",
-                            false
-                        ]
-                    ],
+                    "hint": null,
                     "tags": [
 
                     ],
@@ -285,27 +332,35 @@
                 },
                 "offset": {
                     "name": "offset",
-                    "line": 191,
-                    "short_desc": "",
+                    "line": 198,
+                    "short_desc": null,
                     "long_desc": null,
-                    "hint": [
-                        [
-                            "int",
-                            false
-                        ]
-                    ],
+                    "hint": null,
                     "tags": [
 
                     ],
                     "modifiers": "",
                     "default": "0",
                     "is_by_ref": false
+                },
+                "total": {
+                    "name": "total",
+                    "line": 198,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "0",
+                    "is_by_ref": true
                 }
             }
         },
         "findOneBy": {
             "name": "findOneBy",
-            "line": 228,
+            "line": 237,
             "short_desc": "find one entity by query",
             "long_desc": "",
             "hint": [
@@ -329,7 +384,7 @@
             "parameters": {
                 "query": {
                     "name": "query",
-                    "line": 228,
+                    "line": 237,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -347,7 +402,7 @@
                 },
                 "order": {
                     "name": "order",
-                    "line": 228,
+                    "line": 237,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [

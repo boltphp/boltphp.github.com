@@ -1,0 +1,80 @@
+{
+    "name": "bolt\\http\\request",
+    "line": 13,
+    "short_desc": "request class",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "bolt\\http",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/request.php",
+    "hash": "ca16c07725394958c37e4e56904b8011c36a91db",
+    "parent": "Symfony\\Component\\HttpFoundation\\Request",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b",
+        "SymfonyRequest": "Symfony\\Component\\HttpFoundation\\Request",
+        "SymfonyRequestContext": "Symfony\\Component\\Routing\\RequestContext"
+    },
+    "errors": [
+
+    ],
+    "interfaces": [
+
+    ],
+    "properties": [
+
+    ],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 19,
+            "short_desc": "Constructor.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "getContext": {
+            "name": "getContext",
+            "line": 28,
+            "short_desc": "get the request context",
+            "long_desc": "return Symfony\\Component\\Routing\\RequestContext",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        }
+    },
+    "constants": [
+
+    ]
+}

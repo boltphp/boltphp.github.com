@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="index, follow, all" />
+        <title>bolt\http\middleware\closure | </title>
+                    <link rel="stylesheet" type="text/css" href="../../../stylesheet.css">
+                            </head>
+        <body id="class">
+            <div class="header">
+        <ul>
+            <li><a href="../../../classes.html">Classes</a></li>
+                            <li><a href="../../../namespaces.html">Namespaces</a></li>
+                        <li><a href="../../../interfaces.html">Interfaces</a></li>
+            <li><a href="../../../traits.html">Traits</a></li>
+            <li><a href="../../../doc-index.html">Index</a></li>
+            
+        </ul>
+
+        <div id="title"></div>
+
+            <div class="type">Class</div>
+    <h1><a href="../../../bolt/http/middleware.html">bolt\http\middleware</a>\closure</h1>
+    </div>
+        <div class="content">
+                <p>    class
+    <strong>closure</strong>        extends <a href="../../../bolt/http/middleware.html"><abbr title="bolt\http\middleware">middleware</abbr></a></p>
+
+            <div class="description">
+            <p>closure middleware holder</p>
+            <p>
+</p>
+        </div>
+    
+    
+    
+            <h2>Methods</h2>
+
+            <table>
+                    <tr>
+                <td class="type">
+                    <a href="../../../bolt/http/middleware/closure.html"><abbr title="bolt\http\middleware\closure">closure</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_setEvent">setEvent</a>(string $event)
+                    <p>set the event to fire middleware</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../../../bolt/http/middleware/closure.html"><abbr title="bolt\http\middleware\closure">closure</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_setClosure">setClosure</a>(<abbr title="bolt\http\middleware\Closure">Closure</abbr> $closure)
+                    <p>set the middleware closure</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    mixed
+                </td>
+                <td class="last">
+                    <a href="#method_before">before</a>(array $args = array())
+                    <p>before middleware event</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    mixed
+                </td>
+                <td class="last">
+                    <a href="#method_handle">handle</a>(array $args = array())
+                    <p>handle the middleware request</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    mixed
+                </td>
+                <td class="last">
+                    <a href="#method_after">after</a>(array $args = array())
+                    <p>after middleware event</p>
+                </td>
+                <td></td>
+            </tr>
+            </table>
+
+
+        <h2>Details</h2>
+
+                        <h3 id="method_setEvent">
+        <div class="location">at line 32</div>
+        <code>            public            <a href="../../../bolt/http/middleware/closure.html"><abbr title="bolt\http\middleware\closure">closure</abbr></a>
+    <strong>setEvent</strong>(string $event)</code>
+    </h3>
+    <div class="details">
+        <p>set the event to fire middleware</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$event</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../../bolt/http/middleware/closure.html"><abbr title="bolt\http\middleware\closure">closure</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_setClosure">
+        <div class="location">at line 45</div>
+        <code>            public            <a href="../../../bolt/http/middleware/closure.html"><abbr title="bolt\http\middleware\closure">closure</abbr></a>
+    <strong>setClosure</strong>(<abbr title="bolt\http\middleware\Closure">Closure</abbr> $closure)</code>
+    </h3>
+    <div class="details">
+        <p>set the middleware closure</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td><abbr title="bolt\http\middleware\Closure">Closure</abbr></td>
+                <td>$closure</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../../bolt/http/middleware/closure.html"><abbr title="bolt\http\middleware\closure">closure</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_before">
+        <div class="location">at line 73</div>
+        <code>            public            mixed
+    <strong>before</strong>(array $args = array())</code>
+    </h3>
+    <div class="details">
+        <p>before middleware event</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>array</td>
+                <td>$args</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_handle">
+        <div class="location">at line 85</div>
+        <code>            public            mixed
+    <strong>handle</strong>(array $args = array())</code>
+    </h3>
+    <div class="details">
+        <p>handle the middleware request</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>array</td>
+                <td>$args</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_after">
+        <div class="location">at line 96</div>
+        <code>            public            mixed
+    <strong>after</strong>(array $args = array())</code>
+    </h3>
+    <div class="details">
+        <p>after middleware event</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>array</td>
+                <td>$args</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+    
+            </div>
+            <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/" target="_top">Sami, the API Documentation Generator</a>.
+    </div>
+    </body>
+</html>

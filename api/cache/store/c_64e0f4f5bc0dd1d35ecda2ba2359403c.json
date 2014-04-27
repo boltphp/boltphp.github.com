@@ -9,14 +9,14 @@
     ],
     "namespace": "bolt\\models",
     "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/models\/collection.php",
-    "hash": "16fc7f938bf916bea65df0934902da4d21454db4",
+    "hash": "bd185ce600d099b7349095dfcae115b9a1ea801b",
     "parent": "bolt\\helpers\\collection",
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
-    "aliases": [
-
-    ],
+    "aliases": {
+        "b": "b"
+    },
     "errors": [
 
     ],
@@ -29,7 +29,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 41,
+            "line": 48,
             "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
@@ -48,7 +48,7 @@
             "parameters": {
                 "manager": {
                     "name": "manager",
-                    "line": 41,
+                    "line": 48,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -66,7 +66,7 @@
                 },
                 "entity": {
                     "name": "entity",
-                    "line": 41,
+                    "line": 48,
                     "short_desc": "entity manager",
                     "long_desc": null,
                     "hint": [
@@ -84,8 +84,26 @@
                 },
                 "items": {
                     "name": "items",
-                    "line": 41,
+                    "line": 48,
                     "short_desc": "inital items",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                },
+                "opts": {
+                    "name": "opts",
+                    "line": 48,
+                    "short_desc": "pagination optiosn",
                     "long_desc": null,
                     "hint": [
                         [
@@ -102,9 +120,387 @@
                 }
             }
         },
+        "setTotal": {
+            "name": "setTotal",
+            "line": 70,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "total": {
+                    "name": "total",
+                    "line": 70,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getTotal": {
+            "name": "getTotal",
+            "line": 75,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "setOffset": {
+            "name": "setOffset",
+            "line": 79,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "offset": {
+                    "name": "offset",
+                    "line": 79,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOffset": {
+            "name": "getOffset",
+            "line": 84,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "setLimit": {
+            "name": "setLimit",
+            "line": 88,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "limit": {
+                    "name": "limit",
+                    "line": 88,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getLimit": {
+            "name": "getLimit",
+            "line": 92,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "getCurrentPage": {
+            "name": "getCurrentPage",
+            "line": 96,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "getNumPages": {
+            "name": "getNumPages",
+            "line": 101,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "getLastPage": {
+            "name": "getLastPage",
+            "line": 106,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "getFirstPage": {
+            "name": "getFirstPage",
+            "line": 110,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "hasPage": {
+            "name": "hasPage",
+            "line": 114,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "page": {
+                    "name": "page",
+                    "line": 114,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "hasPages": {
+            "name": "hasPages",
+            "line": 119,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "hasNextPage": {
+            "name": "hasNextPage",
+            "line": 124,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "hasPrevPage": {
+            "name": "hasPrevPage",
+            "line": 129,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
+        "getPageRange": {
+            "name": "getPageRange",
+            "line": 134,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
         "__get": {
             "name": "__get",
-            "line": 64,
+            "line": 146,
             "short_desc": "get a paramter",
             "long_desc": "",
             "hint": [
@@ -128,7 +524,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 64,
+                    "line": 146,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -148,7 +544,7 @@
         },
         "__set": {
             "name": "__set",
-            "line": 79,
+            "line": 161,
             "short_desc": "set a paramater",
             "long_desc": "",
             "hint": [
@@ -172,7 +568,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 79,
+                    "line": 161,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -190,7 +586,7 @@
                 },
                 "value": {
                     "name": "value",
-                    "line": 79,
+                    "line": 161,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -210,7 +606,7 @@
         },
         "push": {
             "name": "push",
-            "line": 92,
+            "line": 174,
             "short_desc": "push an object to the stack",
             "long_desc": "",
             "hint": [
@@ -234,7 +630,7 @@
             "parameters": {
                 "object": {
                     "name": "object",
-                    "line": 92,
+                    "line": 174,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -254,7 +650,7 @@
         },
         "unshift": {
             "name": "unshift",
-            "line": 109,
+            "line": 191,
             "short_desc": "unshift an object",
             "long_desc": "",
             "hint": [
@@ -278,7 +674,7 @@
             "parameters": {
                 "object": {
                     "name": "object",
-                    "line": 109,
+                    "line": 191,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -295,6 +691,28 @@
                     "is_by_ref": false
                 }
             }
+        },
+        "asArray": {
+            "name": "asArray",
+            "line": 201,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
         }
     },
     "constants": [

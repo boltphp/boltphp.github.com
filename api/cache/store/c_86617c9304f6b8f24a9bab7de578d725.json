@@ -1,0 +1,85 @@
+{
+    "name": "bolt\\http\\response\\format\\xhr",
+    "line": 6,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "bolt\\http\\response\\format",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/response\/format\/xhr.php",
+    "hash": "16a2935a8c3b6f7f4a94521e60d6f8937eb57133",
+    "parent": "bolt\\http\\response\\format",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b"
+    },
+    "errors": [
+
+    ],
+    "interfaces": [
+
+    ],
+    "properties": {
+        "contentType": {
+            "name": "contentType",
+            "line": 8,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": 1,
+            "default": {
+
+            },
+            "errors": [
+
+            ]
+        }
+    },
+    "methods": {
+        "format": {
+            "name": "format",
+            "line": 10,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "content": {
+                    "name": "content",
+                    "line": 10,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": [
+
+    ]
+}

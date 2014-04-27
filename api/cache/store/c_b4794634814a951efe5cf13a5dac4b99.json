@@ -1,0 +1,35 @@
+{
+    "name": "bolt\\http\\response\\format\\face",
+    "line": 5,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "bolt\\http\\response\\format",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/response\/format\/face.php",
+    "hash": "40b35b824697e54bd795fe379b50c67c2f9d0cf4",
+    "parent": null,
+    "modifiers": null,
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [
+
+    ],
+    "errors": [
+
+    ],
+    "interfaces": [
+
+    ],
+    "properties": [
+
+    ],
+    "methods": [
+
+    ],
+    "constants": [
+
+    ]
+}

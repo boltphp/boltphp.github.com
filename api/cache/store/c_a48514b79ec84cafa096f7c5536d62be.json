@@ -52,7 +52,7 @@
         "render": {
             "name": "render",
             "line": 30,
-            "short_desc": "render an html string into a dom doc",
+            "short_desc": "render abstract",
             "long_desc": "",
             "hint": [
                 [

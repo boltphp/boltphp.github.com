@@ -1,6 +1,6 @@
 {
     "name": "bolt\\dom\\element",
-    "line": 5,
+    "line": 8,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
@@ -9,27 +9,44 @@
     ],
     "namespace": "bolt\\dom",
     "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/dom\/element.php",
-    "hash": "b14c10c2032beb088aa49fd0f2f6d81e4f39c072",
+    "hash": "7438289dfacd10e0863339d2581fc9052fd42bb8",
     "parent": "bolt\\dom\\node",
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
-    "aliases": [
-
-    ],
+    "aliases": {
+        "CssSelector": "Symfony\\Component\\CssSelector\\CssSelector"
+    },
     "errors": [
 
     ],
     "interfaces": [
 
     ],
-    "properties": [
+    "properties": {
+        "tagName": {
+            "name": "tagName",
+            "line": 12,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
 
-    ],
+            ],
+            "modifiers": 1,
+            "default": {
+
+            },
+            "errors": [
+
+            ]
+        }
+    },
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 9,
+            "line": 14,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -48,7 +65,7 @@
             "parameters": {
                 "tag": {
                     "name": "tag",
-                    "line": 9,
+                    "line": 14,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -56,12 +73,12 @@
 
                     ],
                     "modifiers": "",
-                    "default": null,
+                    "default": "null",
                     "is_by_ref": false
                 },
                 "value": {
                     "name": "value",
-                    "line": 9,
+                    "line": 14,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -74,7 +91,7 @@
                 },
                 "attr": {
                     "name": "attr",
-                    "line": 9,
+                    "line": 14,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -83,6 +100,40 @@
                     ],
                     "modifiers": "",
                     "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "html": {
+            "name": "html",
+            "line": 31,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "html": {
+                    "name": "html",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "null",
                     "is_by_ref": false
                 }
             }

@@ -1,0 +1,131 @@
+{
+    "name": "bolt\\source\\event",
+    "line": 77,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "bolt\\source",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/source\/database.php",
+    "hash": "faa82d070d4c4edc10557e9b0e10d7ff697e96df",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b",
+        "Configuration": "Doctrine\\DBAL\\Configuration",
+        "DriverManager": "Doctrine\\DBAL\\DriverManager"
+    },
+    "errors": [
+
+    ],
+    "interfaces": {
+        "Doctrine\\Common\\EventSubscriber": "Doctrine\\Common\\EventSubscriber"
+    },
+    "properties": [
+
+    ],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 81,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "manager": {
+                    "name": "manager",
+                    "line": 81,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\source\\bolt\\models",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "bolt\\models",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "postLoad": {
+            "name": "postLoad",
+            "line": 85,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "e": {
+                    "name": "e",
+                    "line": 85,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSubscribedEvents": {
+            "name": "getSubscribedEvents",
+            "line": 91,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        }
+    },
+    "constants": [
+
+    ]
+}

@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\cli",
     "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/cli\/command.php",
-    "hash": "ee49c190601dd3ecf0e3147e4b7f106fadd88497",
+    "hash": "d868d8485debb09cceeee9c9c5f5e1506f200199",
     "parent": "Symfony\\Component\\Console\\Command\\Command",
     "modifiers": 0,
     "is_trait": false,
@@ -353,9 +353,31 @@
 
             ]
         },
+        "setup": {
+            "name": "setup",
+            "line": 148,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
         "execute": {
             "name": "execute",
-            "line": 148,
+            "line": 152,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -374,7 +396,7 @@
             "parameters": {
                 "input": {
                     "name": "input",
-                    "line": 148,
+                    "line": 152,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -392,7 +414,7 @@
                 },
                 "output": {
                     "name": "output",
-                    "line": 148,
+                    "line": 152,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [

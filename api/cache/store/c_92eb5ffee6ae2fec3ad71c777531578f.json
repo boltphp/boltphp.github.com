@@ -1,6 +1,6 @@
 {
     "name": "b",
-    "line": 99,
+    "line": 100,
     "short_desc": "shortcut to bolt",
     "long_desc": "",
     "hint": null,
@@ -8,8 +8,8 @@
 
     ],
     "namespace": "",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt.php",
-    "hash": "d9ba139e0ae470528d6ab80861f39539818add9a",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt.php",
+    "hash": "e993c6110598198fdf1f56e1c858666a5c2ba536",
     "parent": "bolt",
     "modifiers": 0,
     "is_trait": false,

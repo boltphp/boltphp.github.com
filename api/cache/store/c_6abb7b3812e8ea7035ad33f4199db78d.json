@@ -1,0 +1,255 @@
+{
+    "name": "bolt\\http\\middleware\\closure",
+    "line": 12,
+    "short_desc": "closure middleware holder",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "bolt\\http\\middleware",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/middleware\/closure.php",
+    "hash": "cc4ff60e6e77aae5a538d0014d3287875aa88cc3",
+    "parent": "bolt\\http\\middleware",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b",
+        "cc": "Closure"
+    },
+    "errors": [
+
+    ],
+    "interfaces": [
+
+    ],
+    "properties": [
+
+    ],
+    "methods": {
+        "setEvent": {
+            "name": "setEvent",
+            "line": 32,
+            "short_desc": "set the event to fire middleware",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\http\\middleware\\closure",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "event": {
+                    "name": "event",
+                    "line": 32,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setClosure": {
+            "name": "setClosure",
+            "line": 45,
+            "short_desc": "set the middleware closure",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\http\\middleware\\closure",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "closure": {
+                    "name": "closure",
+                    "line": 45,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\http\\middleware\\Closure",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "Closure",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "before": {
+            "name": "before",
+            "line": 73,
+            "short_desc": "before middleware event",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "args": {
+                    "name": "args",
+                    "line": 73,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "handle": {
+            "name": "handle",
+            "line": 85,
+            "short_desc": "handle the middleware request",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "args": {
+                    "name": "args",
+                    "line": 85,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "after": {
+            "name": "after",
+            "line": 96,
+            "short_desc": "after middleware event",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "args": {
+                    "name": "args",
+                    "line": 96,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": [
+
+    ]
+}

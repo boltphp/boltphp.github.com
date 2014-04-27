@@ -8,8 +8,8 @@
 
     ],
     "namespace": "bolt\\source",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/source\/database.php",
-    "hash": "3349445a534f20a077e2c278d20c5ab26d678a6b",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/source\/database.php",
+    "hash": "faa82d070d4c4edc10557e9b0e10d7ff697e96df",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -103,9 +103,31 @@
 
             ]
         },
+        "getConfig": {
+            "name": "getConfig",
+            "line": 30,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        },
         "getModelEntityManager": {
             "name": "getModelEntityManager",
-            "line": 29,
+            "line": 34,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -124,7 +146,7 @@
             "parameters": {
                 "manager": {
                     "name": "manager",
-                    "line": 29,
+                    "line": 34,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -142,7 +164,7 @@
                 },
                 "driver": {
                     "name": "driver",
-                    "line": 29,
+                    "line": 34,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -155,6 +177,53 @@
 
                     ],
                     "modifiers": "bolt\\models\\driver",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "__call": {
+            "name": "__call",
+            "line": 69,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 69,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "args": {
+                    "name": "args",
+                    "line": 69,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 }

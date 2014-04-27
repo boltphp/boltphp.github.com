@@ -1,0 +1,73 @@
+{
+    "name": "bolt\\http\\middleware\\direct",
+    "line": 6,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "bolt\\http\\middleware",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/middleware\/direct.php",
+    "hash": "7e41753fa509d70c23d6cbee4cc726869ddf0d4f",
+    "parent": "bolt\\http\\middleware",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b"
+    },
+    "errors": [
+
+    ],
+    "interfaces": [
+
+    ],
+    "properties": {
+        "mime": {
+            "name": "mime",
+            "line": 41,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": 9,
+            "default": {
+
+            },
+            "errors": [
+
+            ]
+        }
+    },
+    "methods": {
+        "before": {
+            "name": "before",
+            "line": 8,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": [
+
+            ]
+        }
+    },
+    "constants": [
+
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "bolt\\http\\response\\format\\generic",
+    "line": 6,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "bolt\\http\\response\\format",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/response\/format\/generic.php",
+    "hash": "f09c52af4e4696c73863cabf150c582ed560c2f2",
+    "parent": "bolt\\http\\response\\format",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b"
+    },
+    "errors": [
+
+    ],
+    "interfaces": [
+
+    ],
+    "properties": [
+
+    ],
+    "methods": [
+
+    ],
+    "constants": [
+
+    ]
+}

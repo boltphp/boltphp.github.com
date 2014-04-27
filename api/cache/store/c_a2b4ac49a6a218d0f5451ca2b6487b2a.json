@@ -1,0 +1,35 @@
+{
+    "name": "bolt\\http\\router\\face",
+    "line": 8,
+    "short_desc": "router route interface",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "bolt\\http\\router",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/router\/face.php",
+    "hash": "5732e2f300a387e1f9d43054abfcf077ed0297ee",
+    "parent": null,
+    "modifiers": null,
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [
+
+    ],
+    "errors": [
+
+    ],
+    "interfaces": [
+
+    ],
+    "properties": [
+
+    ],
+    "methods": [
+
+    ],
+    "constants": [
+
+    ]
+}

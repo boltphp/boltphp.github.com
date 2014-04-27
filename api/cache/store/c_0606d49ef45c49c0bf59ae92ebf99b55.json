@@ -1,0 +1,147 @@
+{
+    "name": "bolt\\models\\functions\\fromUnixTime",
+    "line": 6,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "bolt\\models\\functions",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/models\/functions\/fromUnixTime.php",
+    "hash": "e8866305e9e5d6d8124d6123c059ccec6e05db83",
+    "parent": "bolt\\models\\functions\\FunctionNode",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [
+
+    ],
+    "errors": [
+
+    ],
+    "interfaces": [
+
+    ],
+    "properties": {
+        "needle": {
+            "name": "needle",
+            "line": 8,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": 1,
+            "default": {
+
+            },
+            "errors": [
+
+            ]
+        },
+        "haystack": {
+            "name": "haystack",
+            "line": 9,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": 1,
+            "default": {
+
+            },
+            "errors": [
+
+            ]
+        }
+    },
+    "methods": {
+        "parse": {
+            "name": "parse",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "parser": {
+                    "name": "parser",
+                    "line": 11,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\models\\functions\\Doctrine\\ORM\\Query\\Parser",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "Doctrine\\ORM\\Query\\Parser",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSql": {
+            "name": "getSql",
+            "line": 19,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [
+
+            ],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "sqlWalker": {
+                    "name": "sqlWalker",
+                    "line": 19,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\models\\functions\\Doctrine\\ORM\\Query\\SqlWalker",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "Doctrine\\ORM\\Query\\SqlWalker",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": [
+
+    ]
+}

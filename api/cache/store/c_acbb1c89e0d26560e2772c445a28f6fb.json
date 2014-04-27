@@ -1,6 +1,6 @@
 {
     "name": "bolt\\dom\\nodeList",
-    "line": 7,
+    "line": 6,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
@@ -9,7 +9,7 @@
     ],
     "namespace": "bolt\\dom",
     "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/dom\/nodeList.php",
-    "hash": "66e0663c9d8066d4f9d1f0329f90546ec7bed9d6",
+    "hash": "d73bd58e48cbbc46026a65169865a5974b94f44c",
     "parent": "bolt\\helpers\\collection",
     "modifiers": 0,
     "is_trait": false,
@@ -29,7 +29,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 11,
+            "line": 10,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -48,7 +48,7 @@
             "parameters": {
                 "dom": {
                     "name": "dom",
-                    "line": 11,
+                    "line": 10,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -68,7 +68,7 @@
         },
         "html": {
             "name": "html",
-            "line": 15,
+            "line": 14,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -90,7 +90,7 @@
         },
         "__call": {
             "name": "__call",
-            "line": 23,
+            "line": 22,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -109,7 +109,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 23,
+                    "line": 22,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -122,7 +122,7 @@
                 },
                 "args": {
                     "name": "args",
-                    "line": 23,
+                    "line": 22,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,

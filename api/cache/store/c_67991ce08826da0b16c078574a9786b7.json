@@ -1,0 +1,79 @@
+{
+    "name": "bolt\\http\\router\\collection",
+    "line": 12,
+    "short_desc": "collection of routes",
+    "long_desc": "",
+    "hint": null,
+    "tags": [
+
+    ],
+    "namespace": "bolt\\http\\router",
+    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/router\/collection.php",
+    "hash": "fc64bb3fb0f7c52959eeff2efe0b85f95426f7c9",
+    "parent": "Symfony\\Component\\Routing\\RouteCollection",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b",
+        "RouteCollection": "Symfony\\Component\\Routing\\RouteCollection"
+    },
+    "errors": [
+
+    ],
+    "interfaces": [
+
+    ],
+    "properties": [
+
+    ],
+    "methods": {
+        "create": {
+            "name": "create",
+            "line": 21,
+            "short_desc": "static create route collection",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\http\\router\\bolt\\http\\router\\collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [
+
+            ],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [
+
+            ],
+            "errors": [
+
+            ],
+            "parameters": {
+                "routes": {
+                    "name": "routes",
+                    "line": 21,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [
+
+                    ],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": [
+
+    ]
+}
