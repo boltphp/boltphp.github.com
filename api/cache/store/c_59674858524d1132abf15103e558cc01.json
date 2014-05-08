@@ -4,12 +4,10 @@
     "short_desc": "router manager",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\http",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/router.php",
-    "hash": "3e4ef96e54cdd85f1c51a0d7fcd0070e9ceb63ec",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/router.php",
+    "hash": "bad0ff446d7cf23a25285caf34e1b3f8ef6f60c7",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -19,15 +17,9 @@
         "UrlMatcher": "Symfony\\Component\\Routing\\Matcher\\UrlMatcher",
         "ResourceNotFoundException": "Symfony\\Component\\Routing\\Exception\\ResourceNotFoundException"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
-    "properties": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
     "methods": {
         "__construct": {
             "name": "__construct",
@@ -36,14 +28,10 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
+            "exceptions": [],
             "errors": [
                 "\"1\" @param tags are defined by \"2\" are expected"
             ],
@@ -59,9 +47,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\http",
                     "default": null,
                     "is_by_ref": false
@@ -72,18 +58,42 @@
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
                 }
             }
         },
+        "onCompile": {
+            "name": "onCompile",
+            "line": 64,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "e": {
+                    "name": "e",
+                    "line": 64,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
         "getCollection": {
             "name": "getCollection",
-            "line": 49,
+            "line": 88,
             "short_desc": "get collection",
             "long_desc": "",
             "hint": [
@@ -93,24 +103,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "__call": {
             "name": "__call",
-            "line": 61,
+            "line": 100,
             "short_desc": "magic call",
             "long_desc": "",
             "hint": [
@@ -120,21 +122,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 61,
+                    "line": 100,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -143,16 +139,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "args": {
                     "name": "args",
-                    "line": 61,
+                    "line": 100,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -161,9 +155,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -172,7 +164,7 @@
         },
         "add": {
             "name": "add",
-            "line": 82,
+            "line": 121,
             "short_desc": "add a route to the toplevel collection",
             "long_desc": "",
             "hint": [
@@ -182,21 +174,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "route": {
                     "name": "route",
-                    "line": 82,
+                    "line": 121,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -205,9 +191,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\http\\router\\route",
                     "default": null,
                     "is_by_ref": false
@@ -216,32 +200,24 @@
         },
         "getByName": {
             "name": "getByName",
-            "line": 87,
+            "line": 126,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 87,
+                    "line": 126,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -250,7 +226,7 @@
         },
         "match": {
             "name": "match",
-            "line": 99,
+            "line": 138,
             "short_desc": "match a request to defined routes",
             "long_desc": "",
             "hint": [
@@ -260,21 +236,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "req": {
                     "name": "req",
-                    "line": 99,
+                    "line": 138,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -283,16 +253,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\http\\request",
                     "default": null,
                     "is_by_ref": false
                 },
                 "path": {
                     "name": "path",
-                    "line": 99,
+                    "line": 138,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -301,9 +269,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
@@ -312,7 +278,7 @@
         },
         "loadFromControllers": {
             "name": "loadFromControllers",
-            "line": 167,
+            "line": 206,
             "short_desc": "load all routes that are defined in controllers that exend bolt\\http\\router\\face",
             "long_desc": "",
             "hint": [
@@ -322,21 +288,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "paths": {
                     "name": "paths",
-                    "line": 167,
+                    "line": 206,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -345,9 +305,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "array",
                     "default": "array()",
                     "is_by_ref": false
@@ -355,7 +313,5 @@
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

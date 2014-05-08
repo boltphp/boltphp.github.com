@@ -42,7 +42,7 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method_compile">compile</a>()
+                    <a href="#method_compile">compile</a>($str)
                     <p>compile the dom doc to serializeable object</p>
                 </td>
                 <td></td>
@@ -57,6 +57,16 @@
                 </td>
                 <td></td>
             </tr>
+                    <tr>
+                <td class="type">
+                    string
+                </td>
+                <td class="last">
+                    <a href="#method_renderCompiled">renderCompiled</a>(mixed $compiled, array $vars = array())
+                    <p>render a compiled string</p>
+                </td>
+                <td></td>
+            </tr>
             </table>
 
 
@@ -65,13 +75,24 @@
                         <h3 id="method_compile">
         <div class="location">at line 16</div>
         <code>            public            
-    <strong>compile</strong>()</code>
+    <strong>compile</strong>($str)</code>
     </h3>
     <div class="details">
         <p>compile the dom doc to serializeable object</p>
         <p>
 </p>
         <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$str</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
             
             
             
@@ -79,7 +100,7 @@
     </div>
 
                 <h3 id="method_render">
-        <div class="location">at line 30</div>
+        <div class="location">at line 29</div>
         <code>            public            <abbr title="bolt\render\bolt\dom">dom</abbr>
     <strong>render</strong>(string $str, array $vars = array())</code>
     </h3>
@@ -116,6 +137,58 @@
 
             
             
+                    </div>
+    </div>
+
+                <h3 id="method_renderCompiled">
+        <div class="location">at line 39</div>
+        <code>            public            string
+    <strong>renderCompiled</strong>(mixed $compiled, array $vars = array())</code>
+    </h3>
+    <div class="details">
+        <p>render a compiled string</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>mixed</td>
+                <td>$compiled</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$vars</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                            <h4>See also</h4>
+
+                    <table>
+                    <tr>
+                <td>bolt\render\base::renderCompiled</td>
+                <td></td>
+            </tr>
+            </table>
+
                     </div>
     </div>
 

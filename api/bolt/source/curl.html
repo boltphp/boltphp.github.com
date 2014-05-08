@@ -25,8 +25,13 @@
         <div class="content">
                 <p>    class
     <strong>curl</strong>        implements
-        <a href="../../bolt/source/face.html"><abbr title="bolt\source\face">face</abbr></a></p>
+        <a href="../../bolt/source/sourceInterface.html"><abbr title="bolt\source\sourceInterface">sourceInterface</abbr></a></p>
 
+            <div class="description">
+            <p>curl manager</p>
+            <p>
+</p>
+        </div>
     
     
     
@@ -38,53 +43,48 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method___construct">__construct</a>(<abbr title="bolt\source\bolt\application">application</abbr> $app, $config = array())
-                    <p>
-</p>
+                    <a href="#method___construct">__construct</a>(<abbr title="bolt\source\bolt\application">application</abbr> $app, array $config = array())
+                    <p>Constructor</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="bolt\source\Guzzle\Http\Client">Client</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_getClient">getClient</a>()
-                    <p>
-</p>
+                    <p>return guzzle client</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../bolt/source/curl.html"><abbr title="bolt\source\curl">curl</abbr></a>
                 </td>
                 <td class="last">
                     <a href="#method_getModelEntityManager">getModelEntityManager</a>(<abbr title="bolt\source\bolt\models">models</abbr> $manager, <abbr title="bolt\source\bolt\models\driver">driver</abbr> $driver)
-                    <p>
-</p>
+                    <p>return the entity manager</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="bolt\source\bolt\curl\repository">repository</abbr>
                 </td>
                 <td class="last">
-                    <a href="#method_getRepository">getRepository</a>($entity)
-                    <p>
-</p>
+                    <a href="#method_getRepository">getRepository</a>(string $entity)
+                    <p>get a repository for a given entity class</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    mixed
                 </td>
                 <td class="last">
-                    <a href="#method___call">__call</a>($name, $args)
-                    <p>
-</p>
+                    <a href="#method___call">__call</a>(string $name, array $args)
+                    <p>magic call to send any undefined methods to $_client</p>
                 </td>
                 <td></td>
             </tr>
@@ -94,13 +94,12 @@
         <h2>Details</h2>
 
                         <h3 id="method___construct">
-        <div class="location">at line 21</div>
+        <div class="location">at line 63</div>
         <code>            public            
-    <strong>__construct</strong>(<abbr title="bolt\source\bolt\application">application</abbr> $app, $config = array())</code>
+    <strong>__construct</strong>(<abbr title="bolt\source\bolt\application">application</abbr> $app, array $config = array())</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Constructor</p>
         <p>
 </p>
         <div class="tags">
@@ -114,7 +113,7 @@
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$config</td>
                 <td>
 </td>
@@ -128,30 +127,38 @@
     </div>
 
                 <h3 id="method_getClient">
-        <div class="location">at line 33</div>
-        <code>            public            
+        <div class="location">at line 81</div>
+        <code>            public            <abbr title="bolt\source\Guzzle\Http\Client">Client</abbr>
     <strong>getClient</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>return guzzle client</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\source\Guzzle\Http\Client">Client</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getModelEntityManager">
-        <div class="location">at line 37</div>
-        <code>            public            
+        <div class="location">at line 94</div>
+        <code>            public            <a href="../../bolt/source/curl.html"><abbr title="bolt\source\curl">curl</abbr></a>
     <strong>getModelEntityManager</strong>(<abbr title="bolt\source\bolt\models">models</abbr> $manager, <abbr title="bolt\source\bolt\models\driver">driver</abbr> $driver)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>return the entity manager</p>
         <p>
 </p>
         <div class="tags">
@@ -173,19 +180,28 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/source/curl.html"><abbr title="bolt\source\curl">curl</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getRepository">
-        <div class="location">at line 43</div>
-        <code>            public            
-    <strong>getRepository</strong>($entity)</code>
+        <div class="location">at line 108</div>
+        <code>            public            <abbr title="bolt\source\bolt\curl\repository">repository</abbr>
+    <strong>getRepository</strong>(string $entity)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>get a repository for a given entity class</p>
         <p>
 </p>
         <div class="tags">
@@ -193,7 +209,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$entity</td>
                 <td>
 </td>
@@ -201,19 +217,28 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\source\bolt\curl\repository">repository</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method___call">
-        <div class="location">at line 50</div>
-        <code>            public            
-    <strong>__call</strong>($name, $args)</code>
+        <div class="location">at line 125</div>
+        <code>            public            mixed
+    <strong>__call</strong>(string $name, array $args)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>magic call to send any undefined methods to $_client</p>
         <p>
 </p>
         <div class="tags">
@@ -221,13 +246,13 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$name</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$args</td>
                 <td>
 </td>
@@ -235,6 +260,16 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>

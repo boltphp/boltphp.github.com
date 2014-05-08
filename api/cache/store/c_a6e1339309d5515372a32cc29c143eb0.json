@@ -4,12 +4,10 @@
     "short_desc": "",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\http\\middleware",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/middleware\/assets.php",
-    "hash": "cb39c62fbe0222e4af6f85d9f2921c9b0f8451cb",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/middleware\/assets.php",
+    "hash": "66d4d12d2682fb4b7d9c3a23f699019ef6cecf92",
     "parent": "bolt\\http\\middleware",
     "modifiers": 0,
     "is_trait": false,
@@ -23,15 +21,9 @@
         "AssetCache": "Assetic\\Asset\\AssetCache",
         "FilesystemCache": "Assetic\\Cache\\FilesystemCache"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
-    "properties": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
     "methods": {
         "init": {
             "name": "init",
@@ -45,20 +37,12 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "before": {
             "name": "before",
@@ -67,23 +51,13 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

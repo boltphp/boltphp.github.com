@@ -1,0 +1,21 @@
+{
+    "name": "bolt\\source\\sourceInterface",
+    "line": 5,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "bolt\\source",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/source\/sourceInterface.php",
+    "hash": "0706bd2f8c3e5b9e4bfa33ba3f10617cd7b60ad2",
+    "parent": null,
+    "modifiers": null,
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

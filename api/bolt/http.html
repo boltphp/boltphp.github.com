@@ -135,7 +135,7 @@
                     <a href="../bolt/http.html"><abbr title="bolt\http">http</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_setResponse">setResponse</a>(<abbr title="bolt\bolt\http\response">response</abbr> $resp)
+                    <a href="#method_setResponse">setResponse</a>(<abbr title="bolt\bolt\http\response">response</abbr> $resp, $mergeCookies = true, $mergeHeaders = false)
                     <p>set the response object</p>
                 </td>
                 <td></td>
@@ -253,7 +253,7 @@
     </div>
 
                 <h3 id="method___construct">
-        <div class="location">at line 57</div>
+        <div class="location">at line 59</div>
         <code>            public            
     <strong>__construct</strong>(<a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a> $app, <a href="../bolt/http/request.html"><abbr title="bolt\http\request">request</abbr></a> $req = null, <a href="../bolt/http/response.html"><abbr title="bolt\http\response">response</abbr></a> $resp = null)</code>
     </h3>
@@ -289,7 +289,7 @@
     </div>
 
                 <h3 id="method___get">
-        <div class="location">at line 77</div>
+        <div class="location">at line 79</div>
         <code>            public            mixed
     <strong>__get</strong>(string $name)</code>
     </h3>
@@ -325,7 +325,7 @@
     </div>
 
                 <h3 id="method___call">
-        <div class="location">at line 98</div>
+        <div class="location">at line 100</div>
         <code>            public            mixed
     <strong>__call</strong>(string $name, array $args)</code>
     </h3>
@@ -366,7 +366,7 @@
     </div>
 
                 <h3 id="method_getApp">
-        <div class="location">at line 115</div>
+        <div class="location">at line 117</div>
         <code>            public            <abbr title="bolt\bolt\application">application</abbr>
     <strong>getApp</strong>()</code>
     </h3>
@@ -392,7 +392,7 @@
     </div>
 
                 <h3 id="method_getRequest">
-        <div class="location">at line 125</div>
+        <div class="location">at line 127</div>
         <code>            public            <abbr title="bolt\bolt\http\request">request</abbr>
     <strong>getRequest</strong>()</code>
     </h3>
@@ -418,7 +418,7 @@
     </div>
 
                 <h3 id="method_setRequest">
-        <div class="location">at line 137</div>
+        <div class="location">at line 139</div>
         <code>            public            <a href="../bolt/http.html"><abbr title="bolt\http">http</abbr></a>
     <strong>setRequest</strong>(<abbr title="bolt\bolt\http\request">request</abbr> $req)</code>
     </h3>
@@ -454,7 +454,7 @@
     </div>
 
                 <h3 id="method_getResponse">
-        <div class="location">at line 148</div>
+        <div class="location">at line 150</div>
         <code>            public            <abbr title="bolt\bolt\http\response">response</abbr>
     <strong>getResponse</strong>()</code>
     </h3>
@@ -480,9 +480,9 @@
     </div>
 
                 <h3 id="method_setResponse">
-        <div class="location">at line 159</div>
+        <div class="location">at line 162</div>
         <code>            public            <a href="../bolt/http.html"><abbr title="bolt\http">http</abbr></a>
-    <strong>setResponse</strong>(<abbr title="bolt\bolt\http\response">response</abbr> $resp)</code>
+    <strong>setResponse</strong>(<abbr title="bolt\bolt\http\response">response</abbr> $resp, $mergeCookies = true, $mergeHeaders = false)</code>
     </h3>
     <div class="details">
         <p>set the response object</p>
@@ -495,7 +495,20 @@
                     <tr>
                 <td><abbr title="bolt\bolt\http\response">response</abbr></td>
                 <td>$resp</td>
-                <td>new response object</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$mergeCookies</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$mergeHeaders</td>
+                <td>
+</td>
             </tr>
             </table>
 
@@ -516,7 +529,7 @@
     </div>
 
                 <h3 id="method_path">
-        <div class="location">at line 172</div>
+        <div class="location">at line 187</div>
         <code>            public            string
     <strong>path</strong>()</code>
     </h3>
@@ -551,7 +564,7 @@
     </div>
 
                 <h3 id="method_load">
-        <div class="location">at line 183</div>
+        <div class="location">at line 199</div>
         <code>            public            <a href="../bolt/http.html"><abbr title="bolt\http">http</abbr></a>
     <strong>load</strong>()</code>
     </h3>
@@ -586,7 +599,7 @@
     </div>
 
                 <h3 id="method_bind">
-        <div class="location">at line 197</div>
+        <div class="location">at line 214</div>
         <code>            public            <a href="../bolt/http.html"><abbr title="bolt\http">http</abbr></a>
     <strong>bind</strong>(string|<abbr title="bolt\callback">callback</abbr> $name, string|<abbr title="bolt\boject">boject</abbr> $class = null, array $config = array())</code>
     </h3>
@@ -632,7 +645,7 @@
     </div>
 
                 <h3 id="method_getMiddleware">
-        <div class="location">at line 249</div>
+        <div class="location">at line 267</div>
         <code>            public            array
     <strong>getMiddleware</strong>()</code>
     </h3>
@@ -658,7 +671,7 @@
     </div>
 
                 <h3 id="method_run">
-        <div class="location">at line 259</div>
+        <div class="location">at line 277</div>
         <code>            public            void
     <strong>run</strong>()</code>
     </h3>
@@ -684,7 +697,7 @@
     </div>
 
                 <h3 id="method_execute">
-        <div class="location">at line 270</div>
+        <div class="location">at line 288</div>
         <code>            public            void
     <strong>execute</strong>()</code>
     </h3>
@@ -710,7 +723,7 @@
     </div>
 
                 <h3 id="method_runMiddleware">
-        <div class="location">at line 369</div>
+        <div class="location">at line 379</div>
         <code>            public            <a href="../bolt/http.html"><abbr title="bolt\http">http</abbr></a>
     <strong>runMiddleware</strong>(string $method, array $params = array())</code>
     </h3>
@@ -751,7 +764,7 @@
     </div>
 
                 <h3 id="method_runMiddlewareByName">
-        <div class="location">at line 387</div>
+        <div class="location">at line 398</div>
         <code>            public            mixed
     <strong>runMiddlewareByName</strong>(string $name, string $method, array $params = array())</code>
     </h3>

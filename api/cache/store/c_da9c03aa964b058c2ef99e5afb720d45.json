@@ -4,12 +4,10 @@
     "short_desc": "base route class",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\http\\router",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/router\/route.php",
-    "hash": "ecd691746fcf5af60e6c0e08056fd96635f1ae23",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/router\/route.php",
+    "hash": "b4d0bbc9254fb158be022fe283698bb545e6837f",
     "parent": "Symfony\\Component\\Routing\\Route",
     "modifiers": 0,
     "is_trait": false,
@@ -18,15 +16,11 @@
         "b": "b",
         "sRoute": "Symfony\\Component\\Routing\\Route"
     },
-    "errors": [
-
-    ],
+    "errors": [],
     "interfaces": {
         "bolt\\http\\router\\face": "bolt\\http\\router\\face"
     },
-    "properties": [
-
-    ],
+    "properties": [],
     "methods": {
         "create": {
             "name": "create",
@@ -40,17 +34,11 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "9",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "route": {
                     "name": "route",
@@ -63,9 +51,33 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "__set_state": {
+            "name": "__set_state",
+            "line": 43,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "state": {
+                    "name": "state",
+                    "line": 43,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -74,7 +86,7 @@
         },
         "setName": {
             "name": "setName",
-            "line": 51,
+            "line": 55,
             "short_desc": "set the route name",
             "long_desc": "",
             "hint": [
@@ -84,21 +96,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 51,
+                    "line": 55,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -107,9 +113,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -118,7 +122,7 @@
         },
         "getName": {
             "name": "getName",
-            "line": 62,
+            "line": 66,
             "short_desc": "get the route name",
             "long_desc": "",
             "hint": [
@@ -128,24 +132,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "setController": {
             "name": "setController",
-            "line": 75,
+            "line": 79,
             "short_desc": "set the route controller",
             "long_desc": "",
             "hint": [
@@ -155,21 +151,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "controller": {
                     "name": "controller",
-                    "line": 75,
+                    "line": 79,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -178,9 +168,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -189,7 +177,7 @@
         },
         "getController": {
             "name": "getController",
-            "line": 90,
+            "line": 94,
             "short_desc": "get route controller",
             "long_desc": "",
             "hint": [
@@ -199,24 +187,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "setRequire": {
             "name": "setRequire",
-            "line": 102,
+            "line": 106,
             "short_desc": "set a required param",
             "long_desc": "",
             "hint": [
@@ -226,21 +206,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "require": {
                     "name": "require",
-                    "line": 102,
+                    "line": 106,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -249,9 +223,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -260,7 +232,7 @@
         },
         "setAction": {
             "name": "setAction",
-            "line": 115,
+            "line": 119,
             "short_desc": "set the controller action",
             "long_desc": "",
             "hint": [
@@ -270,21 +242,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "action": {
                     "name": "action",
-                    "line": 115,
+                    "line": 119,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -293,9 +259,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -304,7 +268,7 @@
         },
         "setFormats": {
             "name": "setFormats",
-            "line": 128,
+            "line": 132,
             "short_desc": "set response formats",
             "long_desc": "",
             "hint": [
@@ -314,21 +278,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "format": {
                     "name": "format",
-                    "line": 128,
+                    "line": 132,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -337,9 +295,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -348,7 +304,7 @@
         },
         "compile": {
             "name": "compile",
-            "line": 151,
+            "line": 155,
             "short_desc": "compile the route",
             "long_desc": "",
             "hint": [
@@ -358,23 +314,13 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

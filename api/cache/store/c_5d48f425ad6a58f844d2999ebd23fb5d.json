@@ -1,56 +1,45 @@
 {
     "name": "bolt\\config",
-    "line": 12,
+    "line": 13,
     "short_desc": "Base configuration manager",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/config.php",
-    "hash": "ce01f182cda2fee17e7f9ad86871623ac0364d82",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/config.php",
+    "hash": "d63eccf842815bfc4bc831416d41e63419717dee",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
     "aliases": {
         "b": "b",
-        "PropertyAccess": "Symfony\\Component\\PropertyAccess\\PropertyAccess"
+        "PropertyAccess": "Symfony\\Component\\PropertyAccess\\PropertyAccess",
+        "Yaml": "Symfony\\Component\\Yaml\\Yaml"
     },
-    "errors": [
-
-    ],
+    "errors": [],
     "interfaces": {
         "IteratorAggregate": "IteratorAggregate",
         "ArrayAccess": "ArrayAccess"
     },
-    "properties": [
-
-    ],
+    "properties": [],
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 37,
+            "line": 53,
             "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "app": {
                     "name": "app",
-                    "line": 37,
+                    "line": 53,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -59,16 +48,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\application",
                     "default": null,
                     "is_by_ref": false
                 },
                 "config": {
                     "name": "config",
-                    "line": 37,
+                    "line": 53,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -77,18 +64,52 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
                 }
             }
         },
+        "onCompile": {
+            "name": "onCompile",
+            "line": 80,
+            "short_desc": "compile any config files",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "e": {
+                    "name": "e",
+                    "line": 80,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\bolt\\helpers\\events\\event",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
         "register": {
             "name": "register",
-            "line": 56,
+            "line": 116,
             "short_desc": "register one or more config namspaces",
             "long_desc": "",
             "hint": [
@@ -98,21 +119,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 56,
+                    "line": 116,
                     "short_desc": "namespace or array of register items",
                     "long_desc": null,
                     "hint": [
@@ -125,16 +140,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "data": {
                     "name": "data",
-                    "line": 56,
+                    "line": 116,
                     "short_desc": "config data or file",
                     "long_desc": null,
                     "hint": [
@@ -147,9 +160,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -158,7 +169,7 @@
         },
         "getRegistered": {
             "name": "getRegistered",
-            "line": 85,
+            "line": 148,
             "short_desc": "return all registered namespaces",
             "long_desc": "",
             "hint": [
@@ -168,24 +179,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "__get": {
             "name": "__get",
-            "line": 121,
+            "line": 188,
             "short_desc": "magic get a namespace",
             "long_desc": "",
             "hint": [
@@ -195,21 +198,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 121,
+                    "line": 188,
                     "short_desc": "namespace",
                     "long_desc": null,
                     "hint": [
@@ -218,9 +215,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -229,32 +224,70 @@
         },
         "has": {
             "name": "has",
-            "line": 126,
-            "short_desc": "",
+            "line": 200,
+            "short_desc": "check if an attribute exists",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 126,
-                    "short_desc": null,
+                    "line": 200,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
                     ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "all": {
+            "name": "all",
+            "line": 212,
+            "short_desc": "return all attributes for a registered bag",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 212,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -263,7 +296,7 @@
         },
         "get": {
             "name": "get",
-            "line": 138,
+            "line": 228,
             "short_desc": "get a value from a stored namespace",
             "long_desc": "",
             "hint": [
@@ -273,21 +306,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 138,
+                    "line": 228,
                     "short_desc": "namespace or key",
                     "long_desc": null,
                     "hint": [
@@ -296,16 +323,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "default": {
                     "name": "default",
-                    "line": 138,
+                    "line": 228,
                     "short_desc": "value to return if $name ne",
                     "long_desc": null,
                     "hint": [
@@ -314,9 +339,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
@@ -325,7 +348,7 @@
         },
         "set": {
             "name": "set",
-            "line": 151,
+            "line": 241,
             "short_desc": "set a value on a namespace",
             "long_desc": "",
             "hint": [
@@ -335,21 +358,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 151,
+                    "line": 241,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -358,16 +375,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "value": {
                     "name": "value",
-                    "line": 151,
+                    "line": 241,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -376,9 +391,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -387,7 +400,7 @@
         },
         "remove": {
             "name": "remove",
-            "line": 164,
+            "line": 254,
             "short_desc": "remove a namespace",
             "long_desc": "",
             "hint": [
@@ -397,21 +410,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 164,
+                    "line": 254,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -420,9 +427,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -431,7 +436,7 @@
         },
         "exists": {
             "name": "exists",
-            "line": 177,
+            "line": 267,
             "short_desc": "does a key exist",
             "long_desc": "",
             "hint": [
@@ -441,21 +446,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 177,
+                    "line": 267,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -464,9 +463,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -475,7 +472,7 @@
         },
         "getIterator": {
             "name": "getIterator",
-            "line": 200,
+            "line": 290,
             "short_desc": "return an array iterator for storage items",
             "long_desc": "",
             "hint": [
@@ -485,24 +482,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "offsetSet": {
             "name": "offsetSet",
-            "line": 213,
+            "line": 303,
             "short_desc": "set offset",
             "long_desc": "",
             "hint": [
@@ -512,40 +501,32 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
+            "exceptions": [],
             "errors": [
                 "The \"class\" @param tag variable name is wrong (should be \"value\")"
             ],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 213,
+                    "line": 303,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "value": {
                     "name": "value",
-                    "line": 213,
+                    "line": 303,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -554,7 +535,7 @@
         },
         "offsetExists": {
             "name": "offsetExists",
-            "line": 225,
+            "line": 315,
             "short_desc": "offset get",
             "long_desc": "",
             "hint": [
@@ -564,21 +545,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 225,
+                    "line": 315,
                     "short_desc": "name of plugin",
                     "long_desc": null,
                     "hint": [
@@ -587,9 +562,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -598,7 +571,7 @@
         },
         "offsetUnset": {
             "name": "offsetUnset",
-            "line": 237,
+            "line": 327,
             "short_desc": "unplug",
             "long_desc": "",
             "hint": [
@@ -608,21 +581,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 237,
+                    "line": 327,
                     "short_desc": "name of plugin to unplug",
                     "long_desc": null,
                     "hint": [
@@ -631,9 +598,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -642,7 +607,7 @@
         },
         "offsetGet": {
             "name": "offsetGet",
-            "line": 249,
+            "line": 339,
             "short_desc": "get a plugin",
             "long_desc": "",
             "hint": [
@@ -652,21 +617,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 249,
+                    "line": 339,
                     "short_desc": "name of plugin",
                     "long_desc": null,
                     "hint": [
@@ -675,9 +634,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -685,7 +642,5 @@
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

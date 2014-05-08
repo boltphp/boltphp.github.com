@@ -27,6 +27,11 @@
     <strong>event</strong>        implements
         <abbr title="Doctrine\Common\EventSubscriber">EventSubscriber</abbr></p>
 
+            <div class="description">
+            <p>event subscriber</p>
+            <p>
+</p>
+        </div>
     
     
     
@@ -39,30 +44,27 @@
                 </td>
                 <td class="last">
                     <a href="#method___construct">__construct</a>(<abbr title="bolt\source\bolt\models">models</abbr> $manager)
-                    <p>
-</p>
+                    <p>Constructor</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    void
                 </td>
                 <td class="last">
-                    <a href="#method_postLoad">postLoad</a>($e)
-                    <p>
-</p>
+                    <a href="#method_postLoad">postLoad</a>(<abbr title="bolt\source\Doctrine\Common\Event">Event</abbr> $e)
+                    <p>postLoad event callback</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    array
                 </td>
                 <td class="last">
                     <a href="#method_getSubscribedEvents">getSubscribedEvents</a>()
-                    <p>
-</p>
+                    <p>list of events this subscriber can handle</p>
                 </td>
                 <td></td>
             </tr>
@@ -72,13 +74,12 @@
         <h2>Details</h2>
 
                         <h3 id="method___construct">
-        <div class="location">at line 81</div>
+        <div class="location">at line 150</div>
         <code>            public            
     <strong>__construct</strong>(<abbr title="bolt\source\bolt\models">models</abbr> $manager)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Constructor</p>
         <p>
 </p>
         <div class="tags">
@@ -100,13 +101,12 @@
     </div>
 
                 <h3 id="method_postLoad">
-        <div class="location">at line 85</div>
-        <code>            public            
-    <strong>postLoad</strong>($e)</code>
+        <div class="location">at line 162</div>
+        <code>            public            void
+    <strong>postLoad</strong>(<abbr title="bolt\source\Doctrine\Common\Event">Event</abbr> $e)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>postLoad event callback</p>
         <p>
 </p>
         <div class="tags">
@@ -114,7 +114,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td><abbr title="bolt\source\Doctrine\Common\Event">Event</abbr></td>
                 <td>$e</td>
                 <td>
 </td>
@@ -122,23 +122,42 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>void</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getSubscribedEvents">
-        <div class="location">at line 91</div>
-        <code>            public            
+        <div class="location">at line 174</div>
+        <code>            public            array
     <strong>getSubscribedEvents</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>list of events this subscriber can handle</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>

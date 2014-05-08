@@ -4,9 +4,7 @@
     "short_desc": "closure controller class",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\http\\controller",
     "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/controller\/closure.php",
     "hash": "cc7612532b2e4e4ce0be18303275506fbd810999",
@@ -17,20 +15,14 @@
     "aliases": {
         "b": "b"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
-    "properties": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
     "methods": {
         "build": {
             "name": "build",
             "line": 19,
-            "short_desc": "build the closure controller",
+            "short_desc": "build the controller",
             "long_desc": "",
             "hint": [
                 [
@@ -39,17 +31,11 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "params": {
                     "name": "params",
@@ -62,9 +48,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -72,7 +56,5 @@
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

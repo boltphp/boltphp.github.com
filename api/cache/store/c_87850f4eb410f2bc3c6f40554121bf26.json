@@ -4,9 +4,7 @@
     "short_desc": "",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\client",
     "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/client\/models.php",
     "hash": "94d62457f0a993a8681a19e733468670ff773b46",
@@ -18,12 +16,8 @@
         "b": "b",
         "SchemaTool": "Doctrine\\ORM\\Tools\\SchemaTool"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
     "properties": {
         "name": {
             "name": "name",
@@ -32,16 +26,10 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": 9,
-            "default": {
-
-            },
-            "errors": [
-
-            ]
+            "default": [],
+            "errors": []
         },
         "configure": {
             "name": "configure",
@@ -50,16 +38,10 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": 9,
-            "default": {
-
-            },
-            "errors": [
-
-            ]
+            "default": [],
+            "errors": []
         }
     },
     "methods": {
@@ -70,20 +52,12 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "schemaCreate": {
             "name": "schemaCreate",
@@ -92,20 +66,12 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "schemaUpdate": {
             "name": "schemaUpdate",
@@ -114,20 +80,12 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "schemaDrop": {
             "name": "schemaDrop",
@@ -136,23 +94,13 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

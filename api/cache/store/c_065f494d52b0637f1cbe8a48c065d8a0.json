@@ -1,55 +1,44 @@
 {
     "name": "bolt\\client",
-    "line": 6,
-    "short_desc": "",
+    "line": 8,
+    "short_desc": "bolt client",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/client.php",
-    "hash": "44fc43e9a25e31b493d3a62ffcab08b699df6968",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/client.php",
+    "hash": "b4f01a0aec6d136c5199f4fae3c884957672e5e2",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
-    "aliases": [
-
-    ],
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
-    "properties": [
-
-    ],
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
     "methods": {
         "bind": {
             "name": "bind",
-            "line": 8,
-            "short_desc": "",
+            "line": 18,
+            "short_desc": "bind the client comamnds to the provided bolt application",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "9",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "app": {
                     "name": "app",
-                    "line": 8,
-                    "short_desc": null,
+                    "line": 18,
+                    "short_desc": "",
                     "long_desc": null,
                     "hint": [
                         [
@@ -57,9 +46,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "application",
                     "default": null,
                     "is_by_ref": false
@@ -67,7 +54,5 @@
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

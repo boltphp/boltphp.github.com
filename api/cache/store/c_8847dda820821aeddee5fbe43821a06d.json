@@ -4,12 +4,10 @@
     "short_desc": "Abstract format class",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\http\\response",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/response\/format.php",
-    "hash": "cb783910c87637d14493ca6ac652b5c2474b9a99",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/response\/format.php",
+    "hash": "84e2289151b8ee093b11339f823ec3edcca037b1",
     "parent": null,
     "modifiers": 16,
     "is_trait": false,
@@ -17,9 +15,7 @@
     "aliases": {
         "ResponseHeaderBag": "Symfony\\Component\\HttpFoundation\\ResponseHeaderBag"
     },
-    "errors": [
-
-    ],
+    "errors": [],
     "interfaces": {
         "bolt\\http\\response\\format\\face": "bolt\\http\\response\\format\\face"
     },
@@ -36,14 +32,10 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": 1,
             "default": null,
-            "errors": [
-
-            ]
+            "errors": []
         }
     },
     "methods": {
@@ -54,17 +46,11 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "parent": {
                     "name": "parent",
@@ -77,9 +63,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\http\\response",
                     "default": null,
                     "is_by_ref": false
@@ -88,45 +72,35 @@
         },
         "__call": {
             "name": "__call",
-            "line": 47,
+            "line": 46,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 47,
+                    "line": 46,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "args": {
                     "name": "args",
-                    "line": 47,
+                    "line": 46,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -135,32 +109,24 @@
         },
         "__get": {
             "name": "__get",
-            "line": 51,
+            "line": 50,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 51,
+                    "line": 50,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -169,7 +135,7 @@
         },
         "setHeader": {
             "name": "setHeader",
-            "line": 64,
+            "line": 63,
             "short_desc": "set a header",
             "long_desc": "",
             "hint": [
@@ -179,21 +145,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 64,
+                    "line": 63,
                     "short_desc": "header name",
                     "long_desc": null,
                     "hint": [
@@ -202,16 +162,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "value": {
                     "name": "value",
-                    "line": 64,
+                    "line": 63,
                     "short_desc": "value of header",
                     "long_desc": null,
                     "hint": [
@@ -224,16 +182,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "replace": {
                     "name": "replace",
-                    "line": 64,
+                    "line": 63,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -242,9 +198,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "true",
                     "is_by_ref": false
@@ -253,7 +207,7 @@
         },
         "setContent": {
             "name": "setContent",
-            "line": 77,
+            "line": 76,
             "short_desc": "set the format content",
             "long_desc": "",
             "hint": [
@@ -263,21 +217,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "content": {
                     "name": "content",
-                    "line": 77,
+                    "line": 76,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -286,9 +234,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -297,7 +243,7 @@
         },
         "getContent": {
             "name": "getContent",
-            "line": 88,
+            "line": 87,
             "short_desc": "get the content",
             "long_desc": "",
             "hint": [
@@ -307,24 +253,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "getContentType": {
             "name": "getContentType",
-            "line": 98,
+            "line": 97,
             "short_desc": "get the content type",
             "long_desc": "",
             "hint": [
@@ -334,24 +272,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "__invoke": {
             "name": "__invoke",
-            "line": 107,
+            "line": 106,
             "short_desc": "invoke the format and return content",
             "long_desc": "",
             "hint": [
@@ -361,23 +291,13 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

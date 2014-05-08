@@ -4,12 +4,10 @@
     "short_desc": "asset manager",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\http",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/assets.php",
-    "hash": "c7663155989c55f659693fb705817e25bba804f6",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/assets.php",
+    "hash": "07b3cd4e1a3ee918687284894f5bf9e210107f7b",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -28,38 +26,28 @@
         "CacheBustingWorker": "Assetic\\Factory\\Worker\\CacheBustingWorker",
         "AssetFactory": "Assetic\\Factory\\AssetFactory"
     },
-    "errors": [
-
-    ],
+    "errors": [],
     "interfaces": {
         "bolt\\plugin\\singleton": "bolt\\plugin\\singleton"
     },
-    "properties": [
-
-    ],
+    "properties": [],
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 58,
+            "line": 59,
             "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "http": {
                     "name": "http",
-                    "line": 58,
+                    "line": 59,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -68,16 +56,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\http",
                     "default": null,
                     "is_by_ref": false
                 },
                 "config": {
                     "name": "config",
-                    "line": 58,
+                    "line": 59,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -86,43 +72,78 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
                 }
             }
         },
-        "getCompiledFile": {
-            "name": "getCompiledFile",
-            "line": 90,
+        "setCache": {
+            "name": "setCache",
+            "line": 96,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "cache": {
+                    "name": "cache",
+                    "line": 96,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCache": {
+            "name": "getCache",
+            "line": 104,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCompiledFile": {
+            "name": "getCompiledFile",
+            "line": 108,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 90,
+                    "line": 108,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -131,58 +152,46 @@
         },
         "glob": {
             "name": "glob",
-            "line": 100,
+            "line": 118,
             "short_desc": "glob",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 100,
+                    "line": 118,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "filters": {
                     "name": "filters",
-                    "line": 100,
+                    "line": 118,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
                 },
                 "root": {
                     "name": "root",
-                    "line": 100,
+                    "line": 118,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
@@ -191,58 +200,46 @@
         },
         "file": {
             "name": "file",
-            "line": 108,
+            "line": 126,
             "short_desc": "file",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 108,
+                    "line": 126,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "filters": {
                     "name": "filters",
-                    "line": 108,
+                    "line": 126,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
                 },
                 "root": {
                     "name": "root",
-                    "line": 108,
+                    "line": 126,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
@@ -251,45 +248,35 @@
         },
         "set": {
             "name": "set",
-            "line": 121,
+            "line": 139,
             "short_desc": "set",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 121,
+                    "line": 139,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "files": {
                     "name": "files",
-                    "line": 121,
+                    "line": 139,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -298,71 +285,57 @@
         },
         "collection": {
             "name": "collection",
-            "line": 125,
+            "line": 143,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "collection": {
                     "name": "collection",
-                    "line": 125,
+                    "line": 143,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "filters": {
                     "name": "filters",
-                    "line": 125,
+                    "line": 143,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
                 },
                 "root": {
                     "name": "root",
-                    "line": 125,
+                    "line": 143,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 125,
+                    "line": 143,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -371,71 +344,57 @@
         },
         "factory": {
             "name": "factory",
-            "line": 130,
+            "line": 148,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "root": {
                     "name": "root",
-                    "line": 130,
+                    "line": 148,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
                 },
                 "manager": {
                     "name": "manager",
-                    "line": 130,
+                    "line": 148,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
                 },
                 "filter": {
                     "name": "filter",
-                    "line": 130,
+                    "line": 148,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
                 },
                 "debug": {
                     "name": "debug",
-                    "line": 130,
+                    "line": 148,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
@@ -444,32 +403,24 @@
         },
         "url": {
             "name": "url",
-            "line": 140,
+            "line": 158,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 140,
+                    "line": 158,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -478,54 +429,38 @@
         },
         "getRoot": {
             "name": "getRoot",
-            "line": 148,
+            "line": 166,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "__get": {
             "name": "__get",
-            "line": 152,
+            "line": 170,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 152,
+                    "line": 170,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -534,32 +469,24 @@
         },
         "path": {
             "name": "path",
-            "line": 160,
+            "line": 178,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 160,
+                    "line": 178,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -568,54 +495,38 @@
         },
         "getFilters": {
             "name": "getFilters",
-            "line": 164,
+            "line": 182,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "compile": {
             "name": "compile",
-            "line": 168,
+            "line": 186,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "assets": {
                     "name": "assets",
-                    "line": 168,
+                    "line": 186,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -624,7 +535,7 @@
         },
         "onCompile": {
             "name": "onCompile",
-            "line": 180,
+            "line": 198,
             "short_desc": "compile assets into the compile directory",
             "long_desc": "",
             "hint": [
@@ -634,21 +545,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "e": {
                     "name": "e",
-                    "line": 180,
+                    "line": 198,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -657,9 +562,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -667,7 +570,5 @@
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

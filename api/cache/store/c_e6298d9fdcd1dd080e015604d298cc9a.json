@@ -4,52 +4,36 @@
     "short_desc": "",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/render.php",
-    "hash": "aef81ebf344142e55cf862febf661c5be4744962",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/render.php",
+    "hash": "7cd28f4e7054004ef5f82e749d3fa3301d098b50",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
-    "aliases": [
-
-    ],
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
-    "properties": [
-
-    ],
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 13,
-            "short_desc": "",
+            "line": 25,
+            "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "app": {
                     "name": "app",
-                    "line": 13,
-                    "short_desc": null,
+                    "line": 25,
+                    "short_desc": "",
                     "long_desc": null,
                     "hint": [
                         [
@@ -57,9 +41,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "application",
                     "default": null,
                     "is_by_ref": false
@@ -68,7 +50,7 @@
         },
         "engine": {
             "name": "engine",
-            "line": 25,
+            "line": 38,
             "short_desc": "register a new engine",
             "long_desc": "",
             "hint": [
@@ -78,21 +60,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "ext": {
                     "name": "ext",
-                    "line": 25,
+                    "line": 38,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -101,16 +77,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "class": {
                     "name": "class",
-                    "line": 25,
+                    "line": 38,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -119,9 +93,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -130,45 +102,50 @@
         },
         "hasEngine": {
             "name": "hasEngine",
-            "line": 34,
-            "short_desc": "",
+            "line": 63,
+            "short_desc": "is there an engine available for the provided file extension",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "ext": {
                     "name": "ext",
-                    "line": 34,
-                    "short_desc": null,
+                    "line": 63,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "mustCompile": {
                     "name": "mustCompile",
-                    "line": 34,
-                    "short_desc": null,
+                    "line": 63,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
@@ -177,54 +154,53 @@
         },
         "getEngines": {
             "name": "getEngines",
-            "line": 41,
-            "short_desc": "",
+            "line": 76,
+            "short_desc": "return all registered engines",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "getEngine": {
             "name": "getEngine",
-            "line": 45,
-            "short_desc": "",
+            "line": 88,
+            "short_desc": "get an engine for the provided file extension",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "\\bolt\\render\\face",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "ext": {
                     "name": "ext",
-                    "line": 45,
-                    "short_desc": null,
+                    "line": 88,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -233,59 +209,67 @@
         },
         "string": {
             "name": "string",
-            "line": 52,
-            "short_desc": "",
+            "line": 105,
+            "short_desc": "render a string using the provided renderer",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "ext": {
                     "name": "ext",
-                    "line": 52,
-                    "short_desc": null,
+                    "line": 105,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "str": {
                     "name": "str",
-                    "line": 52,
-                    "short_desc": null,
+                    "line": 105,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 52,
-                    "short_desc": null,
+                    "line": 105,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
                     ],
-                    "modifiers": "",
+                    "tags": [],
+                    "modifiers": "array",
                     "default": "array()",
                     "is_by_ref": false
                 }
@@ -293,53 +277,56 @@
         },
         "file": {
             "name": "file",
-            "line": 59,
-            "short_desc": "",
+            "line": 121,
+            "short_desc": "render a file",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "file": {
                     "name": "file",
-                    "line": 59,
-                    "short_desc": null,
+                    "line": 121,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 59,
-                    "short_desc": null,
+                    "line": 121,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
                     ],
-                    "modifiers": "",
+                    "tags": [],
+                    "modifiers": "array",
                     "default": "array()",
                     "is_by_ref": false
                 }
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

@@ -25,8 +25,13 @@
         <div class="content">
                 <p>    class
     <strong>database</strong>        implements
-        <a href="../../bolt/source/face.html"><abbr title="bolt\source\face">face</abbr></a></p>
+        <a href="../../bolt/source/sourceInterface.html"><abbr title="bolt\source\sourceInterface">sourceInterface</abbr></a></p>
 
+            <div class="description">
+            <p>database source</p>
+            <p>
+</p>
+        </div>
     
     
     
@@ -38,53 +43,48 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method___construct">__construct</a>(<abbr title="bolt\source\bolt\application">application</abbr> $app, $config = array())
-                    <p>
-</p>
+                    <a href="#method___construct">__construct</a>(<abbr title="bolt\source\bolt\application">application</abbr> $app, array $config = array())
+                    <p>Constructor</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="bolt\source\Doctrine\DBAL\DriverManager">DriverManager</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_getHandle">getHandle</a>()
-                    <p>
-</p>
+                    <p>return the DABL handle</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    array
                 </td>
                 <td class="last">
                     <a href="#method_getConfig">getConfig</a>()
-                    <p>
-</p>
+                    <p>return the configuration</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="bolt\source\Doctrine\ORM\EntityManager">EntityManager</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_getModelEntityManager">getModelEntityManager</a>(<abbr title="bolt\source\bolt\models">models</abbr> $manager, <abbr title="bolt\source\bolt\models\driver">driver</abbr> $driver)
-                    <p>
-</p>
+                    <p>get the doctrine entity manager</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    mixed
                 </td>
                 <td class="last">
-                    <a href="#method___call">__call</a>($name, $args)
-                    <p>
-</p>
+                    <a href="#method___call">__call</a>(string $name, array $args)
+                    <p>magic method to pass any calls  to DABL handler</p>
                 </td>
                 <td></td>
             </tr>
@@ -94,13 +94,12 @@
         <h2>Details</h2>
 
                         <h3 id="method___construct">
-        <div class="location">at line 17</div>
+        <div class="location">at line 42</div>
         <code>            public            
-    <strong>__construct</strong>(<abbr title="bolt\source\bolt\application">application</abbr> $app, $config = array())</code>
+    <strong>__construct</strong>(<abbr title="bolt\source\bolt\application">application</abbr> $app, array $config = array())</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Constructor</p>
         <p>
 </p>
         <div class="tags">
@@ -114,7 +113,7 @@
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$config</td>
                 <td>
 </td>
@@ -128,47 +127,64 @@
     </div>
 
                 <h3 id="method_getHandle">
-        <div class="location">at line 22</div>
-        <code>            public            
+        <div class="location">at line 53</div>
+        <code>            public            <abbr title="bolt\source\Doctrine\DBAL\DriverManager">DriverManager</abbr>
     <strong>getHandle</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>return the DABL handle</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\source\Doctrine\DBAL\DriverManager">DriverManager</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getConfig">
-        <div class="location">at line 30</div>
-        <code>            public            
+        <div class="location">at line 67</div>
+        <code>            public            array
     <strong>getConfig</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>return the configuration</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getModelEntityManager">
-        <div class="location">at line 34</div>
-        <code>            public            
+        <div class="location">at line 80</div>
+        <code>            public            <abbr title="bolt\source\Doctrine\ORM\EntityManager">EntityManager</abbr>
     <strong>getModelEntityManager</strong>(<abbr title="bolt\source\bolt\models">models</abbr> $manager, <abbr title="bolt\source\bolt\models\driver">driver</abbr> $driver)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>get the doctrine entity manager</p>
         <p>
 </p>
         <div class="tags">
@@ -190,19 +206,28 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\source\Doctrine\ORM\EntityManager">EntityManager</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method___call">
-        <div class="location">at line 69</div>
-        <code>            public            
-    <strong>__call</strong>($name, $args)</code>
+        <div class="location">at line 124</div>
+        <code>            public            mixed
+    <strong>__call</strong>(string $name, array $args)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>magic method to pass any calls  to DABL handler</p>
         <p>
 </p>
         <div class="tags">
@@ -210,13 +235,13 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$name</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$args</td>
                 <td>
 </td>
@@ -224,6 +249,16 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>

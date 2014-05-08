@@ -62,12 +62,11 @@
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="bolt\bolt\source\face">face</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_getSource">getSource</a>()
-                    <p>
-</p>
+                    <p>return the source driver</p>
                 </td>
                 <td></td>
             </tr>
@@ -113,12 +112,11 @@
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../bolt/models.html"><abbr title="bolt\models">models</abbr></a>
                 </td>
                 <td class="last">
                     <a href="#method_loadFromDirectories">loadFromDirectories</a>()
-                    <p>
-</p>
+                    <p>load all models in the config directories</p>
                 </td>
                 <td></td>
             </tr>
@@ -174,23 +172,21 @@
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../bolt/models.html"><abbr title="bolt\models">models</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_save">save</a>($entity)
-                    <p>
-</p>
+                    <a href="#method_save">save</a>(<a href="../bolt/models/entity.html"><abbr title="bolt\models\entity">entity</abbr></a> $entity)
+                    <p>save an entity using the entity manager</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../bolt/models.html"><abbr title="bolt\models">models</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_delete">delete</a>($entity)
-                    <p>
-</p>
+                    <a href="#method_delete">delete</a>(<a href="../bolt/models/entity.html"><abbr title="bolt\models\entity">entity</abbr></a> $entity)
+                    <p>delete an entity using the entity manager</p>
                 </td>
                 <td></td>
             </tr>
@@ -206,12 +202,11 @@
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../bolt/models/entity.html"><abbr title="bolt\models\entity">entity</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_create">create</a>($entity, $data = array(), $partial = false)
-                    <p>
-</p>
+                    <a href="#method_create">create</a>(string $entity, array $data = array(), boolean $partial = false)
+                    <p>created an entity object</p>
                 </td>
                 <td></td>
             </tr>
@@ -291,7 +286,7 @@
         <h2>Details</h2>
 
                         <h3 id="method___construct">
-        <div class="location">at line 70</div>
+        <div class="location">at line 77</div>
         <code>            public            
     <strong>__construct</strong>(<a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a> $app, array $config = array())</code>
     </h3>
@@ -323,24 +318,33 @@
     </div>
 
                 <h3 id="method_getSource">
-        <div class="location">at line 123</div>
-        <code>            public            
+        <div class="location">at line 139</div>
+        <code>            public            <abbr title="bolt\bolt\source\face">face</abbr>
     <strong>getSource</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>return the source driver</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\bolt\source\face">face</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getApp">
-        <div class="location">at line 132</div>
+        <div class="location">at line 149</div>
         <code>            public            <a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a>
     <strong>getApp</strong>()</code>
     </h3>
@@ -366,7 +370,7 @@
     </div>
 
                 <h3 id="method_getCollection">
-        <div class="location">at line 144</div>
+        <div class="location">at line 161</div>
         <code>            public            <abbr title="bolt\bolt\models\collection">collection</abbr>
     <strong>getCollection</strong>(string $entity)</code>
     </h3>
@@ -403,7 +407,7 @@
     </div>
 
                 <h3 id="method_generateEntity">
-        <div class="location">at line 157</div>
+        <div class="location">at line 174</div>
         <code>            public            object
     <strong>generateEntity</strong>(string $entity, array $data)</code>
     </h3>
@@ -446,7 +450,7 @@
     </div>
 
                 <h3 id="method_getEntityManager">
-        <div class="location">at line 166</div>
+        <div class="location">at line 184</div>
         <code>            public            object
     <strong>getEntityManager</strong>()</code>
     </h3>
@@ -472,24 +476,33 @@
     </div>
 
                 <h3 id="method_loadFromDirectories">
-        <div class="location">at line 170</div>
-        <code>            public            
+        <div class="location">at line 194</div>
+        <code>            public            <a href="../bolt/models.html"><abbr title="bolt\models">models</abbr></a>
     <strong>loadFromDirectories</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>load all models in the config directories</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../bolt/models.html"><abbr title="bolt\models">models</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_get">
-        <div class="location">at line 186</div>
+        <div class="location">at line 210</div>
         <code>            public            <abbr title="bolt\bolt\model\proxy">proxy</abbr>
     <strong>get</strong>(string $name)</code>
     </h3>
@@ -525,7 +538,7 @@
     </div>
 
                 <h3 id="method_find">
-        <div class="location">at line 204</div>
+        <div class="location">at line 229</div>
         <code>            public            <abbr title="bolt\bolt\models\entity">entity</abbr>
     <strong>find</strong>(string $entity, mixed $id)</code>
     </h3>
@@ -566,7 +579,7 @@
     </div>
 
                 <h3 id="method_findAll">
-        <div class="location">at line 233</div>
+        <div class="location">at line 258</div>
         <code>            public            <abbr title="bolt\bolt\models\collection">collection</abbr>
     <strong>findAll</strong>(string $entity)</code>
     </h3>
@@ -602,7 +615,7 @@
     </div>
 
                 <h3 id="method_findBy">
-        <div class="location">at line 249</div>
+        <div class="location">at line 274</div>
         <code>            public            <abbr title="bolt\bolt\models\collection">collection</abbr>
     <strong>findBy</strong>(string $entity, array $criteria, array $order = null, int $limit = null, <abbr title="bolt\init">init</abbr> $offset = null)</code>
     </h3>
@@ -660,7 +673,7 @@
     </div>
 
                 <h3 id="method_findOneBy">
-        <div class="location">at line 276</div>
+        <div class="location">at line 301</div>
         <code>            public            <abbr title="bolt\bolt\models\entity">entity</abbr>
     <strong>findOneBy</strong>(string $entity, array $criteria, array $order = array())</code>
     </h3>
@@ -706,13 +719,12 @@
     </div>
 
                 <h3 id="method_save">
-        <div class="location">at line 299</div>
-        <code>            public            
-    <strong>save</strong>($entity)</code>
+        <div class="location">at line 331</div>
+        <code>            public            <a href="../bolt/models.html"><abbr title="bolt\models">models</abbr></a>
+    <strong>save</strong>(<a href="../bolt/models/entity.html"><abbr title="bolt\models\entity">entity</abbr></a> $entity)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>save an entity using the entity manager</p>
         <p>
 </p>
         <div class="tags">
@@ -720,7 +732,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td><a href="../bolt/models/entity.html"><abbr title="bolt\models\entity">entity</abbr></a></td>
                 <td>$entity</td>
                 <td>
 </td>
@@ -728,19 +740,28 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../bolt/models.html"><abbr title="bolt\models">models</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_delete">
-        <div class="location">at line 319</div>
-        <code>            public            
-    <strong>delete</strong>($entity)</code>
+        <div class="location">at line 359</div>
+        <code>            public            <a href="../bolt/models.html"><abbr title="bolt\models">models</abbr></a>
+    <strong>delete</strong>(<a href="../bolt/models/entity.html"><abbr title="bolt\models\entity">entity</abbr></a> $entity)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>delete an entity using the entity manager</p>
         <p>
 </p>
         <div class="tags">
@@ -748,7 +769,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td><a href="../bolt/models/entity.html"><abbr title="bolt\models\entity">entity</abbr></a></td>
                 <td>$entity</td>
                 <td>
 </td>
@@ -756,13 +777,23 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../bolt/models.html"><abbr title="bolt\models">models</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getRepoForEntity">
-        <div class="location">at line 339</div>
+        <div class="location">at line 380</div>
         <code>            public            object
     <strong>getRepoForEntity</strong>(string $entity)</code>
     </h3>
@@ -798,13 +829,12 @@
     </div>
 
                 <h3 id="method_create">
-        <div class="location">at line 350</div>
-        <code>            public            
-    <strong>create</strong>($entity, $data = array(), $partial = false)</code>
+        <div class="location">at line 401</div>
+        <code>            public            <a href="../bolt/models/entity.html"><abbr title="bolt\models\entity">entity</abbr></a>
+    <strong>create</strong>(string $entity, array $data = array(), boolean $partial = false)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>created an entity object</p>
         <p>
 </p>
         <div class="tags">
@@ -812,19 +842,19 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$entity</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$data</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>boolean</td>
                 <td>$partial</td>
                 <td>
 </td>
@@ -832,13 +862,23 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../bolt/models/entity.html"><abbr title="bolt\models\entity">entity</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_alias">
-        <div class="location">at line 372</div>
+        <div class="location">at line 423</div>
         <code>            public            <a href="../bolt/models.html"><abbr title="bolt\models">models</abbr></a>
     <strong>alias</strong>(string $name, string $entity)</code>
     </h3>
@@ -879,7 +919,7 @@
     </div>
 
                 <h3 id="method_getAliases">
-        <div class="location">at line 386</div>
+        <div class="location">at line 437</div>
         <code>            public            array
     <strong>getAliases</strong>()</code>
     </h3>
@@ -905,7 +945,7 @@
     </div>
 
                 <h3 id="method_offsetSet">
-        <div class="location">at line 400</div>
+        <div class="location">at line 451</div>
         <code>            public            void
     <strong>offsetSet</strong>(string $name, string $class)</code>
     </h3>
@@ -957,7 +997,7 @@
     </div>
 
                 <h3 id="method_offsetExists">
-        <div class="location">at line 411</div>
+        <div class="location">at line 463</div>
         <code>            public            bool
     <strong>offsetExists</strong>(string $name)</code>
     </h3>
@@ -993,7 +1033,7 @@
     </div>
 
                 <h3 id="method_offsetUnset">
-        <div class="location">at line 422</div>
+        <div class="location">at line 475</div>
         <code>            public            void
     <strong>offsetUnset</strong>(string $name)</code>
     </h3>
@@ -1030,7 +1070,7 @@
     </div>
 
                 <h3 id="method_offsetGet">
-        <div class="location">at line 434</div>
+        <div class="location">at line 488</div>
         <code>            public            <abbr title="bolt\bolt\models\proxy">proxy</abbr>
     <strong>offsetGet</strong>(string $name)</code>
     </h3>
@@ -1076,7 +1116,7 @@
     </div>
 
                 <h3 id="method_generate">
-        <div class="location">at line 446</div>
+        <div class="location">at line 501</div>
         <code>        static    public            object
     <strong>generate</strong>($class, array $data, <abbr title="bolt\bolt\models">models</abbr> $manager = null)</code>
     </h3>

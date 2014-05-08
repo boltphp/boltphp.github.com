@@ -39,7 +39,7 @@
             <table>
                     <tr>
                 <td class="type">
-                    static&nbsp;
+                    static&nbsp;bool
                 </td>
                 <td class="last">
                     <a href="#method_canCompile">canCompile</a>()
@@ -70,12 +70,11 @@
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    string
                 </td>
                 <td class="last">
-                    <a href="#method_renderCompiled">renderCompiled</a>($compiled, $vars = array())
-                    <p>
-</p>
+                    <a href="#method_renderCompiled">renderCompiled</a>(array $compiled, array $vars = array())
+                    <p>render a compiled template</p>
                 </td>
                 <td></td>
             </tr>
@@ -85,8 +84,8 @@
         <h2>Details</h2>
 
                         <h3 id="method_canCompile">
-        <div class="location">at line 19</div>
-        <code>        static    public            
+        <div class="location">at line 23</div>
+        <code>        static    public            bool
     <strong>canCompile</strong>()</code>
     </h3>
     <div class="details">
@@ -96,13 +95,32 @@
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>bool</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
+                            <h4>See also</h4>
+
+                    <table>
+                    <tr>
+                <td>bolt\render\base::canCompile</td>
+                <td></td>
+            </tr>
+            </table>
+
                     </div>
     </div>
 
                 <h3 id="method_compile">
-        <div class="location">at line 46</div>
+        <div class="location">at line 51</div>
         <code>            public            
     <strong>compile</strong>($str)</code>
     </h3>
@@ -129,7 +147,7 @@
     </div>
 
                 <h3 id="method_render">
-        <div class="location">at line 66</div>
+        <div class="location">at line 71</div>
         <code>            public            string
     <strong>render</strong>(string $str, array $vars = array())</code>
     </h3>
@@ -170,13 +188,12 @@
     </div>
 
                 <h3 id="method_renderCompiled">
-        <div class="location">at line 70</div>
-        <code>            public            
-    <strong>renderCompiled</strong>($compiled, $vars = array())</code>
+        <div class="location">at line 84</div>
+        <code>            public            string
+    <strong>renderCompiled</strong>(array $compiled, array $vars = array())</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>render a compiled template</p>
         <p>
 </p>
         <div class="tags">
@@ -184,13 +201,13 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$compiled</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$vars</td>
                 <td>
 </td>
@@ -198,6 +215,16 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>

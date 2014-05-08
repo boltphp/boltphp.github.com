@@ -1,15 +1,13 @@
 {
     "name": "bolt\\application",
-    "line": 12,
+    "line": 11,
     "short_desc": "Base bolt applicatin class",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/application.php",
-    "hash": "b3e4ede59dabcfa4e575e682528654ffa8093dfb",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/application.php",
+    "hash": "5b029454740b599ab4974d4a119320de0369ff7b",
     "parent": "bolt\\plugin",
     "modifiers": 0,
     "is_trait": false,
@@ -17,19 +15,13 @@
     "aliases": {
         "b": "b"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
-    "properties": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 43,
+            "line": 50,
             "short_desc": "construct a new application instance",
             "long_desc": "",
             "hint": [
@@ -39,21 +31,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "config": {
                     "name": "config",
-                    "line": 43,
+                    "line": 50,
                     "short_desc": "array config",
                     "long_desc": null,
                     "hint": [
@@ -62,9 +48,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -73,7 +57,7 @@
         },
         "autoload": {
             "name": "autoload",
-            "line": 76,
+            "line": 80,
             "short_desc": "autoload",
             "long_desc": "",
             "hint": [
@@ -83,21 +67,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "class": {
                     "name": "class",
-                    "line": 76,
+                    "line": 80,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -106,9 +84,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -117,8 +93,8 @@
         },
         "getBootstrapDir": {
             "name": "getBootstrapDir",
-            "line": 98,
-            "short_desc": "getBootsrapDir",
+            "line": 103,
+            "short_desc": "return the bootstrap directory",
             "long_desc": "",
             "hint": [
                 [
@@ -127,24 +103,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "bootstrap": {
             "name": "bootstrap",
-            "line": 109,
+            "line": 115,
             "short_desc": "load boostrap files",
             "long_desc": "",
             "hint": [
@@ -154,21 +122,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "what": {
                     "name": "what",
-                    "line": 109,
+                    "line": 115,
                     "short_desc": "file or dir path, absolute or relative to $root",
                     "long_desc": null,
                     "hint": [
@@ -177,9 +139,43 @@
                             false
                         ]
                     ],
-                    "tags": [
-
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCompiled": {
+            "name": "getCompiled",
+            "line": 155,
+            "short_desc": "get a compiled object is the compiled plugin exists",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 155,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -188,7 +184,7 @@
         },
         "getAutoload": {
             "name": "getAutoload",
-            "line": 146,
+            "line": 165,
             "short_desc": "return all autoload settings",
             "long_desc": "",
             "hint": [
@@ -198,24 +194,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "env": {
             "name": "env",
-            "line": 159,
+            "line": 178,
             "short_desc": "check env and run callback if in that env",
             "long_desc": "",
             "hint": [
@@ -225,21 +213,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "env": {
                     "name": "env",
-                    "line": 159,
+                    "line": 178,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -248,16 +230,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "callback": {
                     "name": "callback",
-                    "line": 159,
+                    "line": 178,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -266,9 +246,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "Closure",
                     "default": null,
                     "is_by_ref": false
@@ -277,7 +255,7 @@
         },
         "hasRun": {
             "name": "hasRun",
-            "line": 172,
+            "line": 191,
             "short_desc": "has the application run yet",
             "long_desc": "",
             "hint": [
@@ -287,24 +265,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "getRoot": {
             "name": "getRoot",
-            "line": 181,
+            "line": 201,
             "short_desc": "get the root path",
             "long_desc": "",
             "hint": [
@@ -314,24 +284,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "setRoot": {
             "name": "setRoot",
-            "line": 193,
+            "line": 213,
             "short_desc": "set the root path for the app",
             "long_desc": "",
             "hint": [
@@ -341,21 +303,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "root": {
                     "name": "root",
-                    "line": 193,
+                    "line": 213,
                     "short_desc": "new root path",
                     "long_desc": null,
                     "hint": [
@@ -364,9 +320,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -375,7 +329,7 @@
         },
         "path": {
             "name": "path",
-            "line": 206,
+            "line": 226,
             "short_desc": "get a path relative to the $root",
             "long_desc": "",
             "hint": [
@@ -385,24 +339,18 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
+            "exceptions": [],
             "errors": [
                 "\"1\" @param tags are defined by \"0\" are expected"
             ],
-            "parameters": [
-
-            ]
+            "parameters": []
         },
         "load": {
             "name": "load",
-            "line": 219,
+            "line": 239,
             "short_desc": "add a ns to the class loader",
             "long_desc": "",
             "hint": [
@@ -412,21 +360,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "ns": {
                     "name": "ns",
-                    "line": 219,
+                    "line": 239,
                     "short_desc": "namespace of class",
                     "long_desc": null,
                     "hint": [
@@ -435,16 +377,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "path": {
                     "name": "path",
-                    "line": 219,
+                    "line": 239,
                     "short_desc": "path of classes relative to $root",
                     "long_desc": null,
                     "hint": [
@@ -453,9 +393,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -464,29 +402,21 @@
         },
         "getComposerFile": {
             "name": "getComposerFile",
-            "line": 230,
+            "line": 250,
             "short_desc": "get composer file",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "run": {
             "name": "run",
-            "line": 252,
+            "line": 272,
             "short_desc": "run the application",
             "long_desc": "",
             "hint": [
@@ -496,23 +426,13 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

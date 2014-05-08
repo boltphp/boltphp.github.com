@@ -26,6 +26,11 @@
                 <p>    class
     <strong>cli</strong>        extends <a href="../bolt/plugin.html"><abbr title="bolt\plugin">plugin</abbr></a></p>
 
+            <div class="description">
+            <p>CLI client plugin</p>
+            <p>
+</p>
+        </div>
     
     
     
@@ -37,64 +42,68 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method___construct">__construct</a>(<a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a> $app, $config = array())
-                    <p>
-</p>
+                    <a href="#method___construct">__construct</a>(<a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a> $app, array $config = array())
+                    <p>Constructor</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../bolt/cli.html"><abbr title="bolt\cli">cli</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_on">on</a>(string $e, <abbr title="bolt\Closure">Closure</abbr> $cb)
+                    <p>subscrube to console events</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a>
                 </td>
                 <td class="last">
                     <a href="#method_getApp">getApp</a>()
-                    <p>
-</p>
+                    <p>get the bolt app</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="bolt\Symfony\Component\Console\Application">Application</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_getConsole">getConsole</a>()
-                    <p>
-</p>
+                    <p>get the symfony console</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="bolt\Symfony\Component\Console\Output\ConsoleOutput">ConsoleOutput</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_getInput">getInput</a>()
-                    <p>
-</p>
+                    <p>return console input</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="bolt\Symfony\Component\Console\Output\ConsoleOutput">ConsoleOutput</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_getOutput">getOutput</a>()
-                    <p>
-</p>
+                    <p>get console output</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    int
                 </td>
                 <td class="last">
                     <a href="#method_execute">execute</a>()
-                    <p>
-</p>
+                    <p>execute the cli application</p>
                 </td>
                 <td></td>
             </tr>
@@ -104,13 +113,12 @@
         <h2>Details</h2>
 
                         <h3 id="method___construct">
-        <div class="location">at line 21</div>
+        <div class="location">at line 66</div>
         <code>            public            
-    <strong>__construct</strong>(<a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a> $app, $config = array())</code>
+    <strong>__construct</strong>(<a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a> $app, array $config = array())</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Constructor</p>
         <p>
 </p>
         <div class="tags">
@@ -124,7 +132,7 @@
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$config</td>
                 <td>
 </td>
@@ -137,86 +145,174 @@
                     </div>
     </div>
 
+                <h3 id="method_on">
+        <div class="location">at line 96</div>
+        <code>            public            <a href="../bolt/cli.html"><abbr title="bolt\cli">cli</abbr></a>
+    <strong>on</strong>(string $e, <abbr title="bolt\Closure">Closure</abbr> $cb)</code>
+    </h3>
+    <div class="details">
+        <p>subscrube to console events</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$e</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td><abbr title="bolt\Closure">Closure</abbr></td>
+                <td>$cb</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../bolt/cli.html"><abbr title="bolt\cli">cli</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
                 <h3 id="method_getApp">
-        <div class="location">at line 39</div>
-        <code>            public            
+        <div class="location">at line 115</div>
+        <code>            public            <a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a>
     <strong>getApp</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>get the bolt app</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getConsole">
-        <div class="location">at line 43</div>
-        <code>            public            
+        <div class="location">at line 125</div>
+        <code>            public            <abbr title="bolt\Symfony\Component\Console\Application">Application</abbr>
     <strong>getConsole</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>get the symfony console</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\Symfony\Component\Console\Application">Application</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getInput">
-        <div class="location">at line 47</div>
-        <code>            public            
+        <div class="location">at line 134</div>
+        <code>            public            <abbr title="bolt\Symfony\Component\Console\Output\ConsoleOutput">ConsoleOutput</abbr>
     <strong>getInput</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>return console input</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\Symfony\Component\Console\Output\ConsoleOutput">ConsoleOutput</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getOutput">
-        <div class="location">at line 51</div>
-        <code>            public            
+        <div class="location">at line 143</div>
+        <code>            public            <abbr title="bolt\Symfony\Component\Console\Output\ConsoleOutput">ConsoleOutput</abbr>
     <strong>getOutput</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>get console output</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\Symfony\Component\Console\Output\ConsoleOutput">ConsoleOutput</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_execute">
-        <div class="location">at line 55</div>
-        <code>            public            
+        <div class="location">at line 153</div>
+        <code>            public            int
     <strong>execute</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>execute the cli application</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>int</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>

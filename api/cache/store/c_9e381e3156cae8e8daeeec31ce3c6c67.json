@@ -4,12 +4,10 @@
     "short_desc": "",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\source",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/source\/mongodb.php",
-    "hash": "ec44a43e6c543389b0a61a9ce7c2dfb12be0dd38",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/source\/mongodb.php",
+    "hash": "9f61928238caac044c7b87d85e5229260201795d",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -20,15 +18,11 @@
         "Configuration": "Doctrine\\ODM\\MongoDB\\Configuration",
         "DocumentManager": "Doctrine\\ODM\\MongoDB\\DocumentManager"
     },
-    "errors": [
-
-    ],
+    "errors": [],
     "interfaces": {
-        "bolt\\source\\face": "bolt\\source\\face"
+        "bolt\\source\\sourceInterface": "bolt\\source\\sourceInterface"
     },
-    "properties": [
-
-    ],
+    "properties": [],
     "methods": {
         "__construct": {
             "name": "__construct",
@@ -37,17 +31,11 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "app": {
                     "name": "app",
@@ -60,9 +48,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\application",
                     "default": null,
                     "is_by_ref": false
@@ -73,9 +59,7 @@
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -89,20 +73,12 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "getModelEntityManager": {
             "name": "getModelEntityManager",
@@ -111,17 +87,11 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "manager": {
                     "name": "manager",
@@ -134,9 +104,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\models",
                     "default": null,
                     "is_by_ref": false
@@ -152,9 +120,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\models\\driver",
                     "default": null,
                     "is_by_ref": false
@@ -162,7 +128,5 @@
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

@@ -4,74 +4,57 @@
     "short_desc": "base render engine class",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\render",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/render\/base.php",
-    "hash": "8db39ff462918817da6e238deec91dcff3251e4a",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/render\/base.php",
+    "hash": "676cf1e9158bb3d450e75da174a2d346ef480638",
     "parent": null,
     "modifiers": 16,
     "is_trait": false,
     "is_interface": false,
-    "aliases": [
-
-    ],
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
-    "properties": [
-
-    ],
+    "aliases": [],
+    "errors": [],
+    "interfaces": {
+        "bolt\\render\\renderInterface": "bolt\\render\\renderInterface"
+    },
+    "properties": [],
     "methods": {
         "canCompile": {
             "name": "canCompile",
-            "line": 13,
-            "short_desc": "",
+            "line": 23,
+            "short_desc": "can this renderer compile a view",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "9",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "__construct": {
             "name": "__construct",
-            "line": 17,
-            "short_desc": "",
+            "line": 33,
+            "short_desc": "Constructor (can not be overloaded)",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "33",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "manager": {
                     "name": "manager",
-                    "line": 17,
-                    "short_desc": null,
+                    "line": 33,
+                    "short_desc": "",
                     "long_desc": null,
                     "hint": [
                         [
@@ -79,9 +62,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\render",
                     "default": null,
                     "is_by_ref": false
@@ -90,7 +71,7 @@
         },
         "render": {
             "name": "render",
-            "line": 35,
+            "line": 53,
             "short_desc": "render abstract",
             "long_desc": "",
             "hint": [
@@ -100,21 +81,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "17",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "str": {
                     "name": "str",
-                    "line": 35,
+                    "line": 53,
                     "short_desc": "string to render",
                     "long_desc": null,
                     "hint": [
@@ -123,16 +98,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 35,
+                    "line": 53,
                     "short_desc": "variables to use in rendering",
                     "long_desc": null,
                     "hint": [
@@ -141,10 +114,8 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
-                    "modifiers": "",
+                    "tags": [],
+                    "modifiers": "array",
                     "default": "array()",
                     "is_by_ref": false
                 }
@@ -152,46 +123,51 @@
         },
         "renderFile": {
             "name": "renderFile",
-            "line": 37,
-            "short_desc": "",
+            "line": 64,
+            "short_desc": "render a file",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "33",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "file": {
                     "name": "file",
-                    "line": 37,
-                    "short_desc": null,
+                    "line": 64,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 37,
-                    "short_desc": null,
+                    "line": 64,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
                     ],
-                    "modifiers": "",
+                    "tags": [],
+                    "modifiers": "array",
                     "default": "array()",
                     "is_by_ref": false
                 }
@@ -199,45 +175,50 @@
         },
         "renderCompiled": {
             "name": "renderCompiled",
-            "line": 41,
-            "short_desc": "",
+            "line": 77,
+            "short_desc": "render a compiled vide",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "compiled": {
                     "name": "compiled",
-                    "line": 41,
-                    "short_desc": null,
+                    "line": 77,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 41,
-                    "short_desc": null,
+                    "line": 77,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -245,7 +226,5 @@
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

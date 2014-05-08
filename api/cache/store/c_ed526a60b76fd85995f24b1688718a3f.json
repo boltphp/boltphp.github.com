@@ -4,9 +4,7 @@
     "short_desc": "",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\dom",
     "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/dom\/element.php",
     "hash": "7438289dfacd10e0863339d2581fc9052fd42bb8",
@@ -17,12 +15,8 @@
     "aliases": {
         "CssSelector": "Symfony\\Component\\CssSelector\\CssSelector"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
     "properties": {
         "tagName": {
             "name": "tagName",
@@ -31,16 +25,10 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": 1,
-            "default": {
-
-            },
-            "errors": [
-
-            ]
+            "default": [],
+            "errors": []
         }
     },
     "methods": {
@@ -51,17 +39,11 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "tag": {
                     "name": "tag",
@@ -69,9 +51,7 @@
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
@@ -82,9 +62,7 @@
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "''",
                     "is_by_ref": false
@@ -95,9 +73,7 @@
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -111,17 +87,11 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "html": {
                     "name": "html",
@@ -129,9 +99,7 @@
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
@@ -139,7 +107,5 @@
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

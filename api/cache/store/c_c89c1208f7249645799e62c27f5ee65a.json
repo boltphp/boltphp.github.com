@@ -4,12 +4,10 @@
     "short_desc": "",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/build\/..\/..\/core\/src\/bolt\/base.php",
-    "hash": "6d49f09272bebc2cddcf214257897bee73759820",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/base.php",
+    "hash": "82c8dd0b8f4eada24880c370c5343700aa928781",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -17,15 +15,9 @@
     "aliases": {
         "b": "b"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
-    "properties": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
     "methods": {
         "__construct": {
             "name": "__construct",
@@ -39,17 +31,11 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "helpers": {
                     "name": "helpers",
@@ -62,9 +48,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -73,32 +57,24 @@
         },
         "app": {
             "name": "app",
-            "line": 39,
+            "line": 40,
             "short_desc": "app",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "config": {
                     "name": "config",
-                    "line": 39,
+                    "line": 40,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -107,26 +83,20 @@
         },
         "env": {
             "name": "env",
-            "line": 57,
+            "line": 59,
             "short_desc": "set the env",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "env": {
                     "name": "env",
-                    "line": 57,
+                    "line": 59,
                     "short_desc": "name of env",
                     "long_desc": null,
                     "hint": [
@@ -135,9 +105,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
@@ -146,7 +114,7 @@
         },
         "guid": {
             "name": "guid",
-            "line": 69,
+            "line": 71,
             "short_desc": "return a globally unique string",
             "long_desc": "",
             "hint": [
@@ -156,21 +124,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "prefix": {
                     "name": "prefix",
-                    "line": 69,
+                    "line": 71,
                     "short_desc": "name of prefix",
                     "long_desc": null,
                     "hint": [
@@ -179,9 +141,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "'bolt'",
                     "is_by_ref": false
@@ -190,7 +150,7 @@
         },
         "__call": {
             "name": "__call",
-            "line": 82,
+            "line": 84,
             "short_desc": "call a helper method",
             "long_desc": "",
             "hint": [
@@ -200,21 +160,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 82,
+                    "line": 84,
                     "short_desc": "name of helper class",
                     "long_desc": null,
                     "hint": [
@@ -223,16 +177,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "args": {
                     "name": "args",
-                    "line": 82,
+                    "line": 84,
                     "short_desc": "arguments to pass to help func",
                     "long_desc": null,
                     "hint": [
@@ -241,9 +193,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -252,26 +202,20 @@
         },
         "helpers": {
             "name": "helpers",
-            "line": 105,
+            "line": 107,
             "short_desc": "attache helper classes to the global bolt instance",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "class": {
                     "name": "class",
-                    "line": 105,
+                    "line": 107,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -280,9 +224,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -291,80 +233,85 @@
         },
         "getHelpers": {
             "name": "getHelpers",
-            "line": 126,
-            "short_desc": "",
+            "line": 134,
+            "short_desc": "return all helpers",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "exepction": {
             "name": "exepction",
-            "line": 130,
-            "short_desc": "",
+            "line": 148,
+            "short_desc": "throw an exception class",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "\\Exception",
+                    false
+                ]
             ],
+            "hint_desc": "class",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "class": {
                     "name": "class",
-                    "line": 130,
-                    "short_desc": null,
+                    "line": 148,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "message": {
                     "name": "message",
-                    "line": 130,
-                    "short_desc": null,
+                    "line": 148,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
                 },
                 "code": {
                     "name": "code",
-                    "line": 130,
-                    "short_desc": null,
+                    "line": 148,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
@@ -372,7 +319,5 @@
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

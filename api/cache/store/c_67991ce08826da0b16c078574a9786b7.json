@@ -4,12 +4,10 @@
     "short_desc": "collection of routes",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\http\\router",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/router\/collection.php",
-    "hash": "fc64bb3fb0f7c52959eeff2efe0b85f95426f7c9",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/router\/collection.php",
+    "hash": "c544d60a01ece9702fb895d7ac40ae867854af06",
     "parent": "Symfony\\Component\\Routing\\RouteCollection",
     "modifiers": 0,
     "is_trait": false,
@@ -18,15 +16,9 @@
         "b": "b",
         "RouteCollection": "Symfony\\Component\\Routing\\RouteCollection"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
-    "properties": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
     "methods": {
         "create": {
             "name": "create",
@@ -40,17 +32,11 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "9",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "routes": {
                     "name": "routes",
@@ -63,17 +49,39 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
                 }
             }
+        },
+        "__set_state": {
+            "name": "__set_state",
+            "line": 27,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "state": {
+                    "name": "state",
+                    "line": 27,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

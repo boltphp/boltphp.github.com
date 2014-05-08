@@ -38,8 +38,7 @@
                 </td>
                 <td class="last">
                     <a href="#method___construct">__construct</a>(<a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a> $app)
-                    <p>
-</p>
+                    <p>Constructor</p>
                 </td>
                 <td></td>
             </tr>
@@ -55,56 +54,51 @@
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    boolean
                 </td>
                 <td class="last">
-                    <a href="#method_hasEngine">hasEngine</a>($ext, $mustCompile = null)
-                    <p>
-</p>
+                    <a href="#method_hasEngine">hasEngine</a>(string $ext, boolean $mustCompile = null)
+                    <p>is there an engine available for the provided file extension</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    array
                 </td>
                 <td class="last">
                     <a href="#method_getEngines">getEngines</a>()
-                    <p>
-</p>
+                    <p>return all registered engines</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="bolt\render\face">face</abbr>
                 </td>
                 <td class="last">
-                    <a href="#method_getEngine">getEngine</a>($ext)
-                    <p>
-</p>
+                    <a href="#method_getEngine">getEngine</a>(string $ext)
+                    <p>get an engine for the provided file extension</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    mixed
                 </td>
                 <td class="last">
-                    <a href="#method_string">string</a>($ext, $str, $vars = array())
-                    <p>
-</p>
+                    <a href="#method_string">string</a>(string $ext, string $str, array $vars = array())
+                    <p>render a string using the provided renderer</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    mixed
                 </td>
                 <td class="last">
-                    <a href="#method_file">file</a>($file, $vars = array())
-                    <p>
-</p>
+                    <a href="#method_file">file</a>(string $file, array $vars = array())
+                    <p>render a file</p>
                 </td>
                 <td></td>
             </tr>
@@ -114,13 +108,12 @@
         <h2>Details</h2>
 
                         <h3 id="method___construct">
-        <div class="location">at line 13</div>
+        <div class="location">at line 25</div>
         <code>            public            
     <strong>__construct</strong>(<a href="../bolt/application.html"><abbr title="bolt\application">application</abbr></a> $app)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Constructor</p>
         <p>
 </p>
         <div class="tags">
@@ -142,7 +135,7 @@
     </div>
 
                 <h3 id="method_engine">
-        <div class="location">at line 25</div>
+        <div class="location">at line 38</div>
         <code>            public            <a href="../bolt/render.html"><abbr title="bolt\render">render</abbr></a>
     <strong>engine</strong>(string $ext, string $class)</code>
     </h3>
@@ -185,13 +178,12 @@
     </div>
 
                 <h3 id="method_hasEngine">
-        <div class="location">at line 34</div>
-        <code>            public            
-    <strong>hasEngine</strong>($ext, $mustCompile = null)</code>
+        <div class="location">at line 63</div>
+        <code>            public            boolean
+    <strong>hasEngine</strong>(string $ext, boolean $mustCompile = null)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>is there an engine available for the provided file extension</p>
         <p>
 </p>
         <div class="tags">
@@ -199,13 +191,13 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$ext</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>boolean</td>
                 <td>$mustCompile</td>
                 <td>
 </td>
@@ -213,36 +205,54 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>boolean</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getEngines">
-        <div class="location">at line 41</div>
-        <code>            public            
+        <div class="location">at line 76</div>
+        <code>            public            array
     <strong>getEngines</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>return all registered engines</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getEngine">
-        <div class="location">at line 45</div>
-        <code>            public            
-    <strong>getEngine</strong>($ext)</code>
+        <div class="location">at line 88</div>
+        <code>            public            <abbr title="bolt\render\face">face</abbr>
+    <strong>getEngine</strong>(string $ext)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>get an engine for the provided file extension</p>
         <p>
 </p>
         <div class="tags">
@@ -250,7 +260,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$ext</td>
                 <td>
 </td>
@@ -258,19 +268,28 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\render\face">face</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_string">
-        <div class="location">at line 52</div>
-        <code>            public            
-    <strong>string</strong>($ext, $str, $vars = array())</code>
+        <div class="location">at line 105</div>
+        <code>            public            mixed
+    <strong>string</strong>(string $ext, string $str, array $vars = array())</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>render a string using the provided renderer</p>
         <p>
 </p>
         <div class="tags">
@@ -278,19 +297,19 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$ext</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$str</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$vars</td>
                 <td>
 </td>
@@ -298,19 +317,28 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_file">
-        <div class="location">at line 59</div>
-        <code>            public            
-    <strong>file</strong>($file, $vars = array())</code>
+        <div class="location">at line 121</div>
+        <code>            public            mixed
+    <strong>file</strong>(string $file, array $vars = array())</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>render a file</p>
         <p>
 </p>
         <div class="tags">
@@ -318,13 +346,13 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$file</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$vars</td>
                 <td>
 </td>
@@ -332,6 +360,16 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>

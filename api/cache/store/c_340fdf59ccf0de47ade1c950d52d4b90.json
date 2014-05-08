@@ -4,12 +4,10 @@
     "short_desc": "Base http (http) handler",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http.php",
-    "hash": "72c4cc66ad12f86199329280f24f83aa843b7970",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http.php",
+    "hash": "b2706020164658e22229c7d7c2385051a3991ce9",
     "parent": "bolt\\plugin",
     "modifiers": 0,
     "is_trait": false,
@@ -18,12 +16,8 @@
         "b": "b",
         "Exception": "Exception"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
     "properties": {
         "exception": {
             "name": "exception",
@@ -37,16 +31,10 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": 1,
-            "default": {
-
-            },
-            "errors": [
-
-            ]
+            "default": {},
+            "errors": []
         }
     },
     "methods": {
@@ -57,17 +45,11 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "9",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "config": {
                     "name": "config",
@@ -75,9 +57,7 @@
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -86,26 +66,20 @@
         },
         "__construct": {
             "name": "__construct",
-            "line": 57,
+            "line": 59,
             "short_desc": "Constructor.",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "app": {
                     "name": "app",
-                    "line": 57,
+                    "line": 59,
                     "short_desc": "Application instance",
                     "long_desc": null,
                     "hint": [
@@ -114,16 +88,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "application",
                     "default": null,
                     "is_by_ref": false
                 },
                 "req": {
                     "name": "req",
-                    "line": 57,
+                    "line": 59,
                     "short_desc": "request object",
                     "long_desc": null,
                     "hint": [
@@ -132,16 +104,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "http\\request",
                     "default": "null",
                     "is_by_ref": false
                 },
                 "resp": {
                     "name": "resp",
-                    "line": 57,
+                    "line": 59,
                     "short_desc": "response object",
                     "long_desc": null,
                     "hint": [
@@ -150,9 +120,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "http\\response",
                     "default": "null",
                     "is_by_ref": false
@@ -161,7 +129,7 @@
         },
         "__get": {
             "name": "__get",
-            "line": 77,
+            "line": 79,
             "short_desc": "returns a private variable",
             "long_desc": "",
             "hint": [
@@ -171,21 +139,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 77,
+                    "line": 79,
                     "short_desc": "name of variable",
                     "long_desc": null,
                     "hint": [
@@ -194,9 +156,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -205,7 +165,7 @@
         },
         "__call": {
             "name": "__call",
-            "line": 98,
+            "line": 100,
             "short_desc": "call a method or passthrough to other plugin",
             "long_desc": "",
             "hint": [
@@ -215,21 +175,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 98,
+                    "line": 100,
                     "short_desc": "name of method",
                     "long_desc": null,
                     "hint": [
@@ -238,16 +192,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "args": {
                     "name": "args",
-                    "line": 98,
+                    "line": 100,
                     "short_desc": "array of call arguments",
                     "long_desc": null,
                     "hint": [
@@ -256,9 +208,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -267,7 +217,7 @@
         },
         "getApp": {
             "name": "getApp",
-            "line": 115,
+            "line": 117,
             "short_desc": "return the app instance",
             "long_desc": "",
             "hint": [
@@ -277,24 +227,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "getRequest": {
             "name": "getRequest",
-            "line": 125,
+            "line": 127,
             "short_desc": "return the request",
             "long_desc": "",
             "hint": [
@@ -304,24 +246,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "setRequest": {
             "name": "setRequest",
-            "line": 137,
+            "line": 139,
             "short_desc": "set the response",
             "long_desc": "",
             "hint": [
@@ -331,21 +265,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "req": {
                     "name": "req",
-                    "line": 137,
+                    "line": 139,
                     "short_desc": "new request object",
                     "long_desc": null,
                     "hint": [
@@ -354,9 +282,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\http\\request",
                     "default": null,
                     "is_by_ref": false
@@ -365,7 +291,7 @@
         },
         "getResponse": {
             "name": "getResponse",
-            "line": 148,
+            "line": 150,
             "short_desc": "get the response object",
             "long_desc": "",
             "hint": [
@@ -375,24 +301,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "setResponse": {
             "name": "setResponse",
-            "line": 159,
+            "line": 162,
             "short_desc": "set the response object",
             "long_desc": "",
             "hint": [
@@ -402,22 +320,18 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
+            "exceptions": [],
             "errors": [
-
+                "\"2\" @param tags are defined by \"3\" are expected"
             ],
             "parameters": {
                 "resp": {
                     "name": "resp",
-                    "line": 159,
-                    "short_desc": "new response object",
+                    "line": 162,
+                    "short_desc": null,
                     "long_desc": null,
                     "hint": [
                         [
@@ -425,18 +339,38 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\http\\response",
                     "default": null,
+                    "is_by_ref": false
+                },
+                "mergeCookies": {
+                    "name": "mergeCookies",
+                    "line": 162,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "true",
+                    "is_by_ref": false
+                },
+                "mergeHeaders": {
+                    "name": "mergeHeaders",
+                    "line": 162,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "false",
                     "is_by_ref": false
                 }
             }
         },
         "path": {
             "name": "path",
-            "line": 172,
+            "line": 187,
             "short_desc": "get a path relative to root",
             "long_desc": "",
             "hint": [
@@ -455,19 +389,13 @@
             },
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "load": {
             "name": "load",
-            "line": 183,
+            "line": 199,
             "short_desc": "load passthrough to app",
             "long_desc": "",
             "hint": [
@@ -486,19 +414,13 @@
             },
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "bind": {
             "name": "bind",
-            "line": 197,
+            "line": 214,
             "short_desc": "bind middleware to this request and response",
             "long_desc": "",
             "hint": [
@@ -508,21 +430,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 197,
+                    "line": 214,
                     "short_desc": "name of middleware or callback function",
                     "long_desc": null,
                     "hint": [
@@ -535,16 +451,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "class": {
                     "name": "class",
-                    "line": 197,
+                    "line": 214,
                     "short_desc": "name or instance of middle object",
                     "long_desc": null,
                     "hint": [
@@ -557,16 +471,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
                 },
                 "config": {
                     "name": "config",
-                    "line": 197,
+                    "line": 214,
                     "short_desc": "configuration passed to instance constructor",
                     "long_desc": null,
                     "hint": [
@@ -575,9 +487,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -586,7 +496,7 @@
         },
         "getMiddleware": {
             "name": "getMiddleware",
-            "line": 249,
+            "line": 267,
             "short_desc": "return a list of all middleware",
             "long_desc": "",
             "hint": [
@@ -596,24 +506,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "run": {
             "name": "run",
-            "line": 259,
+            "line": 277,
             "short_desc": "pass off a run call to the app",
             "long_desc": "",
             "hint": [
@@ -623,24 +525,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "execute": {
             "name": "execute",
-            "line": 270,
+            "line": 288,
             "short_desc": "run the http request and send a response to the http",
             "long_desc": "",
             "hint": [
@@ -650,24 +544,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "runMiddleware": {
             "name": "runMiddleware",
-            "line": 369,
+            "line": 379,
             "short_desc": "run all middleware for a method",
             "long_desc": "",
             "hint": [
@@ -677,21 +563,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "method": {
                     "name": "method",
-                    "line": 369,
+                    "line": 379,
                     "short_desc": "name of method to run",
                     "long_desc": null,
                     "hint": [
@@ -700,16 +580,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "params": {
                     "name": "params",
-                    "line": 369,
+                    "line": 379,
                     "short_desc": "array of params to pass to method",
                     "long_desc": null,
                     "hint": [
@@ -718,9 +596,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -729,7 +605,7 @@
         },
         "runMiddlewareByName": {
             "name": "runMiddlewareByName",
-            "line": 387,
+            "line": 398,
             "short_desc": "run a middleware function by name",
             "long_desc": "",
             "hint": [
@@ -739,21 +615,15 @@
                 ]
             ],
             "hint_desc": "results of middleware execution",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 387,
+                    "line": 398,
                     "short_desc": "name of middleware to run",
                     "long_desc": null,
                     "hint": [
@@ -762,16 +632,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "method": {
                     "name": "method",
-                    "line": 387,
+                    "line": 398,
                     "short_desc": "name of middleware method to run",
                     "long_desc": null,
                     "hint": [
@@ -780,16 +648,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "params": {
                     "name": "params",
-                    "line": 387,
+                    "line": 398,
                     "short_desc": "aray of params to pass to middleware",
                     "long_desc": null,
                     "hint": [
@@ -798,9 +664,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -808,7 +672,5 @@
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

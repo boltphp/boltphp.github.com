@@ -24,7 +24,8 @@
     </div>
         <div class="content">
                 <p>abstract     class
-    <strong>base</strong></p>
+    <strong>base</strong>        implements
+        <a href="../../bolt/render/renderInterface.html"><abbr title="bolt\render\renderInterface">renderInterface</abbr></a></p>
 
             <div class="description">
             <p>base render engine class</p>
@@ -39,12 +40,11 @@
             <table>
                     <tr>
                 <td class="type">
-                    static&nbsp;
+                    static&nbsp;bool
                 </td>
                 <td class="last">
                     <a href="#method_canCompile">canCompile</a>()
-                    <p>
-</p>
+                    <p>can this renderer compile a view</p>
                 </td>
                 <td></td>
             </tr>
@@ -54,8 +54,7 @@
                 </td>
                 <td class="last">
                     <a href="#method___construct">__construct</a>(<abbr title="bolt\render\bolt\render">render</abbr> $manager)
-                    <p>
-</p>
+                    <p>Constructor (can not be overloaded)</p>
                 </td>
                 <td></td>
             </tr>
@@ -71,23 +70,21 @@
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    string
                 </td>
                 <td class="last">
-                    <a href="#method_renderFile">renderFile</a>($file, $vars = array())
-                    <p>
-</p>
+                    <a href="#method_renderFile">renderFile</a>(string $file, array $vars = array())
+                    <p>render a file</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    string
                 </td>
                 <td class="last">
-                    <a href="#method_renderCompiled">renderCompiled</a>($compiled, $vars = array())
-                    <p>
-</p>
+                    <a href="#method_renderCompiled">renderCompiled</a>(mixed $compiled, array $vars = array())
+                    <p>render a compiled vide</p>
                 </td>
                 <td></td>
             </tr>
@@ -97,30 +94,38 @@
         <h2>Details</h2>
 
                         <h3 id="method_canCompile">
-        <div class="location">at line 13</div>
-        <code>        static    public            
+        <div class="location">at line 23</div>
+        <code>        static    public            bool
     <strong>canCompile</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>can this renderer compile a view</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>bool</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method___construct">
-        <div class="location">at line 17</div>
+        <div class="location">at line 33</div>
         <code>final            public            
     <strong>__construct</strong>(<abbr title="bolt\render\bolt\render">render</abbr> $manager)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Constructor (can not be overloaded)</p>
         <p>
 </p>
         <div class="tags">
@@ -142,7 +147,7 @@
     </div>
 
                 <h3 id="method_render">
-        <div class="location">at line 35</div>
+        <div class="location">at line 53</div>
         <code>    abstract        public            mixed
     <strong>render</strong>(string $str, array $vars = array())</code>
     </h3>
@@ -183,13 +188,12 @@
     </div>
 
                 <h3 id="method_renderFile">
-        <div class="location">at line 37</div>
-        <code>final            public            
-    <strong>renderFile</strong>($file, $vars = array())</code>
+        <div class="location">at line 64</div>
+        <code>final            public            string
+    <strong>renderFile</strong>(string $file, array $vars = array())</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>render a file</p>
         <p>
 </p>
         <div class="tags">
@@ -197,13 +201,13 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$file</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$vars</td>
                 <td>
 </td>
@@ -211,19 +215,28 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_renderCompiled">
-        <div class="location">at line 41</div>
-        <code>            public            
-    <strong>renderCompiled</strong>($compiled, $vars = array())</code>
+        <div class="location">at line 77</div>
+        <code>            public            string
+    <strong>renderCompiled</strong>(mixed $compiled, array $vars = array())</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>render a compiled vide</p>
         <p>
 </p>
         <div class="tags">
@@ -231,13 +244,13 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>mixed</td>
                 <td>$compiled</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$vars</td>
                 <td>
 </td>
@@ -245,6 +258,16 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>

@@ -4,12 +4,10 @@
     "short_desc": "response object",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\http",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/response.php",
-    "hash": "1d86d55a7aa34b51fa54a126fc6b2f8f010a7d45",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/response.php",
+    "hash": "1882cb9ef51eaa12a220524631c8c11ee5545be3",
     "parent": "Symfony\\Component\\HttpFoundation\\Response",
     "modifiers": 0,
     "is_trait": false,
@@ -19,15 +17,9 @@
         "SymfonyResponse": "Symfony\\Component\\HttpFoundation\\Response",
         "SymfonyRequest": "Symfony\\Component\\HttpFoundation\\Request"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
-    "properties": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
     "methods": {
         "__construct": {
             "name": "__construct",
@@ -36,24 +28,30 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "guid": {
+            "name": "guid",
+            "line": 59,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "format": {
             "name": "format",
-            "line": 68,
+            "line": 72,
             "short_desc": "add a response format",
             "long_desc": "",
             "hint": [
@@ -63,21 +61,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "format": {
                     "name": "format",
-                    "line": 68,
+                    "line": 72,
                     "short_desc": "format name or array of formats",
                     "long_desc": null,
                     "hint": [
@@ -90,16 +82,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "content": {
                     "name": "content",
-                    "line": 68,
+                    "line": 72,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -108,9 +98,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
@@ -119,7 +107,7 @@
         },
         "hasFormat": {
             "name": "hasFormat",
-            "line": 114,
+            "line": 118,
             "short_desc": "does this response have a foramt",
             "long_desc": "",
             "hint": [
@@ -129,21 +117,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "format": {
                     "name": "format",
-                    "line": 114,
+                    "line": 118,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -152,9 +134,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -163,32 +143,24 @@
         },
         "setLayout": {
             "name": "setLayout",
-            "line": 119,
+            "line": 123,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "layout": {
                     "name": "layout",
-                    "line": 119,
+                    "line": 123,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -197,29 +169,21 @@
         },
         "getLayout": {
             "name": "getLayout",
-            "line": 124,
+            "line": 128,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "setException": {
             "name": "setException",
-            "line": 135,
+            "line": 139,
             "short_desc": "set a response exception",
             "long_desc": "",
             "hint": [
@@ -229,21 +193,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "e": {
                     "name": "e",
-                    "line": 135,
+                    "line": 139,
                     "short_desc": "[description]",
                     "long_desc": null,
                     "hint": [
@@ -252,9 +210,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "Exception",
                     "default": null,
                     "is_by_ref": false
@@ -263,7 +219,7 @@
         },
         "hasException": {
             "name": "hasException",
-            "line": 150,
+            "line": 154,
             "short_desc": "does the response have an exception",
             "long_desc": "",
             "hint": [
@@ -273,24 +229,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "getException": {
             "name": "getException",
-            "line": 160,
+            "line": 164,
             "short_desc": "get eh response exception",
             "long_desc": "",
             "hint": [
@@ -300,24 +248,16 @@
                 ]
             ],
             "hint_desc": "Exception or null",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "isReadyToSend": {
             "name": "isReadyToSend",
-            "line": 172,
+            "line": 176,
             "short_desc": "get or set the response $_readyToSend",
             "long_desc": "",
             "hint": [
@@ -327,21 +267,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "ready": {
                     "name": "ready",
-                    "line": 172,
+                    "line": 176,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -350,9 +284,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
@@ -361,7 +293,7 @@
         },
         "readyToSend": {
             "name": "readyToSend",
-            "line": 182,
+            "line": 186,
             "short_desc": "set response as ready to send",
             "long_desc": "",
             "hint": [
@@ -371,43 +303,29 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "prepare": {
             "name": "prepare",
-            "line": 188,
+            "line": 192,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "request": {
                     "name": "request",
-                    "line": 188,
+                    "line": 192,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -416,9 +334,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "SymfonyRequest",
                     "default": null,
                     "is_by_ref": false
@@ -426,7 +342,5 @@
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

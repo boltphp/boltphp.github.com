@@ -4,12 +4,10 @@
     "short_desc": "handlare renderer",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\render",
-    "file": "\/Users\/kuhl\/Repos\/boltphp\/site\/..\/core\/src\/bolt\/render\/handlebars.php",
-    "hash": "752e5b10517e4068d3e61b2d2c862aa76aad4321",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/render\/handlebars.php",
+    "hash": "70a00522d314903503939f307ce7f3dde5ae3d22",
     "parent": "bolt\\render\\base",
     "modifiers": 0,
     "is_trait": false,
@@ -19,66 +17,55 @@
         "HBR": "Handlebars\\Handlebars",
         "Template": "Handlebars\\Template"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
-    "properties": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
     "methods": {
         "canCompile": {
             "name": "canCompile",
-            "line": 19,
+            "line": 23,
             "short_desc": "",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": {
+                "see": [
+                    [
+                        "bolt\\render\\base::canCompile"
+                    ]
+                ]
+            },
             "modifiers": "9",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "compile": {
             "name": "compile",
-            "line": 46,
+            "line": 51,
             "short_desc": "compile to freezable class",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "str": {
                     "name": "str",
-                    "line": 46,
+                    "line": 51,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -87,8 +74,8 @@
         },
         "render": {
             "name": "render",
-            "line": 66,
-            "short_desc": "render abstract",
+            "line": 71,
+            "short_desc": "render a handlebar template",
             "long_desc": "",
             "hint": [
                 [
@@ -97,21 +84,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "str": {
                     "name": "str",
-                    "line": 66,
+                    "line": 71,
                     "short_desc": "handlebar template",
                     "long_desc": null,
                     "hint": [
@@ -120,16 +101,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 66,
+                    "line": 71,
                     "short_desc": "variables to use in rendering",
                     "long_desc": null,
                     "hint": [
@@ -138,9 +117,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -149,53 +126,56 @@
         },
         "renderCompiled": {
             "name": "renderCompiled",
-            "line": 70,
-            "short_desc": "",
+            "line": 84,
+            "short_desc": "render a compiled template",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "compiled": {
                     "name": "compiled",
-                    "line": 70,
-                    "short_desc": null,
+                    "line": 84,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
                     ],
-                    "modifiers": "",
+                    "tags": [],
+                    "modifiers": "array",
                     "default": null,
                     "is_by_ref": false
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 70,
-                    "short_desc": null,
+                    "line": 84,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
                     ],
-                    "modifiers": "",
+                    "tags": [],
+                    "modifiers": "array",
                     "default": "array()",
                     "is_by_ref": false
                 }
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

@@ -1,15 +1,13 @@
 {
     "name": "bolt\\source\\event",
-    "line": 77,
-    "short_desc": "",
+    "line": 137,
+    "short_desc": "event subscriber",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\source",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/source\/database.php",
-    "hash": "faa82d070d4c4edc10557e9b0e10d7ff697e96df",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/source\/database.php",
+    "hash": "8c51e4b6058f07d770187c9a0598b43694cc84af",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -19,39 +17,29 @@
         "Configuration": "Doctrine\\DBAL\\Configuration",
         "DriverManager": "Doctrine\\DBAL\\DriverManager"
     },
-    "errors": [
-
-    ],
+    "errors": [],
     "interfaces": {
         "Doctrine\\Common\\EventSubscriber": "Doctrine\\Common\\EventSubscriber"
     },
-    "properties": [
-
-    ],
+    "properties": [],
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 81,
-            "short_desc": "",
+            "line": 150,
+            "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "manager": {
                     "name": "manager",
-                    "line": 81,
-                    "short_desc": null,
+                    "line": 150,
+                    "short_desc": "",
                     "long_desc": null,
                     "hint": [
                         [
@@ -59,9 +47,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\models",
                     "default": null,
                     "is_by_ref": false
@@ -70,32 +56,34 @@
         },
         "postLoad": {
             "name": "postLoad",
-            "line": 85,
-            "short_desc": "",
+            "line": 162,
+            "short_desc": "postLoad event callback",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "e": {
                     "name": "e",
-                    "line": 85,
-                    "short_desc": null,
+                    "line": 162,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "bolt\\source\\Doctrine\\Common\\Event",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -104,28 +92,23 @@
         },
         "getSubscribedEvents": {
             "name": "getSubscribedEvents",
-            "line": 91,
-            "short_desc": "",
+            "line": 174,
+            "short_desc": "list of events this subscriber can handle",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

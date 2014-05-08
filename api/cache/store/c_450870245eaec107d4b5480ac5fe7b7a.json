@@ -4,12 +4,10 @@
     "short_desc": "render a dom string",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\render",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/render\/xml.php",
-    "hash": "ad8c4dc36d3ba28913b3b324a6b06d94e49c7b9a",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/render\/xml.php",
+    "hash": "2c7551ed7874d2239f988f18f14a09443b59d648",
     "parent": "bolt\\render\\base",
     "modifiers": 0,
     "is_trait": false,
@@ -17,41 +15,13 @@
     "aliases": {
         "b": "b"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
-    "properties": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
     "methods": {
-        "compile": {
-            "name": "compile",
-            "line": 15,
-            "short_desc": "compile the dom doc to serializeable object",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
-            ],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
-        },
         "render": {
             "name": "render",
-            "line": 29,
+            "line": 19,
             "short_desc": "render an html string into a dom doc",
             "long_desc": "",
             "hint": [
@@ -61,21 +31,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "data": {
                     "name": "data",
-                    "line": 29,
+                    "line": 19,
                     "short_desc": "array $data",
                     "long_desc": null,
                     "hint": [
@@ -84,16 +48,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 29,
+                    "line": 19,
                     "short_desc": "variables to use in rendering",
                     "long_desc": null,
                     "hint": [
@@ -102,9 +64,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -112,7 +72,5 @@
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

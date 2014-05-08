@@ -50,6 +50,16 @@
             </tr>
                     <tr>
                 <td class="type">
+                    void
+                </td>
+                <td class="last">
+                    <a href="#method_onCompile">onCompile</a>(<a href="../bolt/helpers/events/event.html"><abbr title="bolt\helpers\events\event">event</abbr></a> $e)
+                    <p>compile any config files</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
                     <a href="../bolt/config.html"><abbr title="bolt\config">config</abbr></a>
                 </td>
                 <td class="last">
@@ -80,12 +90,21 @@
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    boolean
                 </td>
                 <td class="last">
-                    <a href="#method_has">has</a>($name)
-                    <p>
-</p>
+                    <a href="#method_has">has</a>(string $name)
+                    <p>check if an attribute exists</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    array
+                </td>
+                <td class="last">
+                    <a href="#method_all">all</a>(string $name)
+                    <p>return all attributes for a registered bag</p>
                 </td>
                 <td></td>
             </tr>
@@ -185,7 +204,7 @@
         <h2>Details</h2>
 
                         <h3 id="method___construct">
-        <div class="location">at line 37</div>
+        <div class="location">at line 53</div>
         <code>            public            
     <strong>__construct</strong>(<abbr title="bolt\bolt\application">application</abbr> $app, array $config = array())</code>
     </h3>
@@ -217,8 +236,45 @@
                     </div>
     </div>
 
+                <h3 id="method_onCompile">
+        <div class="location">at line 80</div>
+        <code>            public            void
+    <strong>onCompile</strong>(<a href="../bolt/helpers/events/event.html"><abbr title="bolt\helpers\events\event">event</abbr></a> $e)</code>
+    </h3>
+    <div class="details">
+        <p>compile any config files</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td><a href="../bolt/helpers/events/event.html"><abbr title="bolt\helpers\events\event">event</abbr></a></td>
+                <td>$e</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>void</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
                 <h3 id="method_register">
-        <div class="location">at line 56</div>
+        <div class="location">at line 116</div>
         <code>            public            <a href="../bolt/config.html"><abbr title="bolt\config">config</abbr></a>
     <strong>register</strong>(string|array $name, string|array $data = array())</code>
     </h3>
@@ -259,7 +315,7 @@
     </div>
 
                 <h3 id="method_getRegistered">
-        <div class="location">at line 85</div>
+        <div class="location">at line 148</div>
         <code>            public            array
     <strong>getRegistered</strong>()</code>
     </h3>
@@ -285,7 +341,7 @@
     </div>
 
                 <h3 id="method___get">
-        <div class="location">at line 121</div>
+        <div class="location">at line 188</div>
         <code>            public            mixed
     <strong>__get</strong>(string $name)</code>
     </h3>
@@ -321,13 +377,12 @@
     </div>
 
                 <h3 id="method_has">
-        <div class="location">at line 126</div>
-        <code>            public            
-    <strong>has</strong>($name)</code>
+        <div class="location">at line 200</div>
+        <code>            public            boolean
+    <strong>has</strong>(string $name)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>check if an attribute exists</p>
         <p>
 </p>
         <div class="tags">
@@ -335,7 +390,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$name</td>
                 <td>
 </td>
@@ -343,13 +398,60 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>boolean</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_all">
+        <div class="location">at line 212</div>
+        <code>            public            array
+    <strong>all</strong>(string $name)</code>
+    </h3>
+    <div class="details">
+        <p>return all attributes for a registered bag</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_get">
-        <div class="location">at line 138</div>
+        <div class="location">at line 228</div>
         <code>            public            mixed
     <strong>get</strong>(string $name, mixed $default = null)</code>
     </h3>
@@ -390,7 +492,7 @@
     </div>
 
                 <h3 id="method_set">
-        <div class="location">at line 151</div>
+        <div class="location">at line 241</div>
         <code>            public            <a href="../bolt/config.html"><abbr title="bolt\config">config</abbr></a>
     <strong>set</strong>(string $name, mixed $value)</code>
     </h3>
@@ -433,7 +535,7 @@
     </div>
 
                 <h3 id="method_remove">
-        <div class="location">at line 164</div>
+        <div class="location">at line 254</div>
         <code>            public            <a href="../bolt/config.html"><abbr title="bolt\config">config</abbr></a>
     <strong>remove</strong>(string $name)</code>
     </h3>
@@ -470,7 +572,7 @@
     </div>
 
                 <h3 id="method_exists">
-        <div class="location">at line 177</div>
+        <div class="location">at line 267</div>
         <code>            public            bool
     <strong>exists</strong>(string $name)</code>
     </h3>
@@ -507,7 +609,7 @@
     </div>
 
                 <h3 id="method_getIterator">
-        <div class="location">at line 200</div>
+        <div class="location">at line 290</div>
         <code>            public            <abbr title="bolt\ArrayIterator">ArrayIterator</abbr>
     <strong>getIterator</strong>()</code>
     </h3>
@@ -533,7 +635,7 @@
     </div>
 
                 <h3 id="method_offsetSet">
-        <div class="location">at line 213</div>
+        <div class="location">at line 303</div>
         <code>            public            <a href="../bolt/config.html"><abbr title="bolt\config">config</abbr></a>
     <strong>offsetSet</strong>($name, $value)</code>
     </h3>
@@ -576,7 +678,7 @@
     </div>
 
                 <h3 id="method_offsetExists">
-        <div class="location">at line 225</div>
+        <div class="location">at line 315</div>
         <code>            public            bool
     <strong>offsetExists</strong>(string $name)</code>
     </h3>
@@ -612,7 +714,7 @@
     </div>
 
                 <h3 id="method_offsetUnset">
-        <div class="location">at line 237</div>
+        <div class="location">at line 327</div>
         <code>            public            void
     <strong>offsetUnset</strong>(string $name)</code>
     </h3>
@@ -648,7 +750,7 @@
     </div>
 
                 <h3 id="method_offsetGet">
-        <div class="location">at line 249</div>
+        <div class="location">at line 339</div>
         <code>            public            mixed
     <strong>offsetGet</strong>(string $name)</code>
     </h3>

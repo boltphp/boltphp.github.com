@@ -94,23 +94,21 @@
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    array
                 </td>
                 <td class="last">
                     <a href="#method_getHelpers">getHelpers</a>()
-                    <p>
-</p>
+                    <p>return all helpers</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="http://php.net/Exception"><abbr title="Exception">Exception</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_exepction">exepction</a>($class, $message = null, $code = null)
-                    <p>
-</p>
+                    <a href="#method_exepction">exepction</a>(string $class, string $message = null, int $code = null)
+                    <p>throw an exception class</p>
                 </td>
                 <td></td>
             </tr>
@@ -156,7 +154,7 @@
     </div>
 
                 <h3 id="method_app">
-        <div class="location">at line 39</div>
+        <div class="location">at line 40</div>
         <code>            public            
     <strong>app</strong>($config = array())</code>
     </h3>
@@ -183,7 +181,7 @@
     </div>
 
                 <h3 id="method_env">
-        <div class="location">at line 57</div>
+        <div class="location">at line 59</div>
         <code>            public            
     <strong>env</strong>(string $env = null)</code>
     </h3>
@@ -209,7 +207,7 @@
     </div>
 
                 <h3 id="method_guid">
-        <div class="location">at line 69</div>
+        <div class="location">at line 71</div>
         <code>            public            string
     <strong>guid</strong>(string $prefix = &#039;bolt&#039;)</code>
     </h3>
@@ -245,7 +243,7 @@
     </div>
 
                 <h3 id="method___call">
-        <div class="location">at line 82</div>
+        <div class="location">at line 84</div>
         <code>            public            mixed
     <strong>__call</strong>(string $name, array $args)</code>
     </h3>
@@ -286,7 +284,7 @@
     </div>
 
                 <h3 id="method_helpers">
-        <div class="location">at line 105</div>
+        <div class="location">at line 107</div>
         <code>            public            
     <strong>helpers</strong>(string $class)</code>
     </h3>
@@ -313,30 +311,38 @@
     </div>
 
                 <h3 id="method_getHelpers">
-        <div class="location">at line 126</div>
-        <code>            public            
+        <div class="location">at line 134</div>
+        <code>            public            array
     <strong>getHelpers</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>return all helpers</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_exepction">
-        <div class="location">at line 130</div>
-        <code>            public            
-    <strong>exepction</strong>($class, $message = null, $code = null)</code>
+        <div class="location">at line 148</div>
+        <code>            public            <a href="http://php.net/Exception"><abbr title="Exception">Exception</abbr></a>
+    <strong>exepction</strong>(string $class, string $message = null, int $code = null)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>throw an exception class</p>
         <p>
 </p>
         <div class="tags">
@@ -344,19 +350,19 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$class</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$message</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>int</td>
                 <td>$code</td>
                 <td>
 </td>
@@ -364,6 +370,15 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="http://php.net/Exception"><abbr title="Exception">Exception</abbr></a></td>
+            <td>class</td>
+        </tr>
+    </table>
+
             
             
                     </div>

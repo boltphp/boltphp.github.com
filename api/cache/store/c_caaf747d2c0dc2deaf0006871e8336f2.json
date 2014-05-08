@@ -4,12 +4,10 @@
     "short_desc": "",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\http\\middleware",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/middleware\/direct.php",
-    "hash": "7e41753fa509d70c23d6cbee4cc726869ddf0d4f",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/middleware\/direct.php",
+    "hash": "5ae1505b5d8e140c5ee357f3732d00cb82ed1e9c",
     "parent": "bolt\\http\\middleware",
     "modifiers": 0,
     "is_trait": false,
@@ -17,30 +15,20 @@
     "aliases": {
         "b": "b"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
     "properties": {
         "mime": {
             "name": "mime",
-            "line": 41,
+            "line": 40,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": 9,
-            "default": {
-
-            },
-            "errors": [
-
-            ]
+            "default": {},
+            "errors": []
         }
     },
     "methods": {
@@ -51,23 +39,13 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }
