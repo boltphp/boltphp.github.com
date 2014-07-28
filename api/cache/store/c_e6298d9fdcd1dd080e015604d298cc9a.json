@@ -7,7 +7,7 @@
     "tags": [],
     "namespace": "bolt",
     "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/render.php",
-    "hash": "7cd28f4e7054004ef5f82e749d3fa3301d098b50",
+    "hash": "851f2da992b5b7a6d4653eb3bd7b6c7e64515a15",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -207,9 +207,46 @@
                 }
             }
         },
+        "getEngineInstance": {
+            "name": "getEngineInstance",
+            "line": 96,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "class": {
+                    "name": "class",
+                    "line": 96,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "config": {
+                    "name": "config",
+                    "line": 96,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
         "string": {
             "name": "string",
-            "line": 105,
+            "line": 109,
             "short_desc": "render a string using the provided renderer",
             "long_desc": "",
             "hint": [
@@ -227,7 +264,7 @@
             "parameters": {
                 "ext": {
                     "name": "ext",
-                    "line": 105,
+                    "line": 109,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -243,7 +280,7 @@
                 },
                 "str": {
                     "name": "str",
-                    "line": 105,
+                    "line": 109,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -259,7 +296,7 @@
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 105,
+                    "line": 109,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -277,7 +314,7 @@
         },
         "file": {
             "name": "file",
-            "line": 121,
+            "line": 125,
             "short_desc": "render a file",
             "long_desc": "",
             "hint": [
@@ -295,7 +332,7 @@
             "parameters": {
                 "file": {
                     "name": "file",
-                    "line": 121,
+                    "line": 125,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -311,7 +348,7 @@
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 121,
+                    "line": 125,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [

@@ -4,12 +4,10 @@
     "short_desc": "base controller class",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\http",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/controller.php",
-    "hash": "468a5e8db3110fabd591b44d2d8f6855d0dd41f5",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/controller.php",
+    "hash": "0b8802a41677451760898431a075adbd51510450",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -17,15 +15,9 @@
     "aliases": {
         "b": "b"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
-    "properties": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
     "methods": {
         "__construct": {
             "name": "__construct",
@@ -34,17 +26,11 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "http": {
                     "name": "http",
@@ -57,9 +43,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\http",
                     "default": null,
                     "is_by_ref": false
@@ -73,20 +57,12 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "before": {
             "name": "before",
@@ -95,20 +71,12 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "after": {
             "name": "after",
@@ -117,20 +85,12 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "useLayout": {
             "name": "useLayout",
@@ -144,17 +104,11 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "layout": {
                     "name": "layout",
@@ -167,9 +121,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -183,20 +135,12 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "__get": {
             "name": "__get",
@@ -210,17 +154,11 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
@@ -233,9 +171,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -254,17 +190,11 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
@@ -277,9 +207,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -295,9 +223,43 @@
                             false
                         ]
                     ],
-                    "tags": [
-
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "__isset": {
+            "name": "__isset",
+            "line": 139,
+            "short_desc": "does a param exist",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 139,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\http\\$name",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -306,7 +268,7 @@
         },
         "getParameters": {
             "name": "getParameters",
-            "line": 138,
+            "line": 149,
             "short_desc": "get paramaters",
             "long_desc": "",
             "hint": [
@@ -316,24 +278,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "view": {
             "name": "view",
-            "line": 151,
+            "line": 162,
             "short_desc": "create a view",
             "long_desc": "",
             "hint": [
@@ -343,21 +297,15 @@
                 ]
             ],
             "hint_desc": "(view object)",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "file": {
                     "name": "file",
-                    "line": 151,
+                    "line": 162,
                     "short_desc": "file name",
                     "long_desc": null,
                     "hint": [
@@ -366,16 +314,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 151,
+                    "line": 162,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -384,9 +330,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "array()",
                     "is_by_ref": false
@@ -394,7 +338,5 @@
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

@@ -1,13 +1,13 @@
 {
     "name": "bolt\\http\\response",
-    "line": 13,
+    "line": 15,
     "short_desc": "response object",
     "long_desc": "",
     "hint": null,
     "tags": [],
     "namespace": "bolt\\http",
     "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/response.php",
-    "hash": "1882cb9ef51eaa12a220524631c8c11ee5545be3",
+    "hash": "90198f1679894d2903b5b3dc5b3d62ccf4cdf2f2",
     "parent": "Symfony\\Component\\HttpFoundation\\Response",
     "modifiers": 0,
     "is_trait": false,
@@ -15,7 +15,8 @@
     "aliases": {
         "b": "b",
         "SymfonyResponse": "Symfony\\Component\\HttpFoundation\\Response",
-        "SymfonyRequest": "Symfony\\Component\\HttpFoundation\\Request"
+        "SymfonyRequest": "Symfony\\Component\\HttpFoundation\\Request",
+        "Cookie": "Symfony\\Component\\HttpFoundation\\Cookie"
     },
     "errors": [],
     "interfaces": [],
@@ -23,7 +24,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 54,
+            "line": 56,
             "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
@@ -37,7 +38,7 @@
         },
         "guid": {
             "name": "guid",
-            "line": 59,
+            "line": 61,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -51,7 +52,7 @@
         },
         "format": {
             "name": "format",
-            "line": 72,
+            "line": 75,
             "short_desc": "add a response format",
             "long_desc": "",
             "hint": [
@@ -69,7 +70,7 @@
             "parameters": {
                 "format": {
                     "name": "format",
-                    "line": 72,
+                    "line": 75,
                     "short_desc": "format name or array of formats",
                     "long_desc": null,
                     "hint": [
@@ -89,7 +90,7 @@
                 },
                 "content": {
                     "name": "content",
-                    "line": 72,
+                    "line": 75,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -102,12 +103,94 @@
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
+                },
+                "controller": {
+                    "name": "controller",
+                    "line": 75,
+                    "short_desc": "optional controller to tie to format",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\http\\bolt\\http\\controller",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "bolt\\http\\controller",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setCookie": {
+            "name": "setCookie",
+            "line": 114,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "cookie": {
+                    "name": "cookie",
+                    "line": 114,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getFormat": {
+            "name": "getFormat",
+            "line": 138,
+            "short_desc": "return all registered formats",
+            "long_desc": "",
+            "hint": [
+                [
+                    "null",
+                    false
+                ],
+                [
+                    "bolt\\http\\bolt\\http\\response\\format",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "format": {
+                    "name": "format",
+                    "line": 138,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
                 }
             }
         },
         "hasFormat": {
             "name": "hasFormat",
-            "line": 118,
+            "line": 150,
             "short_desc": "does this response have a foramt",
             "long_desc": "",
             "hint": [
@@ -125,7 +208,7 @@
             "parameters": {
                 "format": {
                     "name": "format",
-                    "line": 118,
+                    "line": 150,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -143,11 +226,16 @@
         },
         "setLayout": {
             "name": "setLayout",
-            "line": 123,
-            "short_desc": "",
+            "line": 161,
+            "short_desc": "set a layout handler for this response",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "bolt\\http\\response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
@@ -156,10 +244,15 @@
             "parameters": {
                 "layout": {
                     "name": "layout",
-                    "line": 123,
-                    "short_desc": null,
+                    "line": 161,
+                    "short_desc": "string or callback",
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
                     "tags": [],
                     "modifiers": "",
                     "default": null,
@@ -169,11 +262,16 @@
         },
         "getLayout": {
             "name": "getLayout",
-            "line": 128,
-            "short_desc": "",
+            "line": 172,
+            "short_desc": "get the current layout",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
@@ -183,7 +281,7 @@
         },
         "setException": {
             "name": "setException",
-            "line": 139,
+            "line": 184,
             "short_desc": "set a response exception",
             "long_desc": "",
             "hint": [
@@ -201,7 +299,7 @@
             "parameters": {
                 "e": {
                     "name": "e",
-                    "line": 139,
+                    "line": 184,
                     "short_desc": "[description]",
                     "long_desc": null,
                     "hint": [
@@ -219,7 +317,7 @@
         },
         "hasException": {
             "name": "hasException",
-            "line": 154,
+            "line": 198,
             "short_desc": "does the response have an exception",
             "long_desc": "",
             "hint": [
@@ -238,7 +336,7 @@
         },
         "getException": {
             "name": "getException",
-            "line": 164,
+            "line": 208,
             "short_desc": "get eh response exception",
             "long_desc": "",
             "hint": [
@@ -257,7 +355,7 @@
         },
         "isReadyToSend": {
             "name": "isReadyToSend",
-            "line": 176,
+            "line": 220,
             "short_desc": "get or set the response $_readyToSend",
             "long_desc": "",
             "hint": [
@@ -275,7 +373,7 @@
             "parameters": {
                 "ready": {
                     "name": "ready",
-                    "line": 176,
+                    "line": 220,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -291,9 +389,81 @@
                 }
             }
         },
+        "setHeader": {
+            "name": "setHeader",
+            "line": 234,
+            "short_desc": "set a header",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\http\\response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 234,
+                    "short_desc": "header name",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "value": {
+                    "name": "value",
+                    "line": 234,
+                    "short_desc": "value of header",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "replace": {
+                    "name": "replace",
+                    "line": 234,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "true",
+                    "is_by_ref": false
+                }
+            }
+        },
         "readyToSend": {
             "name": "readyToSend",
-            "line": 186,
+            "line": 244,
             "short_desc": "set response as ready to send",
             "long_desc": "",
             "hint": [
@@ -312,11 +482,16 @@
         },
         "prepare": {
             "name": "prepare",
-            "line": 192,
-            "short_desc": "",
+            "line": 257,
+            "short_desc": "prepare the response to be output",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "Symfony\\Component\\HttpFoundation\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
@@ -325,8 +500,8 @@
             "parameters": {
                 "request": {
                     "name": "request",
-                    "line": 192,
-                    "short_desc": null,
+                    "line": 257,
+                    "short_desc": "",
                     "long_desc": null,
                     "hint": [
                         [

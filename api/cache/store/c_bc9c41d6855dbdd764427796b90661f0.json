@@ -7,7 +7,7 @@
     "tags": [],
     "namespace": "bolt\\render",
     "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/render\/handlebars.php",
-    "hash": "70a00522d314903503939f307ce7f3dde5ae3d22",
+    "hash": "2118679aba1e51553115f39f9832fe02f9f3be83",
     "parent": "bolt\\render\\base",
     "modifiers": 0,
     "is_trait": false,
@@ -46,9 +46,23 @@
             "errors": [],
             "parameters": []
         },
+        "getDelimiters": {
+            "name": "getDelimiters",
+            "line": 27,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
         "compile": {
             "name": "compile",
-            "line": 51,
+            "line": 54,
             "short_desc": "compile to freezable class",
             "long_desc": "",
             "hint": null,
@@ -61,7 +75,7 @@
             "parameters": {
                 "str": {
                     "name": "str",
-                    "line": 51,
+                    "line": 54,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -74,7 +88,7 @@
         },
         "render": {
             "name": "render",
-            "line": 71,
+            "line": 74,
             "short_desc": "render a handlebar template",
             "long_desc": "",
             "hint": [
@@ -92,7 +106,7 @@
             "parameters": {
                 "str": {
                     "name": "str",
-                    "line": 71,
+                    "line": 74,
                     "short_desc": "handlebar template",
                     "long_desc": null,
                     "hint": [
@@ -108,7 +122,7 @@
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 71,
+                    "line": 74,
                     "short_desc": "variables to use in rendering",
                     "long_desc": null,
                     "hint": [
@@ -118,7 +132,7 @@
                         ]
                     ],
                     "tags": [],
-                    "modifiers": "",
+                    "modifiers": "array",
                     "default": "array()",
                     "is_by_ref": false
                 }
@@ -126,7 +140,7 @@
         },
         "renderCompiled": {
             "name": "renderCompiled",
-            "line": 84,
+            "line": 87,
             "short_desc": "render a compiled template",
             "long_desc": "",
             "hint": [
@@ -144,7 +158,7 @@
             "parameters": {
                 "compiled": {
                     "name": "compiled",
-                    "line": 84,
+                    "line": 87,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -154,13 +168,13 @@
                         ]
                     ],
                     "tags": [],
-                    "modifiers": "array",
+                    "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 84,
+                    "line": 87,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [

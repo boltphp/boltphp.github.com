@@ -6,8 +6,8 @@
     "hint": null,
     "tags": [],
     "namespace": "bolt\\http\\controller",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/controller\/route.php",
-    "hash": "4635db7dbd458423fe70b43d03c798d3cd8b865f",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/controller\/route.php",
+    "hash": "1c9bb171a4c6f7b1d8a08e555e4a06ee1f73e8ad",
     "parent": "bolt\\http\\controller",
     "modifiers": 0,
     "is_trait": false,
@@ -91,7 +91,7 @@
         "__get": {
             "name": "__get",
             "line": 46,
-            "short_desc": "get a magic variables",
+            "short_desc": "magic get method",
             "long_desc": "",
             "hint": [
                 [

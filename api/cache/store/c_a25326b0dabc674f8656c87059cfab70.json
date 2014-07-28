@@ -7,7 +7,7 @@
     "tags": [],
     "namespace": "bolt\\http\\session",
     "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/session\/store.php",
-    "hash": "a055421770d15725ec1f73bb900b5235179c3057",
+    "hash": "28afc89abb54e4a987da78f3f90bf5560c33259d",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -25,7 +25,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 31,
+            "line": 33,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -38,7 +38,7 @@
             "parameters": {
                 "manager": {
                     "name": "manager",
-                    "line": 31,
+                    "line": 33,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -54,7 +54,7 @@
                 },
                 "name": {
                     "name": "name",
-                    "line": 31,
+                    "line": 33,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -65,7 +65,7 @@
                 },
                 "driver": {
                     "name": "driver",
-                    "line": 31,
+                    "line": 33,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -83,7 +83,7 @@
         },
         "start": {
             "name": "start",
-            "line": 40,
+            "line": 42,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -97,7 +97,7 @@
         },
         "isStarted": {
             "name": "isStarted",
-            "line": 62,
+            "line": 67,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -111,7 +111,7 @@
         },
         "getId": {
             "name": "getId",
-            "line": 66,
+            "line": 71,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -125,7 +125,7 @@
         },
         "setId": {
             "name": "setId",
-            "line": 70,
+            "line": 75,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -138,7 +138,7 @@
             "parameters": {
                 "id": {
                     "name": "id",
-                    "line": 70,
+                    "line": 75,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -151,7 +151,7 @@
         },
         "getName": {
             "name": "getName",
-            "line": 75,
+            "line": 80,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -165,7 +165,7 @@
         },
         "setName": {
             "name": "setName",
-            "line": 79,
+            "line": 84,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -178,7 +178,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 79,
+                    "line": 84,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -191,7 +191,7 @@
         },
         "regenerate": {
             "name": "regenerate",
-            "line": 84,
+            "line": 89,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -204,7 +204,7 @@
             "parameters": {
                 "destroy": {
                     "name": "destroy",
-                    "line": 84,
+                    "line": 89,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -215,7 +215,7 @@
                 },
                 "lifetime": {
                     "name": "lifetime",
-                    "line": 84,
+                    "line": 89,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -228,7 +228,21 @@
         },
         "generateId": {
             "name": "generateId",
-            "line": 93,
+            "line": 99,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "destroy": {
+            "name": "destroy",
+            "line": 103,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -242,7 +256,7 @@
         },
         "save": {
             "name": "save",
-            "line": 97,
+            "line": 109,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -256,7 +270,7 @@
         },
         "clear": {
             "name": "clear",
-            "line": 108,
+            "line": 134,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -270,7 +284,7 @@
         },
         "getBag": {
             "name": "getBag",
-            "line": 115,
+            "line": 141,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -283,7 +297,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 115,
+                    "line": 141,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -296,7 +310,7 @@
         },
         "registerBag": {
             "name": "registerBag",
-            "line": 122,
+            "line": 148,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -309,7 +323,7 @@
             "parameters": {
                 "bag": {
                     "name": "bag",
-                    "line": 122,
+                    "line": 148,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -327,7 +341,7 @@
         },
         "setMetadataBag": {
             "name": "setMetadataBag",
-            "line": 127,
+            "line": 153,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -340,7 +354,7 @@
             "parameters": {
                 "bag": {
                     "name": "bag",
-                    "line": 127,
+                    "line": 153,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -358,7 +372,7 @@
         },
         "getMetadataBag": {
             "name": "getMetadataBag",
-            "line": 135,
+            "line": 161,
             "short_desc": "",
             "long_desc": "",
             "hint": null,

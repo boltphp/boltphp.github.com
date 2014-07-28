@@ -7,7 +7,7 @@
     "tags": [],
     "namespace": "bolt\\source\\curl",
     "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/source\/curl\/repository.php",
-    "hash": "fd10209fee3ecc310d64d7f6610cc4a7505484e7",
+    "hash": "a07c9e6c9617d17ecc816689b5f47d21979d4cd1",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -151,7 +151,7 @@
         },
         "getTransform": {
             "name": "getTransform",
-            "line": 89,
+            "line": 97,
             "short_desc": "transform the curl response to an item array",
             "long_desc": "",
             "hint": [
@@ -169,7 +169,7 @@
             "parameters": {
                 "type": {
                     "name": "type",
-                    "line": 89,
+                    "line": 97,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -185,7 +185,7 @@
                 },
                 "data": {
                     "name": "data",
-                    "line": 89,
+                    "line": 97,
                     "short_desc": "response from server",
                     "long_desc": null,
                     "hint": [
@@ -203,7 +203,7 @@
         },
         "generateEntity": {
             "name": "generateEntity",
-            "line": 107,
+            "line": 115,
             "short_desc": "generate a class of $entity from the provided data",
             "long_desc": "",
             "hint": [
@@ -221,7 +221,7 @@
             "parameters": {
                 "item": {
                     "name": "item",
-                    "line": 107,
+                    "line": 115,
                     "short_desc": "item data",
                     "long_desc": null,
                     "hint": [
@@ -239,7 +239,7 @@
         },
         "find": {
             "name": "find",
-            "line": 166,
+            "line": 178,
             "short_desc": "find an entity",
             "long_desc": "",
             "hint": [
@@ -257,7 +257,7 @@
             "parameters": {
                 "id": {
                     "name": "id",
-                    "line": 166,
+                    "line": 178,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -275,7 +275,7 @@
         },
         "findBy": {
             "name": "findBy",
-            "line": 198,
+            "line": 213,
             "short_desc": "find an entity by query",
             "long_desc": "",
             "hint": [
@@ -295,7 +295,7 @@
             "parameters": {
                 "query": {
                     "name": "query",
-                    "line": 198,
+                    "line": 213,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -306,7 +306,7 @@
                 },
                 "order": {
                     "name": "order",
-                    "line": 198,
+                    "line": 213,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -317,7 +317,7 @@
                 },
                 "limit": {
                     "name": "limit",
-                    "line": 198,
+                    "line": 213,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -328,7 +328,7 @@
                 },
                 "offset": {
                     "name": "offset",
-                    "line": 198,
+                    "line": 213,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -339,7 +339,7 @@
                 },
                 "total": {
                     "name": "total",
-                    "line": 198,
+                    "line": 213,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -352,7 +352,7 @@
         },
         "findOneBy": {
             "name": "findOneBy",
-            "line": 237,
+            "line": 255,
             "short_desc": "find one entity by query",
             "long_desc": "",
             "hint": [
@@ -370,7 +370,7 @@
             "parameters": {
                 "query": {
                     "name": "query",
-                    "line": 237,
+                    "line": 255,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -386,7 +386,7 @@
                 },
                 "order": {
                     "name": "order",
-                    "line": 237,
+                    "line": 255,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -401,6 +401,56 @@
                     "is_by_ref": false
                 }
             }
+        },
+        "persist": {
+            "name": "persist",
+            "line": 290,
+            "short_desc": "persist",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\source\\curl\\bolt\\models\\entity",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "entity": {
+                    "name": "entity",
+                    "line": 290,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\source\\curl\\bolt\\models\\entity",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "flush": {
+            "name": "flush",
+            "line": 330,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         }
     },
     "constants": []

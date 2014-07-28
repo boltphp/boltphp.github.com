@@ -7,7 +7,7 @@
     "tags": [],
     "namespace": "bolt\\render",
     "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/render\/base.php",
-    "hash": "676cf1e9158bb3d450e75da174a2d346ef480638",
+    "hash": "19e0067a5a305d7cb3ec6e3f23d5938ddc48beff",
     "parent": null,
     "modifiers": 16,
     "is_trait": false,
@@ -21,7 +21,7 @@
     "methods": {
         "canCompile": {
             "name": "canCompile",
-            "line": 23,
+            "line": 25,
             "short_desc": "can this renderer compile a view",
             "long_desc": "",
             "hint": [
@@ -40,7 +40,7 @@
         },
         "__construct": {
             "name": "__construct",
-            "line": 33,
+            "line": 35,
             "short_desc": "Constructor (can not be overloaded)",
             "long_desc": "",
             "hint": null,
@@ -49,12 +49,14 @@
             "modifiers": "33",
             "is_by_ref": "",
             "exceptions": [],
-            "errors": [],
+            "errors": [
+                "\"1\" @param tags are defined by \"2\" are expected"
+            ],
             "parameters": {
                 "manager": {
                     "name": "manager",
-                    "line": 33,
-                    "short_desc": "",
+                    "line": 35,
+                    "short_desc": null,
                     "long_desc": null,
                     "hint": [
                         [
@@ -66,12 +68,23 @@
                     "modifiers": "bolt\\render",
                     "default": null,
                     "is_by_ref": false
+                },
+                "config": {
+                    "name": "config",
+                    "line": 35,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
                 }
             }
         },
         "render": {
             "name": "render",
-            "line": 53,
+            "line": 56,
             "short_desc": "render abstract",
             "long_desc": "",
             "hint": [
@@ -89,7 +102,7 @@
             "parameters": {
                 "str": {
                     "name": "str",
-                    "line": 53,
+                    "line": 56,
                     "short_desc": "string to render",
                     "long_desc": null,
                     "hint": [
@@ -105,7 +118,7 @@
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 53,
+                    "line": 56,
                     "short_desc": "variables to use in rendering",
                     "long_desc": null,
                     "hint": [
@@ -123,7 +136,7 @@
         },
         "renderFile": {
             "name": "renderFile",
-            "line": 64,
+            "line": 67,
             "short_desc": "render a file",
             "long_desc": "",
             "hint": [
@@ -141,7 +154,7 @@
             "parameters": {
                 "file": {
                     "name": "file",
-                    "line": 64,
+                    "line": 67,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -157,7 +170,7 @@
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 64,
+                    "line": 67,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -175,7 +188,7 @@
         },
         "renderCompiled": {
             "name": "renderCompiled",
-            "line": 77,
+            "line": 80,
             "short_desc": "render a compiled vide",
             "long_desc": "",
             "hint": [
@@ -193,7 +206,7 @@
             "parameters": {
                 "compiled": {
                     "name": "compiled",
-                    "line": 77,
+                    "line": 80,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -209,7 +222,7 @@
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 77,
+                    "line": 80,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -219,7 +232,7 @@
                         ]
                     ],
                     "tags": [],
-                    "modifiers": "",
+                    "modifiers": "array",
                     "default": "array()",
                     "is_by_ref": false
                 }

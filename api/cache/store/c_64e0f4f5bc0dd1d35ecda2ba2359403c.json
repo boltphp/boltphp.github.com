@@ -6,8 +6,8 @@
     "hint": null,
     "tags": [],
     "namespace": "bolt\\models",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/models\/collection.php",
-    "hash": "bd185ce600d099b7349095dfcae115b9a1ea801b",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/models\/collection.php",
+    "hash": "6f686fd5e5ab4d693f540ce9ee563159fe4bdf33",
     "parent": "bolt\\helpers\\collection",
     "modifiers": 0,
     "is_trait": false,
@@ -447,7 +447,7 @@
         "push": {
             "name": "push",
             "line": 174,
-            "short_desc": "",
+            "short_desc": "push an object to the stack",
             "long_desc": "",
             "hint": [
                 [
@@ -455,7 +455,7 @@
                     false
                 ]
             ],
-            "hint_desc": null,
+            "hint_desc": "",
             "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
@@ -483,7 +483,7 @@
         "unshift": {
             "name": "unshift",
             "line": 191,
-            "short_desc": "",
+            "short_desc": "unshift an object",
             "long_desc": "",
             "hint": [
                 [
@@ -491,7 +491,7 @@
                     false
                 ]
             ],
-            "hint_desc": null,
+            "hint_desc": "[description]",
             "tags": [],
             "modifiers": "1",
             "is_by_ref": "",

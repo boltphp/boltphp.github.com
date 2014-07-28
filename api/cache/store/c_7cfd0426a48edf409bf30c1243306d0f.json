@@ -1,82 +1,112 @@
 {
     "name": "bolt\\helpers\\collection",
-    "line": 7,
-    "short_desc": "",
+    "line": 11,
+    "short_desc": "Collection",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\helpers",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/helpers\/collection.php",
-    "hash": "4a45347c2c56c150da06fd3a3fc4daffd3e2a917",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/helpers\/collection.php",
+    "hash": "344202f63e26cc46951ca9204ce0052132802c4e",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
     "aliases": {
+        "b": "b",
         "Closure": "Closure"
     },
-    "errors": [
-
-    ],
+    "errors": [],
     "interfaces": {
         "ArrayAccess": "ArrayAccess",
         "Countable": "Countable",
         "IteratorAggregate": "IteratorAggregate",
         "JsonSerializable": "JsonSerializable"
     },
-    "properties": [
-
-    ],
+    "properties": [],
     "methods": {
-        "each": {
-            "name": "each",
-            "line": 11,
-            "short_desc": "",
+        "__construct": {
+            "name": "__construct",
+            "line": 25,
+            "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "items": {
+                    "name": "items",
+                    "line": 25,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "each": {
+            "name": "each",
+            "line": 38,
+            "short_desc": "perform callback on each item in the array",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\helpers\\collection",
+                    false
+                ]
             ],
-            "errors": [
-
-            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "cb": {
                     "name": "cb",
-                    "line": 11,
-                    "short_desc": null,
+                    "line": 38,
+                    "short_desc": "closure to execute or name of function",
                     "long_desc": null,
                     "hint": [
+                        [
+                            "string",
+                            false
+                        ],
                         [
                             "Closure",
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
-                    "modifiers": "Closure",
+                    "tags": [],
+                    "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "data": {
                     "name": "data",
-                    "line": 11,
-                    "short_desc": null,
+                    "line": 38,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
                     ],
-                    "modifiers": "",
+                    "tags": [],
+                    "modifiers": "array",
                     "default": "array()",
                     "is_by_ref": false
                 }
@@ -84,71 +114,70 @@
         },
         "first": {
             "name": "first",
-            "line": 18,
-            "short_desc": "",
+            "line": 52,
+            "short_desc": "return first $item",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "last": {
             "name": "last",
-            "line": 22,
-            "short_desc": "",
+            "line": 62,
+            "short_desc": "return last $item",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "filter": {
             "name": "filter",
-            "line": 26,
-            "short_desc": "",
+            "line": 75,
+            "short_desc": "filter $items by callback",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "bolt\\helpers\\collection",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": {
+                "see": [
+                    [
+                        "php::array_filter"
+                    ]
+                ]
+            },
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "cb": {
                     "name": "cb",
-                    "line": 26,
-                    "short_desc": null,
+                    "line": 75,
+                    "short_desc": "",
                     "long_desc": null,
                     "hint": [
                         [
@@ -156,9 +185,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "Closure",
                     "default": null,
                     "is_by_ref": false
@@ -167,87 +194,180 @@
         },
         "splice": {
             "name": "splice",
-            "line": 31,
-            "short_desc": "",
+            "line": 91,
+            "short_desc": "splice",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "bolt\\helpers\\collection",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": {
+                "see": [
+                    [
+                        "php::array_splice"
+                    ]
+                ]
+            },
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "offset": {
                     "name": "offset",
-                    "line": 31,
-                    "short_desc": null,
+                    "line": 91,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "length": {
                     "name": "length",
-                    "line": 31,
-                    "short_desc": null,
+                    "line": 91,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "replace": {
                     "name": "replace",
-                    "line": 31,
-                    "short_desc": null,
+                    "line": 91,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
                     ],
-                    "modifiers": "",
+                    "tags": [],
+                    "modifiers": "array",
                     "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "slice": {
+            "name": "slice",
+            "line": 107,
+            "short_desc": "slice",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\helpers\\collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "see": [
+                    [
+                        "php::array_slice"
+                    ]
+                ]
+            },
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "offset": {
+                    "name": "offset",
+                    "line": 107,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "length": {
+                    "name": "length",
+                    "line": 107,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                },
+                "preserve_keys": {
+                    "name": "preserve_keys",
+                    "line": 107,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "true",
                     "is_by_ref": false
                 }
             }
         },
         "map": {
             "name": "map",
-            "line": 36,
-            "short_desc": "",
+            "line": 121,
+            "short_desc": "map",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "bolt\\helpers\\collection",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": {
+                "see": [
+                    [
+                        "php::array_map"
+                    ]
+                ]
+            },
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "cb": {
                     "name": "cb",
-                    "line": 36,
-                    "short_desc": null,
+                    "line": 121,
+                    "short_desc": "",
                     "long_desc": null,
                     "hint": [
                         [
@@ -255,43 +375,95 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "Closure",
                     "default": null,
                     "is_by_ref": false
                 }
             }
         },
-        "push": {
-            "name": "push",
-            "line": 41,
-            "short_desc": "",
+        "diff": {
+            "name": "diff",
+            "line": 135,
+            "short_desc": "diff",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "bolt\\helpers\\collection",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": {
+                "see": [
+                    [
+                        "php::array_diff"
+                    ]
+                ]
+            },
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
+            "exceptions": [],
             "errors": [
-
+                "\"1\" @param tags are defined by \"0\" are expected"
             ],
+            "parameters": []
+        },
+        "intersect": {
+            "name": "intersect",
+            "line": 149,
+            "short_desc": "intersect",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\helpers\\collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "see": [
+                    [
+                        "php::array_intersect"
+                    ]
+                ]
+            },
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "push": {
+            "name": "push",
+            "line": 163,
+            "short_desc": "push to $items",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\helpers\\collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "item": {
                     "name": "item",
-                    "line": 41,
-                    "short_desc": null,
+                    "line": 163,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -300,189 +472,228 @@
         },
         "shift": {
             "name": "shift",
-            "line": 46,
-            "short_desc": "",
+            "line": 175,
+            "short_desc": "shift $items",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": {
+                "see": [
+                    [
+                        "php::array_shift"
+                    ]
+                ]
+            },
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "pop": {
             "name": "pop",
-            "line": 50,
-            "short_desc": "",
+            "line": 186,
+            "short_desc": "pop $items",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": {
+                "see": [
+                    [
+                        "php::array_pop"
+                    ]
+                ]
+            },
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "unshift": {
             "name": "unshift",
-            "line": 54,
-            "short_desc": "",
+            "line": 198,
+            "short_desc": "unshift",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "bolt\\helpers\\[type]",
+                    false
+                ]
             ],
+            "hint_desc": "[description]",
+            "tags": {
+                "see": [
+                    [
+                        "php::array_unshift"
+                    ]
+                ]
+            },
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "item": {
                     "name": "item",
-                    "line": 54,
-                    "short_desc": null,
+                    "line": 198,
+                    "short_desc": "[description]",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "bolt\\helpers\\[type]",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 }
             }
         },
-        "getIterator": {
-            "name": "getIterator",
-            "line": 59,
-            "short_desc": "",
+        "shuffle": {
+            "name": "shuffle",
+            "line": 210,
+            "short_desc": "shuffle $items",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "bolt\\helpers\\collection",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": {
+                "see": [
+                    [
+                        "php::suffle"
+                    ]
+                ]
+            },
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getIterator": {
+            "name": "getIterator",
+            "line": 221,
+            "short_desc": "return array iterator for $items",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\helpers\\ArrayIterator",
+                    false
+                ]
             ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "count": {
             "name": "count",
-            "line": 63,
-            "short_desc": "",
+            "line": 231,
+            "short_desc": "nubmer of $items",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "jsonSerialize": {
             "name": "jsonSerialize",
-            "line": 67,
-            "short_desc": "",
+            "line": 241,
+            "short_desc": "return json string of $items",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "offsetSet": {
             "name": "offsetSet",
-            "line": 71,
-            "short_desc": "",
+            "line": 254,
+            "short_desc": "set value for offset",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "bolt\\helpers\\collection",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "offset": {
                     "name": "offset",
-                    "line": 71,
-                    "short_desc": null,
+                    "line": 254,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "null",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "value": {
                     "name": "value",
-                    "line": 71,
-                    "short_desc": null,
+                    "line": 254,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -491,32 +702,38 @@
         },
         "offsetExists": {
             "name": "offsetExists",
-            "line": 80,
-            "short_desc": "",
+            "line": 272,
+            "short_desc": "does offset exist",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "offset": {
                     "name": "offset",
-                    "line": 80,
-                    "short_desc": null,
+                    "line": 272,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "integer",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -525,32 +742,38 @@
         },
         "offsetUnset": {
             "name": "offsetUnset",
-            "line": 84,
-            "short_desc": "",
+            "line": 284,
+            "short_desc": "unset an offset",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "bolt\\helpers\\collection",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "offset": {
                     "name": "offset",
-                    "line": 84,
-                    "short_desc": null,
+                    "line": 284,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "integer",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -559,40 +782,63 @@
         },
         "offsetGet": {
             "name": "offsetGet",
-            "line": 88,
-            "short_desc": "",
+            "line": 297,
+            "short_desc": "get an offset",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [
-
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
             ],
+            "hint_desc": "",
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "offset": {
                     "name": "offset",
-                    "line": 88,
-                    "short_desc": null,
+                    "line": 297,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [
-
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "integer",
+                            false
+                        ]
                     ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 }
             }
+        },
+        "toArray": {
+            "name": "toArray",
+            "line": 307,
+            "short_desc": "return default array",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

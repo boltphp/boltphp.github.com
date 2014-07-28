@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="index, follow, all" />
+        <title>bolt\dom\document | </title>
+                    <link rel="stylesheet" type="text/css" href="../../stylesheet.css">
+                            </head>
+        <body id="class">
+            <div class="header">
+        <ul>
+            <li><a href="../../classes.html">Classes</a></li>
+                            <li><a href="../../namespaces.html">Namespaces</a></li>
+                        <li><a href="../../interfaces.html">Interfaces</a></li>
+            <li><a href="../../traits.html">Traits</a></li>
+            <li><a href="../../doc-index.html">Index</a></li>
+            
+        </ul>
+
+        <div id="title"></div>
+
+            <div class="type">Class</div>
+    <h1><a href="../../bolt/dom.html">bolt\dom</a>\document</h1>
+    </div>
+        <div class="content">
+                <p>    class
+    <strong>document</strong>        extends <a href="http://php.net/DOMDocument"><abbr title="DOMDocument">DOMDocument</abbr></a>        implements
+        <a href="http://php.net/ArrayAccess"><abbr title="ArrayAccess">ArrayAccess</abbr></a></p>
+
+    
+    
+    
+            <h2>Methods</h2>
+
+            <table>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method___construct">__construct</a>($charset = &#039;UTF-8&#039;, $html = null)
+                    <p>Constructor</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method___get">__get</a>($name)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_destroyChild">destroyChild</a>(<a href="../../bolt/dom/element.html"><abbr title="bolt\dom\element">element</abbr></a> $el)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    mixed
+                </td>
+                <td class="last">
+                    <a href="#method_html">html</a>(string|null $html = null)
+                    <p>get or set html document HTML</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <abbr title="bolt\dom\bolt\dom\element">element</abbr>
+                </td>
+                <td class="last">
+                    <a href="#method_createElement">createElement</a>(string $name, string $value = null, array $attr = array())
+                    <p>create an element child for this document</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <abbr title="bolt\dom\bolt\dom\element">element</abbr>
+                </td>
+                <td class="last">
+                    <a href="#method_create">create</a>()
+                    <p>alias for createElement</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <abbr title="bolt\dom\DOMElement">DOMElement</abbr>
+                </td>
+                <td class="last">
+                    <a href="#method_createElementNative">createElementNative</a>(string $name, string $value = null)
+                    <p>create a native dom node</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_append">append</a>($child)
+                    <p>append something to this document</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    string
+                </td>
+                <td class="last">
+                    <a href="#method_saveHTML">saveHTML</a>($element = null)
+                    <p>output the html of the document</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    string
+                </td>
+                <td class="last">
+                    <a href="#method_getHTML">getHTML</a>(<abbr title="bolt\dom\DOMNode">DOMNode</abbr>|<abbr title="bolt\dom\bolt\dom\element">element</abbr> $element = null)
+                    <p>get HTML for the document or given element</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../../bolt/dom/document.html"><abbr title="bolt\dom\document">document</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_setHTML">setHTML</a>(string $html)
+                    <p>set HTML for the document</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    mixed
+                </td>
+                <td class="last">
+                    <a href="#method_import">import</a>(<abbr title="bolt\dom\DOMNode">DOMNode</abbr>|<abbr title="bolt\dom\bolt\dom\node">node</abbr> $node, boolean $deep = true)
+                    <p>import an element into this document</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    static&nbsp;mixed
+                </td>
+                <td class="last">
+                    <a href="#method_cleanElement">cleanElement</a>($el = null, $useClone = false)
+                    <p>clean the document of any domref attributes</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <abbr title="bolt\dom\bolt\dom\collection">collection</abbr>
+                </td>
+                <td class="last">
+                    <a href="#method_find">find</a>($selector, $element = null)
+                    <p>find an element with CSS selector</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_xpath">xpath</a>($xpath, $el = null)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    string
+                </td>
+                <td class="last">
+                    <a href="#method___toString">__toString</a>()
+                    <p>convert document to a string</p>
+                </td>
+                <td></td>
+            </tr>
+            </table>
+
+
+        <h2>Details</h2>
+
+                        <h3 id="method___construct">
+        <div class="location">at line 27</div>
+        <code>            public            
+    <strong>__construct</strong>($charset = &#039;UTF-8&#039;, $html = null)</code>
+    </h3>
+    <div class="details">
+        <p>Constructor</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$charset</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$html</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method___get">
+        <div class="location">at line 45</div>
+        <code>            public            
+    <strong>__get</strong>($name)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$name</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_destroyChild">
+        <div class="location">at line 53</div>
+        <code>            public            
+    <strong>destroyChild</strong>(<a href="../../bolt/dom/element.html"><abbr title="bolt\dom\element">element</abbr></a> $el)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td><a href="../../bolt/dom/element.html"><abbr title="bolt\dom\element">element</abbr></a></td>
+                <td>$el</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_html">
+        <div class="location">at line 66</div>
+        <code>            public            mixed
+    <strong>html</strong>(string|null $html = null)</code>
+    </h3>
+    <div class="details">
+        <p>get or set html document HTML</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string|null</td>
+                <td>$html</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_createElement">
+        <div class="location">at line 84</div>
+        <code>            public            <abbr title="bolt\dom\bolt\dom\element">element</abbr>
+    <strong>createElement</strong>(string $name, string $value = null, array $attr = array())</code>
+    </h3>
+    <div class="details">
+        <p>create an element child for this document</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>string</td>
+                <td>$value</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$attr</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\dom\bolt\dom\element">element</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_create">
+        <div class="location">at line 96</div>
+        <code>            public            <abbr title="bolt\dom\bolt\dom\element">element</abbr>
+    <strong>create</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>alias for createElement</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\dom\bolt\dom\element">element</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                            <h4>See also</h4>
+
+                    <table>
+                    <tr>
+                <td>self::createElement</td>
+                <td></td>
+            </tr>
+            </table>
+
+                    </div>
+    </div>
+
+                <h3 id="method_createElementNative">
+        <div class="location">at line 109</div>
+        <code>            public            <abbr title="bolt\dom\DOMElement">DOMElement</abbr>
+    <strong>createElementNative</strong>(string $name, string $value = null)</code>
+    </h3>
+    <div class="details">
+        <p>create a native dom node</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>string</td>
+                <td>$value</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\dom\DOMElement">DOMElement</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_append">
+        <div class="location">at line 118</div>
+        <code>            public            
+    <strong>append</strong>($child)</code>
+    </h3>
+    <div class="details">
+        <p>append something to this document</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$child</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_saveHTML">
+        <div class="location">at line 132</div>
+        <code>            public            string
+    <strong>saveHTML</strong>($element = null)</code>
+    </h3>
+    <div class="details">
+        <p>output the html of the document</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$element</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getHTML">
+        <div class="location">at line 156</div>
+        <code>            public            string
+    <strong>getHTML</strong>(<abbr title="bolt\dom\DOMNode">DOMNode</abbr>|<abbr title="bolt\dom\bolt\dom\element">element</abbr> $element = null)</code>
+    </h3>
+    <div class="details">
+        <p>get HTML for the document or given element</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td><abbr title="bolt\dom\DOMNode">DOMNode</abbr>|<abbr title="bolt\dom\bolt\dom\element">element</abbr></td>
+                <td>$element</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_setHTML">
+        <div class="location">at line 168</div>
+        <code>            public            <a href="../../bolt/dom/document.html"><abbr title="bolt\dom\document">document</abbr></a>
+    <strong>setHTML</strong>(string $html)</code>
+    </h3>
+    <div class="details">
+        <p>set HTML for the document</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$html</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/dom/document.html"><abbr title="bolt\dom\document">document</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_import">
+        <div class="location">at line 188</div>
+        <code>            public            mixed
+    <strong>import</strong>(<abbr title="bolt\dom\DOMNode">DOMNode</abbr>|<abbr title="bolt\dom\bolt\dom\node">node</abbr> $node, boolean $deep = true)</code>
+    </h3>
+    <div class="details">
+        <p>import an element into this document</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td><abbr title="bolt\dom\DOMNode">DOMNode</abbr>|<abbr title="bolt\dom\bolt\dom\node">node</abbr></td>
+                <td>$node</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>boolean</td>
+                <td>$deep</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_cleanElement">
+        <div class="location">at line 207</div>
+        <code>        static    public            mixed
+    <strong>cleanElement</strong>($el = null, $useClone = false)</code>
+    </h3>
+    <div class="details">
+        <p>clean the document of any domref attributes</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$el</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$useClone</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_find">
+        <div class="location">at line 238</div>
+        <code>            public            <abbr title="bolt\dom\bolt\dom\collection">collection</abbr>
+    <strong>find</strong>($selector, $element = null)</code>
+    </h3>
+    <div class="details">
+        <p>find an element with CSS selector</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$selector</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$element</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\dom\bolt\dom\collection">collection</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_xpath">
+        <div class="location">at line 255</div>
+        <code>            public            
+    <strong>xpath</strong>($xpath, $el = null)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$xpath</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$el</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method___toString">
+        <div class="location">at line 279</div>
+        <code>            public            string
+    <strong>__toString</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>convert document to a string</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                            <h4>See also</h4>
+
+                    <table>
+                    <tr>
+                <td>self::html</td>
+                <td></td>
+            </tr>
+            </table>
+
+                    </div>
+    </div>
+
+    
+            </div>
+            <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/" target="_top">Sami, the API Documentation Generator</a>.
+    </div>
+    </body>
+</html>

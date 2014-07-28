@@ -1,0 +1,162 @@
+{
+    "name": "bolt\\render\\dom",
+    "line": 9,
+    "short_desc": "render a dom string",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "bolt\\render",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/render\/dom.php",
+    "hash": "2dbc75d070390c87f34558c24b1f041fa9e3adb0",
+    "parent": "bolt\\render\\base",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b"
+    },
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
+    "methods": {
+        "compile": {
+            "name": "compile",
+            "line": 15,
+            "short_desc": "compile the dom doc to serializeable object",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "str": {
+                    "name": "str",
+                    "line": 15,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "render": {
+            "name": "render",
+            "line": 28,
+            "short_desc": "render an html string into a dom doc",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\render\\bolt\\dom",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "The \"var\" @param tag variable name is wrong (should be \"str\")"
+            ],
+            "parameters": {
+                "str": {
+                    "name": "str",
+                    "line": 28,
+                    "short_desc": "string to render",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "vars": {
+                    "name": "vars",
+                    "line": 28,
+                    "short_desc": "variables to use in rendering",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "renderCompiled": {
+            "name": "renderCompiled",
+            "line": 38,
+            "short_desc": "render a compiled string",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "see": [
+                    [
+                        "bolt\\render\\base::renderCompiled"
+                    ]
+                ]
+            },
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "compiled": {
+                    "name": "compiled",
+                    "line": 38,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "vars": {
+                    "name": "vars",
+                    "line": 38,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

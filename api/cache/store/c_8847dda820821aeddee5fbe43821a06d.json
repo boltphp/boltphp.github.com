@@ -7,7 +7,7 @@
     "tags": [],
     "namespace": "bolt\\http\\response",
     "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/response\/format.php",
-    "hash": "84e2289151b8ee093b11339f823ec3edcca037b1",
+    "hash": "7446d35da46b3cafaadeb40a867935de0d2992c0",
     "parent": null,
     "modifiers": 16,
     "is_trait": false,
@@ -41,7 +41,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 39,
+            "line": 44,
             "short_desc": "Construct",
             "long_desc": "",
             "hint": null,
@@ -50,12 +50,14 @@
             "modifiers": "1",
             "is_by_ref": "",
             "exceptions": [],
-            "errors": [],
+            "errors": [
+                "\"1\" @param tags are defined by \"2\" are expected"
+            ],
             "parameters": {
                 "parent": {
                     "name": "parent",
-                    "line": 39,
-                    "short_desc": "",
+                    "line": 44,
+                    "short_desc": null,
                     "long_desc": null,
                     "hint": [
                         [
@@ -67,12 +69,28 @@
                     "modifiers": "bolt\\http\\response",
                     "default": null,
                     "is_by_ref": false
+                },
+                "controller": {
+                    "name": "controller",
+                    "line": 44,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\http\\response\\bolt\\http\\controller",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "bolt\\http\\controller",
+                    "default": "null",
+                    "is_by_ref": false
                 }
             }
         },
         "__call": {
             "name": "__call",
-            "line": 46,
+            "line": 52,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -85,7 +103,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 46,
+                    "line": 52,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -96,7 +114,7 @@
                 },
                 "args": {
                     "name": "args",
-                    "line": 46,
+                    "line": 52,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -109,7 +127,7 @@
         },
         "__get": {
             "name": "__get",
-            "line": 50,
+            "line": 56,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -122,7 +140,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 50,
+                    "line": 56,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -135,7 +153,7 @@
         },
         "setHeader": {
             "name": "setHeader",
-            "line": 63,
+            "line": 75,
             "short_desc": "set a header",
             "long_desc": "",
             "hint": [
@@ -153,7 +171,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 63,
+                    "line": 75,
                     "short_desc": "header name",
                     "long_desc": null,
                     "hint": [
@@ -169,7 +187,7 @@
                 },
                 "value": {
                     "name": "value",
-                    "line": 63,
+                    "line": 75,
                     "short_desc": "value of header",
                     "long_desc": null,
                     "hint": [
@@ -189,7 +207,7 @@
                 },
                 "replace": {
                     "name": "replace",
-                    "line": 63,
+                    "line": 75,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -207,7 +225,7 @@
         },
         "setContent": {
             "name": "setContent",
-            "line": 76,
+            "line": 88,
             "short_desc": "set the format content",
             "long_desc": "",
             "hint": [
@@ -225,7 +243,7 @@
             "parameters": {
                 "content": {
                     "name": "content",
-                    "line": 76,
+                    "line": 88,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -243,7 +261,7 @@
         },
         "getContent": {
             "name": "getContent",
-            "line": 87,
+            "line": 99,
             "short_desc": "get the content",
             "long_desc": "",
             "hint": [
@@ -262,7 +280,7 @@
         },
         "getContentType": {
             "name": "getContentType",
-            "line": 97,
+            "line": 109,
             "short_desc": "get the content type",
             "long_desc": "",
             "hint": [
@@ -281,7 +299,7 @@
         },
         "__invoke": {
             "name": "__invoke",
-            "line": 106,
+            "line": 118,
             "short_desc": "invoke the format and return content",
             "long_desc": "",
             "hint": [

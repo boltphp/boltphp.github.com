@@ -7,7 +7,7 @@
     "tags": [],
     "namespace": "bolt",
     "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/config.php",
-    "hash": "d63eccf842815bfc4bc831416d41e63419717dee",
+    "hash": "5556b979bb9a99a8cab68a48455056e53bb7abea",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -296,7 +296,7 @@
         },
         "get": {
             "name": "get",
-            "line": 228,
+            "line": 229,
             "short_desc": "get a value from a stored namespace",
             "long_desc": "",
             "hint": [
@@ -314,7 +314,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 228,
+                    "line": 229,
                     "short_desc": "namespace or key",
                     "long_desc": null,
                     "hint": [
@@ -330,7 +330,7 @@
                 },
                 "default": {
                     "name": "default",
-                    "line": 228,
+                    "line": 229,
                     "short_desc": "value to return if $name ne",
                     "long_desc": null,
                     "hint": [
@@ -348,7 +348,7 @@
         },
         "set": {
             "name": "set",
-            "line": 241,
+            "line": 242,
             "short_desc": "set a value on a namespace",
             "long_desc": "",
             "hint": [
@@ -366,7 +366,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 241,
+                    "line": 242,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -382,7 +382,7 @@
                 },
                 "value": {
                     "name": "value",
-                    "line": 241,
+                    "line": 242,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -400,7 +400,7 @@
         },
         "remove": {
             "name": "remove",
-            "line": 254,
+            "line": 255,
             "short_desc": "remove a namespace",
             "long_desc": "",
             "hint": [
@@ -418,7 +418,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 254,
+                    "line": 255,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -436,7 +436,7 @@
         },
         "exists": {
             "name": "exists",
-            "line": 267,
+            "line": 268,
             "short_desc": "does a key exist",
             "long_desc": "",
             "hint": [
@@ -454,7 +454,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 267,
+                    "line": 268,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -472,7 +472,7 @@
         },
         "getIterator": {
             "name": "getIterator",
-            "line": 290,
+            "line": 291,
             "short_desc": "return an array iterator for storage items",
             "long_desc": "",
             "hint": [
@@ -491,7 +491,7 @@
         },
         "offsetSet": {
             "name": "offsetSet",
-            "line": 303,
+            "line": 304,
             "short_desc": "set offset",
             "long_desc": "",
             "hint": [
@@ -511,7 +511,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 303,
+                    "line": 304,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -522,7 +522,7 @@
                 },
                 "value": {
                     "name": "value",
-                    "line": 303,
+                    "line": 304,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -535,7 +535,7 @@
         },
         "offsetExists": {
             "name": "offsetExists",
-            "line": 315,
+            "line": 316,
             "short_desc": "offset get",
             "long_desc": "",
             "hint": [
@@ -553,7 +553,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 315,
+                    "line": 316,
                     "short_desc": "name of plugin",
                     "long_desc": null,
                     "hint": [
@@ -571,7 +571,7 @@
         },
         "offsetUnset": {
             "name": "offsetUnset",
-            "line": 327,
+            "line": 328,
             "short_desc": "unplug",
             "long_desc": "",
             "hint": [
@@ -589,7 +589,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 327,
+                    "line": 328,
                     "short_desc": "name of plugin to unplug",
                     "long_desc": null,
                     "hint": [
@@ -607,7 +607,7 @@
         },
         "offsetGet": {
             "name": "offsetGet",
-            "line": 339,
+            "line": 340,
             "short_desc": "get a plugin",
             "long_desc": "",
             "hint": [
@@ -625,7 +625,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 339,
+                    "line": 340,
                     "short_desc": "name of plugin",
                     "long_desc": null,
                     "hint": [

@@ -4,12 +4,10 @@
     "short_desc": "Timestamp type",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\models\\types",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/models\/types\/timestamp.php",
-    "hash": "aff6dc24893027031dc0d81e1cd901dd7874c8f4",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/models\/types\/timestamp.php",
+    "hash": "2a5e885ef3da19f8b9dd89c7a9de5d74307fc30f",
     "parent": "Doctrine\\DBAL\\Types\\Type",
     "modifiers": 0,
     "is_trait": false,
@@ -20,15 +18,9 @@
         "DateTime": "DateTime",
         "DateTimeZone": "DateTimeZone"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
-    "properties": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
     "methods": {
         "getSqlDeclaration": {
             "name": "getSqlDeclaration",
@@ -37,17 +29,11 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "fieldDeclaration": {
                     "name": "fieldDeclaration",
@@ -60,9 +46,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "array",
                     "default": null,
                     "is_by_ref": false
@@ -78,9 +62,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "AbstractPlatform",
                     "default": null,
                     "is_by_ref": false
@@ -94,17 +76,11 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "value": {
                     "name": "value",
@@ -112,9 +88,7 @@
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -130,9 +104,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "AbstractPlatform",
                     "default": null,
                     "is_by_ref": false
@@ -146,17 +118,11 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "value": {
                     "name": "value",
@@ -164,9 +130,7 @@
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -182,9 +146,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "AbstractPlatform",
                     "default": null,
                     "is_by_ref": false
@@ -193,25 +155,17 @@
         },
         "getName": {
             "name": "getName",
-            "line": 35,
+            "line": 38,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         }
     },
     "constants": {

@@ -27,6 +27,11 @@
     <strong>collection</strong>        implements
         <a href="http://php.net/ArrayAccess"><abbr title="ArrayAccess">ArrayAccess</abbr></a>, <a href="http://php.net/Countable"><abbr title="Countable">Countable</abbr></a>, <a href="http://php.net/IteratorAggregate"><abbr title="IteratorAggregate">IteratorAggregate</abbr></a>, <a href="http://php.net/JsonSerializable"><abbr title="JsonSerializable">JsonSerializable</abbr></a></p>
 
+            <div class="description">
+            <p>Collection</p>
+            <p>
+</p>
+        </div>
     
     
     
@@ -38,185 +43,228 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method_each">each</a>(<a href="http://php.net/Closure"><abbr title="Closure">Closure</abbr></a> $cb, $data = array())
-                    <p>
-</p>
+                    <a href="#method___construct">__construct</a>(array $items = array())
+                    <p>Constructor</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_each">each</a>(string|<a href="http://php.net/Closure"><abbr title="Closure">Closure</abbr></a> $cb, array $data = array())
+                    <p>perform callback on each item in the array</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    mixed
                 </td>
                 <td class="last">
                     <a href="#method_first">first</a>()
-                    <p>
-</p>
+                    <p>return first $item</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    mixed
                 </td>
                 <td class="last">
                     <a href="#method_last">last</a>()
-                    <p>
-</p>
+                    <p>return last $item</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
                 </td>
                 <td class="last">
                     <a href="#method_filter">filter</a>(<a href="http://php.net/Closure"><abbr title="Closure">Closure</abbr></a> $cb)
-                    <p>
-</p>
+                    <p>filter $items by callback</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_splice">splice</a>($offset, $length, $replace = array())
-                    <p>
-</p>
+                    <a href="#method_splice">splice</a>(integer $offset, integer $length, array $replace = array())
+                    <p>splice</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_slice">slice</a>(integer $offset, integer $length = null, boolean $preserve_keys = true)
+                    <p>slice</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
                 </td>
                 <td class="last">
                     <a href="#method_map">map</a>(<a href="http://php.net/Closure"><abbr title="Closure">Closure</abbr></a> $cb)
-                    <p>
-</p>
+                    <p>map</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_push">push</a>($item)
-                    <p>
-</p>
+                    <a href="#method_diff">diff</a>()
+                    <p>diff</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_intersect">intersect</a>()
+                    <p>intersect</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_push">push</a>(mixed $item)
+                    <p>push to $items</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    mixed
                 </td>
                 <td class="last">
                     <a href="#method_shift">shift</a>()
-                    <p>
-</p>
+                    <p>shift $items</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    mixed
                 </td>
                 <td class="last">
                     <a href="#method_pop">pop</a>()
-                    <p>
-</p>
+                    <p>pop $items</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="bolt\helpers\[type]">[type]</abbr>
                 </td>
                 <td class="last">
-                    <a href="#method_unshift">unshift</a>($item)
-                    <p>
-</p>
+                    <a href="#method_unshift">unshift</a>(<abbr title="bolt\helpers\[type]">[type]</abbr> $item)
+                    <p>unshift</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_shuffle">shuffle</a>()
+                    <p>shuffle $items</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <abbr title="bolt\helpers\ArrayIterator">ArrayIterator</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_getIterator">getIterator</a>()
-                    <p>
-</p>
+                    <p>return array iterator for $items</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    integer
                 </td>
                 <td class="last">
                     <a href="#method_count">count</a>()
-                    <p>
-</p>
+                    <p>nubmer of $items</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    string
                 </td>
                 <td class="last">
                     <a href="#method_jsonSerialize">jsonSerialize</a>()
-                    <p>
-</p>
+                    <p>return json string of $items</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_offsetSet">offsetSet</a>($offset, $value)
-                    <p>
-</p>
+                    <a href="#method_offsetSet">offsetSet</a>(string|null $offset, mixed $value)
+                    <p>set value for offset</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    boolean
                 </td>
                 <td class="last">
-                    <a href="#method_offsetExists">offsetExists</a>($offset)
-                    <p>
-</p>
+                    <a href="#method_offsetExists">offsetExists</a>(string|integer $offset)
+                    <p>does offset exist</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_offsetUnset">offsetUnset</a>($offset)
-                    <p>
-</p>
+                    <a href="#method_offsetUnset">offsetUnset</a>(string|integer $offset)
+                    <p>unset an offset</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    mixed
                 </td>
                 <td class="last">
-                    <a href="#method_offsetGet">offsetGet</a>($offset)
-                    <p>
-</p>
+                    <a href="#method_offsetGet">offsetGet</a>(string|integer $offset)
+                    <p>get an offset</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    array
+                </td>
+                <td class="last">
+                    <a href="#method_toArray">toArray</a>()
+                    <p>return default array</p>
                 </td>
                 <td></td>
             </tr>
@@ -225,14 +273,13 @@
 
         <h2>Details</h2>
 
-                        <h3 id="method_each">
-        <div class="location">at line 11</div>
+                        <h3 id="method___construct">
+        <div class="location">at line 25</div>
         <code>            public            
-    <strong>each</strong>(<a href="http://php.net/Closure"><abbr title="Closure">Closure</abbr></a> $cb, $data = array())</code>
+    <strong>__construct</strong>(array $items = array())</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Constructor</p>
         <p>
 </p>
         <div class="tags">
@@ -240,13 +287,39 @@
 
                     <table>
                     <tr>
-                <td><a href="http://php.net/Closure"><abbr title="Closure">Closure</abbr></a></td>
-                <td>$cb</td>
+                <td>array</td>
+                <td>$items</td>
                 <td>
 </td>
             </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_each">
+        <div class="location">at line 38</div>
+        <code>            public            <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
+    <strong>each</strong>(string|<a href="http://php.net/Closure"><abbr title="Closure">Closure</abbr></a> $cb, array $data = array())</code>
+    </h3>
+    <div class="details">
+        <p>perform callback on each item in the array</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
                     <tr>
-                <td></td>
+                <td>string|<a href="http://php.net/Closure"><abbr title="Closure">Closure</abbr></a></td>
+                <td>$cb</td>
+                <td>closure to execute or name of function</td>
+            </tr>
+                    <tr>
+                <td>array</td>
                 <td>$data</td>
                 <td>
 </td>
@@ -254,53 +327,80 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_first">
-        <div class="location">at line 18</div>
-        <code>            public            
+        <div class="location">at line 52</div>
+        <code>            public            mixed
     <strong>first</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>return first $item</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_last">
-        <div class="location">at line 22</div>
-        <code>            public            
+        <div class="location">at line 62</div>
+        <code>            public            mixed
     <strong>last</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>return last $item</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_filter">
-        <div class="location">at line 26</div>
-        <code>            public            
+        <div class="location">at line 75</div>
+        <code>            public            <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
     <strong>filter</strong>(<a href="http://php.net/Closure"><abbr title="Closure">Closure</abbr></a> $cb)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>filter $items by callback</p>
         <p>
 </p>
         <div class="tags">
@@ -316,19 +416,37 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
+                            <h4>See also</h4>
+
+                    <table>
+                    <tr>
+                <td>php::array_filter</td>
+                <td></td>
+            </tr>
+            </table>
+
                     </div>
     </div>
 
                 <h3 id="method_splice">
-        <div class="location">at line 31</div>
-        <code>            public            
-    <strong>splice</strong>($offset, $length, $replace = array())</code>
+        <div class="location">at line 91</div>
+        <code>            public            <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
+    <strong>splice</strong>(integer $offset, integer $length, array $replace = array())</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>splice</p>
         <p>
 </p>
         <div class="tags">
@@ -336,19 +454,19 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>integer</td>
                 <td>$offset</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>integer</td>
                 <td>$length</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$replace</td>
                 <td>
 </td>
@@ -356,19 +474,95 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
+                            <h4>See also</h4>
+
+                    <table>
+                    <tr>
+                <td>php::array_splice</td>
+                <td></td>
+            </tr>
+            </table>
+
+                    </div>
+    </div>
+
+                <h3 id="method_slice">
+        <div class="location">at line 107</div>
+        <code>            public            <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
+    <strong>slice</strong>(integer $offset, integer $length = null, boolean $preserve_keys = true)</code>
+    </h3>
+    <div class="details">
+        <p>slice</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>integer</td>
+                <td>$offset</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>integer</td>
+                <td>$length</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>boolean</td>
+                <td>$preserve_keys</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                            <h4>See also</h4>
+
+                    <table>
+                    <tr>
+                <td>php::array_slice</td>
+                <td></td>
+            </tr>
+            </table>
+
                     </div>
     </div>
 
                 <h3 id="method_map">
-        <div class="location">at line 36</div>
-        <code>            public            
+        <div class="location">at line 121</div>
+        <code>            public            <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
     <strong>map</strong>(<a href="http://php.net/Closure"><abbr title="Closure">Closure</abbr></a> $cb)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>map</p>
         <p>
 </p>
         <div class="tags">
@@ -384,19 +578,107 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
+                            <h4>See also</h4>
+
+                    <table>
+                    <tr>
+                <td>php::array_map</td>
+                <td></td>
+            </tr>
+            </table>
+
+                    </div>
+    </div>
+
+                <h3 id="method_diff">
+        <div class="location">at line 135</div>
+        <code>            public            <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
+    <strong>diff</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>diff</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                            <h4>See also</h4>
+
+                    <table>
+                    <tr>
+                <td>php::array_diff</td>
+                <td></td>
+            </tr>
+            </table>
+
+                    </div>
+    </div>
+
+                <h3 id="method_intersect">
+        <div class="location">at line 149</div>
+        <code>            public            <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
+    <strong>intersect</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>intersect</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                            <h4>See also</h4>
+
+                    <table>
+                    <tr>
+                <td>php::array_intersect</td>
+                <td></td>
+            </tr>
+            </table>
+
                     </div>
     </div>
 
                 <h3 id="method_push">
-        <div class="location">at line 41</div>
-        <code>            public            
-    <strong>push</strong>($item)</code>
+        <div class="location">at line 163</div>
+        <code>            public            <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
+    <strong>push</strong>(mixed $item)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>push to $items</p>
         <p>
 </p>
         <div class="tags">
@@ -404,7 +686,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>mixed</td>
                 <td>$item</td>
                 <td>
 </td>
@@ -412,53 +694,98 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_shift">
-        <div class="location">at line 46</div>
-        <code>            public            
+        <div class="location">at line 175</div>
+        <code>            public            mixed
     <strong>shift</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>shift $items</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
+                            <h4>See also</h4>
+
+                    <table>
+                    <tr>
+                <td>php::array_shift</td>
+                <td></td>
+            </tr>
+            </table>
+
                     </div>
     </div>
 
                 <h3 id="method_pop">
-        <div class="location">at line 50</div>
-        <code>            public            
+        <div class="location">at line 186</div>
+        <code>            public            mixed
     <strong>pop</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>pop $items</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
+                            <h4>See also</h4>
+
+                    <table>
+                    <tr>
+                <td>php::array_pop</td>
+                <td></td>
+            </tr>
+            </table>
+
                     </div>
     </div>
 
                 <h3 id="method_unshift">
-        <div class="location">at line 54</div>
-        <code>            public            
-    <strong>unshift</strong>($item)</code>
+        <div class="location">at line 198</div>
+        <code>            public            <abbr title="bolt\helpers\[type]">[type]</abbr>
+    <strong>unshift</strong>(<abbr title="bolt\helpers\[type]">[type]</abbr> $item)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>unshift</p>
         <p>
 </p>
         <div class="tags">
@@ -466,78 +793,156 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td><abbr title="bolt\helpers\[type]">[type]</abbr></td>
                 <td>$item</td>
-                <td>
-</td>
+                <td>[description]</td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\helpers\[type]">[type]</abbr></td>
+            <td>[description]</td>
+        </tr>
+    </table>
+
             
             
+                            <h4>See also</h4>
+
+                    <table>
+                    <tr>
+                <td>php::array_unshift</td>
+                <td></td>
+            </tr>
+            </table>
+
                     </div>
     </div>
 
-                <h3 id="method_getIterator">
-        <div class="location">at line 59</div>
-        <code>            public            
-    <strong>getIterator</strong>()</code>
+                <h3 id="method_shuffle">
+        <div class="location">at line 210</div>
+        <code>            public            <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
+    <strong>shuffle</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>shuffle $items</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                            <h4>See also</h4>
+
+                    <table>
+                    <tr>
+                <td>php::suffle</td>
+                <td></td>
+            </tr>
+            </table>
+
+                    </div>
+    </div>
+
+                <h3 id="method_getIterator">
+        <div class="location">at line 221</div>
+        <code>            public            <abbr title="bolt\helpers\ArrayIterator">ArrayIterator</abbr>
+    <strong>getIterator</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>return array iterator for $items</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="bolt\helpers\ArrayIterator">ArrayIterator</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_count">
-        <div class="location">at line 63</div>
-        <code>            public            
+        <div class="location">at line 231</div>
+        <code>            public            integer
     <strong>count</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>nubmer of $items</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>integer</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_jsonSerialize">
-        <div class="location">at line 67</div>
-        <code>            public            
+        <div class="location">at line 241</div>
+        <code>            public            string
     <strong>jsonSerialize</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>return json string of $items</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_offsetSet">
-        <div class="location">at line 71</div>
-        <code>            public            
-    <strong>offsetSet</strong>($offset, $value)</code>
+        <div class="location">at line 254</div>
+        <code>            public            <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
+    <strong>offsetSet</strong>(string|null $offset, mixed $value)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>set value for offset</p>
         <p>
 </p>
         <div class="tags">
@@ -545,13 +950,13 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string|null</td>
                 <td>$offset</td>
                 <td>
 </td>
             </tr>
                     <tr>
-                <td></td>
+                <td>mixed</td>
                 <td>$value</td>
                 <td>
 </td>
@@ -559,19 +964,28 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_offsetExists">
-        <div class="location">at line 80</div>
-        <code>            public            
-    <strong>offsetExists</strong>($offset)</code>
+        <div class="location">at line 272</div>
+        <code>            public            boolean
+    <strong>offsetExists</strong>(string|integer $offset)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>does offset exist</p>
         <p>
 </p>
         <div class="tags">
@@ -579,7 +993,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string|integer</td>
                 <td>$offset</td>
                 <td>
 </td>
@@ -587,19 +1001,28 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>boolean</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_offsetUnset">
-        <div class="location">at line 84</div>
-        <code>            public            
-    <strong>offsetUnset</strong>($offset)</code>
+        <div class="location">at line 284</div>
+        <code>            public            <a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a>
+    <strong>offsetUnset</strong>(string|integer $offset)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>unset an offset</p>
         <p>
 </p>
         <div class="tags">
@@ -607,7 +1030,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string|integer</td>
                 <td>$offset</td>
                 <td>
 </td>
@@ -615,19 +1038,28 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../bolt/helpers/collection.html"><abbr title="bolt\helpers\collection">collection</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_offsetGet">
-        <div class="location">at line 88</div>
-        <code>            public            
-    <strong>offsetGet</strong>($offset)</code>
+        <div class="location">at line 297</div>
+        <code>            public            mixed
+    <strong>offsetGet</strong>(string|integer $offset)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>get an offset</p>
         <p>
 </p>
         <div class="tags">
@@ -635,7 +1067,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string|integer</td>
                 <td>$offset</td>
                 <td>
 </td>
@@ -643,6 +1075,42 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_toArray">
+        <div class="location">at line 307</div>
+        <code>            public            array
+    <strong>toArray</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>return default array</p>
+        <p>
+</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>

@@ -4,12 +4,10 @@
     "short_desc": "",
     "long_desc": "",
     "hint": null,
-    "tags": [
-
-    ],
+    "tags": [],
     "namespace": "bolt\\http\\assets\\filters",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/http\/assets\/filters\/cssRewrite.php",
-    "hash": "d5d16d05fb2bf4de5b109ffc8100f422137a13ab",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/assets\/filters\/cssRewrite.php",
+    "hash": "e660c190b2ec4f5eae79633faf8d1802c6f47553",
     "parent": "Assetic\\Filter\\BaseCssFilter",
     "modifiers": 0,
     "is_trait": false,
@@ -18,15 +16,9 @@
         "b": "b",
         "AssetInterface": "Assetic\\Asset\\AssetInterface"
     },
-    "errors": [
-
-    ],
-    "interfaces": [
-
-    ],
-    "properties": [
-
-    ],
+    "errors": [],
+    "interfaces": [],
+    "properties": [],
     "methods": {
         "__construct": {
             "name": "__construct",
@@ -35,17 +27,11 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "http": {
                     "name": "http",
@@ -58,9 +44,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\http",
                     "default": null,
                     "is_by_ref": false
@@ -74,17 +58,11 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "asset": {
                     "name": "asset",
@@ -97,9 +75,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "AssetInterface",
                     "default": null,
                     "is_by_ref": false
@@ -113,17 +89,11 @@
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "asset": {
                     "name": "asset",
@@ -136,9 +106,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "AssetInterface",
                     "default": null,
                     "is_by_ref": false
@@ -146,7 +114,5 @@
             }
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

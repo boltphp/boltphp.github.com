@@ -1,28 +1,29 @@
 {
     "name": "bolt\\dom\\fragment",
-    "line": 6,
+    "line": 8,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
     "tags": [],
     "namespace": "bolt\\dom",
     "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/dom\/fragment.php",
-    "hash": "625067d4c3216004c45cbbcd7383f42c84ea6422",
-    "parent": "bolt\\dom",
+    "hash": "92a3aec0590420b47e9e9f9405325f290c8caf0b",
+    "parent": "bolt\\dom\\document",
     "modifiers": 0,
     "is_trait": false,
     "is_interface": false,
     "aliases": {
-        "b": "b"
+        "b": "b",
+        "HTML5": "HTML5"
     },
     "errors": [],
     "interfaces": [],
     "properties": [],
     "methods": {
-        "rootNode": {
-            "name": "rootNode",
-            "line": 14,
-            "short_desc": "",
+        "__construct": {
+            "name": "__construct",
+            "line": 10,
+            "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
@@ -31,15 +32,43 @@
             "is_by_ref": "",
             "exceptions": [],
             "errors": [],
-            "parameters": []
+            "parameters": {
+                "charset": {
+                    "name": "charset",
+                    "line": 10,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "'UTF-8'",
+                    "is_by_ref": false
+                },
+                "html": {
+                    "name": "html",
+                    "line": 10,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
         },
-        "html": {
-            "name": "html",
-            "line": 18,
-            "short_desc": "",
+        "setHTML": {
+            "name": "setHTML",
+            "line": 19,
+            "short_desc": "set HTML for the document",
             "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
+            "hint": [
+                [
+                    "bolt\\dom\\document",
+                    false
+                ]
+            ],
+            "hint_desc": "",
             "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
@@ -48,62 +77,15 @@
             "parameters": {
                 "html": {
                     "name": "html",
-                    "line": 18,
-                    "short_desc": null,
+                    "line": 19,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
-                    "tags": [],
-                    "modifiers": "",
-                    "default": "null",
-                    "is_by_ref": false
-                }
-            }
-        },
-        "root": {
-            "name": "root",
-            "line": 37,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [],
-            "errors": [],
-            "parameters": {
-                "tag": {
-                    "name": "tag",
-                    "line": 37,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [],
-                    "modifiers": "",
-                    "default": "null",
-                    "is_by_ref": false
-                }
-            }
-        },
-        "append": {
-            "name": "append",
-            "line": 47,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [],
-            "errors": [],
-            "parameters": {
-                "what": {
-                    "name": "what",
-                    "line": 47,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
                     "tags": [],
                     "modifiers": "",
                     "default": null,
@@ -111,9 +93,102 @@
                 }
             }
         },
+        "getHTML": {
+            "name": "getHTML",
+            "line": 28,
+            "short_desc": "get HTML for the document or given element",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "el": {
+                    "name": "el",
+                    "line": 28,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "appendChild": {
+            "name": "appendChild",
+            "line": 41,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "node": {
+                    "name": "node",
+                    "line": 41,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bolt\\dom\\DOMNode",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "DOMNode",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "saveHTML": {
+            "name": "saveHTML",
+            "line": 45,
+            "short_desc": "output the html of the document",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "el": {
+                    "name": "el",
+                    "line": 45,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
         "children": {
             "name": "children",
-            "line": 52,
+            "line": 49,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -124,6 +199,48 @@
             "exceptions": [],
             "errors": [],
             "parameters": []
+        },
+        "find": {
+            "name": "find",
+            "line": 53,
+            "short_desc": "find an element with CSS selector",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bolt\\dom\\bolt\\dom\\collection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "selector": {
+                    "name": "selector",
+                    "line": 53,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "element": {
+                    "name": "element",
+                    "line": 53,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                }
+            }
         }
     },
     "constants": []

@@ -7,7 +7,7 @@
     "tags": [],
     "namespace": "bolt\\http",
     "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/router.php",
-    "hash": "bad0ff446d7cf23a25285caf34e1b3f8ef6f60c7",
+    "hash": "7fec0b98ab75728e7e3811df91e9b95b2e59794c",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -67,7 +67,7 @@
         },
         "onCompile": {
             "name": "onCompile",
-            "line": 64,
+            "line": 72,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -80,7 +80,7 @@
             "parameters": {
                 "e": {
                     "name": "e",
-                    "line": 64,
+                    "line": 72,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -93,7 +93,7 @@
         },
         "getCollection": {
             "name": "getCollection",
-            "line": 88,
+            "line": 109,
             "short_desc": "get collection",
             "long_desc": "",
             "hint": [
@@ -112,7 +112,7 @@
         },
         "__call": {
             "name": "__call",
-            "line": 100,
+            "line": 121,
             "short_desc": "magic call",
             "long_desc": "",
             "hint": [
@@ -130,7 +130,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 100,
+                    "line": 121,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -146,7 +146,7 @@
                 },
                 "args": {
                     "name": "args",
-                    "line": 100,
+                    "line": 121,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -164,7 +164,7 @@
         },
         "add": {
             "name": "add",
-            "line": 121,
+            "line": 142,
             "short_desc": "add a route to the toplevel collection",
             "long_desc": "",
             "hint": [
@@ -182,7 +182,7 @@
             "parameters": {
                 "route": {
                     "name": "route",
-                    "line": 121,
+                    "line": 142,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -200,7 +200,7 @@
         },
         "getByName": {
             "name": "getByName",
-            "line": 126,
+            "line": 147,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -213,7 +213,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 126,
+                    "line": 147,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -226,7 +226,7 @@
         },
         "match": {
             "name": "match",
-            "line": 138,
+            "line": 159,
             "short_desc": "match a request to defined routes",
             "long_desc": "",
             "hint": [
@@ -244,7 +244,7 @@
             "parameters": {
                 "req": {
                     "name": "req",
-                    "line": 138,
+                    "line": 159,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -260,7 +260,7 @@
                 },
                 "path": {
                     "name": "path",
-                    "line": 138,
+                    "line": 159,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -278,7 +278,7 @@
         },
         "loadFromControllers": {
             "name": "loadFromControllers",
-            "line": 206,
+            "line": 227,
             "short_desc": "load all routes that are defined in controllers that exend bolt\\http\\router\\face",
             "long_desc": "",
             "hint": [
@@ -294,20 +294,20 @@
             "exceptions": [],
             "errors": [],
             "parameters": {
-                "paths": {
-                    "name": "paths",
-                    "line": 206,
+                "collection": {
+                    "name": "collection",
+                    "line": 227,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
                         [
-                            "array",
+                            "bolt\\http\\router\\collection",
                             false
                         ]
                     ],
                     "tags": [],
-                    "modifiers": "array",
-                    "default": "array()",
+                    "modifiers": "router\\collection",
+                    "default": "null",
                     "is_by_ref": false
                 }
             }

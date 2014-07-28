@@ -7,7 +7,7 @@
     "tags": [],
     "namespace": "bolt\\http",
     "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/session.php",
-    "hash": "f9dbd2f8f0225825be59f333dfbb2c5ed6ae3d3f",
+    "hash": "c29323bfe6f0797bb67cec41f4aace43ee538488",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -73,9 +73,9 @@
                 }
             }
         },
-        "getName": {
-            "name": "getName",
-            "line": 49,
+        "getHttp": {
+            "name": "getHttp",
+            "line": 52,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -87,9 +87,9 @@
             "errors": [],
             "parameters": []
         },
-        "setSessionCookie": {
-            "name": "setSessionCookie",
-            "line": 53,
+        "getName": {
+            "name": "getName",
+            "line": 56,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -99,67 +99,25 @@
             "is_by_ref": "",
             "exceptions": [],
             "errors": [],
-            "parameters": {
-                "lifetime": {
-                    "name": "lifetime",
-                    "line": 53,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [],
-                    "modifiers": "",
-                    "default": "null",
-                    "is_by_ref": false
-                },
-                "path": {
-                    "name": "path",
-                    "line": 53,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [],
-                    "modifiers": "",
-                    "default": "'\/'",
-                    "is_by_ref": false
-                },
-                "domain": {
-                    "name": "domain",
-                    "line": 53,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [],
-                    "modifiers": "",
-                    "default": "null",
-                    "is_by_ref": false
-                },
-                "secure": {
-                    "name": "secure",
-                    "line": 53,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [],
-                    "modifiers": "",
-                    "default": "false",
-                    "is_by_ref": false
-                },
-                "httpOnly": {
-                    "name": "httpOnly",
-                    "line": 53,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [],
-                    "modifiers": "",
-                    "default": "true",
-                    "is_by_ref": false
-                }
-            }
+            "parameters": []
         },
         "start": {
             "name": "start",
-            "line": 62,
+            "line": 60,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "destroy": {
+            "name": "destroy",
+            "line": 65,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -173,7 +131,7 @@
         },
         "set": {
             "name": "set",
-            "line": 68,
+            "line": 72,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -186,7 +144,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 68,
+                    "line": 72,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -197,7 +155,7 @@
                 },
                 "value": {
                     "name": "value",
-                    "line": 68,
+                    "line": 72,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -210,32 +168,6 @@
         },
         "__get": {
             "name": "__get",
-            "line": 76,
-            "short_desc": "",
-            "long_desc": "",
-            "hint": null,
-            "hint_desc": null,
-            "tags": [],
-            "modifiers": "1",
-            "is_by_ref": "",
-            "exceptions": [],
-            "errors": [],
-            "parameters": {
-                "name": {
-                    "name": "name",
-                    "line": 76,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [],
-                    "modifiers": "",
-                    "default": null,
-                    "is_by_ref": false
-                }
-            }
-        },
-        "__set": {
-            "name": "__set",
             "line": 80,
             "short_desc": "",
             "long_desc": "",
@@ -257,22 +189,11 @@
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
-                },
-                "value": {
-                    "name": "value",
-                    "line": 80,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [],
-                    "modifiers": "",
-                    "default": null,
-                    "is_by_ref": false
                 }
             }
         },
-        "__isset": {
-            "name": "__isset",
+        "__set": {
+            "name": "__set",
             "line": 84,
             "short_desc": "",
             "long_desc": "",
@@ -294,11 +215,22 @@
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
+                },
+                "value": {
+                    "name": "value",
+                    "line": 84,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
                 }
             }
         },
-        "__call": {
-            "name": "__call",
+        "__isset": {
+            "name": "__isset",
             "line": 88,
             "short_desc": "",
             "long_desc": "",
@@ -320,23 +252,12 @@
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
-                },
-                "args": {
-                    "name": "args",
-                    "line": 88,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [],
-                    "modifiers": "",
-                    "default": null,
-                    "is_by_ref": false
                 }
             }
         },
-        "offsetGet": {
-            "name": "offsetGet",
-            "line": 95,
+        "__call": {
+            "name": "__call",
+            "line": 92,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -349,7 +270,18 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 95,
+                    "line": 92,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "args": {
+                    "name": "args",
+                    "line": 92,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -360,8 +292,8 @@
                 }
             }
         },
-        "offsetSet": {
-            "name": "offsetSet",
+        "offsetGet": {
+            "name": "offsetGet",
             "line": 99,
             "short_desc": "",
             "long_desc": "",
@@ -383,22 +315,11 @@
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
-                },
-                "value": {
-                    "name": "value",
-                    "line": 99,
-                    "short_desc": null,
-                    "long_desc": null,
-                    "hint": null,
-                    "tags": [],
-                    "modifiers": "",
-                    "default": null,
-                    "is_by_ref": false
                 }
             }
         },
-        "offsetUnset": {
-            "name": "offsetUnset",
+        "offsetSet": {
+            "name": "offsetSet",
             "line": 103,
             "short_desc": "",
             "long_desc": "",
@@ -420,11 +341,22 @@
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
+                },
+                "value": {
+                    "name": "value",
+                    "line": 103,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
                 }
             }
         },
-        "offsetExists": {
-            "name": "offsetExists",
+        "offsetUnset": {
+            "name": "offsetUnset",
             "line": 107,
             "short_desc": "",
             "long_desc": "",
@@ -439,6 +371,32 @@
                 "name": {
                     "name": "name",
                     "line": 107,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "offsetExists": {
+            "name": "offsetExists",
+            "line": 111,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 111,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,

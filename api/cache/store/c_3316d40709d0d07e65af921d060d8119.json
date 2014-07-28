@@ -1,13 +1,13 @@
 {
-    "name": "bolt\\http\\middleware\\assets",
-    "line": 14,
+    "name": "bolt\\http\\assets\\middleware",
+    "line": 15,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
     "tags": [],
-    "namespace": "bolt\\http\\middleware",
-    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/middleware\/assets.php",
-    "hash": "66d4d12d2682fb4b7d9c3a23f699019ef6cecf92",
+    "namespace": "bolt\\http\\assets",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/assets\/middleware.php",
+    "hash": "854f4d3d77e51fdd594f70f3c9d28c1dd6db93c0",
     "parent": "bolt\\http\\middleware",
     "modifiers": 0,
     "is_trait": false,
@@ -19,7 +19,8 @@
         "GlobAsset": "Assetic\\Asset\\GlobAsset",
         "StringAsset": "Assetic\\Asset\\StringAsset",
         "AssetCache": "Assetic\\Asset\\AssetCache",
-        "FilesystemCache": "Assetic\\Cache\\FilesystemCache"
+        "FilesystemCache": "Assetic\\Cache\\FilesystemCache",
+        "direct": "bolt\\http\\middleware\\direct"
     },
     "errors": [],
     "interfaces": [],
@@ -27,7 +28,7 @@
     "methods": {
         "init": {
             "name": "init",
-            "line": 25,
+            "line": 27,
             "short_desc": "default init class",
             "long_desc": "",
             "hint": [
@@ -46,7 +47,7 @@
         },
         "before": {
             "name": "before",
-            "line": 29,
+            "line": 31,
             "short_desc": "",
             "long_desc": "",
             "hint": null,

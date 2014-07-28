@@ -1,6 +1,6 @@
 {
     "name": "bolt\\models\\entity",
-    "line": 14,
+    "line": 16,
     "short_desc": "",
     "long_desc": "",
     "hint": null,
@@ -22,29 +22,53 @@
         ]
     },
     "namespace": "bolt\\models",
-    "file": "\/Users\/kuhl\/Sites\/boltphp\/site\/..\/core\/src\/bolt\/models\/entity.php",
-    "hash": "585dd3e4db8bb111183ba3dcb1418e6a451e7b61",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/models\/entity.php",
+    "hash": "5b8aeda5ac732bb6f5a1dd42a0fbbe7ead29d267",
     "parent": null,
     "modifiers": 16,
     "is_trait": false,
     "is_interface": false,
     "aliases": {
         "b": "b",
-        "PropertyAccess": "Symfony\\Component\\PropertyAccess\\PropertyAccess"
+        "PropertyAccess": "Symfony\\Component\\PropertyAccess\\PropertyAccess",
+        "ClassMetadata": "Doctrine\\ORM\\Mapping\\ClassMetadata",
+        "Type": "Doctrine\\DBAL\\Types\\Type"
     },
-    "errors": [
-
-    ],
+    "errors": [],
     "interfaces": {
         "JsonSerializable": "JsonSerializable"
     },
-    "properties": [
-
-    ],
+    "properties": [],
     "methods": {
+        "struct": {
+            "name": "struct",
+            "line": 42,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "metadata": {
+                    "name": "metadata",
+                    "line": 42,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
         "getApp": {
             "name": "getApp",
-            "line": 44,
+            "line": 49,
             "short_desc": "get the base app",
             "long_desc": "",
             "hint": [
@@ -54,24 +78,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "33",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "setManager": {
             "name": "setManager",
-            "line": 55,
+            "line": 60,
             "short_desc": "set the models manager",
             "long_desc": "",
             "hint": [
@@ -81,21 +97,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "33",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "manager": {
                     "name": "manager",
-                    "line": 55,
+                    "line": 60,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -104,9 +114,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "bolt\\models",
                     "default": null,
                     "is_by_ref": false
@@ -115,7 +123,7 @@
         },
         "getManager": {
             "name": "getManager",
-            "line": 66,
+            "line": 71,
             "short_desc": "get the models manager",
             "long_desc": "",
             "hint": [
@@ -125,24 +133,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "33",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "setLoaded": {
             "name": "setLoaded",
-            "line": 78,
+            "line": 83,
             "short_desc": "set if the model is loaded",
             "long_desc": "",
             "hint": [
@@ -152,21 +152,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "33",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "loaded": {
                     "name": "loaded",
-                    "line": 78,
+                    "line": 83,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -175,9 +169,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -186,7 +178,7 @@
         },
         "isLoaded": {
             "name": "isLoaded",
-            "line": 92,
+            "line": 97,
             "short_desc": "check if the model is loaded",
             "long_desc": "",
             "hint": [
@@ -196,24 +188,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "33",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "loaded": {
             "name": "loaded",
-            "line": 102,
+            "line": 107,
             "short_desc": "check if the model is loaded",
             "long_desc": "",
             "hint": [
@@ -223,24 +207,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "33",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "getValue": {
             "name": "getValue",
-            "line": 150,
+            "line": 155,
             "short_desc": "get a value using the property accessor or return the default val",
             "long_desc": "",
             "hint": [
@@ -250,21 +226,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "var": {
                     "name": "var",
-                    "line": 150,
+                    "line": 155,
                     "short_desc": "attribute name",
                     "long_desc": null,
                     "hint": [
@@ -273,16 +243,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "default": {
                     "name": "default",
-                    "line": 150,
+                    "line": 155,
                     "short_desc": "default value",
                     "long_desc": null,
                     "hint": [
@@ -291,9 +259,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": "null",
                     "is_by_ref": false
@@ -302,7 +268,7 @@
         },
         "__get": {
             "name": "__get",
-            "line": 167,
+            "line": 172,
             "short_desc": "get an attribute value",
             "long_desc": "",
             "hint": [
@@ -312,27 +278,19 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 167,
+                    "line": 172,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -341,7 +299,7 @@
         },
         "__set": {
             "name": "__set",
-            "line": 195,
+            "line": 200,
             "short_desc": "set an attribute value",
             "long_desc": "",
             "hint": [
@@ -351,21 +309,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 195,
+                    "line": 200,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -374,16 +326,14 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
                 },
                 "value": {
                     "name": "value",
-                    "line": 195,
+                    "line": 200,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -392,9 +342,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -403,32 +351,24 @@
         },
         "has": {
             "name": "has",
-            "line": 218,
+            "line": 223,
             "short_desc": "has",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "selector": {
                     "name": "selector",
-                    "line": 218,
+                    "line": 223,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -437,7 +377,7 @@
         },
         "__isset": {
             "name": "__isset",
-            "line": 231,
+            "line": 236,
             "short_desc": "check if a value isset for the property since our object properties are protected by default, isset($obj->var) will always be false otherwise",
             "long_desc": "",
             "hint": [
@@ -447,21 +387,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 231,
+                    "line": 236,
                     "short_desc": "name of property",
                     "long_desc": null,
                     "hint": [
@@ -470,9 +404,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "",
                     "default": null,
                     "is_by_ref": false
@@ -481,7 +413,7 @@
         },
         "set": {
             "name": "set",
-            "line": 243,
+            "line": 248,
             "short_desc": "set object values from given array",
             "long_desc": "",
             "hint": [
@@ -491,21 +423,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "data": {
                     "name": "data",
-                    "line": 243,
+                    "line": 248,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -514,9 +440,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "array",
                     "default": null,
                     "is_by_ref": false
@@ -525,7 +449,7 @@
         },
         "afterNormalize": {
             "name": "afterNormalize",
-            "line": 260,
+            "line": 265,
             "short_desc": "run after the object has been normalized",
             "long_desc": "",
             "hint": [
@@ -535,21 +459,15 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
+            "exceptions": [],
+            "errors": [],
             "parameters": {
                 "array": {
                     "name": "array",
-                    "line": 260,
+                    "line": 265,
                     "short_desc": "object normalized as an array",
                     "long_desc": null,
                     "hint": [
@@ -558,9 +476,7 @@
                             false
                         ]
                     ],
-                    "tags": [
-
-                    ],
+                    "tags": [],
                     "modifiers": "array",
                     "default": null,
                     "is_by_ref": false
@@ -569,7 +485,7 @@
         },
         "beforeNormalize": {
             "name": "beforeNormalize",
-            "line": 270,
+            "line": 275,
             "short_desc": "before normalize",
             "long_desc": "",
             "hint": [
@@ -579,24 +495,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "normalize": {
             "name": "normalize",
-            "line": 279,
+            "line": 284,
             "short_desc": "return a normalized array of this object",
             "long_desc": "",
             "hint": [
@@ -606,24 +514,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "asArray": {
             "name": "asArray",
-            "line": 315,
+            "line": 335,
             "short_desc": "return object as an array",
             "long_desc": "",
             "hint": [
@@ -633,24 +533,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "jsonSerialize": {
             "name": "jsonSerialize",
-            "line": 324,
+            "line": 344,
             "short_desc": "serialize as json",
             "long_desc": "",
             "hint": [
@@ -660,24 +552,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "__toString": {
             "name": "__toString",
-            "line": 333,
+            "line": 353,
             "short_desc": "return object as JSON string",
             "long_desc": "",
             "hint": [
@@ -687,24 +571,16 @@
                 ]
             ],
             "hint_desc": "",
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "save": {
             "name": "save",
-            "line": 344,
+            "line": 364,
             "short_desc": "save this object",
             "long_desc": "",
             "hint": [
@@ -723,19 +599,13 @@
             },
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "delete": {
             "name": "delete",
-            "line": 357,
+            "line": 377,
             "short_desc": "delete the object",
             "long_desc": "",
             "hint": [
@@ -754,40 +624,24 @@
             },
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         },
         "getPrimaryKey": {
             "name": "getPrimaryKey",
-            "line": 363,
+            "line": 383,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
-            "tags": [
-
-            ],
+            "tags": [],
             "modifiers": "1",
             "is_by_ref": "",
-            "exceptions": [
-
-            ],
-            "errors": [
-
-            ],
-            "parameters": [
-
-            ]
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
         }
     },
-    "constants": [
-
-    ]
+    "constants": []
 }

@@ -1,0 +1,58 @@
+{
+    "name": "bolt\\dom\\element\\a",
+    "line": 9,
+    "short_desc": "anchor tag",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "bolt\\dom\\element",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/dom\/element\/a.php",
+    "hash": "8f6fa11104c87b77a76d86bcf66b6b97494a0bb2",
+    "parent": "bolt\\dom\\element",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b"
+    },
+    "errors": [],
+    "interfaces": [],
+    "properties": {
+        "tagName": {
+            "name": "tagName",
+            "line": 16,
+            "short_desc": "tag name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "default": {},
+            "errors": []
+        },
+        "attr": {
+            "name": "attr",
+            "line": 23,
+            "short_desc": "available attributes",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "default": {},
+            "errors": []
+        }
+    },
+    "methods": [],
+    "constants": []
+}

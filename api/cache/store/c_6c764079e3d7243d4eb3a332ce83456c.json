@@ -1,0 +1,87 @@
+{
+    "name": "bolt\\dom\\element\\script",
+    "line": 9,
+    "short_desc": "code tag",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "bolt\\dom\\element",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/dom\/element\/script.php",
+    "hash": "aa94ecddb19dd720d21d594540d72784bc75fd35",
+    "parent": "bolt\\dom\\element",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b"
+    },
+    "errors": [],
+    "interfaces": [],
+    "properties": {
+        "tagName": {
+            "name": "tagName",
+            "line": 16,
+            "short_desc": "tag name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "default": {},
+            "errors": []
+        },
+        "attr": {
+            "name": "attr",
+            "line": 23,
+            "short_desc": "available attributes",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "default": {},
+            "errors": []
+        }
+    },
+    "methods": {
+        "async": {
+            "name": "async",
+            "line": 30,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "defer": {
+            "name": "defer",
+            "line": 35,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,86 @@
+{
+    "name": "bolt\\dom\\element\\time",
+    "line": 11,
+    "short_desc": "time tag",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "bolt\\dom\\element",
+    "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/dom\/element\/time.php",
+    "hash": "ab5b96d3a35e2db749a87740010cf0737a8e47a6",
+    "parent": "bolt\\dom\\element",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "b": "b",
+        "DateTime": "DateTime"
+    },
+    "errors": [],
+    "interfaces": [],
+    "properties": {
+        "tagName": {
+            "name": "tagName",
+            "line": 18,
+            "short_desc": "tag name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "default": {},
+            "errors": []
+        },
+        "attr": {
+            "name": "attr",
+            "line": 25,
+            "short_desc": "available attributes",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "default": {},
+            "errors": []
+        }
+    },
+    "methods": {
+        "setDateTime": {
+            "name": "setDateTime",
+            "line": 29,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 29,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

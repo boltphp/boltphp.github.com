@@ -7,7 +7,7 @@
     "tags": [],
     "namespace": "bolt\\client",
     "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/client\/compile.php",
-    "hash": "377b5b33edab7d70b8ca3d66b96460fdb28d74e2",
+    "hash": "8b2de980297f93efcf59e1ae3463117ce2c3895b",
     "parent": "bolt\\client\\command",
     "modifiers": 0,
     "is_trait": false,
@@ -29,24 +29,26 @@
             "modifiers": 9,
             "default": {},
             "errors": []
-        },
-        "configure": {
-            "name": "configure",
+        }
+    },
+    "methods": {
+        "getConfigure": {
+            "name": "getConfigure",
             "line": 11,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
             "hint_desc": null,
             "tags": [],
-            "modifiers": 9,
-            "default": {},
-            "errors": []
-        }
-    },
-    "methods": {
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
         "init": {
             "name": "init",
-            "line": 22,
+            "line": 29,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -60,7 +62,7 @@
         },
         "generate": {
             "name": "generate",
-            "line": 52,
+            "line": 63,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -74,7 +76,7 @@
         },
         "clean": {
             "name": "clean",
-            "line": 133,
+            "line": 160,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -88,7 +90,7 @@
         },
         "saveCompileLoader": {
             "name": "saveCompileLoader",
-            "line": 143,
+            "line": 170,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -101,7 +103,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 143,
+                    "line": 170,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -112,7 +114,7 @@
                 },
                 "data": {
                     "name": "data",
-                    "line": 143,
+                    "line": 170,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -125,7 +127,7 @@
         },
         "makeDir": {
             "name": "makeDir",
-            "line": 157,
+            "line": 184,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -138,7 +140,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 157,
+                    "line": 184,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,

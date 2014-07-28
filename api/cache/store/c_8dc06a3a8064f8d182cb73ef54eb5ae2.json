@@ -1,13 +1,13 @@
 {
     "name": "bolt\\http\\assets",
-    "line": 22,
+    "line": 25,
     "short_desc": "asset manager",
     "long_desc": "",
     "hint": null,
     "tags": [],
     "namespace": "bolt\\http",
     "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/http\/assets.php",
-    "hash": "07b3cd4e1a3ee918687284894f5bf9e210107f7b",
+    "hash": "3d5a8a1ee45031f7f9da57c15029f277100b1964",
     "parent": null,
     "modifiers": 0,
     "is_trait": false,
@@ -24,7 +24,8 @@
         "AssetManager": "Assetic\\AssetManager",
         "FilterManager": "Assetic\\FilterManager",
         "CacheBustingWorker": "Assetic\\Factory\\Worker\\CacheBustingWorker",
-        "AssetFactory": "Assetic\\Factory\\AssetFactory"
+        "AssetFactory": "Assetic\\Factory\\AssetFactory",
+        "Finder": "Symfony\\Component\\Finder\\Finder"
     },
     "errors": [],
     "interfaces": {
@@ -34,7 +35,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 59,
+            "line": 65,
             "short_desc": "Constructor",
             "long_desc": "",
             "hint": null,
@@ -47,7 +48,7 @@
             "parameters": {
                 "http": {
                     "name": "http",
-                    "line": 59,
+                    "line": 65,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -63,7 +64,7 @@
                 },
                 "config": {
                     "name": "config",
-                    "line": 59,
+                    "line": 65,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -79,9 +80,23 @@
                 }
             }
         },
+        "getConfig": {
+            "name": "getConfig",
+            "line": 100,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
         "setCache": {
             "name": "setCache",
-            "line": 96,
+            "line": 104,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -94,7 +109,7 @@
             "parameters": {
                 "cache": {
                     "name": "cache",
-                    "line": 96,
+                    "line": 104,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": [
@@ -112,7 +127,7 @@
         },
         "getCache": {
             "name": "getCache",
-            "line": 104,
+            "line": 112,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -124,9 +139,9 @@
             "errors": [],
             "parameters": []
         },
-        "getCompiledFile": {
-            "name": "getCompiledFile",
-            "line": 108,
+        "getCompiledFileInfo": {
+            "name": "getCompiledFileInfo",
+            "line": 116,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -139,7 +154,33 @@
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 108,
+                    "line": 116,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCompiledFile": {
+            "name": "getCompiledFile",
+            "line": 125,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "path": {
+                    "name": "path",
+                    "line": 125,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -152,7 +193,7 @@
         },
         "glob": {
             "name": "glob",
-            "line": 118,
+            "line": 140,
             "short_desc": "glob",
             "long_desc": "",
             "hint": null,
@@ -165,7 +206,7 @@
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 118,
+                    "line": 140,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -176,7 +217,7 @@
                 },
                 "filters": {
                     "name": "filters",
-                    "line": 118,
+                    "line": 140,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -187,7 +228,7 @@
                 },
                 "root": {
                     "name": "root",
-                    "line": 118,
+                    "line": 140,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -200,7 +241,7 @@
         },
         "file": {
             "name": "file",
-            "line": 126,
+            "line": 148,
             "short_desc": "file",
             "long_desc": "",
             "hint": null,
@@ -213,7 +254,7 @@
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 126,
+                    "line": 148,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -224,7 +265,7 @@
                 },
                 "filters": {
                     "name": "filters",
-                    "line": 126,
+                    "line": 148,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -235,7 +276,7 @@
                 },
                 "root": {
                     "name": "root",
-                    "line": 126,
+                    "line": 148,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -248,7 +289,7 @@
         },
         "set": {
             "name": "set",
-            "line": 139,
+            "line": 161,
             "short_desc": "set",
             "long_desc": "",
             "hint": null,
@@ -261,7 +302,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 139,
+                    "line": 161,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -272,7 +313,7 @@
                 },
                 "files": {
                     "name": "files",
-                    "line": 139,
+                    "line": 161,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -285,7 +326,7 @@
         },
         "collection": {
             "name": "collection",
-            "line": 143,
+            "line": 165,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -298,7 +339,7 @@
             "parameters": {
                 "collection": {
                     "name": "collection",
-                    "line": 143,
+                    "line": 165,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -309,7 +350,7 @@
                 },
                 "filters": {
                     "name": "filters",
-                    "line": 143,
+                    "line": 165,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -320,7 +361,7 @@
                 },
                 "root": {
                     "name": "root",
-                    "line": 143,
+                    "line": 165,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -331,7 +372,7 @@
                 },
                 "vars": {
                     "name": "vars",
-                    "line": 143,
+                    "line": 165,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -344,7 +385,7 @@
         },
         "factory": {
             "name": "factory",
-            "line": 148,
+            "line": 170,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -357,7 +398,7 @@
             "parameters": {
                 "root": {
                     "name": "root",
-                    "line": 148,
+                    "line": 170,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -368,7 +409,7 @@
                 },
                 "manager": {
                     "name": "manager",
-                    "line": 148,
+                    "line": 170,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -379,7 +420,7 @@
                 },
                 "filter": {
                     "name": "filter",
-                    "line": 148,
+                    "line": 170,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -390,7 +431,7 @@
                 },
                 "debug": {
                     "name": "debug",
-                    "line": 148,
+                    "line": 170,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -403,7 +444,7 @@
         },
         "url": {
             "name": "url",
-            "line": 158,
+            "line": 180,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -416,7 +457,7 @@
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 158,
+                    "line": 180,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -429,7 +470,21 @@
         },
         "getRoot": {
             "name": "getRoot",
-            "line": 166,
+            "line": 201,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getManager": {
+            "name": "getManager",
+            "line": 205,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -443,7 +498,7 @@
         },
         "__get": {
             "name": "__get",
-            "line": 170,
+            "line": 209,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -456,7 +511,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 170,
+                    "line": 209,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -469,7 +524,7 @@
         },
         "path": {
             "name": "path",
-            "line": 178,
+            "line": 220,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -482,7 +537,7 @@
             "parameters": {
                 "path": {
                     "name": "path",
-                    "line": 178,
+                    "line": 220,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -495,7 +550,7 @@
         },
         "getFilters": {
             "name": "getFilters",
-            "line": 182,
+            "line": 224,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -509,7 +564,7 @@
         },
         "compile": {
             "name": "compile",
-            "line": 186,
+            "line": 228,
             "short_desc": "",
             "long_desc": "",
             "hint": null,
@@ -522,7 +577,7 @@
             "parameters": {
                 "assets": {
                     "name": "assets",
-                    "line": 186,
+                    "line": 228,
                     "short_desc": null,
                     "long_desc": null,
                     "hint": null,
@@ -533,9 +588,23 @@
                 }
             }
         },
+        "isCompiling": {
+            "name": "isCompiling",
+            "line": 233,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
         "onCompile": {
             "name": "onCompile",
-            "line": 198,
+            "line": 244,
             "short_desc": "compile assets into the compile directory",
             "long_desc": "",
             "hint": [
@@ -553,7 +622,7 @@
             "parameters": {
                 "e": {
                     "name": "e",
-                    "line": 198,
+                    "line": 244,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -562,6 +631,32 @@
                             false
                         ]
                     ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "compileCollection": {
+            "name": "compileCollection",
+            "line": 327,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 327,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
                     "tags": [],
                     "modifiers": "",
                     "default": null,

@@ -7,7 +7,7 @@
     "tags": [],
     "namespace": "bolt",
     "file": "\/Users\/kuhl\/Repositories\/bolt\/site\/..\/core\/src\/bolt\/application.php",
-    "hash": "5b029454740b599ab4974d4a119320de0369ff7b",
+    "hash": "da5cad99619925fd0331486310447b0c42946702",
     "parent": "bolt\\plugin",
     "modifiers": 0,
     "is_trait": false,
@@ -21,7 +21,7 @@
     "methods": {
         "__construct": {
             "name": "__construct",
-            "line": 50,
+            "line": 49,
             "short_desc": "construct a new application instance",
             "long_desc": "",
             "hint": [
@@ -39,7 +39,7 @@
             "parameters": {
                 "config": {
                     "name": "config",
-                    "line": 50,
+                    "line": 49,
                     "short_desc": "array config",
                     "long_desc": null,
                     "hint": [
@@ -57,7 +57,7 @@
         },
         "autoload": {
             "name": "autoload",
-            "line": 80,
+            "line": 84,
             "short_desc": "autoload",
             "long_desc": "",
             "hint": [
@@ -75,7 +75,7 @@
             "parameters": {
                 "class": {
                     "name": "class",
-                    "line": 80,
+                    "line": 84,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -93,7 +93,7 @@
         },
         "getBootstrapDir": {
             "name": "getBootstrapDir",
-            "line": 103,
+            "line": 107,
             "short_desc": "return the bootstrap directory",
             "long_desc": "",
             "hint": [
@@ -112,7 +112,7 @@
         },
         "bootstrap": {
             "name": "bootstrap",
-            "line": 115,
+            "line": 119,
             "short_desc": "load boostrap files",
             "long_desc": "",
             "hint": [
@@ -130,7 +130,7 @@
             "parameters": {
                 "what": {
                     "name": "what",
-                    "line": 115,
+                    "line": 119,
                     "short_desc": "file or dir path, absolute or relative to $root",
                     "long_desc": null,
                     "hint": [
@@ -148,7 +148,7 @@
         },
         "getCompiled": {
             "name": "getCompiled",
-            "line": 155,
+            "line": 159,
             "short_desc": "get a compiled object is the compiled plugin exists",
             "long_desc": "",
             "hint": [
@@ -166,7 +166,7 @@
             "parameters": {
                 "name": {
                     "name": "name",
-                    "line": 155,
+                    "line": 159,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -184,7 +184,7 @@
         },
         "getAutoload": {
             "name": "getAutoload",
-            "line": 165,
+            "line": 169,
             "short_desc": "return all autoload settings",
             "long_desc": "",
             "hint": [
@@ -203,7 +203,7 @@
         },
         "env": {
             "name": "env",
-            "line": 178,
+            "line": 182,
             "short_desc": "check env and run callback if in that env",
             "long_desc": "",
             "hint": [
@@ -221,7 +221,7 @@
             "parameters": {
                 "env": {
                     "name": "env",
-                    "line": 178,
+                    "line": 182,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -237,7 +237,7 @@
                 },
                 "callback": {
                     "name": "callback",
-                    "line": 178,
+                    "line": 182,
                     "short_desc": "",
                     "long_desc": null,
                     "hint": [
@@ -255,7 +255,7 @@
         },
         "hasRun": {
             "name": "hasRun",
-            "line": 191,
+            "line": 195,
             "short_desc": "has the application run yet",
             "long_desc": "",
             "hint": [
@@ -274,7 +274,7 @@
         },
         "getRoot": {
             "name": "getRoot",
-            "line": 201,
+            "line": 205,
             "short_desc": "get the root path",
             "long_desc": "",
             "hint": [
@@ -293,7 +293,7 @@
         },
         "setRoot": {
             "name": "setRoot",
-            "line": 213,
+            "line": 217,
             "short_desc": "set the root path for the app",
             "long_desc": "",
             "hint": [
@@ -311,7 +311,7 @@
             "parameters": {
                 "root": {
                     "name": "root",
-                    "line": 213,
+                    "line": 217,
                     "short_desc": "new root path",
                     "long_desc": null,
                     "hint": [
@@ -329,7 +329,7 @@
         },
         "path": {
             "name": "path",
-            "line": 226,
+            "line": 230,
             "short_desc": "get a path relative to the $root",
             "long_desc": "",
             "hint": [
@@ -350,7 +350,7 @@
         },
         "load": {
             "name": "load",
-            "line": 239,
+            "line": 243,
             "short_desc": "add a ns to the class loader",
             "long_desc": "",
             "hint": [
@@ -368,7 +368,7 @@
             "parameters": {
                 "ns": {
                     "name": "ns",
-                    "line": 239,
+                    "line": 243,
                     "short_desc": "namespace of class",
                     "long_desc": null,
                     "hint": [
@@ -384,7 +384,7 @@
                 },
                 "path": {
                     "name": "path",
-                    "line": 239,
+                    "line": 243,
                     "short_desc": "path of classes relative to $root",
                     "long_desc": null,
                     "hint": [
@@ -402,7 +402,7 @@
         },
         "getComposerFile": {
             "name": "getComposerFile",
-            "line": 250,
+            "line": 251,
             "short_desc": "get composer file",
             "long_desc": "",
             "hint": null,
@@ -416,7 +416,7 @@
         },
         "run": {
             "name": "run",
-            "line": 272,
+            "line": 273,
             "short_desc": "run the application",
             "long_desc": "",
             "hint": [
